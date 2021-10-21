@@ -1,16 +1,12 @@
 ![banner](data-science-toolkit-banner.JPG)
 
-# Project
+The Data Science Toolkit is a collection of re-usable code artifacts intended to help accelerate the implementation of common machine learning use-cases.
 
-> This repo has been populated by an initial template to help get you started. Please
-> make sure to update the content to build a great experience for community-building.
-
-As the maintainer of this project, please make a few updates:
-
-- Improving this README.MD file to provide a great experience
-- Updating SUPPORT.MD with content about this project's support experience
-- Understanding the security reporting process in SECURITY.MD
-- Remove this section from the README
+![ML Ops for Azure Machine Learning](https://github.com/microsoft/dstoolkit-mlops-base)
+![ML Ops for Data Bricks](https://github.com/microsoft/dstoolkit-ml-ops-for-databricks)
+![Anomaly Detection](https://github.com/microsoft/dstoolkit-anomaly-detection-ijungle)
+![Classification](https://github.com/microsoft/dstoolkit-classification-solution-accelerator)
+![Knowledge Mining (Verseagility)](https://github.com/microsoft/verseagility)
 
 ## Contributing
 
