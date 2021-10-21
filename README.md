@@ -1,3 +1,5 @@
+![banner](data-science-toolkit-banner.JPG)
+
 # Project
 
 > This repo has been populated by an initial template to help get you started. Please
