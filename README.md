@@ -2,11 +2,11 @@
 
 The Data Science Toolkit is a collection of re-usable code artifacts intended to help accelerate the implementation of common machine learning use-cases.
 
-[ML Ops for Azure Machine Learning](https://github.com/microsoft/dstoolkit-mlops-base)
-[ML Ops for Data Bricks](https://github.com/microsoft/dstoolkit-ml-ops-for-databricks)
-[Anomaly Detection](https://github.com/microsoft/dstoolkit-anomaly-detection-ijungle)
-[Classification](https://github.com/microsoft/dstoolkit-classification-solution-accelerator)
-[Knowledge Mining (Verseagility)](https://github.com/microsoft/verseagility)
+- [ML Ops for Azure Machine Learning](https://github.com/microsoft/dstoolkit-mlops-base)
+- [ML Ops for Data Bricks](https://github.com/microsoft/dstoolkit-ml-ops-for-databricks)
+- [Anomaly Detection](https://github.com/microsoft/dstoolkit-anomaly-detection-ijungle)
+- [Classification](https://github.com/microsoft/dstoolkit-classification-solution-accelerator)
+- [Knowledge Mining (Verseagility)](https://github.com/microsoft/verseagility)
 
 ## Contributing
 
