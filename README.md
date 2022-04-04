@@ -7,6 +7,10 @@ The Data Science Toolkit is a collection of re-usable code artifacts intended to
 - [Anomaly Detection](https://github.com/microsoft/dstoolkit-anomaly-detection-ijungle)
 - [Classification](https://github.com/microsoft/dstoolkit-classification-solution-accelerator)
 - [Knowledge Mining (Verseagility)](https://github.com/microsoft/verseagility)
+- [Social Services IP] (https://github.com/microsoft/SocialServicesIP)
+- [GLUE] (https://github.com/microsoft/glue)
+- [Object Detection] (https://github.com/microsoft/dstoolkit-objectdetection-tensorflow-azureml)
+- [Conversational AI] (https://github.com/microsoft/cai-advanced-processing-service)
 
 ## Contributing
 
