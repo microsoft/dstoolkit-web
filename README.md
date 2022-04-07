@@ -1,4 +1,4 @@
-![banner](data-science-toolkit-banner.JPG)
+![banner](images/data-science-toolkit-banner.jpg)
 
 The Data Science Toolkit is a collection of re-usable code artifacts intended to help accelerate the implementation of common machine learning use-cases.
 
