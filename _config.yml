@@ -27,15 +27,16 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://crispy-parakeet-cdf6214f.pages.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 markdown: GFM
 
-# Other
-background_image:   /images/bg.jpg
-# Tip: The color palette and other styles can be configured in /_sass/lib/_vars.scss
-slapform_thankyou_page: /thank-you
-
-
 # Build settings
-#theme: jekyll-theme-architect
 theme: minima
+
+# Customize navigation links
+header_pages:
+  - toolkit.md
+  - howtocontribute.md
+  - contributors.md
+  - news.md
+
 plugins:
   - jekyll-feed
   
