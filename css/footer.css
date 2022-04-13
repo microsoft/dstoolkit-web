@@ -1,0 +1,45 @@
+footer {
+    background-color: #DFDFDF;
+}
+
+.site-footer {
+    border-top: none;
+}
+
+.subtitle {
+    text-align: center;
+    font-size: 22px;
+    margin-top: 50px;
+    font-weight: 800;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 75px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    background-color: #484D53;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    line-height: 32px;
+    font-size: 20px;
+    width: 350px;
+    cursor: pointer;
+}
+
+.card:not(:first-child) {
+    margin-left: 50px;
+}
+
+p {
+    text-decoration-line: underline;
+}
+
+i {
+    margin-bottom: 15px;
+}

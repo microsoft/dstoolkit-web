@@ -1,0 +1,34 @@
+.page-content {
+    background-color: #DFDFDF;
+}
+
+.title {
+    font-size: 42px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.paragraph {
+    margin-top: 50px;
+    line-height: 30px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.subtitle {
+    text-align: center;
+    font-size: 22px;
+    margin-top: 50px;
+    font-weight: 800;
+}
+
+.button {
+    border: 3px solid #484D53;
+    padding: 10px;
+    margin: 0 auto;
+    width: fit-content;
+    margin-top: 50px;
+    cursor: pointer;
+    padding-left: 35px;
+    padding-right: 35px;
+}
