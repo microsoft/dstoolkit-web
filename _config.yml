@@ -32,6 +32,7 @@ theme: minima
 
 # Customize navigation links
 header_pages:
+  - home.md
   - toolkit.md
   - howtocontribute.md
   - contributors.md
