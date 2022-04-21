@@ -50,7 +50,7 @@ permalink: /toolkit/
         <div class="toolkit-card-content"> ML Ops support for Databricks</div>
       </div>
       <div class="toolkit-card right">
-        <div class="toolkit-card-title">ML OPS</div>
+        <a class="toolkit-card-title" href="/ml-ops-accelerator/">ML OPS</a>
         <div class="toolkit-card-icon">♾️</div>
         <div class="toolkit-card-content">Configurable CI/CD pipelines, AML pipelines, and compute resources for ML Ops.</div>
       </div>
