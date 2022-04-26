@@ -5,6 +5,7 @@ permalink: /ml-ops-accelerator/
 ---
 
 <div class="ml-ops-accelerator">
+    <iframe width=560 height=315 src=https://www.youtube.com/embed/JNa4VV0d8T0>fds</iframe> 
     <div class="title">ML OPS solution Accelerator</div>
     <div class="title-description"> Configurable CI/CD pipelines, AML pipelines, and compute resources for ML Ops.</div>
     <div class="category">Prerequisites</div>
@@ -55,30 +56,20 @@ permalink: /ml-ops-accelerator/
 			<input type="radio" name="slides" id="slides_5"/>
 				<ul>
                     <li>
-				        <video controls>
-                            <source src="../videos/bear.mp4" type="video/mp4">
-                        </video>
-					</li>
-					<li>
-						<video controls>
-                            <source src="../videos/moon.mp4" type="video/mp4">
-                        </video>
-					</li>
-					<li>
-						<video controls>
-                            <source src="../videos/bunny.mp4" type="video/mp4">
-                        </video>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/JNa4VV0d8T0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 					</li>
                     <li>
-						<video controls>
-                            <source src="../videos/moon.mp4" type="video/mp4">
-                        </video>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/Jd2GK0qDtRg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </li>
+                    <li>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/JNa4VV0d8T0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 					</li>
-					<li>
-						<video controls>
-                            <source src="../videos/moon.mp4" type="video/mp4">
-                        </video>
-					</li>
+                    <li>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/Jd2GK0qDtRg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </li>
+                    <li>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/Jd2GK0qDtRg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </li>
 				</ul>
 					<div class="arrows">
 						<label for="slides_1"></label>
