@@ -25,7 +25,9 @@ description: >- # this means to ignore newlines until "baseurl:" Write an awesom
   The Data Science Toolkit provides Data Scientists, Solution Architects and delivery teams, with packaged, vetted and tested delivery accelerators, delivery guidance and product backlogs for common machine learning scenarios.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://crispy-parakeet-cdf6214f.pages.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
-markdown: GFM
+markdown: redcarpet
+redcarpet:
+  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "strikethrough", "superscript", "with_toc_data"]
 
 # Build settings
 theme: minima
@@ -40,6 +42,7 @@ header_pages:
 
 plugins:
   - jekyll-feed
+  - jekyll-spaceship
   
 
 # Exclude from processing.
