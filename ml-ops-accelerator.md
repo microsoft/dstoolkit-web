@@ -5,7 +5,6 @@ permalink: /ml-ops-accelerator/
 ---
 
 <div class="ml-ops-accelerator">
-    <iframe width=560 height=315 src=https://www.youtube.com/embed/JNa4VV0d8T0>fds</iframe> 
     <div class="title">ML OPS solution Accelerator</div>
     <div class="title-description"> Configurable CI/CD pipelines, AML pipelines, and compute resources for ML Ops.</div>
     <div class="category">Prerequisites</div>
