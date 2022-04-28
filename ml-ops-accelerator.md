@@ -55,19 +55,10 @@ permalink: /ml-ops-accelerator/
 			<input type="radio" name="slides" id="slides_5"/>
 				<ul>
                     <li>
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/JNa4VV0d8T0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/tdFetGQuBls" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 					</li>
                     <li>
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/Jd2GK0qDtRg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    </li>
-                    <li>
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/JNa4VV0d8T0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-					</li>
-                    <li>
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/Jd2GK0qDtRg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    </li>
-                    <li>
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/Jd2GK0qDtRg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/itfpdwh6x0E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </li>
 				</ul>
 					<div class="arrows">
