@@ -1,49 +1,43 @@
 ---
 layout: page
-title: ML OPS Accelerator
-permalink: /ml-ops-accelerator/
+title: Binary Classification Accelerator
+permalink: /classification-accelerator/
 ---
 
-<div class="ml-ops-accelerator">
-    <div class="title">ML OPS solution Accelerator</div>
-    <div class="title-description"> Configurable CI/CD pipelines, AML pipelines, and compute resources for ML Ops.</div>
+<div class="classification-accelerator">
+    <div class="title">Binary Classification Accelerator</div>
+    <div class="title-description">TODO</div>
     <div class="category">Prerequisites</div>
     <div class="prerequisites">
-        <div class="prerequisites-card">Access to an Azure DevOps subscription</div>
-        <div class="prerequisites-card">Access to an Azure subscription</div>
-        <div class="prerequisites-card">Service Principal Account</div>
+        <div class="prerequisites-card">TODO</div>
+        <div class="prerequisites-card">TODO</div>
+        <div class="prerequisites-card">TODO</div>
     </div>
     <div style="width:100%; display: flex;">
         <div style="width:50%;">
-            <div class="category">Access the Accelerator</div>
+            <div class="category">Access the Accelerator</div>            
             <div class="toolkit-checkbox" style="width:100%; margin-top: 30px;">
-                <input class="checkbox" type="checkbox" id="ml-ops" name="ml-ops" value="ml-ops">
-                <label class="label-checkbox" for="ml-ops" style="font-size:16px;"> ML Ops for Solution Accelerator https://..link</label>
+                <label class="label" style="font-size:16px;">TODO</label>
+                <p>
+                    <a href="TODO" target="_blank">TODO</a>
+                </p>   
             </div>
         </div>
         <div style="width:50%;">
             <div class="category">Industries</div>
             <ul  style="margin-top: 30px;">
-                <li>Horizontal solution that addresses cross-industry needs.</li>
+                <li>TODO</li>
             </ul>  
         </div>
     </div>
     <div class="category">Use-case</div>
     <ul style="margin-top: 30px;">
-        <li> Continuous integration and deployment of Machine Learning models. (CI/CD)</li>
-        <li> ML Ops to help data science teams collaborate accross the organization</li>
-        <li> AI Solution Centre or Centre of Excellence</li>
+        <li> TODO</li>
+        <li> TODO</li>
+        <li> TODO</li>
     </ul>
     <div class="category" style="font-size:24px;">Accelerator description</div>
-    <p style="margin-top: 30px; text-decoration: none;">The ML Ops solution accelerator provides a deployable 
-        solution that can be used by development and data science teams to:</p>
-    <ul style="margin-top: 30px;">
-        <li> Develop & train model(s) with reusable ML pipelines</li>
-        <li> Package model(s) using containers to capture runtime dependencies for inference</li>
-        <li> Validate model behavior – functionally, in terms of responsiveness, in terms of regulatory compliance</li>
-        <li> Deploy model(s) - to cloud & edge, for use in real-time / streaming / batch processing</li>
-        <li> Monitor model behavior & business value, know when to replace / deprecate a stale model</li>
-    </ul>
+    <p style="margin-top: 30px; text-decoration: none;">TODO</p>
     <div class="category" style="font-size:24px;">Accelerator guidance</div>
     <div class="accelerator-guidance-videos">
 <div style="height: 100%; text-align: center">
