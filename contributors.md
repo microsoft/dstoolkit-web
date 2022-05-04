@@ -5,7 +5,7 @@ permalink: /contributors/
 ---
 
 <div class="contributors">
-    <div class="subtitle">SOLUTION ACCELERATOR CONTRIBUTORS</div>
+    <div class="subtitle">Solution Delivery Accelerator Contributors</div>
     <div class="custom-select" style="margin-top: 50px; float:right">
       <select class="toolkit-select">
         <option value="" selected disabled hidden>Filter by accelerator</option>
