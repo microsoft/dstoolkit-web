@@ -15,8 +15,10 @@ permalink: /toolkit/
   </div>
   <div class="subtitle borders"> Delivery Accelerators Repositories </div>
 
-  <!--Commented out - outside scope for V1 -- would need to know from client the mapping for DS domains -- for technologies, that should come from each delivery accelerator's page-->
-  <!-- <div class="dropdowns-container">
+  <!--placeholder for the filters:
+  TODO: for DS domains, would need to know from client the mapping
+  TODO: for technologies, to pull data from each single accelerator page's technologies section (to make it dynamic and be most scalable) but could implement static solution in meantime-->
+  <div class="dropdowns-container">
     <div class="custom-select">
       <select class="toolkit-select">
         <option value="" selected disabled hidden>Filter by technology</option>
@@ -33,7 +35,7 @@ permalink: /toolkit/
         <option value="3">Option 3</option>
       </select>
     </div>
-  </div> -->
+  </div>
 
   <div class="toolkit-cards">
     <div class="toolkit-row">
@@ -97,11 +99,12 @@ permalink: /toolkit/
   </div>
 
   <div class="subtitle borders" style="margin-top:0px">
-    <!--Commented out - outside scope for V1-->
-    <!-- <div class="see-more">
+    <!--Placeholder for See More drop-down to expand toolkit rows-->
+    <!--TODO: to implement functionality per above toolkit rows and limit number of toolkit rows shown by default to 3 rows-->
+    <div class="see-more">
       <span>SEE MORE</span>
       <i class="material-icons" style="margin-bottom:0px">keyboard_arrow_down</i>
-    </div> -->
+    </div>
   </div>
 
 </div>
