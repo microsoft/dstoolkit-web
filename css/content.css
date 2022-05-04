@@ -92,6 +92,7 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    font-size: 20px;
 }
 
 .toolkit-checkboxs {
@@ -484,5 +485,45 @@ p {
     height: 100%;
 }
 
+.contributors-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 140px;
+}
 
+.contributor-card {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+    padding: 40px;
+    align-items: center;
+    width: 150px;
+    height: 250px;
+    background-color: #C4C4C4;
+}
+
+.contributor-image {
+    width: 120px;
+    height: 120px;
+    background-color: #484D53;
+    border-radius: 50%;
+}
+
+.contributor-name {
+    margin-top: 15px;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.contributor-job-title {
+    margin-top: 15px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.contributor-area {
+    margin-top: 15px;
+    font-size: 16px;
+}
 
