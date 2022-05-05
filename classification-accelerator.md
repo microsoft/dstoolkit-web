@@ -71,8 +71,9 @@ permalink: /classification-accelerator/
         <div style="width:50%;">
             <div class="category">Related Accelerators</div>
             <div class="toolkit-checkbox" style="width:100%; margin-top: 30px;">
-                <input class="checkbox" type="checkbox" id="ml-ops" name="ml-ops" value="ml-ops">
-                <label class="label-checkbox" for="ml-ops" style="font-size:16px;"> Binary Classification Accelerator</label>
+                <label style="font-size:16px;">
+                    <a href="/classification-accelerator/" target="_blank">Binary Classification Accelerator</a>
+                </label>
             </div>
         </div>
         <div style="width:50%;">

@@ -37,7 +37,7 @@ permalink: /conversational-AI/
         <li>Authentication - authenticate a user or asset</li>
     </ul>
     <div class="category" style="font-size:24px;">Accelerator description</div>
-    <p style="margin-top: 30px; text-decoration: none;">
+    <p style="margin-top: 30px;">
         The Conversational AI - Advanced Processing Service consists of a series of APIs the simplify common validation, identification and authentication tasks when implementing conversational AI solutions. 
         <h1>Why this is Important</h1>
         Among the key activities in conversational AI interactions are validation, identification and authentication of the user.  By creating an accelerator, we not only drive speed in delivery, but we also ensure consistent processing approach to these important activities.
@@ -90,36 +90,7 @@ permalink: /conversational-AI/
                 </td>
             </tr>
         </table>
-</p>
-    <div class="category" style="font-size:24px;">Accelerator guidance</div>
-    <div class="accelerator-guidance-videos">
-<div style="height: 100%; text-align: center">
-			<div class="csslider infinity" id="slider1">
-			<input type="radio" name="slides" checked="checked" id="slides_1"/>
-			<input type="radio" name="slides" id="slides_2"/>
-				<ul>
-                    <li>
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/tdFetGQuBls" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-					</li>
-                    <li>
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/itfpdwh6x0E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    </li>
-				</ul>
-					<div class="arrows">
-						<label for="slides_1"></label>
-						<label for="slides_2"></label>
-						<label class="goto-first" for="slides_1"></label>
-						<label class="goto-last" for="slides_10"></label>
-					</div>
-					<div class="navigation"> 
-						<div>
-							<label for="slides_1"></label>
-							<label for="slides_2"></label>
-						</div>
-					</div>
-			</div>
-		</div>
-    </div>
+    </p>
     <div class="category" style="font-size:24px;">Technologies</div>
     <ul style="margin-top: 30px;">
         <li>Azure Machine Learning</li>

@@ -93,20 +93,6 @@ permalink: /ml-ops-for-databricks/
         <li><a href="https://azure.microsoft.com/services/key-vault/" target="_blank">Azure Key Vault</a></li>
         <li>Azure Storage Account</li>
     </ul>
-    <div style="margin-top:50px;"> 
-        <div class="accelerator-acordeon">
-            Architecture
-            <i class="material-icons" style="margin-bottom:0px; cursor: pointer;">add_circle_outline</i>
-        </div>
-        <div class="accelerator-acordeon">
-            Branching Strategy
-            <i class="material-icons" style="margin-bottom:0px; cursor: pointer;">add_circle_outline</i>
-        </div>
-        <div class="accelerator-acordeon">
-            Accelerator components
-            <i class="material-icons" style="margin-bottom:0px; cursor: pointer;">add_circle_outline</i>
-        </div>
-    </div>
     <div class="category" style="font-size:24px;">Contributors</div>
     <div class="accelerator-contributors">
         <div class="accelerator-contributor">
