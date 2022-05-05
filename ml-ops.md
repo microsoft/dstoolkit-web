@@ -9,8 +9,8 @@ permalink: /ml-ops/
     <div class="title-description"> Configurable CI/CD pipelines, AML pipelines, and compute resources for ML Ops.</div>
     <div class="category">Prerequisites</div>
     <div class="prerequisites">
-        <div class="prerequisites-card">Access to an Azure DevOps subscription</div>
         <div class="prerequisites-card">Access to an Azure subscription</div>
+        <div class="prerequisites-card">Access to an Azure DevOps subscription</div>
         <div class="prerequisites-card">Service Principal Account</div>
     </div>
     <div style="width:100%; display: flex;">
@@ -46,6 +46,7 @@ permalink: /ml-ops/
         <li> Deploy model(s) - to cloud & edge, for use in real-time / streaming / batch processing</li>
         <li> Monitor model behavior & business value, know when to replace / deprecate a stale model</li>
     </ul>
+    <img src="/images/ml-ops/ML-Ops-process-description.png" alt="ML Ops process description image">
     <div class="category" style="font-size:24px;">Accelerator guidance</div>
     <div class="accelerator-guidance-videos">
 <div style="height: 100%; text-align: center">
@@ -97,23 +98,30 @@ permalink: /ml-ops/
     </div>
     <div class="category" style="font-size:24px;">Technologies</div>
     <ul style="margin-top: 30px;">
-        <li> Azure</li>
-        <li> Azure</li>
-        <li> Azure</li>
+        <li><a href="https://azure.microsoft.com/services/machine-learning" target="_blank">Azure Machine Learning</a></li>
+        <li><a href="https://azure.microsoft.com/services/devops/" target="_blank">Azure DevOps</a></li>
+        <li><a href="https://azure.microsoft.com/services/key-vault/" target="_blank">Azure Key Vault</a></li>
+        <li>Azure Compute Instance</li>
+        <li>Azure Compute Cluster</li>
+        <li><a href="https://azure.microsoft.com/services/container-instances/" target="_blank">Azure Container Instance</a></li>
+        <li><a href="https://azure.microsoft.com/services/kubernetes-service/" target="_blank">Azure Kubernetes Services</a></li>
     </ul>
     <div style="margin-top:50px;"> 
         <div class="accelerator-acordeon">
             Architecture
-            <i class="material-icons" style="margin-bottom:0px; cursor: pointer;">add_circle_outline</i>
+            <i class="material-icons" style="margin-bottom:0px; cursor: pointer;">add_circle_outline</i>            
         </div>
+        <img src="/images/ml-ops/Architecture.png" alt="Architecture image">
         <div class="accelerator-acordeon">
             Branching Strategy
             <i class="material-icons" style="margin-bottom:0px; cursor: pointer;">add_circle_outline</i>
         </div>
+        <img src="/images/ml-ops/Branching-Strategy.png" alt="Branching Strategy image">
         <div class="accelerator-acordeon">
             Accelerator components
             <i class="material-icons" style="margin-bottom:0px; cursor: pointer;">add_circle_outline</i>
         </div>
+        <img src="/images/ml-ops/Code-blueprint.png" alt="Code blueprint image">
     </div>
     <div class="category" style="font-size:24px;">Contributors</div>
     <div class="accelerator-contributors">
@@ -121,40 +129,28 @@ permalink: /ml-ops/
             <div class="accelerator-contributor-image"> 
             </div>
             <div style="margin-left:10px;">
-                <p class="accelerator-contributor-text">Contributor name</p>
-                <p class="accelerator-contributor-text">Job title</p>
+                <p class="accelerator-contributor-text">flpy</p>
             </div>
         </div>
         <div class="accelerator-contributor">
             <div class="accelerator-contributor-image"> 
             </div>
             <div style="margin-left:10px;">
-                <p class="accelerator-contributor-text">Contributor name</p>
-                <p class="accelerator-contributor-text">Job title</p>
+                <p class="accelerator-contributor-text">mame</p>
             </div>
         </div>
         <div class="accelerator-contributor">
             <div class="accelerator-contributor-image"> 
             </div>
             <div style="margin-left:10px;">
-                <p class="accelerator-contributor-text">Contributor name</p>
-                <p class="accelerator-contributor-text">Job title</p>
+                <p class="accelerator-contributor-text">trng</p>
             </div>
         </div>
         <div class="accelerator-contributor">
             <div class="accelerator-contributor-image"> 
             </div>
             <div style="margin-left:10px;">
-                <p class="accelerator-contributor-text">Contributor name</p>
-                <p class="accelerator-contributor-text">Job title</p>
-            </div>
-        </div>
-        <div class="accelerator-contributor">
-            <div class="accelerator-contributor-image"> 
-            </div>
-            <div style="margin-left:10px;">
-                <p class="accelerator-contributor-text">Contributor name</p>
-                <p class="accelerator-contributor-text">Job title</p>
+                <p class="accelerator-contributor-text">lina</p>
             </div>
         </div>
     </div>
