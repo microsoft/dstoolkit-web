@@ -6,7 +6,7 @@ permalink: /anomaly-detection/
 
 <div class="anomaly-detection">
     <div class="title">Anomaly Detection Solution Accelerator</div>
-    <div class="title-description">TODO</div>
+    <div class="title-description">Detect anomalies on very large structured data sets</div>
     <div class="category">Prerequisites</div>
     <div class="prerequisites">
         <div class="prerequisites-card">TODO</div>

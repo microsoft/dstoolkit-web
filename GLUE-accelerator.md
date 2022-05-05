@@ -6,7 +6,7 @@ permalink: /GLUE-accelerator/
 
 <div class="GLUE-accelerator">
     <div class="title">GLUE - Azure Cognitive Services Accelerator</div>
-    <div class="title-description">TODO</div>
+    <div class="title-description">GLUE is a lightweight, Python-based collection of scripts to support you at succeeding with speech and text us</div>
     <div class="category">Prerequisites</div>
     <div class="prerequisites">
         <div class="prerequisites-card">TODO</div>

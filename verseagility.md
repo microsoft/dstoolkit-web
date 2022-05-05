@@ -6,7 +6,7 @@ permalink: /verseagility/
 
 <div class="verseagility">
     <div class="title">Verseagility Solution Accelerator</div>
-    <div class="title-description">TODO</div>
+    <div class="title-description">Knowledge mining on unstructured data sets with no data labeling.</div>
     <div class="category">Prerequisites</div>
     <div class="prerequisites">
         <div class="prerequisites-card">TODO</div>

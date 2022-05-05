@@ -6,7 +6,7 @@ permalink: /classification-accelerator/
 
 <div class="classification-accelerator">
     <div class="title">Binary Classification Accelerator</div>
-    <div class="title-description">TODO</div>
+    <div class="title-description">Binary classification, with parameter based auto algorithm selection.</div>
     <div class="category">Prerequisites</div>
     <div class="prerequisites">
         <div class="prerequisites-card">TODO</div>

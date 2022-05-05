@@ -6,7 +6,7 @@ permalink: /forecasting/
 
 <div class="forecasting">
     <div class="title">Forecasting Solution Accelerator</div>
-    <div class="title-description">TODO</div>
+    <div class="title-description">Pre-configured engine for demand forecasting, map data into the existing model to generate a forecast</div>
     <div class="category">Prerequisites</div>
     <div class="prerequisites">
         <div class="prerequisites-card">TODO</div>

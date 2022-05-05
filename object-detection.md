@@ -6,7 +6,7 @@ permalink: /object-detection/
 
 <div class="object-detection">
     <div class="title">Detection Solution Accelerator</div>
-    <div class="title-description">TODO</div>
+    <div class="title-description">Uses computer vision for object or defect detection and includes edge deployment capabilities.</div>
     <div class="category">Prerequisites</div>
     <div class="prerequisites">
         <div class="prerequisites-card">TODO</div>
