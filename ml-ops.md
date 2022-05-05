@@ -6,7 +6,7 @@ permalink: /ml-ops/
 
 <div class="ml-ops">
     <div class="title">ML Ops Solution Delivery Accelerator</div>
-    <div class="title-description"> Configurable CI/CD pipelines, AML pipelines, and compute resources for ML Ops.</div>
+    <div class="title-description">Configurable CI/CD pipelines, AML pipelines, and compute resources for ML Ops.</div>
     <div class="category">Prerequisites</div>
     <div class="prerequisites">
         <div class="prerequisites-card">Access to an Azure subscription</div>
