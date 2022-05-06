@@ -12,14 +12,18 @@
     {%- assign page_paths = site.header_pages | default: default_paths -%}
 
     {%- if page_paths -%}
-      <div class="header">
-
+      <div class="header">        
         <div class="links">
+          <div class="logo-image">
+            <a href="/">
+              <img src="/images/DatascienceToolkit.ico/" class="img-fluid">     
+            </a>                   
+          </div>
           {%- for path in page_paths -%}
             {%- assign my_page = site.pages | where: "path", path | first -%}
             {%- if my_page.title -%}
             <div class="link-block">
-              <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
+              <a class="page-link" style="color:black;text-decoration:none" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
             </div>
             {%- endif -%}
           {%- endfor -%}

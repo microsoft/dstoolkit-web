@@ -1,7 +1,6 @@
 .header {
     height: 70px;
-    background-color: #484D53;
-    color: white;
+    color: #0000;
     font-size: 22px;
     line-height: 60px;
 }
@@ -19,28 +18,27 @@
   justify-content: center;
 }
 
+.logo-image{
+  width: 70px;
+  height: 80px;
+  overflow: hidden;
+}
 
 
 a:link {
-    color: white;
-    background-color: transparent;
-    text-decoration: none;
-  }
-  
-  a:visited {
-    color: white;
-    background-color: transparent;
-    text-decoration: none;
-  }
-  
-  a:hover {
-    color: white;
+    color: #0078d4;
     background-color: transparent;
     text-decoration: underline;
   }
   
-  a:active {
-    color: white;
+  a:visited {
+    color: #243a5e;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  a:hover, a:active {
+    color: #50e6ff;
     background-color: transparent;
     text-decoration: underline;
   }

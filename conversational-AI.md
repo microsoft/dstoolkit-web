@@ -6,102 +6,112 @@ permalink: /conversational-AI/
 
 <div class="conversational-AI">
     <div class="title">Conversational AI Advanced Pre-processing Service</div>
-    <div class="title-description">TODO</div>
+    <div class="title-description">Collection of modules to help with validation, identification and authentication processes</div>
     <div class="category">Prerequisites</div>
     <div class="prerequisites">
-        <div class="prerequisites-card">TODO</div>
-        <div class="prerequisites-card">TODO</div>
-        <div class="prerequisites-card">TODO</div>
+        <div class="prerequisites-card">Access to an Azure subscription</div>
+        <div class="prerequisites-card">Access to an Azure DevOps subscription</div>
+        <div class="prerequisites-card">Service Principal Account</div>
     </div>
     <div style="width:100%; display: flex;">
         <div style="width:50%;">
             <div class="category">Access the Accelerator</div>            
             <div class="toolkit-checkbox" style="width:100%; margin-top: 30px;">
-                <label class="label" style="font-size:16px;">TODO</label>
+                <label class="label" style="font-size:16px;">Conversational AI Advanced Pre-processing Service</label>
                 <p>
-                    <a href="TODO" target="_blank">TODO</a>
+                    <a href="https://github.com/microsoft/cai-advanced-processing-service" target="_blank">https://github.com/microsoft/cai-advanced-processing-service</a>
                 </p>   
             </div>
         </div>
         <div style="width:50%;">
             <div class="category">Industries</div>
             <ul  style="margin-top: 30px;">
-                <li>TODO</li>
+                <li>Horizontal solution that addresses cross-industry needs.</li>
             </ul>  
         </div>
     </div>
     <div class="category">Use-case</div>
     <ul style="margin-top: 30px;">
-        <li> TODO</li>
-        <li> TODO</li>
-        <li> TODO</li>
+        <li>Validation - entity extraction and data preparation for backend processing</li>
+        <li>Identification - identify a user or asset</li>
+        <li>Authentication - authenticate a user or asset</li>
     </ul>
     <div class="category" style="font-size:24px;">Accelerator description</div>
-    <p style="margin-top: 30px; text-decoration: none;">TODO</p>
-    <div class="category" style="font-size:24px;">Accelerator guidance</div>
-    <div class="accelerator-guidance-videos">
-<div style="height: 100%; text-align: center">
-			<div class="csslider infinity" id="slider1">
-			<input type="radio" name="slides" checked="checked" id="slides_1"/>
-			<input type="radio" name="slides" id="slides_2"/>
-				<ul>
-                    <li>
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/tdFetGQuBls" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-					</li>
-                    <li>
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/itfpdwh6x0E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    </li>
-				</ul>
-					<div class="arrows">
-						<label for="slides_1"></label>
-						<label for="slides_2"></label>
-						<label class="goto-first" for="slides_1"></label>
-						<label class="goto-last" for="slides_10"></label>
-					</div>
-					<div class="navigation"> 
-						<div>
-							<label for="slides_1"></label>
-							<label for="slides_2"></label>
-						</div>
-					</div>
-			</div>
-		</div>
-    </div>
-    <div style="width:100%; display: flex;">
-        <div style="width:50%;">
-            <div class="category">Related Accelerators</div>
-            <div class="toolkit-checkbox" style="width:100%; margin-top: 30px;">
-                <input class="checkbox" type="checkbox" id="ml-ops" name="ml-ops" value="ml-ops">
-                <label class="label-checkbox" for="ml-ops" style="font-size:16px;"> Binary Classification Accelerator</label>
-            </div>
-        </div>
-        <div style="width:50%;">
-            <div class="category">Contributing Guide</div>
-            <div class="toolkit-checkbox" style="width:100%; margin-top: 30px;">
-                <input class="checkbox" type="checkbox" id="ml-ops" name="ml-ops" value="ml-ops">
-                <label class="label-checkbox" for="ml-ops" style="font-size:16px;"> Contribution guideline</label>
-            </div>
-        </div>
-    </div>
+    <p style="margin-top: 30px;">
+        The Conversational AI - Advanced Processing Service consists of a series of APIs the simplify common validation, identification and authentication tasks when implementing conversational AI solutions. 
+        <h1>Why this is Important</h1>
+        Among the key activities in conversational AI interactions are validation, identification and authentication of the user.  By creating an accelerator, we not only drive speed in delivery, but we also ensure consistent processing approach to these important activities.
+        <br/><br/>
+        <h1>Details of the Accelerator</h1>        
+        This solution accelerator is designed for use with intelligent applications with text-and speech input, such as chat bots or voice bots.
+        <ul>
+            <li>The accelerator provides a modular and extensible pre/post processing service, </li>
+            <li>Enables greater flexibility for user input options in conversational scenarios </li>
+            <li>Enables extended, context-based understanding of user input </li>
+            <li>Uses a channel-based approach where appropriate </li>
+            <li>Provides process / UX flow best practices for common scenarios </li>
+        </ul>
+        <h1><u>Validation, Identification and Authentication – Definitions and Examples:</u></h1>
+        <table>
+            <tr>
+                <th></th>
+                <th>Validation</th>
+                <th>Identification</th>
+                <th>Authentication</th>
+            </tr>
+            <tr>
+                <td>Definition</td>
+                <td>Entity extraction + data preparation for backend processing</td>
+                <td>Identify a user or asset</td>
+                <td>Authenticate a user or asset</td>
+            </tr>
+            <tr>
+                <td>Example</td>
+                <td>
+                    - License plate format is valid 
+                    <br/>
+                    - Customer number format is valid
+                </td>
+                <td>
+                    - License plate is known in backend system
+                    <br/>
+                    - Customer number exists in customer database
+                </td>
+                <td>- Combination of validated entities from user input which are verified with authentication database</td>
+            </tr>
+            <tr>
+                <td>Technological approaches</td>
+                <td>- Via pre/post processing functions based on entities (speech + text input)</td>
+                <td>- Via pre/post processing functions based on entities (speech + text input)</td>
+                <td>
+                    - Via Authentication processing functions based on entities (speech input)
+                    <br/>
+                    - Via Oauth/Identity Provider validated login (e.g. AAD, etc.)
+                </td>
+            </tr>
+        </table>
+    </p>
     <div class="category" style="font-size:24px;">Technologies</div>
     <ul style="margin-top: 30px;">
-        <li> Azure</li>
-        <li> Azure</li>
-        <li> Azure</li>
+        <li>Azure Machine Learning</li>
+        <li>Azure DevOps</li>
+        <li>Azure Key Vault</li>
+        <li>Azure Compute Instance</li>
+        <li>Azure Compute Cluster</li>
+        <li>Azure Container Instance</li>
+        <li>Azure Kubernetes Services</li>
     </ul>
     <div style="margin-top:50px;"> 
         <div class="accelerator-acordeon">
             Architecture
             <i class="material-icons" style="margin-bottom:0px; cursor: pointer;">add_circle_outline</i>
         </div>
-        <div class="accelerator-acordeon">
-            Branching Strategy
-            <i class="material-icons" style="margin-bottom:0px; cursor: pointer;">add_circle_outline</i>
-        </div>
+        <img src="/images/conversational-AI/High-level-Architecture.png" alt="High-level Architecture">
         <div class="accelerator-acordeon">
             Accelerator components
             <i class="material-icons" style="margin-bottom:0px; cursor: pointer;">add_circle_outline</i>
         </div>
+        <img src="/images/conversational-AI/Technical-components-of-the-accelerator.png" alt="Technical components of the accelerator">
     </div>
     <div class="category" style="font-size:24px;">Contributors</div>
     <div class="accelerator-contributors">
@@ -109,40 +119,7 @@ permalink: /conversational-AI/
             <div class="accelerator-contributor-image"> 
             </div>
             <div style="margin-left:10px;">
-                <p class="accelerator-contributor-text">Contributor name</p>
-                <p class="accelerator-contributor-text">Job title</p>
-            </div>
-        </div>
-        <div class="accelerator-contributor">
-            <div class="accelerator-contributor-image"> 
-            </div>
-            <div style="margin-left:10px;">
-                <p class="accelerator-contributor-text">Contributor name</p>
-                <p class="accelerator-contributor-text">Job title</p>
-            </div>
-        </div>
-        <div class="accelerator-contributor">
-            <div class="accelerator-contributor-image"> 
-            </div>
-            <div style="margin-left:10px;">
-                <p class="accelerator-contributor-text">Contributor name</p>
-                <p class="accelerator-contributor-text">Job title</p>
-            </div>
-        </div>
-        <div class="accelerator-contributor">
-            <div class="accelerator-contributor-image"> 
-            </div>
-            <div style="margin-left:10px;">
-                <p class="accelerator-contributor-text">Contributor name</p>
-                <p class="accelerator-contributor-text">Job title</p>
-            </div>
-        </div>
-        <div class="accelerator-contributor">
-            <div class="accelerator-contributor-image"> 
-            </div>
-            <div style="margin-left:10px;">
-                <p class="accelerator-contributor-text">Contributor name</p>
-                <p class="accelerator-contributor-text">Job title</p>
+                <p class="accelerator-contributor-text">jago</p>
             </div>
         </div>
     </div>
