@@ -7,7 +7,7 @@ permalink: /toolkit/
 <div class="toolkit">
   <div class="title">Data Science Toolkit</div>
   <div class="paragraph">
-    <p>
+    <p style="text-decoration:none">
       The Data Science Toolkit provides Data Scientists, Solution Architects and delivery teams, with packaged, vetted and tested delivery accelerators, delivery guidance and product backlogs for common machine learning scenarios.
       <br/><br/>
       You can use the delivery accelerators, delivery guides and product backlogs listed below in your delivery engagements. You can also contribute new material or update existing material or simply browse through the content. Please don't forget to reach out with any comments or contributions.
