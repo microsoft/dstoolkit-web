@@ -36,24 +36,36 @@ permalink: /toolkit/
   <div class="toolkit-cards">
     <div class="toolkit-row">
       <div class="toolkit-card left">
-          <img src="../images/revenue-forecasting.png" alt="logo" height="170" style="width:100%;">
+        <img src="/images/toolkit/MDC19_cooling_002.jpg" alt="logo" height="170" style="width:100%;">
+        <span class="toolkit-card-title">ML Ops</span>
+        <a class="toolkit-card-content" href="/ml-ops/">Configurable CI/CD pipelines, AML pipelines, and compute resources for ML Ops</a>
+      </div>
+      <div class="toolkit-card right">
+        <img src="/images/toolkit/CLO20b_Aline_cafe_outside_002.jpg" alt="logo" height="170" style="width:100%;">
+        <span class="toolkit-card-title">ML Ops for Databricks</span>
+        <a class="toolkit-card-content" href="/ml-ops-for-databricks/">ML Ops for Databricks</a>
+      </div>
+    </div>
+    <div class="toolkit-row">
+      <div class="toolkit-card left">
+          <img src="/images/toolkit/CLO18_cafeWork_003.jpg" alt="logo" height="170" style="width:100%;">
           <span class="toolkit-card-title">Revenue Forecasting and Prediction</span>
           <span class="toolkit-card-content">Estimate future sales values</span>
       </div>
       <div class="toolkit-card right">
-          <img src="../images/object-detection.png" alt="logo" height="170" style="width:100%;">
+          <img src="/images/toolkit/MDC19_tapeTight_002.jpg" alt="logo" height="170" style="width:100%;">
           <span class="toolkit-card-title">Object Detection</span>
           <span class="toolkit-card-content">Uses computer vision for object or defect detection and includes edge deployment capabilities</span>
       </div>
     </div>
     <div class="toolkit-row">
       <div class="toolkit-card left">
-          <img src="../images/ml-ops-databricks.png" alt="logo" height="170" style="width:100%;">
+          <img src="/images/toolkit/CLO20b_Aline_cafe_outside_002.jpg" alt="logo" height="170" style="width:100%;">
           <span class="toolkit-card-title">ML Ops for Databricks</span>
           <span class="toolkit-card-content">ML Ops support for databricks</span>
       </div>
       <div class="toolkit-card right">
-          <img src="../images/ml-ops.png" alt="logo" height="170" style="width:100%;">
+          <img src="/images/toolkit/MDC19_cooling_002.jpg" alt="logo" height="170" style="width:100%;">
           <span class="toolkit-card-title">ML Ops</span>
           <a class="toolkit-card-content" href="/ml-ops/" style="color:#0067B8;text-decoration: underline; margin-left: 15px; margin-right: 10px;">Configurable CI/CD pipelines, AML pipelines, and compute resources for ML Ops</a>
       </div>

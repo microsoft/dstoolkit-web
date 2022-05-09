@@ -26,25 +26,19 @@
 }
 
 a:link {
-    color: #24292E;
+    color: #0078d4;
     background-color: transparent;
     text-decoration: underline;
   }
   
   a:visited {
-    color: #24292E;
+    color: #243a5e;
     background-color: transparent;
     text-decoration: none;
   }
   
-  a:hover {
-    color: #24292E;
-    background-color: transparent;
-    text-decoration: underline;
-  }
-  
-  a:active {
-    color: #24292E;
+  a:hover, a:active {
+    color: #50e6ff;
     background-color: transparent;
     text-decoration: underline;
   }
