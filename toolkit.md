@@ -35,52 +35,69 @@ permalink: /toolkit/
 
   <div class="toolkit-cards">
     <div class="toolkit-row">
+      <!--ML Ops-->
       <div class="toolkit-card left">
-        <img src="/images/toolkit/MDC19_cooling_002.jpg" alt="logo" height="170" style="width:100%;">
+        <img src="/images/toolkit/MDC19_cooling_002.jpg" alt="white pipes" height="170" style="width:100%;">
         <span class="toolkit-card-title">ML Ops</span>
         <a class="toolkit-card-content" href="/ml-ops/">Configurable CI/CD pipelines, AML pipelines, and compute resources for ML Ops</a>
       </div>
+      <!--ML Ops for Databricks-->
       <div class="toolkit-card right">
-        <img src="/images/toolkit/CLO20b_Aline_cafe_outside_002.jpg" alt="logo" height="170" style="width:100%;">
+        <img src="/images/toolkit/CLO20b_Aline_cafe_outside_002.jpg" alt="brick walls" height="170" style="width:100%;">
         <span class="toolkit-card-title">ML Ops for Databricks</span>
         <a class="toolkit-card-content" href="/ml-ops-for-databricks/">ML Ops for Databricks</a>
       </div>
     </div>
     <div class="toolkit-row">
+      <!--Conversational AI-->
       <div class="toolkit-card left">
-          <img src="/images/toolkit/CLO18_cafeWork_003.jpg" alt="logo" height="170" style="width:100%;">
-          <span class="toolkit-card-title">Revenue Forecasting and Prediction</span>
-          <span class="toolkit-card-content">Estimate future sales values</span>
+        <img src="/images/toolkit/M365CO19_SMB_iPhone_245.jpg" alt="logo" height="170" style="width:100%;">
+        <span class="toolkit-card-title">Conversational AI (CAI) Advanced Processing Service</span>
+        <a class="toolkit-card-content" href="/conversational-AI/">Collection of modules to help with validation, identification and authentication processes</a>
       </div>
+      <!--GLUE-->
       <div class="toolkit-card right">
-          <img src="/images/toolkit/MDC19_tapeTight_002.jpg" alt="logo" height="170" style="width:100%;">
-          <span class="toolkit-card-title">Object Detection</span>
-          <span class="toolkit-card-content">Uses computer vision for object or defect detection and includes edge deployment capabilities</span>
+        <img src="/images/toolkit/CLO20b_Sylvie_office_night_001.jpg" alt="logo" height="170" style="width:100%;">
+        <span class="toolkit-card-title">GLUE - Cognitive Services Accelerator</span>
+        <a class="toolkit-card-content" href="/GLUE-accelerator/">GLUE is a lightweight, Python-based collection of scripts to support you at succeeding with speech and text</a>
+      </div>
+    </div>
+     <div class="toolkit-row">
+      <!--Anomaly detection-->
+      <div class="toolkit-card left">
+        <img src="/images/toolkit/MDC19_tapeTight_002.jpg" alt="logo" height="170" style="width:100%;">
+        <span class="toolkit-card-title">Anomaly Detection</span>
+        <a class="toolkit-card-content" href="/anomaly-detection/">Detect anomalies on very large structured data sets</a>
+      </div>
+      <!--Forecasting-->
+      <div class="toolkit-card right">
+        <img src="/images/toolkit/CLO18_cafeWork_003.jpg" alt="logo" height="170" style="width:100%;">
+        <span class="toolkit-card-title">Forecasting</span>
+        <a class="toolkit-card-content" href="/forecasting/">Pre-configured engine for demand forecasting, map data into the existing model to generate a forecast</a>
       </div>
     </div>
     <div class="toolkit-row">
+      <!--Classification-->
       <div class="toolkit-card left">
-          <img src="/images/toolkit/CLO20b_Aline_cafe_outside_002.jpg" alt="logo" height="170" style="width:100%;">
-          <span class="toolkit-card-title">ML Ops for Databricks</span>
-          <span class="toolkit-card-content">ML Ops support for databricks</span>
+        <img src="/images/toolkit/PCA22_OceanPlasticMouse_Feature_06_RGB.jpg" alt="logo" height="170" style="width:100%;">
+        <span class="toolkit-card-title">Classification Accelerator</span>
+        <a class="toolkit-card-content" href="/classification-accelerator/">Binary classification, with parameter based auto algorithm selection</a>
       </div>
+      <!--Object Detection-->
       <div class="toolkit-card right">
-          <img src="/images/toolkit/MDC19_cooling_002.jpg" alt="logo" height="170" style="width:100%;">
-          <span class="toolkit-card-title">ML Ops</span>
-          <a class="toolkit-card-content" href="/ml-ops/" style="color:#0067B8;text-decoration: underline; margin-left: 15px; margin-right: 10px;">Configurable CI/CD pipelines, AML pipelines, and compute resources for ML Ops</a>
+        <img src="/images/toolkit/CLO19_azureKinectDK_008.jpg" alt="logo" height="170" style="width:100%;">
+        <span class="toolkit-card-title">Object Detection</span>
+        <a class="toolkit-card-content" href="/object-detection/">Uses computer vision for object or defect detection and includes edge deployment capabilities</a>
       </div>
     </div>
     <div class="toolkit-row">
+      <!--Verseagility-->
       <div class="toolkit-card left">
-          <img src="../images/many-models.png" alt="logo" height="170" style="width:100%;">
-          <span class="toolkit-card-title">Many Models</span>
-          <span class="toolkit-card-content">ML Ops for 1000’s of similar ML Models</span>
+        <img src="/images/toolkit/MSC18_scenicsLiberia_002.jpg" alt="logo" height="170" style="width:100%;">
+        <span class="toolkit-card-title">Knowledge Mining (Verseagility)</span>
+        <a class="toolkit-card-content" href="/verseagility/">Knowledge mining on unstructured data sets with no data labeling</a>
       </div>
-      <div class="toolkit-card right">
-          <img src="../images/knowledge-mining.png" alt="logo" height="170" style="width:100%;">
-          <span class="toolkit-card-title">Knowledge Mining (Versagility)</span>
-          <span class="toolkit-card-content">Knowledge mining on unstructured data sets with no data labeling</span>
-      </div>
+      <!--Placeholder for delivery accelerator toolkit card on right-->
     </div>
   </div>
 
