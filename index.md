@@ -15,7 +15,7 @@ title: Home
         </div>
         <div class="home-card-content-toolkit">
             <span class="home-card-title">Use the toolkit</span>
-            <span class="home-card-text">Have you ever wished for a ‘push button way to set up an Azure environment for ML’ (to get quickly past the boring stuff, and get to the exciting work of building/training a model?</span>
+            <span class="home-card-text">Have you ever wished for a "push button" way to set up an Azure environment for ML, to get quickly past the boring stuff, and get to the exciting work of building/training a model?</span>
             <a href="/toolkit/" target="_blank" style="text-decoration:none">
                 <div class="text-button home-button">Use the toolkit</div>
             </a>
