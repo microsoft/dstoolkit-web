@@ -6,7 +6,7 @@ permalink: /toolkit/
 
 <div class="toolkit">
     <div class="title-photo">
-          <img src="../images/shutterstock_1501235660.png" alt="logo" height="300" style="width:100%;">
+          <img src="/images/toolkit/MSC19_paddingtonOffice_015.jpg" alt="logo" height="300" style="width:100%;">
     </div>
   <div class="title">Data Science Toolkit</div>
   <div class="paragraph" style="margin-left:70px; margin-right:70px;">The Data Science Toolkit provides Data Scientists, Solution Architects and delivery teams, with packaged, vetted and tested delivery accelerators, delivery guidance and product backlogs for common machine learning scenarios.
