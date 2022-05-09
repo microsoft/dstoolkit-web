@@ -28,7 +28,7 @@
 a:link {
     color: #24292E;
     background-color: transparent;
-    text-decoration: none;
+    text-decoration: underline;
   }
   
   a:visited {

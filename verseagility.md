@@ -6,38 +6,42 @@ permalink: /verseagility/
 
 <div class="verseagility">
     <div class="title">Verseagility Solution Accelerator</div>
-    <div class="title-description">TODO</div>
+    <div class="title-description">Knowledge mining on unstructured data sets with no data labeling.</div>
     <div class="category">Prerequisites</div>
     <div class="prerequisites">
-        <div class="prerequisites-card">TODO</div>
-        <div class="prerequisites-card">TODO</div>
-        <div class="prerequisites-card">TODO</div>
+        <div class="prerequisites-card">Access to an Azure subscription</div>
+        <div class="prerequisites-card">Access to an Azure DevOps subscription</div>
+        <div class="prerequisites-card">Service Principal Account</div>
     </div>
     <div style="width:100%; display: flex;">
         <div style="width:50%;">
             <div class="category">Access the Accelerator</div>            
             <div class="toolkit-checkbox" style="width:100%; margin-top: 30px;">
-                <label class="label" style="font-size:16px;">TODO</label>
+                <label class="label" style="font-size:16px;">Verseagility Solution Accelerator</label>
                 <p>
-                    <a href="TODO" target="_blank">TODO</a>
+                    <a href="https://github.com/microsoft/verseagility" target="_blank">https://github.com/microsoft/verseagility</a>
                 </p>   
             </div>
         </div>
         <div style="width:50%;">
             <div class="category">Industries</div>
             <ul  style="margin-top: 30px;">
-                <li>TODO</li>
+                <li>Horizontal solution that addresses cross-industry needs.</li>
             </ul>  
         </div>
     </div>
     <div class="category">Use-case</div>
     <ul style="margin-top: 30px;">
-        <li> TODO</li>
-        <li> TODO</li>
-        <li> TODO</li>
+        <li>Binary, multi-class & multi-label classification</li>
+        <li>Named entity recognition</li>
+        <li>Question answering</li>
     </ul>
+    <img src="/images/verseagility/verseagility.png" alt="verseagility">
     <div class="category" style="font-size:24px;">Accelerator description</div>
-    <p style="margin-top: 30px; text-decoration: none;">TODO</p>
+    <p style="margin-top: 30px; text-decoration: none;">
+        Verseagility is a Python-based toolkit to ramp up your custom natural language processing (NLP) task, allowing you to bring your own data, use your preferred frameworks and bring models into production. It is a central component of the Microsoft Data Science Toolkit.
+        <img src="/images/verseagility/with-vs-without-toolkit.png" alt="with vs without toolkit">
+    </p>
     <div class="category" style="font-size:24px;">Accelerator guidance</div>
     <div class="accelerator-guidance-videos">
 <div style="height: 100%; text-align: center">
@@ -46,7 +50,7 @@ permalink: /verseagility/
 			<input type="radio" name="slides" id="slides_2"/>
 				<ul>
                     <li>
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/tdFetGQuBls" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/vwSYCy-NLqU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 					</li>
                     <li>
                         <iframe width="560" height="315" src="https://www.youtube.com/embed/itfpdwh6x0E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -71,37 +75,32 @@ permalink: /verseagility/
         <div style="width:50%;">
             <div class="category">Related Accelerators</div>
             <div class="toolkit-checkbox" style="width:100%; margin-top: 30px;">
-                <input class="checkbox" type="checkbox" id="ml-ops" name="ml-ops" value="ml-ops">
-                <label class="label-checkbox" for="ml-ops" style="font-size:16px;"> Binary Classification Accelerator</label>
-            </div>
-        </div>
-        <div style="width:50%;">
-            <div class="category">Contributing Guide</div>
-            <div class="toolkit-checkbox" style="width:100%; margin-top: 30px;">
-                <input class="checkbox" type="checkbox" id="ml-ops" name="ml-ops" value="ml-ops">
-                <label class="label-checkbox" for="ml-ops" style="font-size:16px;"> Contribution guideline</label>
+                <label style="font-size:16px;">
+                    <a href="https://github.com/microsoft/dstoolkit-km-solution-accelerator" target="_blank">Knowledge Mining</a>
+                </label>
             </div>
         </div>
     </div>
     <div class="category" style="font-size:24px;">Technologies</div>
     <ul style="margin-top: 30px;">
-        <li> Azure</li>
-        <li> Azure</li>
-        <li> Azure</li>
+        <li>Azure Machine Learning</li>
+        <li>Azure DevOps</li>
+        <li>Azure Key Vault</li>
+        <li>Docker</li>
+        <li>Azure Kubernetes Services</li>
     </ul>
     <div style="margin-top:50px;"> 
         <div class="accelerator-acordeon">
-            Architecture
+            Live Demo
             <i class="material-icons" style="margin-bottom:0px; cursor: pointer;">add_circle_outline</i>
         </div>
+        <a href="https://verseagility.azurewebsites.net/" target="_blank">https://verseagility.azurewebsites.net/</a>
+        <img src="/images/verseagility/live-demo.png" alt="live demo">
         <div class="accelerator-acordeon">
-            Branching Strategy
+            Repository Structure
             <i class="material-icons" style="margin-bottom:0px; cursor: pointer;">add_circle_outline</i>
         </div>
-        <div class="accelerator-acordeon">
-            Accelerator components
-            <i class="material-icons" style="margin-bottom:0px; cursor: pointer;">add_circle_outline</i>
-        </div>
+        <img src="/images/verseagility/Repository-Structure.png" alt="repository structure">
     </div>
     <div class="category" style="font-size:24px;">Contributors</div>
     <div class="accelerator-contributors">
@@ -109,40 +108,21 @@ permalink: /verseagility/
             <div class="accelerator-contributor-image"> 
             </div>
             <div style="margin-left:10px;">
-                <p class="accelerator-contributor-text">Contributor name</p>
-                <p class="accelerator-contributor-text">Job title</p>
+                <p class="accelerator-contributor-text">tiwa</p>
             </div>
         </div>
         <div class="accelerator-contributor">
             <div class="accelerator-contributor-image"> 
             </div>
             <div style="margin-left:10px;">
-                <p class="accelerator-contributor-text">Contributor name</p>
-                <p class="accelerator-contributor-text">Job title</p>
+                <p class="accelerator-contributor-text">niut</p>
             </div>
         </div>
         <div class="accelerator-contributor">
             <div class="accelerator-contributor-image"> 
             </div>
             <div style="margin-left:10px;">
-                <p class="accelerator-contributor-text">Contributor name</p>
-                <p class="accelerator-contributor-text">Job title</p>
-            </div>
-        </div>
-        <div class="accelerator-contributor">
-            <div class="accelerator-contributor-image"> 
-            </div>
-            <div style="margin-left:10px;">
-                <p class="accelerator-contributor-text">Contributor name</p>
-                <p class="accelerator-contributor-text">Job title</p>
-            </div>
-        </div>
-        <div class="accelerator-contributor">
-            <div class="accelerator-contributor-image"> 
-            </div>
-            <div style="margin-left:10px;">
-                <p class="accelerator-contributor-text">Contributor name</p>
-                <p class="accelerator-contributor-text">Job title</p>
+                <p class="accelerator-contributor-text">dafo</p>
             </div>
         </div>
     </div>
