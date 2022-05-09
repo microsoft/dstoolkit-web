@@ -69,9 +69,6 @@ permalink: /toolkit/
           <span class="toolkit-card-title">Knowledge Mining (Versagility)</span>
           <span class="toolkit-card-content">Knowledge mining on unstructured data sets with no data labeling</span>
       </div>
-      <div class="toolkit-card right">      
-      <!--Placeholder for delivery accelerator toolkit card-->
-      </div>
     </div>
   </div>
 
