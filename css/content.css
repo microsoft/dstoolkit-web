@@ -1,10 +1,16 @@
-.page-content {
-    background-color: #DFDFDF;
+* {
+  font-family: Segoe UI;
+}
+
+
+.wrapper {
+    max-width: calc(1120px - (30px * 2)) !important;
 }
 
 .title {
+    margin-top: 30px;
     font-size: 46px;
-    font-weight: 800;
+    font-weight: 600;
     text-align: center;
 }
 
@@ -14,11 +20,20 @@
 
 .category {
     margin-top: 70px;
-    font-weight: 700;
+    font-weight: 600;
+    text-align: center;
+    font-size: 32px;
 }
 
 .paragraph {
-    margin-top: 50px;
+    margin-top: 30px;
+    line-height: 30px;
+    font-size: 22px;
+    text-align: center;
+}
+
+.text-button {
+    margin-top: 30px;
     line-height: 30px;
     font-size: 18px;
     text-align: center;
@@ -26,26 +41,130 @@
 
 .subtitle {
     text-align: center;
-    font-size: 22px;
+    font-size: 28px;
     margin-top: 50px;
-    font-weight: 800;
+    font-weight: 600;
 }
 
-.button {
-    border: 3px solid #484D53;
+.home-card {
+    display: flex;
+    margin-top: 30px;
+    box-shadow: 0px 1px 13px rgba(0, 0, 0, 0.25);
+}
+
+.home-card-image {
+    width: 50%;
+}
+
+.home-card-content-toolkit {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-card-content-contribute {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.home-card-title {
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.home-card-text {
+    margin-left: 160px;
+    margin-right: 60px;
+}
+
+.home-button {
+    background-color: #0067B8;
+    color: white;
+    border-radius: 2px;
     padding: 10px;
     margin: 0 auto;
-    width: fit-content;
-    margin-top: 50px;
+    margin-top: 10px;
+    width: 290px;
+    margin-left: 100px;
     cursor: pointer;
-    padding-left: 35px;
-    padding-right: 35px;
+    font-weight: 600;
+}
+
+.home-get-touch {
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    background-color: #F2F2F2;
+}
+
+.home-get-touch-title {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 32px;
+    font-weight: 600;
+    text-align: center;
+    border-bottom: 3px solid white;
+}
+
+.get-touch-button {
+    background-color: #0067B8;
+    color: white;
+    border-radius: 2px;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 230px;
+    text-align: center;
+    font-weight: 600;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.home-get-touch-content {
+    display: flex;
+    flex-direction: row;
+    font-size: 18px;
+}
+
+.home-get-touch-content-left {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 30px;
+    border-right: 3px solid white;
+    border-bottom: 3px solid white;
+}
+
+.home-get-touch-content-right {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 30px;
+    border-bottom: 3px solid white;
 }
 
 .borders {
     padding: 30px;
-    border-top: 1px solid rgba(0, 0, 0, 0.5);
-    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+    border-top: 1px solid #D2D2D2;
+    border-bottom: 1px solid #D2D2D2;
+}
+
+.toolkit-borders {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-top: 1px solid #D2D2D2;
+    border-bottom: 1px solid #D2D2D2;
 }
 
 .toolkit-cards {
@@ -63,53 +182,86 @@
     flex-direction: column;
     align-items: center;
     width: 50%;
-    padding-top: 50px;
-    padding-bottom: 50px;
     text-align: center;
-    padding-left: 10px
+    box-shadow: 0px 1px 13px rgba(0, 0, 0, 0.25);
 }
 
 .toolkit-card-title {
-    color: black !important;
-    font-weight: 800;
-    line-height: 50px;
-    text-decoration-line: underline !important;
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.toolkit-card-content {
+    margin-top: 10px;
+    font-weight: 600;
+    font-size: 16px;
+    color: #0067B8;
+    text-decoration: underline;
+    margin-bottom: 35px;
+    margin-left: 10px;
+    margin-right: 10px;
     cursor: pointer;
 }
 
 .toolkit-card.left {
-    border-right: 1px solid rgba(0, 0, 0, 0.5);
-    border-top: 1px solid rgba(0, 0, 0, 0.5);
+    margin-right: 20px;
+    margin-bottom: 20px;
 }
 
 .toolkit-card.right {
-    border-top: 1px solid rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
 }
 
 .see-more {
     display: flex;
     cursor: pointer;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     font-size: 20px;
+    background-color: #0067B8;
+    width: 250px;
+    height: 60px;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 26px;
 }
 
-.toolkit-checkboxs {
+.accelerator-buttons {
+    display: flex;
+    cursor: pointer;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    background-color: #0067B8;
+    width: 500px;
+    height: 60px;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 26px;
+}
+
+.delivery-accelerators {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.delivery-accelerators-card {
     display: flex;
     flex-direction: column;
-    margin-top: 70px;
-}
-
-.toolkit-checkbox-row {
-    margin-top: 50px;
-    display: flex;
-}
-
-.toolkit-checkbox {
-    width: 50%;
-    display: flex;
+    justify-content: center;
     align-items: center;
+    padding-top: 20px;
+    width: 22%;
+    height: 215px;
+    box-shadow: 0px 1px 13px rgba(0, 0, 0, 0.25);
+    text-align: center;
 }
 
 .checkbox {
@@ -125,9 +277,7 @@
 
 .dropdowns-container {
     display: flex;
-    margin: 15px;
-    padding: 10px;
-    border: 1px solid rgba(0, 0, 0, 0.5);
+    margin-top: 20px;
 }
 
 .custom-select {
@@ -142,24 +292,53 @@
     width: 100%;
     height: 45px;
     text-align: center;
-    background-color: #DFDFDF;
     font-size: 16px;
+    border: none;
+    box-shadow: 0px 1px 13px rgba(0, 0, 0, 0.25);
+    color: #0067B8;
+    font-weight: 600;
 }
 
 .prerequisites {
     display: flex;
     justify-content: space-between;
     margin-top: 30px;
+    margin-bottom: 50px;
+    border-bottom: 1px solid #D2D2D2;
+    padding-bottom: 50px;
 }
 
 .prerequisites-card {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 7px;
-    background-color: #CFCFCF;
-    width: 30%;
+    padding: 15px;
+    width: 28%;
     text-align: center;
+    box-shadow: 0px 1px 13px rgb(0 0 0 / 25%);
+    height: 100px;
+}
+
+.prerequisites-text {
+    margin-left: 25px;
+    font-weight: 600;
+    color: #0067B8;
+    text-decoration: underline;
+}
+
+.solution-accelerator-use-case {
+    display: flex;
+    margin-top: 30px;
+    padding-top: 30px;
+    border-top: 1px solid #D2D2D2;
+    border-bottom: 1px solid #D2D2D2;
+    padding-bottom: 30px;
+}
+
+.accelerator-description {
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #F2F2F2;
 }
 
 .accelerator-acordeon {
@@ -174,6 +353,31 @@
     padding: 20px;
 }
 
+.accelerator-button {
+    background-color: #0067B8;
+    color: white;
+    border-radius: 2px;
+    margin: 0 auto;
+    margin-top: 10px;
+    width: 290px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.technologies {
+    display: flex;
+    flex-wrap: wrap;
+    font-weight: 600;
+    color: #0067B8;
+    text-decoration: underline;
+    line-height: 40px;
+    margin-bottom: 20px;
+}
+
+.technologies span {
+    width: 25%;
+}
+
 .accelerator-contributors {
     display: flex;
     flex-wrap: wrap;
@@ -183,16 +387,16 @@
     display: flex;
     margin-top: 20px;
     margin-right: 40px;
-}
-
-.accelerator-contributor-image {
-    width: 70px;
-    height: 70px;
-    background-color: #C4C4C4;
-    border-radius: 35px;
+    box-shadow: 0px 1px 13px rgba(0, 0, 0, 0.25);
 }
 
 .accelerator-contributor-text {
+    text-decoration: none;
+}
+
+.accelerator-contributor-job {
+    font-weight: 600;
+    color: #0067B8;
     text-decoration: none;
 }
 
@@ -242,6 +446,23 @@
 .csslider > ul {
     position: relative;
     width: 820px;
+    height: 470px;
+    z-index: 1;
+    font-size: 0;
+    line-height: 0;
+    border: 10px solid #ffffff;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.howtocontribute.csslider > ul {
+    position: relative;
+    width: 720px;
     height: 470px;
     z-index: 1;
     font-size: 0;
@@ -496,34 +717,86 @@ p {
     display: flex;
     flex-direction: column;
     margin-bottom: 30px;
-    padding: 40px;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-bottom: 30px;
     align-items: center;
-    width: 150px;
-    height: 250px;
-    background-color: #C4C4C4;
-}
-
-.contributor-image {
-    width: 120px;
-    height: 120px;
-    background-color: #484D53;
-    border-radius: 50%;
+    width: 180px;
+    height: 310px;
+    box-shadow: 0px 1px 13px rgba(0, 0, 0, 0.25);
 }
 
 .contributor-name {
     margin-top: 15px;
-    font-size: 24px;
-    font-weight: 700;
+    font-size: 26px;
+    font-weight: 600;
 }
 
 .contributor-job-title {
     margin-top: 15px;
     font-size: 16px;
-    font-weight: 700;
+    font-weight: 600;
+    color: #0067B8;
 }
 
 .contributor-area {
     margin-top: 15px;
     font-size: 16px;
+    color: #0067B8;
 }
+
+.sidenav {
+    margin-top: 75px;
+    margin-right: 50px;
+    height: 100%;
+    width: 325px;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #F2F2F2;
+    overflow-x: hidden;
+  }
+  
+  .sidenav span, .dropdown-btn {
+    padding: 15px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    color: #24292E;
+    display: block;
+    background: none;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    outline: none;
+  }
+
+  .dropdown-btn {
+    border: 1px solid #9C9999
+  }
+  
+  .sidenav span:hover, .dropdown-btn:hover {
+    color: #24292E;
+  }
+  
+  .main {
+    margin-left: 200px;
+    font-size: 20px;
+    padding: 0px 10px;
+  }
+  
+  .active {
+    color: #24292E;
+  }
+  
+  .dropdown-container {
+    display: none;
+    background-color: #F2F2F2;
+    padding-left: 8px;
+  }
+
+  .howtocontribute-option.active { 
+      margin-top: 10px;
+      border-left: 6px solid #0067B8;
+  }
 

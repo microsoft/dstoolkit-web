@@ -13,6 +13,10 @@
 
     {%- if page_paths -%}
       <div class="header">
+        <div class="logo">
+          <img src="../images/DatascienceToolkit.jpg" alt="logo" width="50" height="50">
+          <span style="font-weight: 600;">Data Science Toolkit</span>
+        </div>
 
         <div class="links">
           {%- for path in page_paths -%}
@@ -23,6 +27,9 @@
             </div>
             {%- endif -%}
           {%- endfor -%}
+            <div class="search">
+              <i class="material-icons" style="font-size: 30px;">search</i>
+            </div>
         </div>
       </div>
     {%- endif -%}

@@ -1,16 +1,20 @@
 footer {
-    background-color: #DFDFDF;
+    display: flex;
+    justify-content: center;
 }
 
 .site-footer {
+    width: 55%;
     border-top: none;
+    background-color: #F2F2F2;
+    display: flex;
+    align-self: center;
+    justify-content: center;
 }
 
-.subtitle {
-    text-align: center;
-    font-size: 22px;
-    margin-top: 50px;
-    font-weight: 800;
+.site-footer-text {
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .card-container {
