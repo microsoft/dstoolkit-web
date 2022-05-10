@@ -6,7 +6,7 @@ permalink: /howtocontribute/
 
 <div class="howtocontribute">
     <div class="title-photo" style="position:relative;">
-          <img src="../images/shutterstock_2108122604.png" alt="logo" height="300" style="width:100%;">
+          <img src="/images/howtocontribute/MSC21_Getty_remoteWorkplace_1198541191.jpg" alt="logo" height="300" style="width:100%;">
           <div class="title" style="position:absolute; color:white; top: 55%;
     left: 22%; font-size:42px;"> How can I contribute my work? </div>
     </div>
