@@ -5,6 +5,9 @@ permalink: /object-detection/
 ---
 
 <div class="object-detection">
+    <div class="title-photo">
+          <img src="/images/object-detection/CLO19_azureKinectDK_008.jpg" alt="logo" height="300" style="width:100%;">
+    </div>
     <div class="title">Detection Solution Accelerator</div>
     <div class="title-description">Uses computer vision for object or defect detection and includes edge deployment capabilities.</div>
     <div class="category">Prerequisites</div>

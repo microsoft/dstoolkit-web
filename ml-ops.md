@@ -6,10 +6,10 @@ permalink: /ml-ops/
 
 <div class="ml-ops">
     <div class="title-photo">
-          <img src="../images/shutterstock_305418650.png" alt="logo" height="300" style="width:100%;">
+          <img src="/images/ml-ops/MDC19_cooling_002.jpg" alt="logo" height="300" style="width:100%;">
     </div>
     <div class="title">ML OPs Solution Accelerator</div>
-    <div class="paragraph"> Configurable CI/CD pipelines, AML pipelines, and compute resources for ML Ops.</div>
+    <div class="paragraph"> Configurable CI/CD pipelines, AML pipelines, and compute resources for ML Ops</div>
     <div class="category">Prerequisites</div>
     <div class="prerequisites">
         <div class="prerequisites-card">
@@ -28,12 +28,12 @@ permalink: /ml-ops/
     <div class="toolkit-cards">
         <div class="toolkit-row">
             <div class="toolkit-card left">
-                <img src="../images/access-accelerators.png" alt="logo" height="170" style="width:100%;">
+                <img src="/images/CLO18_programmingCode_001.jpg" alt="logo" height="170" style="width:100%;">
                 <span class="toolkit-card-title">Access the Accelerators</span>
                 <span class="toolkit-card-content">ML Ops for solution accelerator https://..link</span>
             </div>
             <div class="toolkit-card right">
-                <img src="../images/industries.png" alt="logo" height="170" style="width:100%;">
+                <img src="/images/MSC19_paddingtonOffice_019.jpg" alt="logo" height="170" style="width:100%;">
                 <span class="toolkit-card-title">Industries</span>
                 <span class="toolkit-card-content">Horizontal solution that addresses cross-industry needs.</span>
             </div>
@@ -55,7 +55,7 @@ permalink: /ml-ops/
     </div>
     <div class="category">Accelerator description</div>
     <div style="display:flex; margin-top: 50px; box-shadow: 0px 1px 13px rgba(0, 0, 0, 0.25);">
-        <img src="../images/accelerator-description.png" alt="logo" height="275" width="300">
+        <img src="/images/CLO20_ConferenceRoom_003.jpg" alt="logo" height="275" width="300">
         <div class="accelerator-description">
             <p style="margin-top: 30px; text-decoration: none; font-weight: 600;">The ML Ops solution accelerator provides a deployable solution that can be used by development and data science teams to:</p>
             <ul style="margin-top: 30px;">

@@ -5,6 +5,9 @@ permalink: /conversational-AI/
 ---
 
 <div class="conversational-AI">
+    <div class="title-photo">
+          <img src="/images/conversational-ai/M365CO19_SMB_iPhone_245.jpg" alt="logo" height="300" style="width:100%;">
+    </div>
     <div class="title">Conversational AI Advanced Pre-processing Service</div>
     <div class="title-description">Collection of modules to help with validation, identification and authentication processes</div>
     <div class="category">Prerequisites</div>
