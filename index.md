@@ -41,16 +41,16 @@ title: Home
                 <input style="margin-top:20px; height:30px" type="text" name="name">
                 <span style="margin-top:20px;">User type</span>
                     <div style="display:flex; margin-top:30px;">                
-                        <input type="radio" id="student" name="type" value="1" style="width: 20px;height: 20px;">
-                        <label for="student" style="margin-left: 20px">Student</label><br>
+                        <input type="radio" id="customer" name="type" value="1" style="width: 20px;height: 20px;" checked>
+                        <label for="customer" style="margin-left: 20px">Customer</label><br>
                     </div>
                      <div style="display:flex; margin-top:15px;">                
                         <input type="radio" id="partner" name="type" value="2" style="width: 20px;height: 20px;">
                         <label for="partner" style="margin-left: 20px">Partner</label><br>
                     </div>
                     <div style="display:flex; margin-top:15px;">                
-                        <input type="radio" id="client" name="type" value="3" style="width: 20px;height: 20px;">
-                        <label for="client" style="margin-left: 20px">Client</label><br>
+                        <input type="radio" id="student" name="type" value="3" style="width: 20px;height: 20px;">
+                        <label for="student" style="margin-left: 20px">Student</label><br>
                     </div>
             </div>
             <div class="home-get-touch-content-right">
