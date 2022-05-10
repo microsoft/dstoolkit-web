@@ -51,7 +51,7 @@ permalink: /toolkit/
     <div class="toolkit-row">
       <!--Conversational AI-->
       <div class="toolkit-card left">
-        <img src="/images/conversational-ai/M365CO19_SMB_iPhone_245.jpg" alt="logo" height="170" style="width:100%;">
+        <img src="/images/conversational-AI/M365CO19_SMB_iPhone_245.jpg" alt="logo" height="170" style="width:100%;">
         <span class="toolkit-card-title">Conversational AI (CAI) Advanced Processing Service</span>
         <a class="toolkit-card-content" href="/conversational-AI/">Collection of modules to help with validation, identification and authentication processes</a>
       </div>
