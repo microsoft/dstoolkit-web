@@ -9,7 +9,7 @@ permalink: /verseagility/
           <img src="/images/verseagility/MSC18_scenicsLiberia_002.jpg" alt="logo" height="300" style="width:100%;">
     </div>
     <div class="title">Verseagility Solution Accelerator</div>
-    <div class="title-description">Knowledge mining on unstructured data sets with no data labeling.</div>
+    <div class="paragraph">Knowledge mining on unstructured data sets with no data labeling</div>
     <div class="category">Prerequisites</div>
     <div class="prerequisites">
         <div class="prerequisites-card">Access to an Azure subscription</div>

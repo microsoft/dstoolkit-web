@@ -9,7 +9,7 @@ permalink: /GLUE-accelerator/
           <img src="/images/GLUE-accelerator/CLO20b_Sylvie_office_night_001.jpg" alt="logo" height="300" style="width:100%;">
     </div>
     <div class="title">GLUE - Azure Cognitive Services Accelerator</div>
-    <div class="title-description">GLUE is a lightweight, Python-based collection of scripts to support you at succeeding with speech and text us</div>
+    <div class="paragraph">GLUE is a lightweight, Python-based collection of scripts to support you at succeeding with speech and text</div>
     <div class="category">Prerequisites</div>
     <div class="prerequisites">
         <div class="prerequisites-card"><a href="https://www.python.org/downloads/" target="_blank">Python</a> (required, Version >=3.8 is recommended). </div>

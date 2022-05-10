@@ -9,7 +9,7 @@ permalink: /anomaly-detection/
           <img src="/images/anomaly-detection/MDC19_tapeTight_002.jpg" alt="logo" height="300" style="width:100%;">
     </div>
     <div class="title">Anomaly Detection Solution Accelerator</div>
-    <div class="title-description">Detect anomalies on very large structured data sets</div>
+    <div class="paragraph">Detect anomalies on very large structured data sets</div>
     <div class="category">Prerequisites</div>
     <div class="prerequisites">
         <div class="prerequisites-card">Azure Machine Learning (Ubuntu Linux compute)</div>

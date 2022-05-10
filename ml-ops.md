@@ -1,6 +1,6 @@
 ---
 layout: page
-title: ML OPs Solution Accelerator
+title: ML Ops Solution Delivery Accelerator
 permalink: /ml-ops/
 ---
 
@@ -8,8 +8,8 @@ permalink: /ml-ops/
     <div class="title-photo">
           <img src="/images/ml-ops/MDC19_cooling_002.jpg" alt="logo" height="300" style="width:100%;">
     </div>
-    <div class="title">ML OPs Solution Accelerator</div>
-    <div class="paragraph"> Configurable CI/CD pipelines, AML pipelines, and compute resources for ML Ops</div>
+    <div class="title">ML Ops Solution Delivery Accelerator</div>
+    <div class="paragraph">Configurable CI/CD pipelines, AML pipelines, and compute resources for ML Ops</div>
     <div class="category">Prerequisites</div>
     <div class="prerequisites">
         <div class="prerequisites-card">

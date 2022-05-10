@@ -9,7 +9,7 @@ permalink: /conversational-AI/
           <img src="/images/conversational-ai/M365CO19_SMB_iPhone_245.jpg" alt="logo" height="300" style="width:100%;">
     </div>
     <div class="title">Conversational AI Advanced Pre-processing Service</div>
-    <div class="title-description">Collection of modules to help with validation, identification and authentication processes</div>
+    <div class="paragraph">Collection of modules to help with validation, identification and authentication processes</div>
     <div class="category">Prerequisites</div>
     <div class="prerequisites">
         <div class="prerequisites-card">Access to an Azure subscription</div>

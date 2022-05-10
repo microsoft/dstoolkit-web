@@ -9,7 +9,7 @@ permalink: /forecasting/
           <img src="/images/forecasting/CLO18_cafeWork_003.jpg" alt="logo" height="300" style="width:100%;">
     </div>
     <div class="title">Forecasting Solution Accelerator</div>
-    <div class="title-description">Pre-configured engine for demand forecasting, map data into the existing model to generate a forecast</div>
+    <div class="paragraph">Pre-configured engine for demand forecasting, map data into the existing model to generate a forecast</div>
     <div class="category">Prerequisites</div>
     <div class="prerequisites">
         <div class="prerequisites-card">Azure Databricks</div>

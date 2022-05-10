@@ -9,7 +9,7 @@ permalink: /classification-accelerator/
           <img src="/images/classification-accelerator/PCA22_OceanPlasticMouse_Feature_06_RGB.jpg" alt="logo" height="300" style="width:100%;">
     </div>
     <div class="title">Binary Classification Accelerator</div>
-    <div class="title-description">Binary classification, with parameter based auto algorithm selection.</div>
+    <div class="paragraph">Binary classification, with parameter based auto algorithm selection</div>
     <div class="category">Prerequisites</div>
     <div class="prerequisites">
         <div class="prerequisites-card">Access to an Azure subscription</div>
