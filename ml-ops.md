@@ -13,15 +13,12 @@ permalink: /ml-ops/
     <div class="category">Prerequisites</div>
     <div class="prerequisites">
         <div class="prerequisites-card">
-            <img src="../images/access-azure.png" alt="logo" height="70" width="70" style="margin-left:20px;">
             <span class="prerequisites-text">Access to an Azure DevOps Subscription</span>
         </div>
         <div class="prerequisites-card">
-            <img src="../images/padlock.png" alt="logo" height="70" width="70" style="margin-left:20px;">
             <span class="prerequisites-text">Access to an Azure Subscription</span>
         </div>
         <div class="prerequisites-card">
-            <img src="../images/document.png" alt="logo" height="70" width="70" style="margin-left:20px;">
             <span class="prerequisites-text">Service Principal Account</span>
         </div>
     </div>
