@@ -13,10 +13,10 @@ permalink: /ml-ops/
     <div class="category">Prerequisites</div>
     <div class="prerequisites">
         <div class="prerequisites-card">
-            <span class="prerequisites-text">Access to an Azure DevOps Subscription</span>
+            <span class="prerequisites-text">Access to an Azure Subscription</span>
         </div>
         <div class="prerequisites-card">
-            <span class="prerequisites-text">Access to an Azure Subscription</span>
+            <span class="prerequisites-text">Access to an Azure DevOps Subscription</span>
         </div>
         <div class="prerequisites-card">
             <span class="prerequisites-text">Service Principal Account</span>
@@ -26,13 +26,15 @@ permalink: /ml-ops/
         <div class="toolkit-row">
             <div class="toolkit-card left">
                 <img src="/images/CLO18_programmingCode_001.jpg" alt="logo" height="170" style="width:100%;">
-                <span class="toolkit-card-title">Access the Accelerators</span>
-                <span class="toolkit-card-content">ML Ops for solution accelerator https://..link</span>
+                <span class="toolkit-card-title">Access the Accelerator</span>
+                <span class="toolkit-card-content">
+                    ML Ops Solution Accelerator <a href="https://github.com/microsoft/dstoolkit-mlops-base" target="_blank">https://github.com/microsoft/dstoolkit-mlops-base</a>
+                </span>
             </div>
             <div class="toolkit-card right">
                 <img src="/images/MSC19_paddingtonOffice_019.jpg" alt="logo" height="170" style="width:100%;">
                 <span class="toolkit-card-title">Industries</span>
-                <span class="toolkit-card-content">Horizontal solution that addresses cross-industry needs.</span>
+                <span class="toolkit-card-content">Horizontal solution that addresses cross-industry needs</span>
             </div>
         </div>
     </div>
@@ -54,7 +56,8 @@ permalink: /ml-ops/
     <div style="display:flex; margin-top: 50px; box-shadow: 0px 1px 13px rgba(0, 0, 0, 0.25);">
         <img src="/images/CLO20_ConferenceRoom_003.jpg" alt="logo" height="275" width="300">
         <div class="accelerator-description">
-            <p style="margin-top: 30px; text-decoration: none; font-weight: 600;">The ML Ops solution accelerator provides a deployable solution that can be used by development and data science teams to:</p>
+            <p style="margin-top: 30px; text-decoration: none;">The ML Ops solution accelerator provides a deployable 
+                solution that can be used by development and data science teams to:</p>
             <ul style="margin-top: 30px;">
                 <li> Develop & train model(s) with reusable ML pipelines</li>
                 <li> Package model(s) using containers to capture runtime dependencies for inference</li>
@@ -62,6 +65,7 @@ permalink: /ml-ops/
                 <li> Deploy model(s) - to cloud & edge, for use in real-time / streaming / batch processing</li>
                 <li> Monitor model behavior & business value, know when to replace / deprecate a stale model</li>
             </ul>
+            <img src="/images/ml-ops/ML-Ops-process-description.png" alt="ML Ops process description image">
         </div>
     </div>
     <div class="category">Accelerator guidance</div>
@@ -115,69 +119,72 @@ permalink: /ml-ops/
     </div>
     <div class="category" style="margin-bottom: 30px;">Technologies</div>
     <div class="technologies">
-        <span>Azure Machine Learning</span>
-        <span>Azure DevOps</span>
-        <span>Key Vault</span>
+        <span><a href="https://azure.microsoft.com/services/machine-learning" target="_blank">Azure Machine Learning</a></span>
+        <span><a href="https://azure.microsoft.com/services/devops/" target="_blank">Azure DevOps</a></span>
+        <span><a href="https://azure.microsoft.com/services/key-vault/" target="_blank">Azure Key Vault</a></span>
         <span>Azure Compute Instance</span>
         <span>Azure Compute Cluster</span>
-        <span>Azure Container Instance</span>
-        <span>Azure Kubernetes Services</span>
+        <span><a href="https://azure.microsoft.com/services/container-instances/" target="_blank">Azure Container Instance</a></span>
+        <span><a href="https://azure.microsoft.com/services/kubernetes-service/" target="_blank">Azure Kubernetes Services</a></span>
     </div>
   <div class="subtitle borders" style="margin-top:0px">
+    <!--Architecture-->
     <div class="accelerator-buttons">
         <div style="width: 100%; text-align: center;">
             <span class="see-more-text">Architecture</span>
         </div>
         <i class="material-icons" style="margin-bottom:0px; font-size: 42px; border-left: 3px solid white; padding-left: 10px;">add</i>
     </div>
+    <img src="/images/ml-ops/Architecture.png" alt="Architecture image">
+    <!--Branching Strategy-->
     <div class="accelerator-buttons" style="margin-top: 30px;">
         <div style="width: 100%; text-align: center;">
             <span class="see-more-text">Branching Strategy</span>
         </div>
       <i class="material-icons" style="margin-bottom:0px; font-size: 42px; border-left: 3px solid white; padding-left: 10px;">add</i>
     </div>
+    <img src="/images/ml-ops/Branching-Strategy.png" alt="Branching Strategy image">
+    <!--Accelerator Components-->
     <div class="accelerator-buttons" style="margin-top: 30px;">
         <div style="width: 100%; text-align: center;">
             <span class="see-more-text">Accelerator Components</span>
         </div>
       <i class="material-icons" style="margin-bottom:0px; font-size: 42px; border-left: 3px solid white; padding-left: 10px;">add</i>
     </div>
+    <img src="/images/ml-ops/Code-blueprint.png" alt="Code blueprint image">
   </div>
     <div class="category">Contributors</div>
     <div class="accelerator-contributors">
         <div class="accelerator-contributor">
-            <img src="../images/men.png" alt="logo" height="100" width="100">
-            <div style="display: flex; flex-direction: column; justify-content: center; width: 180px;margin-left: 20px;">
-                <p class="accelerator-contributor-text">Name</p>
-                <p class="accelerator-contributor-job">Job title</p>
+            <div class="accelerator-contributor-image"> 
+                <img src="TODO" alt="contributor photo" height="100" width="100">
+            </div>
+            <div style="margin-left:10px;">
+                <p class="accelerator-contributor-text">flpy</p>
             </div>
         </div>
         <div class="accelerator-contributor">
-            <img src="../images/brunette.png" alt="logo" height="100" width="100">
-            <div style="display: flex; flex-direction: column; justify-content: center; width: 180px;margin-left: 20px;">
-                <p class="accelerator-contributor-text">Name</p>
-                <p class="accelerator-contributor-job">Job title</p>
+            <div class="accelerator-contributor-image">
+                <img src="TODO" alt="contributor photo" height="100" width="100">
+            </div>
+            <div style="margin-left:10px;">
+                <p class="accelerator-contributor-text">mame</p>
             </div>
         </div>
         <div class="accelerator-contributor">
-            <img src="../images/redhead.png" alt="logo" height="100" width="100">
-            <div style="display: flex; flex-direction: column; justify-content: center; width: 180px;margin-left: 20px;">
-                <p class="accelerator-contributor-text">Name</p>
-                <p class="accelerator-contributor-job">Job title</p>
+            <div class="accelerator-contributor-image">
+                <img src="TODO" alt="contributor photo" height="100" width="100">
+            </div>
+            <div style="margin-left:10px;">
+                <p class="accelerator-contributor-text">trng</p>
             </div>
         </div>
         <div class="accelerator-contributor">
-            <img src="../images/men.png" alt="logo" height="100" width="100">
-            <div style="display: flex; flex-direction: column; justify-content: center; width: 180px;margin-left: 20px;">
-                <p class="accelerator-contributor-text">Name</p>
-                <p class="accelerator-contributor-job">Job title</p>
+            <div class="accelerator-contributor-image"> 
+                <img src="TODO" alt="contributor photo" height="100" width="100">
             </div>
-        </div>
-        <div class="accelerator-contributor">
-            <img src="../images/brunette.png" alt="logo" height="100" width="100">
-            <div style="display: flex; flex-direction: column; justify-content: center; width: 180px;margin-left: 20px;">
-                <p class="accelerator-contributor-text">Name</p>
-                <p class="accelerator-contributor-job">Job title</p>
+            <div style="margin-left:10px;">
+                <p class="accelerator-contributor-text">lina</p>
             </div>
         </div>
     </div>

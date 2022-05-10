@@ -196,12 +196,10 @@
     margin-top: 10px;
     font-weight: 600;
     font-size: 16px;
-    color: #0067B8;
-    text-decoration: underline;
+    color: #0078d4;
     margin-bottom: 35px;
     margin-left: 10px;
     margin-right: 10px;
-    cursor: pointer;
 }
 
 .toolkit-card.left {
@@ -322,8 +320,7 @@
 .prerequisites-text {
     margin-left: 25px;
     font-weight: 600;
-    color: #0067B8;
-    text-decoration: underline;
+    color: #0078d4;
 }
 
 .solution-accelerator-use-case {
@@ -368,8 +365,7 @@
     display: flex;
     flex-wrap: wrap;
     font-weight: 600;
-    color: #0067B8;
-    text-decoration: underline;
+    color: #0078d4;
     line-height: 40px;
     margin-bottom: 20px;
 }
