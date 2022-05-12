@@ -44,12 +44,8 @@ permalink: /ml-ops/
             <ul style="margin-top: 30px;">
                 <li> Continuous integration and deployment of Machine Learning models. (CI/CD)</li>
                 <li> ML Ops to help data science teams collaborate accross the organization.</li>
-                <li> AI Solution Centre or <span style="color:#0067B8; text-decoration: underline;"> Centre of Excellence. </span></li>
+                <li> AI Solution Centre or Centre of Excellence.</li>
             </ul>
-        </div>
-        <div style="margin-left:30px; width: 50%; display:flex; flex-direction: column;">
-            <span style="font-weight:600;">Learn how to implement ML Ops training</span>
-            <span style="color:#0067B8; text-decoration: underline; margin-top:30px;">ML Ops Training resources.</span>
         </div>
     </div>
     <div class="category">Accelerator description</div>
