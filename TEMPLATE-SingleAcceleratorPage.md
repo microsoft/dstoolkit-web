@@ -1,7 +1,7 @@
 ---
 layout: page
-title: ML Ops Solution Delivery Accelerator
-permalink: /ml-ops/
+title: TEMPLATE Single Accelerator Page
+permalink: /TEMPLATE-SingleAcceleratorPage/
 ---
 
 <div>

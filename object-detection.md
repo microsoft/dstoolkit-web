@@ -4,7 +4,7 @@ title: Detection Solution Accelerator
 permalink: /object-detection/
 ---
 
-<div class="object-detection">
+<div>
     <div class="title-photo">
           <img src="/images/object-detection/CLO19_azureKinectDK_008.jpg" alt="logo" height="300" style="width:100%;">
     </div>

@@ -4,7 +4,7 @@ title: Toolkit
 permalink: /toolkit/
 ---
 
-<div class="toolkit">
+<div>
     <div class="title-photo">
           <img src="/images/toolkit/MSC19_paddingtonOffice_015.jpg" alt="logo" height="300" style="width:100%;">
     </div>

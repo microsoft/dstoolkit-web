@@ -4,7 +4,7 @@ title: Contributors
 permalink: /contributors/
 ---
 
-<div class="contributors">
+<div>
     <div class="title-photo" style="position:relative;">
           <img src="/images/contributors/CLO20b_Preeti_team_meeting_002.jpg" alt="team meeting" height="300" style="width:100%;">
           <div class="title" style="position:absolute; color:white; top: 60%;

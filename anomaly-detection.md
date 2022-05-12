@@ -4,7 +4,7 @@ title: Anomaly Detection Solution Accelerator
 permalink: /anomaly-detection/
 ---
 
-<div class="anomaly-detection">
+<div>
     <div class="title-photo">
           <img src="/images/anomaly-detection/MDC19_tapeTight_002.jpg" alt="logo" height="300" style="width:100%;">
     </div>
