@@ -4,7 +4,7 @@ title: ML Ops for Databricks
 permalink: /ml-ops-for-databricks/
 ---
 
-<div class="ml-ops-for-databricks">
+<div>
     <div class="title-photo">
           <img src="/images/ml-ops-for-databricks/CLO20b_Aline_cafe_outside_002.jpg" alt="logo" height="300" style="width:100%;">
     </div>

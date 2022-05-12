@@ -4,7 +4,7 @@ title: Binary Classification Accelerator
 permalink: /classification-accelerator/
 ---
 
-<div class="classification-accelerator">
+<div>
     <div class="title-photo">
           <img src="/images/classification-accelerator/PCA22_OceanPlasticMouse_Feature_06_RGB.jpg" alt="logo" height="300" style="width:100%;">
     </div>

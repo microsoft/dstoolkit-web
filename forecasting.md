@@ -4,7 +4,7 @@ title: Forecasting Solution Accelerator
 permalink: /forecasting/
 ---
 
-<div class="forecasting">
+<div>
     <div class="title-photo">
           <img src="/images/forecasting/CLO18_cafeWork_003.jpg" alt="logo" height="300" style="width:100%;">
     </div>

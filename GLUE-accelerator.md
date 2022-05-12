@@ -4,7 +4,7 @@ title: GLUE - Azure Cognitive Services Accelerator
 permalink: /GLUE-accelerator/
 ---
 
-<div class="GLUE-accelerator">
+<div>
     <div class="title-photo">
           <img src="/images/GLUE-accelerator/CLO20b_Sylvie_office_night_001.jpg" alt="logo" height="300" style="width:100%;">
     </div>

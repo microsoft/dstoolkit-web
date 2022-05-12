@@ -4,7 +4,7 @@ title: Verseagility Solution Accelerator
 permalink: /verseagility/
 ---
 
-<div class="verseagility">
+<div>
     <div class="title-photo">
           <img src="/images/verseagility/MSC18_scenicsLiberia_002.jpg" alt="logo" height="300" style="width:100%;">
     </div>
