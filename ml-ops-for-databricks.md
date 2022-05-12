@@ -5,8 +5,11 @@ permalink: /ml-ops-for-databricks/
 ---
 
 <div class="ml-ops-for-databricks">
+    <div class="title-photo">
+          <img src="/images/ml-ops-for-databricks/CLO20b_Aline_cafe_outside_002.jpg" alt="logo" height="300" style="width:100%;">
+    </div>
     <div class="title">ML Ops for Databricks</div>
-    <div class="title-description">ML Ops support for Databricks</div>
+    <div class="paragraph">ML Ops support for Databricks</div>
     <div class="category">Prerequisites</div>
     <div class="prerequisites">
         <div class="prerequisites-card">Access to an Azure subscription</div>
