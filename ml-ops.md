@@ -129,29 +129,41 @@ permalink: /ml-ops/
     </div>
   <div class="subtitle borders" style="margin-top:0px">
     <!--Architecture-->
-    <div class="accelerator-buttons">
-        <div style="width: 100%; text-align: center;">
-            <span class="see-more-text">Architecture</span>
+    <button type="button" class="btn" data-toggle="collapse" data-target="#collapsibleSectionArch">
+        <div class="accelerator-buttons">
+            <div style="width: 100%; text-align: center;">
+                <span class="see-more-text">Architecture</span>
+            </div>
+            <i class="material-icons" style="margin-bottom:0px; font-size: 42px; border-left: 3px solid white; padding-left: 10px;">add</i>
         </div>
-        <i class="material-icons" style="margin-bottom:0px; font-size: 42px; border-left: 3px solid white; padding-left: 10px;">add</i>
+    </button>
+    <div id="collapsibleSectionArch" class="collapse">
+        <img src="/images/ml-ops/Architecture.png" alt="Architecture image">
     </div>
-    <img src="/images/ml-ops/Architecture.png" alt="Architecture image">
     <!--Branching Strategy-->
-    <div class="accelerator-buttons" style="margin-top: 30px;">
-        <div style="width: 100%; text-align: center;">
-            <span class="see-more-text">Branching Strategy</span>
+    <button type="button" class="btn" data-toggle="collapse" data-target="#collapsibleSectionBrStrat">
+        <div class="accelerator-buttons">
+            <div style="width: 100%; text-align: center;">
+                <span class="see-more-text">Branching Strategy</span>
+            </div>
+            <i class="material-icons" style="margin-bottom:0px; font-size: 42px; border-left: 3px solid white; padding-left: 10px;">add</i>
         </div>
-      <i class="material-icons" style="margin-bottom:0px; font-size: 42px; border-left: 3px solid white; padding-left: 10px;">add</i>
+    </button>
+    <div id="collapsibleSectionBrStrat" class="collapse">
+        <img src="/images/ml-ops/Branching-Strategy.png" alt="Branching Strategy image">
     </div>
-    <img src="/images/ml-ops/Branching-Strategy.png" alt="Branching Strategy image">
     <!--Accelerator Components-->
-    <div class="accelerator-buttons" style="margin-top: 30px;">
-        <div style="width: 100%; text-align: center;">
-            <span class="see-more-text">Accelerator Components</span>
+    <button type="button" class="btn" data-toggle="collapse" data-target="#collapsibleSectionAccelComp">
+        <div class="accelerator-buttons">
+            <div style="width: 100%; text-align: center;">
+                <span class="see-more-text">Accelerator Components</span>
+            </div>
+            <i class="material-icons" style="margin-bottom:0px; font-size: 42px; border-left: 3px solid white; padding-left: 10px;">add</i>
         </div>
-      <i class="material-icons" style="margin-bottom:0px; font-size: 42px; border-left: 3px solid white; padding-left: 10px;">add</i>
+    </button>
+    <div id="collapsibleSectionAccelComp" class="collapse">
+        <img src="/images/ml-ops/Code-blueprint.png" alt="Code blueprint image">
     </div>
-    <img src="/images/ml-ops/Code-blueprint.png" alt="Code blueprint image">
   </div>
     <div class="category">Contributors</div>
     <div class="accelerator-contributors">
