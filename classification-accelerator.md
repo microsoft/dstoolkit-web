@@ -12,42 +12,59 @@ permalink: /classification-accelerator/
     <div class="paragraph">Binary classification, with parameter based auto algorithm selection</div>
     <div class="category">Prerequisites</div>
     <div class="prerequisites">
-        <div class="prerequisites-card">Access to an Azure subscription</div>
-        <div class="prerequisites-card">Access to an Azure DevOps subscription</div>
-        <div class="prerequisites-card">Service Principal Account</div>
+        <div class="prerequisites-card">
+            <span class="prerequisites-text">Access to an Azure Subscription</span>
+        </div>
+        <div class="prerequisites-card">
+            <span class="prerequisites-text">Access to an Azure DevOps Subscription</span>
+        </div>
+        <div class="prerequisites-card">
+            <span class="prerequisites-text">Service Principal Account</span>
+        </div>
     </div>
-    <div style="width:100%; display: flex;">
-        <div style="width:50%;">
-            <div class="category">Access the Accelerator</div>            
-            <div class="toolkit-checkbox" style="width:100%; margin-top: 30px;">
-                <label class="label" style="font-size:16px;">Classification Solution Accelerator</label>
-                <p>
-                    <a href="https://github.com/microsoft/dstoolkit-classification-solution-accelerator" target="_blank">https://github.com/microsoft/dstoolkit-classification-solution-accelerator</a>
-                </p>   
+    <div class="toolkit-cards">
+        <div class="toolkit-row">
+            <div class="toolkit-card left">
+                <img src="/images/CLO18_programmingCode_001.jpg" alt="logo" height="170" style="width:100%;">
+                <span class="toolkit-card-title">Access the Accelerator</span>
+                <span class="toolkit-card-content">
+                    Classification Solution Accelerator <a href="https://github.com/microsoft/dstoolkit-classification-solution-accelerator" target="_blank">https://github.com/microsoft/dstoolkit-classification-solution-accelerator</a>
+                </span>
+            </div>
+            <div class="toolkit-card right">
+                <img src="/images/MSC19_paddingtonOffice_019.jpg" alt="logo" height="170" style="width:100%;">
+                <span class="toolkit-card-title">Industries</span>
+                <span class="toolkit-card-content" style="text-align: start">            
+                <ul>
+                    <li>Retail</li>
+                    <li>Consumer Goods</li>
+                    <li>FMCG</li>
+                    <li>Manufacturing</li>
+                    <li>Financial Services</li>
+                </ul>  
+                </span>
             </div>
         </div>
-        <div style="width:50%;">
-            <div class="category">Industries</div>
-            <ul  style="margin-top: 30px;">
-                <li>Retail</li>
-                <li>Consumer Goods</li>
-                <li>FMCG</li>
-                <li>Manufacturing</li>
-                <li>Financial Services</li>
-            </ul>  
+    </div>
+    <div class="solution-accelerator-use-case">
+        <div style="width: 50%;">
+            <span style="font-weight:600; margin-right:50px;">Use Case</span>
+            <br><br>
+                Any yes / no question requirement including:
+                <ul style="margin-top: 30px;">
+                    <li>defaulting on a loan,</li>
+                    <li>clicking on an ad,</li>
+                    <li>terminating a subscription,</li>
+                    <li>quality control of products, processes or services,</li>
+                    <li>medical testing</li>
+                </ul>
         </div>
     </div>
-    <div class="category">Use-case</div>
-    Any yes / no question requirement including:
-    <ul style="margin-top: 30px;">
-        <li>defaulting on a loan,</li>
-        <li>clicking on an ad,</li>
-        <li>terminating a subscription,</li>
-        <li>quality control of products, processes or services,</li>
-        <li>medical testing</li>
-    </ul>
-    <div class="category" style="font-size:24px;">Accelerator description</div>
-    <p style="margin-top: 30px; text-decoration: none;">
+    <div class="category">Accelerator description</div>
+    <div style="display:flex; margin-top: 50px; box-shadow: 0px 1px 13px rgba(0, 0, 0, 0.25);">
+        <img src="/images/CLO20_ConferenceRoom_003.jpg" alt="logo" height="520" width="350">
+        <div class="accelerator-description">
+               <p style="margin-top: 30px; text-decoration: none;">
         Binary classification models are perhaps the most common use-case in predictive analytics. The reason is that many key client actions across a wide range of industries are binary in nature, such as: 
         <ul>
             <li>defaulting on a loan, </li>
@@ -66,7 +83,9 @@ permalink: /classification-accelerator/
             <li>Uses Azure ML and Azure Dev Ops </li>
         </ul>
     </p>
-    <div class="category" style="font-size:24px;">Accelerator guidance</div>
+        </div>
+    </div>
+    <div class="category">Accelerator guidance</div>
     <div class="accelerator-guidance-videos">
 <div style="height: 100%; text-align: center">
 			<div class="csslider infinity" id="slider1">
@@ -90,66 +109,123 @@ permalink: /classification-accelerator/
 			</div>
 		</div>
     </div>
-    <div style="width:100%; display: flex;">
-        <div style="width:50%;">
-            <div class="category">Related Accelerators</div>
-            <div class="toolkit-checkbox" style="width:100%; margin-top: 30px;">
-                <label style="font-size:16px;">
-                    <a href="/ml-ops/" target="_blank">ML Ops solution accelerator</a>
-                </label>
-            </div>
+    <div style="width:100%; display: flex; justify-content:space-between; margin-top:50px; border-bottom: 1px solid #D2D2D2; padding-bottom: 50px;">
+        <div style="display:flex; align-items:center; width:49%; height: 120px; box-shadow: 0px 1px 13px rgba(0, 0, 0, 0.25);">
+            <img src="../images/related-accelerators.png" alt="logo" height="70" width="70" style="margin-left:20px;">
+                <div style="display:flex; flex-direction:column; justify-content: space-between; margin-left: 20px;">
+                    <span style="font-weight:600">Related Accelerators</span>
+                    <a href="/ml-ops/" target="_blank" style="text-decoration:none">
+                        <div class="text-button accelerator-button">ML Ops solution accelerator</div>
+                    </a>
+                </div>
+        </div>
+        <div style="display:flex; align-items:center; width:49%; height: 120px; box-shadow: 0px 1px 13px rgba(0, 0, 0, 0.25);">
+            <img src="../images/contributing-guide.png" alt="logo" height="70" width="70" style="margin-left:20px;">
+                <div style="display:flex; flex-direction:column; justify-content: space-between; margin-left: 20px;">
+                    <span style="font-weight:600">Contributing Guide</span>
+                    <a href="https://github.com/microsoft/dstoolkit-mlops-base/blob/main/CONTRIBUTING.md" target="_blank" style="text-decoration:none">
+                        <div class="text-button accelerator-button">Contribution guideline</div>
+                    </a>
+                </div>
         </div>
     </div>
-    <div class="category" style="font-size:24px;">Technologies</div>
-    <ul style="margin-top: 30px;">
-        <li>Azure Machine Learning</li>
-        <li>Azure DevOps</li>
-        <li>Azure Key Vault</li>
-        <li>Azure Compute Instance</li>
-        <li>Azure Compute Cluster</li>
-        <li>Azure Container Instance</li>
-        <li>Azure Kubernetes Services</li>
-    </ul>
-    <div style="margin-top:50px;"> 
-        <div class="accelerator-acordeon">
-            Architecture
-            <i class="material-icons" style="margin-bottom:0px; cursor: pointer;">add_circle_outline</i>
+    <div class="category" style="margin-bottom: 30px;">Technologies</div>
+    <div class="technologies">
+        <span><a href="https://azure.microsoft.com/services/machine-learning" target="_blank">Azure Machine Learning</a></span>
+        <span><a href="https://azure.microsoft.com/services/devops/" target="_blank">Azure DevOps</a></span>
+        <span><a href="https://azure.microsoft.com/services/key-vault/" target="_blank">Azure Key Vault</a></span>
+        <span><a href="https://azure.microsoft.com/services/#compute" target="_blank">Azure Compute Instance </a></span>
+        <span><a href="https://azure.microsoft.com/services/#compute" target="_blank">Azure Compute Cluster </a></span>
+        <span><a href="https://azure.microsoft.com/services/container-instances/" target="_blank">Azure Container Instance</a></span>
+        <span><a href="https://azure.microsoft.com/services/kubernetes-service/" target="_blank">Azure Kubernetes Services</a></span>
+    </div>
+    <div class="subtitle borders" style="margin-top:0px">
+    <!--Architecture-->
+    <button type="button" class="btn" data-toggle="collapse" data-target="#collapsibleSectionArch">
+        <div class="accelerator-buttons">
+            <div style="width: 100%; text-align: center;">
+                <span class="see-more-text">Architecture</span>
+            </div>
+            <i class="material-icons" style="margin-bottom:0px; font-size: 42px; border-left: 3px solid white; padding-left: 10px;">add</i>
         </div>
+    </button>
+    <div id="collapsibleSectionArch" class="collapse">
         <img src="/images/classification-accelerator/Solution-Accelerator-Architecture.png" alt="Solution Accelerator Architecture">
-        <div class="accelerator-acordeon">
-            Branching Strategy
-            <i class="material-icons" style="margin-bottom:0px; cursor: pointer;">add_circle_outline</i>
+    </div>
+    <!--Branching Strategy-->
+    <button type="button" class="btn" data-toggle="collapse" data-target="#collapsibleSectionBrStrat">
+        <div class="accelerator-buttons">
+            <div style="width: 100%; text-align: center;">
+                <span class="see-more-text">Branching Strategy</span>
+            </div>
+            <i class="material-icons" style="margin-bottom:0px; font-size: 42px; border-left: 3px solid white; padding-left: 10px;">add</i>
         </div>
+    </button>
+    <div id="collapsibleSectionBrStrat" class="collapse">
         <img src="/images/classification-accelerator/Branching-Strategy.png" alt="Branching Strategy">
-        <div class="accelerator-acordeon">
-            Accelerator components
-            <i class="material-icons" style="margin-bottom:0px; cursor: pointer;">add_circle_outline</i>
+    </div>
+    <!--Accelerator Components-->
+    <button type="button" class="btn" data-toggle="collapse" data-target="#collapsibleSectionAccelComp">
+        <div class="accelerator-buttons">
+            <div style="width: 100%; text-align: center;">
+                <span class="see-more-text">Accelerator Components</span>
+            </div>
+            <i class="material-icons" style="margin-bottom:0px; font-size: 42px; border-left: 3px solid white; padding-left: 10px;">add</i>
         </div>
+    </button>
+    <div id="collapsibleSectionAccelComp" class="collapse">
         <img src="/images/classification-accelerator/Code-Blueprint.png" alt="Code Blueprint">
-        <div class="accelerator-acordeon">
-            Key Accelerator Files
-            <i class="material-icons" style="margin-bottom:0px; cursor: pointer;">add_circle_outline</i>
+    </div>
+    <!-- Key Accelerator Files -->
+    <button type="button" class="btn" data-toggle="collapse" data-target="#collapsibleSectionKeyAcc">
+        <div class="accelerator-buttons">
+            <div style="width: 100%; text-align: center;">
+                <span class="see-more-text">Key Accelerator Files</span>
+            </div>
+            <i class="material-icons" style="margin-bottom:0px; font-size: 42px; border-left: 3px solid white; padding-left: 10px;">add</i>
         </div>
+    </button>
+    <div id="collapsibleSectionKeyAcc" class="collapse" style="font-size:20px; font-weight: 400;
+    text-align: start; margin-top: 50px;">
         <ul>
             <li><a href="https://github.com/microsoft/dstoolkit-classification-solution-accelerator/blob/main/configuration/configuration-aml.variables.yml" target="_blank">Configuration-aml.variables.yml</a></li>
             <li><a href="https://github.com/microsoft/dstoolkit-classification-solution-accelerator/blob/main/src/train_1_classifier.py" target="_blank">src/train_1_classifier.py</a></li>
             <li><a href="https://github.com/microsoft/dstoolkit-classification-solution-accelerator/blob/main/src/train_n_classifier.py" target="_blank">src/train_n_classifier.py</a></li>
         </ul>
     </div>
-    <div class="category" style="font-size:24px;">Contributors</div>
+  </div>
+    <div class="category">Contributors</div>
     <div class="accelerator-contributors">
         <div class="accelerator-contributor">
             <div class="accelerator-contributor-image"> 
+                <img src="TODO" alt="contributor photo" height="100" width="100">
             </div>
             <div style="margin-left:10px;">
-                <p class="accelerator-contributor-text">chwa</p>
+                <p class="accelerator-contributor-text">flpy</p>
+            </div>
+        </div>
+        <div class="accelerator-contributor">
+            <div class="accelerator-contributor-image">
+                <img src="TODO" alt="contributor photo" height="100" width="100">
+            </div>
+            <div style="margin-left:10px;">
+                <p class="accelerator-contributor-text">mame</p>
+            </div>
+        </div>
+        <div class="accelerator-contributor">
+            <div class="accelerator-contributor-image">
+                <img src="TODO" alt="contributor photo" height="100" width="100">
+            </div>
+            <div style="margin-left:10px;">
+                <p class="accelerator-contributor-text">trng</p>
             </div>
         </div>
         <div class="accelerator-contributor">
             <div class="accelerator-contributor-image"> 
+                <img src="TODO" alt="contributor photo" height="100" width="100">
             </div>
             <div style="margin-left:10px;">
-                <p class="accelerator-contributor-text">nabr</p>
+                <p class="accelerator-contributor-text">lina</p>
             </div>
         </div>
     </div>

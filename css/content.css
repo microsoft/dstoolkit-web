@@ -318,7 +318,6 @@
 }
 
 .prerequisites-text {
-    margin-left: 25px;
     font-weight: 600;
     color: #0078d4;
 }
@@ -371,7 +370,8 @@
 }
 
 .technologies span {
-    width: 25%;
+    margin-right: 25px;
+    margin-left: 25px;
 }
 
 .accelerator-contributors {

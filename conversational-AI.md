@@ -12,34 +12,43 @@ permalink: /conversational-AI/
     <div class="paragraph">Collection of modules to help with validation, identification and authentication processes</div>
     <div class="category">Prerequisites</div>
     <div class="prerequisites">
-        <div class="prerequisites-card">Access to an Azure subscription</div>
-        <div class="prerequisites-card">Access to an Azure DevOps subscription</div>
-        <div class="prerequisites-card">Service Principal Account</div>
+        <div class="prerequisites-card">
+            <span class="prerequisites-text">Access to an Azure subscription</span>
     </div>
-    <div style="width:100%; display: flex;">
-        <div style="width:50%;">
-            <div class="category">Access the Accelerator</div>            
-            <div class="toolkit-checkbox" style="width:100%; margin-top: 30px;">
-                <label class="label" style="font-size:16px;">Conversational AI Advanced Pre-processing Service</label>
-                <p>
-                    <a href="https://github.com/microsoft/cai-advanced-processing-service" target="_blank">https://github.com/microsoft/cai-advanced-processing-service</a>
-                </p>   
+        <div class="prerequisites-card">
+            <span class="prerequisites-text">Access to an Azure DevOps subscription</span></div>
+        <div class="prerequisites-card">
+            <span class="prerequisites-text">Service Principal Account</span></div>
+    </div>
+    <div class="toolkit-cards">
+        <div class="toolkit-row">
+            <div class="toolkit-card left">
+                <img src="/images/CLO18_programmingCode_001.jpg" alt="logo" height="170" style="width:100%;">
+                <span class="toolkit-card-title">Access the Accelerator</span>
+                <span class="toolkit-card-content">
+                    Conversational AI Advanced Pre-processing Service <a href="https://github.com/microsoft/cai-advanced-processing-service" target="_blank">https://github.com/microsoft/cai-advanced-processing-service</a>
+                </span>
+            </div>
+            <div class="toolkit-card right">
+                <img src="/images/MSC19_paddingtonOffice_019.jpg" alt="logo" height="170" style="width:100%;">
+                <span class="toolkit-card-title">Industries</span>
+                <span class="toolkit-card-content">Horizontal solution that addresses cross-industry needs</span>
             </div>
         </div>
-        <div style="width:50%;">
-            <div class="category">Industries</div>
-            <ul  style="margin-top: 30px;">
-                <li>Horizontal solution that addresses cross-industry needs.</li>
-            </ul>  
+    </div>
+    <div class="solution-accelerator-use-case">
+        <div style="width: 50%;">
+            <span style="font-weight:600; margin-right:50px;">Use Case</span>
+            <ul style="margin-top: 30px;">
+                <li>Validation - entity extraction and data preparation for backend processing</li>
+                <li>Identification - identify a user or asset</li>
+                <li>Authentication - authenticate a user or asset</li>
+            </ul>
         </div>
     </div>
-    <div class="category">Use-case</div>
-    <ul style="margin-top: 30px;">
-        <li>Validation - entity extraction and data preparation for backend processing</li>
-        <li>Identification - identify a user or asset</li>
-        <li>Authentication - authenticate a user or asset</li>
-    </ul>
-    <div class="category" style="font-size:24px;">Accelerator description</div>
+    <div class="category">Accelerator description</div>
+    <div style="display:flex; margin-top: 50px; box-shadow: 0px 1px 13px rgba(0, 0, 0, 0.25);">
+        <div class="accelerator-description">
     <p style="margin-top: 30px;">
         The Conversational AI - Advanced Processing Service consists of a series of APIs the simplify common validation, identification and authentication tasks when implementing conversational AI solutions. 
         <h1>Why this is Important</h1>
@@ -93,36 +102,75 @@ permalink: /conversational-AI/
                 </td>
             </tr>
         </table>
-    </p>
-    <div class="category" style="font-size:24px;">Technologies</div>
-    <ul style="margin-top: 30px;">
-        <li>Azure Machine Learning</li>
-        <li>Azure DevOps</li>
-        <li>Azure Key Vault</li>
-        <li>Azure Compute Instance</li>
-        <li>Azure Compute Cluster</li>
-        <li>Azure Container Instance</li>
-        <li>Azure Kubernetes Services</li>
-    </ul>
-    <div style="margin-top:50px;"> 
-        <div class="accelerator-acordeon">
-            Architecture
-            <i class="material-icons" style="margin-bottom:0px; cursor: pointer;">add_circle_outline</i>
+        </p>
         </div>
-        <img src="/images/conversational-AI/High-level-Architecture.png" alt="High-level Architecture">
-        <div class="accelerator-acordeon">
-            Accelerator components
-            <i class="material-icons" style="margin-bottom:0px; cursor: pointer;">add_circle_outline</i>
-        </div>
-        <img src="/images/conversational-AI/Technical-components-of-the-accelerator.png" alt="Technical components of the accelerator">
     </div>
-    <div class="category" style="font-size:24px;">Contributors</div>
+    <div class="category" style="margin-bottom: 30px;">Technologies</div>
+        <div class="technologies">
+            <span><a href="https://azure.microsoft.com/services/machine-learning" target="_blank">Azure Machine Learning</a></span>
+            <span><a href="https://azure.microsoft.com/services/devops/" target="_blank">Azure DevOps</a></span>
+            <span><a href="https://azure.microsoft.com/services/key-vault/" target="_blank">Azure Key Vault</a></span>
+            <span><a href="https://azure.microsoft.com/services/#compute" target="_blank">Azure Compute Instance </a></span>
+            <span><a href="https://azure.microsoft.com/services/#compute" target="_blank">Azure Compute Cluster </a></span>
+            <span><a href="https://azure.microsoft.com/services/container-instances/" target="_blank">Azure Container Instance</a></span>
+            <span><a href="https://azure.microsoft.com/services/kubernetes-service/" target="_blank">Azure Kubernetes Services</a></span>
+    </div>
+    <div class="subtitle borders" style="margin-top:0px">
+        <button type="button" class="btn" data-toggle="collapse" data-target="#collapsibleSectionArch">
+        <div class="accelerator-buttons">
+            <div style="width: 100%; text-align: center;">
+                <span class="see-more-text">Architecture</span>
+            </div>
+            <i class="material-icons" style="margin-bottom:0px; font-size: 42px; border-left: 3px solid white; padding-left: 10px;">add</i>
+        </div>
+        </button>
+        <div id="collapsibleSectionArch" class="collapse">
+            <img src="/images/conversational-AI/High-level-Architecture.png" alt="High-level Architecture">
+        </div>
+        <button type="button" class="btn" data-toggle="collapse" data-target="#collapsibleSectionAccComp">
+        <div class="accelerator-buttons">
+            <div style="width: 100%; text-align: center;">
+                <span class="see-more-text">Accelerator components</span>
+            </div>
+            <i class="material-icons" style="margin-bottom:0px; font-size: 42px; border-left: 3px solid white; padding-left: 10px;">add</i>
+        </div>
+        </button>
+        <div id="collapsibleSectionAccComp" class="collapse">
+            <img src="/images/conversational-AI/Technical-components-of-the-accelerator.png" alt="High-level Architecture">
+        </div>
+    </div>
+    <div class="category">Contributors</div>
     <div class="accelerator-contributors">
         <div class="accelerator-contributor">
             <div class="accelerator-contributor-image"> 
+                <img src="TODO" alt="contributor photo" height="100" width="100">
             </div>
             <div style="margin-left:10px;">
-                <p class="accelerator-contributor-text">jago</p>
+                <p class="accelerator-contributor-text">flpy</p>
+            </div>
+        </div>
+        <div class="accelerator-contributor">
+            <div class="accelerator-contributor-image">
+                <img src="TODO" alt="contributor photo" height="100" width="100">
+            </div>
+            <div style="margin-left:10px;">
+                <p class="accelerator-contributor-text">mame</p>
+            </div>
+        </div>
+        <div class="accelerator-contributor">
+            <div class="accelerator-contributor-image">
+                <img src="TODO" alt="contributor photo" height="100" width="100">
+            </div>
+            <div style="margin-left:10px;">
+                <p class="accelerator-contributor-text">trng</p>
+            </div>
+        </div>
+        <div class="accelerator-contributor">
+            <div class="accelerator-contributor-image"> 
+                <img src="TODO" alt="contributor photo" height="100" width="100">
+            </div>
+            <div style="margin-left:10px;">
+                <p class="accelerator-contributor-text">lina</p>
             </div>
         </div>
     </div>
