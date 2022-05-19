@@ -19,14 +19,21 @@
         </div>
 
         <div class="links">
-          {%- for path in page_paths -%}
-            {%- assign my_page = site.pages | where: "path", path | first -%}
-            {%- if my_page.title -%}
             <div class="link-block">
-              <a class="page-link" style="color:black;text-decoration:none" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
+              <a class="page-link" id="home" style="color:black;text-decoration:none" href="/">Home</a>
             </div>
-            {%- endif -%}
-          {%- endfor -%}
+            <div class="link-block">
+              <a class="page-link" id="toolkit" style="color:black;text-decoration:none" href="/toolkit/">Toolkit</a>
+            </div>
+            <div class="link-block">
+              <a class="page-link" id="howtocontribute" style="color:black;text-decoration:none" href="/howtocontribute/">How to Contribute</a>
+            </div>
+            <div class="link-block">
+              <a class="page-link" id="contributors" style="color:black;text-decoration:none" href="/contributors/">Contributors</a>
+            </div>
+            <div class="link-block">
+              <a class="page-link" id="news" style="color:black;text-decoration:none" href="/news/">News</a>
+            </div>
             <div class="search">
               <i class="material-icons" style="font-size: 30px;">search</i>
             </div>
@@ -34,6 +41,25 @@
       </div>
     {%- endif -%}
 </header>
+
+<script>
+  var linkBlock = document.getElementsByClassName("link-block");
+  var i;
+
+  const url = window.location.href;
+  const segments = url.split("/");
+  const lastSegment = segments[segments.length - 2];
+  
+  var pageLink = document.getElementById(lastSegment);
+
+  if(pageLink) {
+    pageLink.classList.toggle("active");
+  } else {
+    homeLink = document.getElementById("home");
+    homeLink.classList.toggle("active");
+  }
+  
+  </script>
 
 </body>
 </html>

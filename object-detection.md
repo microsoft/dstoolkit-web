@@ -12,39 +12,56 @@ permalink: /object-detection/
     <div class="paragraph">Uses computer vision for object or defect detection and includes edge deployment capabilities</div>
     <div class="category">Prerequisites</div>
     <div class="prerequisites">
-        <div class="prerequisites-card">Access to an Azure subscription</div>
-        <div class="prerequisites-card">Access to an Azure DevOps subscription</div>
-        <div class="prerequisites-card">Service Principal Account</div>
+        <div class="prerequisites-card">
+            <span class="prerequisites-text">Access to an Azure Subscription</span>
+        </div>
+        <div class="prerequisites-card">
+            <span class="prerequisites-text">Access to an Azure DevOps Subscription</span>
+        </div>
+        <div class="prerequisites-card">
+            <span class="prerequisites-text">Service Principal Account</span>
+        </div>
     </div>
-    <div style="width:100%; display: flex;">
-        <div style="width:50%;">
-            <div class="category">Access the Accelerator</div>            
-            <div class="toolkit-checkbox" style="width:100%; margin-top: 30px;">
-                <label class="label" style="font-size:16px;">Detection Solution Accelerator</label>
-                <p>
-                    <a href="https://github.com/microsoft/dstoolkit-objectdetection-tensorflow-azureml" target="_blank">https://github.com/microsoft/dstoolkit-objectdetection-tensorflow-azureml</a>
-                </p>   
+    <div class="toolkit-cards">
+        <div class="toolkit-row">
+            <div class="toolkit-card left">
+                <img src="/images/CLO18_programmingCode_001.jpg" alt="logo" height="170" style="width:100%;">
+                <span class="toolkit-card-title">Access the Accelerator</span>
+                <span class="toolkit-card-content">
+                    Detection Solution Accelerator <a href="https://github.com/microsoft/dstoolkit-objectdetection-tensorflow-azureml" target="_blank">https://github.com/microsoft/dstoolkit-objectdetection-tensorflow-azureml</a>
+                </span>
+            </div>
+            <div class="toolkit-card right">
+                <img src="/images/MSC19_paddingtonOffice_019.jpg" alt="logo" height="170" style="width:100%;">
+                <span class="toolkit-card-title">Industries</span>
+                <span class="toolkit-card-content" style="text-align: start">
+                    <ul>
+                        <li>Manufacturing</li>
+                        <li>Retail</li>
+                        <li>Health</li>
+                        <li>Aviation</li>
+                    </ul>  
+                </span>
             </div>
         </div>
-        <div style="width:50%;">
-            <div class="category">Industries</div>
-            <ul  style="margin-top: 30px;">
-                <li>Manufacturing</li>
-                <li>Retail</li>
-                <li>Health</li>
-                <li>Aviation</li>
-            </ul>  
+    </div>
+     <div class="solution-accelerator-use-case">
+        <div style="width: 50%;">
+            <span style="font-weight:600; margin-right:50px;">Use Case</span>
+            <br><br>
+                Computer Vision object detection use-cases, with cloud or edge model deployment requirements.
+                <ul style="margin-top: 30px;">
+                    <li>Quality control</li>
+                    <li>Defect detection</li>
+                    <li>Object detection</li>
+                </ul>
         </div>
     </div>
-    <div class="category">Use-case</div>
-    Computer Vision object detection use-cases, with cloud or edge model deployment requirements.
-    <ul style="margin-top: 30px;">
-        <li>Quality control</li>
-        <li>Defect detection</li>
-        <li>Object detection</li>
-    </ul>
-    <div class="category" style="font-size:24px;">Accelerator description</div>
-    <p style="margin-top: 30px; text-decoration: none;">
+    <div class="category">Accelerator description</div>
+    <div style="display:flex; margin-top: 50px; box-shadow: 0px 1px 13px rgba(0, 0, 0, 0.25);">
+        <img src="/images/CLO20_ConferenceRoom_003.jpg" alt="logo" height="630" width="400">
+        <div class="accelerator-description">
+          <p style="margin-top: 30px; text-decoration: none;">
         The detection solution accelerator provides a pre-packaged solution to train, deploy and monitor custom object detection models using the TensorFlow object detection framework within Azure ML.
         <br/><br/>
         The aim is to bring State-of-the-art (SOTA) object detection models quickly into production scenarios particularly around the use of defect detection as seen in many quality control scenarios.
@@ -59,58 +76,89 @@ permalink: /object-detection/
     <li>Uses Azure ML, Azure DevOps and TensorFlow. </li>
 </ul>
     </p>
-    <div style="width:100%; display: flex;">
-        <div style="width:50%;">
-            <div class="category">Related Accelerators</div>
-            <div class="toolkit-checkbox" style="width:100%; margin-top: 30px;">
-                <label style="font-size:16px;">
-                    <a href="/ml-ops/" target="_blank">ML Ops solution accelerator</a>
-                </label>
-            </div>
         </div>
     </div>
-    <div class="category" style="font-size:24px;">Technologies</div>
-    <ul style="margin-top: 30px;">
-        <li>Azure Machine Learning</li>
-        <li>Azure DevOps</li>
-        <li>Azure Key Vault</li>
-        <li>Azure Compute Instance</li>
-        <li>Azure Compute Cluster</li>
-        <li>Azure Container Instance</li>
-        <li>Azure Kubernetes Services</li>
-        <li>TensorFlow</li>
-    </ul>
-    <div style="margin-top:50px;"> 
-        <div class="accelerator-acordeon">
-            Architecture
-            <i class="material-icons" style="margin-bottom:0px; cursor: pointer;">add_circle_outline</i>
+    <div class="category" style="margin-bottom: 30px;">Technologies</div>
+    <div class="technologies">
+        <span><a href="https://azure.microsoft.com/services/machine-learning" target="_blank">Azure Machine Learning</a></span>
+        <span><a href="https://azure.microsoft.com/services/devops/" target="_blank">Azure DevOps</a></span>
+        <span><a href="https://azure.microsoft.com/services/key-vault/" target="_blank">Azure Key Vault</a></span>
+        <span><a href="https://azure.microsoft.com/services/#compute" target="_blank">Azure Compute Instance </a></span>
+        <span><a href="https://azure.microsoft.com/services/#compute" target="_blank">Azure Compute Cluster </a></span>
+        <span><a href="https://azure.microsoft.com/services/container-instances/" target="_blank">Azure Container Instance</a></span>
+        <span><a href="https://azure.microsoft.com/services/kubernetes-service/" target="_blank">Azure Kubernetes Services</a></span>
+        <span><a href="https://www.tensorflow.org/" target="_blank">TensorFlow</a></span>
+    </div>
+    <div class="subtitle borders" style="margin-top:0px">
+    <!--Architecture-->
+    <button type="button" class="btn" data-toggle="collapse" data-target="#collapsibleSectionArch">
+        <div class="accelerator-buttons">
+            <div style="width: 100%; text-align: center;">
+                <span class="see-more-text">Architecture</span>
+            </div>
+            <i class="material-icons" style="margin-bottom:0px; font-size: 42px; border-left: 3px solid white; padding-left: 10px;">add</i>
         </div>
+    </button>
+    <div id="collapsibleSectionArch" class="collapse">
         <img src="/images/object-detection/Architecture.png" alt="architecture">
-        <div class="accelerator-acordeon">
-            Branching Strategy
-            <i class="material-icons" style="margin-bottom:0px; cursor: pointer;">add_circle_outline</i>
+    </div>
+    <!--Branching Strategy-->
+    <button type="button" class="btn" data-toggle="collapse" data-target="#collapsibleSectionBrStrat">
+        <div class="accelerator-buttons">
+            <div style="width: 100%; text-align: center;">
+                <span class="see-more-text">Branching Strategy</span>
+            </div>
+            <i class="material-icons" style="margin-bottom:0px; font-size: 42px; border-left: 3px solid white; padding-left: 10px;">add</i>
         </div>
+    </button>
+    <div id="collapsibleSectionBrStrat" class="collapse">
         <img src="/images/object-detection/Branching-Strategy.png" alt="Branching Strategy">
-        <div class="accelerator-acordeon">
-            Accelerator components
-            <i class="material-icons" style="margin-bottom:0px; cursor: pointer;">add_circle_outline</i>
+    </div>
+    <!--Accelerator Components-->
+    <button type="button" class="btn" data-toggle="collapse" data-target="#collapsibleSectionAccelComp">
+        <div class="accelerator-buttons">
+            <div style="width: 100%; text-align: center;">
+                <span class="see-more-text">Accelerator Components</span>
+            </div>
+            <i class="material-icons" style="margin-bottom:0px; font-size: 42px; border-left: 3px solid white; padding-left: 10px;">add</i>
         </div>
+    </button>
+    <div id="collapsibleSectionAccelComp" class="collapse">
         <img src="/images/object-detection/Code-blueprint.png" alt="Code blueprint">
     </div>
-    <div class="category" style="font-size:24px;">Contributors</div>
+    </div>
+     <div class="category">Contributors</div>
     <div class="accelerator-contributors">
         <div class="accelerator-contributor">
             <div class="accelerator-contributor-image"> 
+                <img src="TODO" alt="contributor photo" height="100" width="100">
             </div>
             <div style="margin-left:10px;">
-                <p class="accelerator-contributor-text">mish</p>
+                <p class="accelerator-contributor-text">flpy</p>
+            </div>
+        </div>
+        <div class="accelerator-contributor">
+            <div class="accelerator-contributor-image">
+                <img src="TODO" alt="contributor photo" height="100" width="100">
+            </div>
+            <div style="margin-left:10px;">
+                <p class="accelerator-contributor-text">mame</p>
+            </div>
+        </div>
+        <div class="accelerator-contributor">
+            <div class="accelerator-contributor-image">
+                <img src="TODO" alt="contributor photo" height="100" width="100">
+            </div>
+            <div style="margin-left:10px;">
+                <p class="accelerator-contributor-text">trng</p>
             </div>
         </div>
         <div class="accelerator-contributor">
             <div class="accelerator-contributor-image"> 
+                <img src="TODO" alt="contributor photo" height="100" width="100">
             </div>
             <div style="margin-left:10px;">
-                <p class="accelerator-contributor-text">frst</p>
+                <p class="accelerator-contributor-text">lina</p>
             </div>
         </div>
     </div>

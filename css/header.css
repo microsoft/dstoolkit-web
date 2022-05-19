@@ -19,10 +19,13 @@
 .link-block {
   margin-left: 30px;
   margin-right: 30px;
-  display: flex;
-  justify-content: center;
   font-family: Segoe UI;
   font-size: 20px;
+}
+
+.page-link.active {
+  padding-bottom: 10px;
+  border-bottom: 4px solid #0067B8;
 }
 
 a:link {

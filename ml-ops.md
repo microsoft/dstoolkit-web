@@ -50,7 +50,7 @@ permalink: /ml-ops/
     </div>
     <div class="category">Accelerator description</div>
     <div style="display:flex; margin-top: 50px; box-shadow: 0px 1px 13px rgba(0, 0, 0, 0.25);">
-        <img src="/images/CLO20_ConferenceRoom_003.jpg" alt="logo" height="275" width="300">
+        <img src="/images/CLO20_ConferenceRoom_003.jpg" alt="logo" height="520" width="350">
         <div class="accelerator-description">
             <p style="margin-top: 30px; text-decoration: none;">The ML Ops solution accelerator provides a deployable 
                 solution that can be used by development and data science teams to:</p>
@@ -118,8 +118,8 @@ permalink: /ml-ops/
         <span><a href="https://azure.microsoft.com/services/machine-learning" target="_blank">Azure Machine Learning</a></span>
         <span><a href="https://azure.microsoft.com/services/devops/" target="_blank">Azure DevOps</a></span>
         <span><a href="https://azure.microsoft.com/services/key-vault/" target="_blank">Azure Key Vault</a></span>
-        <span>Azure Compute Instance</span>
-        <span>Azure Compute Cluster</span>
+        <span><a href="https://azure.microsoft.com/services/#compute" target="_blank">Azure Compute Instance </a></span>
+        <span><a href="https://azure.microsoft.com/services/#compute" target="_blank">Azure Compute Cluster </a></span>
         <span><a href="https://azure.microsoft.com/services/container-instances/" target="_blank">Azure Container Instance</a></span>
         <span><a href="https://azure.microsoft.com/services/kubernetes-service/" target="_blank">Azure Kubernetes Services</a></span>
     </div>

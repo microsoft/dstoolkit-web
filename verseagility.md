@@ -12,40 +12,58 @@ permalink: /verseagility/
     <div class="paragraph">Knowledge mining on unstructured data sets with no data labeling</div>
     <div class="category">Prerequisites</div>
     <div class="prerequisites">
-        <div class="prerequisites-card">Access to an Azure subscription</div>
-        <div class="prerequisites-card">Access to an Azure DevOps subscription</div>
-        <div class="prerequisites-card">Service Principal Account</div>
+        <div class="prerequisites-card">
+            <span class="prerequisites-text">Access to an Azure Subscription</span>
+        </div>
+        <div class="prerequisites-card">
+            <span class="prerequisites-text">Access to an Azure DevOps Subscription</span>
+        </div>
+        <div class="prerequisites-card">
+            <span class="prerequisites-text">Service Principal Account</span>
+        </div>
     </div>
-    <div style="width:100%; display: flex;">
-        <div style="width:50%;">
-            <div class="category">Access the Accelerator</div>            
-            <div class="toolkit-checkbox" style="width:100%; margin-top: 30px;">
-                <label class="label" style="font-size:16px;">Verseagility Solution Accelerator</label>
-                <p>
-                    <a href="https://github.com/microsoft/verseagility" target="_blank">https://github.com/microsoft/verseagility</a>
-                </p>   
+    <div class="toolkit-cards">
+        <div class="toolkit-row">
+            <div class="toolkit-card left">
+                <img src="/images/CLO18_programmingCode_001.jpg" alt="logo" height="170" style="width:100%;">
+                <span class="toolkit-card-title">Access the Accelerator</span>
+                <span class="toolkit-card-content">
+                    Verseagility Solution Accelerator <a href="https://github.com/microsoft/verseagility" target="_blank">https://github.com/microsoft/verseagility</a>
+                </span>
+            </div>
+            <div class="toolkit-card right">
+                <img src="/images/MSC19_paddingtonOffice_019.jpg" alt="logo" height="170" style="width:100%;">
+                <span class="toolkit-card-title">Industries</span>
+                <span class="toolkit-card-content" style="text-align: start">            
+                <ul>
+                    <li>Horizontal solution that addresses cross-industry needs.</li>
+                </ul>  
+                </span>
             </div>
         </div>
-        <div style="width:50%;">
-            <div class="category">Industries</div>
-            <ul  style="margin-top: 30px;">
-                <li>Horizontal solution that addresses cross-industry needs.</li>
-            </ul>  
+    </div>
+    <div class="solution-accelerator-use-case">
+        <div style="width: 50%;">
+            <span style="font-weight:600; margin-right:50px;">Use Case</span>
+                <ul style="margin-top: 30px;">
+                    <li>Binary, multi-class & multi-label classification</li>
+                    <li>Named entity recognition</li>
+                    <li>Question answering</li>
+                </ul>
+                <img src="/images/verseagility/verseagility.png" alt="verseagility">
         </div>
     </div>
-    <div class="category">Use-case</div>
-    <ul style="margin-top: 30px;">
-        <li>Binary, multi-class & multi-label classification</li>
-        <li>Named entity recognition</li>
-        <li>Question answering</li>
-    </ul>
-    <img src="/images/verseagility/verseagility.png" alt="verseagility">
-    <div class="category" style="font-size:24px;">Accelerator description</div>
-    <p style="margin-top: 30px; text-decoration: none;">
+    <div class="category">Accelerator description</div>
+    <div style="display:flex; margin-top: 50px; box-shadow: 0px 1px 13px rgba(0, 0, 0, 0.25);">
+        <img src="/images/CLO20_ConferenceRoom_003.jpg" alt="logo" height="400" width="350">
+        <div class="accelerator-description">
+            <p style="margin-top: 30px; text-decoration: none;">
         Verseagility is a Python-based toolkit to ramp up your custom natural language processing (NLP) task, allowing you to bring your own data, use your preferred frameworks and bring models into production. It is a central component of the Microsoft Data Science Toolkit.
         <img src="/images/verseagility/with-vs-without-toolkit.png" alt="with vs without toolkit">
     </p>
-    <div class="category" style="font-size:24px;">Accelerator guidance</div>
+        </div>
+    </div>
+    <div class="category">Accelerator guidance</div>
     <div class="accelerator-guidance-videos">
 <div style="height: 100%; text-align: center">
 			<div class="csslider infinity" id="slider1">
@@ -74,58 +92,93 @@ permalink: /verseagility/
 			</div>
 		</div>
     </div>
-    <div style="width:100%; display: flex;">
-        <div style="width:50%;">
-            <div class="category">Related Accelerators</div>
-            <div class="toolkit-checkbox" style="width:100%; margin-top: 30px;">
-                <label style="font-size:16px;">
-                    <a href="https://github.com/microsoft/dstoolkit-km-solution-accelerator" target="_blank">Knowledge Mining</a>
-                </label>
-            </div>
+    <div style="width:100%; display: flex; justify-content:space-between; margin-top:50px; border-bottom: 1px solid #D2D2D2; padding-bottom: 50px;">
+        <div style="display:flex; align-items:center; width:49%; height: 120px; box-shadow: 0px 1px 13px rgba(0, 0, 0, 0.25);">
+            <img src="../images/related-accelerators.png" alt="logo" height="70" width="70" style="margin-left:20px;">
+                <div style="display:flex; flex-direction:column; justify-content: space-between; margin-left: 20px;">
+                    <span style="font-weight:600">Related Accelerators</span>
+                    <a href="https://github.com/microsoft/dstoolkit-km-solution-accelerator" target="_blank" style="text-decoration:none">
+                        <div class="text-button accelerator-button">Knowledge Mining</div>
+                    </a>
+                </div>
+        </div>
+        <div style="display:flex; align-items:center; width:49%; height: 120px; box-shadow: 0px 1px 13px rgba(0, 0, 0, 0.25);">
+            <img src="../images/contributing-guide.png" alt="logo" height="70" width="70" style="margin-left:20px;">
+                <div style="display:flex; flex-direction:column; justify-content: space-between; margin-left: 20px;">
+                    <span style="font-weight:600">Contributing Guide</span>
+                    <a href="https://github.com/microsoft/dstoolkit-mlops-base/blob/main/CONTRIBUTING.md" target="_blank" style="text-decoration:none">
+                        <div class="text-button accelerator-button">Contribution guideline</div>
+                    </a>
+                </div>
         </div>
     </div>
-    <div class="category" style="font-size:24px;">Technologies</div>
-    <ul style="margin-top: 30px;">
-        <li>Azure Machine Learning</li>
-        <li>Azure DevOps</li>
-        <li>Azure Key Vault</li>
-        <li>Docker</li>
-        <li>Azure Kubernetes Services</li>
-    </ul>
-    <div style="margin-top:50px;"> 
-        <div class="accelerator-acordeon">
-            Live Demo
-            <i class="material-icons" style="margin-bottom:0px; cursor: pointer;">add_circle_outline</i>
+    <div class="category" style="margin-bottom: 30px;">Technologies</div>
+    <div class="technologies">
+        <span><a href="https://azure.microsoft.com/services/machine-learning" target="_blank">Azure Machine Learning</a></span>
+        <span><a href="https://azure.microsoft.com/services/devops/" target="_blank">Azure DevOps</a></span>
+        <span><a href="https://azure.microsoft.com/services/key-vault/" target="_blank">Azure Key Vault</a></span>
+        <span><a href="https://www.docker.com/" target="_blank">Docker</a></span>
+        <span><a href="https://azure.microsoft.com/services/kubernetes-service/" target="_blank">Azure Kubernetes Services</a></span>
+    </div>
+      <div class="subtitle borders" style="margin-top:0px">
+    <!--Live Demo-->
+    <button type="button" class="btn" data-toggle="collapse" data-target="#collapsibleSectionLive">
+        <div class="accelerator-buttons">
+            <div style="width: 100%; text-align: center;">
+                <span class="see-more-text">Live Demo</span>
+            </div>
+            <i class="material-icons" style="margin-bottom:0px; font-size: 42px; border-left: 3px solid white; padding-left: 10px;">add</i>
         </div>
+    </button>
+    <div id="collapsibleSectionLive" class="collapse" style="font-size:20px;">
         <a href="https://verseagility.azurewebsites.net/" target="_blank">https://verseagility.azurewebsites.net/</a>
         <img src="/images/verseagility/live-demo.png" alt="live demo">
-        <div class="accelerator-acordeon">
-            Repository Structure
-            <i class="material-icons" style="margin-bottom:0px; cursor: pointer;">add_circle_outline</i>
+    </div>
+    <!--Repository Structure-->
+    <button type="button" class="btn" data-toggle="collapse" data-target="#collapsibleSectionRpStr">
+        <div class="accelerator-buttons">
+            <div style="width: 100%; text-align: center;">
+                <span class="see-more-text">Repository Structure</span>
+            </div>
+            <i class="material-icons" style="margin-bottom:0px; font-size: 42px; border-left: 3px solid white; padding-left: 10px;">add</i>
         </div>
+    </button>
+    <div id="collapsibleSectionRpStr" class="collapse">
         <img src="/images/verseagility/Repository-Structure.png" alt="repository structure">
     </div>
-    <div class="category" style="font-size:24px;">Contributors</div>
+    </div>
+        <div class="category">Contributors</div>
     <div class="accelerator-contributors">
         <div class="accelerator-contributor">
             <div class="accelerator-contributor-image"> 
+                <img src="TODO" alt="contributor photo" height="100" width="100">
             </div>
             <div style="margin-left:10px;">
-                <p class="accelerator-contributor-text">tiwa</p>
+                <p class="accelerator-contributor-text">flpy</p>
+            </div>
+        </div>
+        <div class="accelerator-contributor">
+            <div class="accelerator-contributor-image">
+                <img src="TODO" alt="contributor photo" height="100" width="100">
+            </div>
+            <div style="margin-left:10px;">
+                <p class="accelerator-contributor-text">mame</p>
+            </div>
+        </div>
+        <div class="accelerator-contributor">
+            <div class="accelerator-contributor-image">
+                <img src="TODO" alt="contributor photo" height="100" width="100">
+            </div>
+            <div style="margin-left:10px;">
+                <p class="accelerator-contributor-text">trng</p>
             </div>
         </div>
         <div class="accelerator-contributor">
             <div class="accelerator-contributor-image"> 
+                <img src="TODO" alt="contributor photo" height="100" width="100">
             </div>
             <div style="margin-left:10px;">
-                <p class="accelerator-contributor-text">niut</p>
-            </div>
-        </div>
-        <div class="accelerator-contributor">
-            <div class="accelerator-contributor-image"> 
-            </div>
-            <div style="margin-left:10px;">
-                <p class="accelerator-contributor-text">dafo</p>
+                <p class="accelerator-contributor-text">lina</p>
             </div>
         </div>
     </div>
