@@ -2,6 +2,18 @@
 
 git repo for the GitHub Pages site for the Microsoft Data Science Toolkit.
 
+## Overview of git repo:
+
+The main branch for the GitHub pages site is "gh-pages"
+
+The skeleton template file to be copied and modified for future Delivery Accelerator pages is: TEMPLATE-SingleAcceleratorPage.md
+
+Folders:
+- (n/a - root directory) - contains the .md files for the pages of the site
+- scripts - contains all of the custom JavaScript for the site
+- images - contains all of the images used in the site
+- css - contains all of the custom CSS for the site
+
 ## Contributing
 
 This project welcomes contributions and suggestions.  Most contributions require you to agree to a
