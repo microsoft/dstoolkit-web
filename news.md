@@ -4,4 +4,5 @@ title: News
 permalink: /news/
 ---
 
-Latest Updates and News
+Latest Updates and News.
+This is where important stuff will appear.
