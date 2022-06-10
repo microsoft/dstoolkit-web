@@ -15,44 +15,15 @@ permalink: /TEMPLATE-SingleAcceleratorPage/
 
 <!--Example scripts below,:-->
 
-<!--Example script to update and set content for a section-->
 
 <script>
-    //<!--Header Image-->
-    document.getElementById("id-title-photo").src = "/images/template-page-accelerator/demo-title-photo.jpg";
-    //<!--Page Title-->
-    document.getElementById("id-title").innerHTML = "TODO: Update the page title for this single accelerate page (can be html)";
-    //<!--Page brief description-->
-    // document.getElementByID("id-page-description").innerHTML = "TODO: Update the page description (can be html)";
+    //Variables for this specific single accelerator page, to centralize re-used variables
+    const textPageTitle = "TODO: Page Title";
+    const htmlPageDescription = "<b>TODO:</b> Update the page description (html)";
+    const srcHeaderImage = "/images/TEMPLATE-SingleAcceleratorPage/demo-title-photo.jpg";
+    const linkAccessAcceleratorRepo = "https://github.com/microsoft/dstoolkit-mlops-base";
 
-
-    
-    //<!--Prerequisites-->
-    //first, create list of prerequisites
-    //then, use a for each loop to iterate through the list of prerequisites and create a prerequisites card for each
-
-
-    // //<!--Access the Accelerator-->
-    // document.getElementByID("id-access-accelerator").innerHTML = "";
-
-    
-    //<!--Industries-->
-
-//<!--Use Case-->
-//     <!--Accelerator description-->
-//     <!--Accelerator guidance (Videos)-->
-//         <!--Link to Related Accelerator(s)-->
-//         <!--Link to Contributing Guide-->
-//     <!--Technologies-->
-//     <!--Architecture-->
-//     <!--Branching Strategy-->
-//     <!--Accelerator Components-->
-//   <!--GitHub Aliases and Photos of Contributors-->
+    //boolean variables to show / hide sections of the page
 </script>
 
-
-
-
-
-
-<!--Example script to hide a section-->
+<script src="/scripts/script-setsingleacceleratorpagecontents.js" type="text/javascript"></script>

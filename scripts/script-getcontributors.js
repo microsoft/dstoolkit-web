@@ -1,59 +1,72 @@
-/*
-'''
-With an API call, retrieves all DSToolkit repos, then for each repo it gets
-the contributors, filters out bot accounts and creates 3 json files:
-- user_profiles.json: user name and profile image url
-- contributors_per_repo.json: repo name and contributors
-- unique_contributors.json: contributors
-'''
+//for use in Single Accelerator page
+//create a method 
+//this script should retrieve the github link(s) to the specific git repo under the current page's "Access the Accelerator" section
+//and then calls get list of contributors
+//returns list of contribtuors
+// Call function passing in 'facebook' as GitHub username
+//requestUserRepos('facebook');
 
-# imports
-import json
-import requests
+//for use in Contributors page
+//Create method to get contributors from list of repos
+//const cars = ["Saab", "Volvo", "BMW"];
+//has for each loop to iterate thorugh list of repos
+//for i in range(len(items)):
 
-# initialise
-i = 0
-j = 0
-dicts = {}
-contributors = []
-profile = {}
+//create method just to capture the api callling for one git repo
+//that returns the list of contributors
+function GetListContributors(repoLink)  {
+    //create object dictionary for the contributors
+    var contributorsDictionaries = [];
 
-# api request returns repos with topic:dstoolkit
-repositories = requests.get(
-    "https://api.github.com/search/repositories?q=topic%3Adstoolkit%20in:name+org:microsoft&per_page=100").json()
-items = repositories.get("items")
+    // Create new XMLHttpRequest object
+    const xhr = new XMLHttpRequest();
 
-# retrieve contributors for each repository
-for i in range(len(items)):
-    repo = items[i]['name']
-    url = (f"https://api.github.com/repos/microsoft/{repo}/contributors")
-    contributor = requests.get(url).json()
-    usernames = []
-    for j in range(len(contributor)):
-        username = contributor[j]['login']
-        # remove bot accounts
-        if (username == 'dependabot[bot]' or
-            username == 'microsoft-github-operations[bot]' or
-                username == 'microsoftopensource'):
-            continue
-        else:
-            avatar_url = contributor[j]['avatar_url']
-            usernames.append(username)
-            contributors.append(username)
-            dicts[repo] = usernames
-            profile[username] = avatar_url
+    var splitLink = repoLink.split(".com/");
+    var repo = splitLink[1];
 
-# create / update json file for contributor per repo
-with open('./contributors_per_repo.json', 'w') as fp:
-    json.dump(dicts, fp, indent=4)
+    // GitHub endpoint, dynamically passing in specified username
+    const url = `https://api.github.com/repos/${repo}/contributors`;
 
-contributors = list(set(contributors))
+    // Open a new connection, using a GET request via URL endpoint
+    // Providing 3 arguments (GET/POST, The URL, Async True/False)
+    xhr.open('GET', url, true);
+    
+    // When request is received, process using this method
+    xhr.onload = function() {
+    
+        // Parse API data into JSON
+        const data = JSON.parse(this.response);        
+        
+        // Log the response
+        console.log(data);
+        
+        // Loop over each object in data array
+        for (let i in data) {
+            contributorUsername = data[i].login;
+        
+            //add to list of contributors, excluding bot accounts
+            if (contributorUsername != "dependabot[bot]" || username != 'microsoft-github-operations[bot]' || username != 'microsoftopensource')
+            {
+                contributorAvatarURL = data[i].avatar_url;              
 
-# create / update json file for unique list of contributors
-with open('./unique_contributors.json', 'w') as fp:
-    json.dump(contributors, fp, indent=4)
+                var contributor = {
+                    githubAlias: contributorUsername,
+                    avatar_url: contributorAvatarURL                    
+                }
 
-# create / update json file for unique list of contributors with profile img
-with open('./user_profiles.json', 'w') as fp:
-    json.dump(profile, fp, indent=4)
-*/
+                //Add to dictionary
+                contributorsDictionaries.push(contributor);
+
+                // Add a separator between each repo
+                console.log('=========================')
+            }
+        }
+
+    }
+    
+    // Send the request to the server
+    xhr.send();
+
+    //return contributors information as array of objects
+    return contributorsDictionaries;
+}
