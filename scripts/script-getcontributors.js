@@ -1,10 +1,4 @@
-//for use in Single Accelerator page
-//create a method 
-//this script should retrieve the github link(s) to the specific git repo under the current page's "Access the Accelerator" section
-//and then calls get list of contributors
-//returns list of contribtuors
-// Call function passing in 'facebook' as GitHub username
-//requestUserRepos('facebook');
+
 
 //for use in Contributors page
 //Create method to get contributors from list of repos
@@ -12,12 +6,22 @@
 //has for each loop to iterate thorugh list of repos
 //for i in range(len(items)):
 
+
+
+
+
 //create method just to capture the api callling for one git repo
 //that returns the list of contributors
-function GetListContributors(repoLink)  {
-    //create object dictionary for the contributors
-    var contributorsDictionaries = [];
+//for use in Single Accelerator page
+//create a method 
+//this script should retrieve the github link(s) to the specific git repo under the current page's "Access the Accelerator" section
+//and then calls get list of contributors
+//returns list of contribtuors
+// Call function passing in 'facebook' as GitHub username
+//requestUserRepos('facebook');
+function GetHtmlListContributorsForSingleAcceleratorPage(repoLink, callback)  {
 
+    
     // Create new XMLHttpRequest object
     const xhr = new XMLHttpRequest();
 
@@ -34,6 +38,7 @@ function GetListContributors(repoLink)  {
     // When request is received, process using this method
     xhr.onload = function() {
     
+        var stringhtmltest = ``;
         // Parse API data into JSON
         const data = JSON.parse(this.response);        
         
@@ -42,31 +47,31 @@ function GetListContributors(repoLink)  {
         
         // Loop over each object in data array
         for (let i in data) {
-            contributorUsername = data[i].login;
+            var githubAlias = data[i].login;
         
             //add to list of contributors, excluding bot accounts
-            if (contributorUsername != "dependabot[bot]" || username != 'microsoft-github-operations[bot]' || username != 'microsoftopensource')
+            if (githubAlias != "dependabot[bot]" && githubAlias != 'microsoft-github-operations[bot]' && githubAlias != 'microsoftopensource')
             {
-                contributorAvatarURL = data[i].avatar_url;              
+                var contributorAvatarURL = data[i].avatar_url;
 
-                var contributor = {
-                    githubAlias: contributorUsername,
-                    avatar_url: contributorAvatarURL                    
-                }
-
-                //Add to dictionary
-                contributorsDictionaries.push(contributor);
-
+                stringhtmltest +=
+                    `<div class="accelerator-contributor">
+                        <div class="accelerator-contributor-image"> 
+                            <img src="${contributorAvatarURL}" alt="${githubAlias} photo" height="100" width="100">
+                        </div>
+                        <div style="margin-left:10px;">
+                            <p class="accelerator-contributor-text">${githubAlias}</p>
+                        </div>
+                    </div>`;
+                
                 // Add a separator between each repo
-                console.log('=========================')
+                console.log('=========================');
             }
         }
-
+        console.log(stringhtmltest);
+        callback(stringhtmltest);
     }
-    
+
     // Send the request to the server
     xhr.send();
-
-    //return contributors information as array of objects
-    return contributorsDictionaries;
 }

@@ -47,28 +47,6 @@ document.getElementById("id-link-access-accelerator").textContent = linkAccessAc
 
 
 //   <!--GitHub Aliases and Photos of Contributors-->
-
-// use linkAccessAcceleratorRepo variable to call public github api on this
-dictContributors = GetListContributors(linkAccessAcceleratorRepo);
-//now tha tyou have contributors list, for each, add to Contribbutors section
-
-const htmlContributors = `to add html ${linkAccessAcceleratorRepo}`;
-
-for (var i=0; i<dictContributors.length; i++) {
-    const githubAlias = dictContributors[i].githubAlias;
-    const avatarurl = dictContributors[i].avatar_url;
-    console.log('githubAlias:', githubAlias);
-    console.log('avatar_url:', avatarurl);
-
-    htmlContributors =
-        `<div class="accelerator-contributor">
-            <div class="accelerator-contributor-image"> 
-                <img src="${avatarurl}" alt="${githubAlias} photo" height="100" width="100">
-            </div>
-            <div style="margin-left:10px;">
-                <p class="accelerator-contributor-text">${githubAlias}</p>
-            </div>
-        </div>`;
-}
-
-document.getElementById("id-accelerator-contributors").innerHTML = htmlContributors;
+GetHtmlListContributorsForSingleAcceleratorPage(linkAccessAcceleratorRepo, function(parsed) {
+    document.getElementById("id-accelerator-contributors").innerHTML = parsed;
+});
