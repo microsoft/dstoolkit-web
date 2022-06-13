@@ -56,7 +56,7 @@ document.getElementById("id-accelerator-description").innerHTML = htmlAccelerato
 // element.style.display = "none";
 //else, set the contents
 //TODO: set the contents after being passed a list (array) of video URLs
-
+//pending https://github.com/microsoft/dstoolkit-web/issues/24 - before spending more time - to be confirmed if we will be displaying those videos at all - if not displaying, then perhaps we'll remove this section
 
 //<!--Link to Related Accelerator(s)-->
 document.getElementById("id-link-related-accelerator").href = linkRelatedAccelerator;
@@ -66,9 +66,48 @@ document.getElementById("id-text-related-accelerator").textContent = nameRelated
 document.getElementById("id-link-contributing-guide").href = linkContributingGuide;
 
 //<!--Technologies-->
-//TODO: with a passed in list of technologies, display - and if it matches a certain technology, embed as a link to that product page
-//e.g. if Azure Machine Learning, embed as link to "https://azure.microsoft.com/services/machine-learning"
+var htmltextTechnologies = ``;
+for (let i = 0; i < listTechnologies.length; i++) {
+    var technology = listTechnologies[i];
+    var link = "None";
+    if (technology == "Azure Machine Learning") {
+        link = "https://azure.microsoft.com/services/machine-learning";
+    } else if (technology == "Azure DevOps") {
+        link = "https://azure.microsoft.com/services/devops/";
+    } else if (technology == "Azure Key Vault") {
+        link = "https://azure.microsoft.com/services/key-vault/";
+    } else if (technology == "Azure Compute Instance" || technology == "Azure Compute Cluster") {
+        link = "https://azure.microsoft.com/services/#compute";
+    } else if (technology == "Azure Container Instance") {
+        link = "https://azure.microsoft.com/services/container-instances/";
+    } else if (technology == "Azure Kubernetes Services") {
+        link = "https://azure.microsoft.com/services/kubernetes-service";
+    } else if (technology == "") {
 
+    } else if (technology == "") {
+
+    } else if (technology == "") {
+
+    } else if (technology == "") {
+
+    } else if (technology == "") {
+
+    } else if (technology == "") {
+
+    } else if (technology == "") {
+
+    } else if (technology == "") {
+
+    }
+
+    if (link != "None") {
+        htmltextTechnologies += `<span><a href="` + link + `" target="_blank">` + technology + `</a></span>`;
+    }
+    else {
+        htmltextTechnologies += `<span>` + technology + `</span>`;
+    }
+}
+document.getElementById("id-technologies").innerHTML = htmltextTechnologies;
 
 //<!--Architecture-->
 document.getElementById("id-collapsibleSectionArch").innerHTML = htmlArchitectureSection;

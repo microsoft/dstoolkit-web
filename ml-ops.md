@@ -35,6 +35,14 @@ permalink: /ml-ops/
 
     const linkContributingGuide = "https://github.com/microsoft/dstoolkit-mlops-base/blob/main/CONTRIBUTING.md";
 
+    const listTechnologies = ["Azure Machine Learning",
+        "Azure DevOps",
+        "Azure Key Vault",
+        "Azure Compute Instance",
+        "Azure Compute Cluster",
+        "Azure Container Instance",
+        "Azure Kubernetes Services"];
+
     const htmlArchitectureSection = `<img src="/images/ml-ops/Architecture.png" alt="Architecture image">`;
     const htmlBranchingStrategySection = `<img src="/images/ml-ops/Branching-Strategy.png" alt="Branching Strategy image">`;
     const htmlAcceleratorComponents = `<img src="/images/ml-ops/Code-blueprint.png" alt="Code blueprint image">`;
@@ -44,9 +52,8 @@ permalink: /ml-ops/
 
 <script src="/scripts/script-setsingleacceleratorpagecontents.js" type="text/javascript"></script>
 
-
 <!--TODO: to replace below html with javascript above and inherit from pageAccelerator layout-->
-
+<!-- //pending https://github.com/microsoft/dstoolkit-web/issues/24 - before spending more time - to be confirmed if we will be displaying those videos at all - if not displaying, then perhaps we'll remove this section
 <div>
     <div class="category">Accelerator guidance</div>
     <div class="accelerator-guidance-videos">
@@ -77,14 +84,4 @@ permalink: /ml-ops/
 			</div>
 		</div>
     </div>
-    <div class="category" style="margin-bottom: 30px;">Technologies</div>
-    <div class="technologies">
-        <span><a href="https://azure.microsoft.com/services/machine-learning" target="_blank">Azure Machine Learning</a></span>
-        <span><a href="https://azure.microsoft.com/services/devops/" target="_blank">Azure DevOps</a></span>
-        <span><a href="https://azure.microsoft.com/services/key-vault/" target="_blank">Azure Key Vault</a></span>
-        <span><a href="https://azure.microsoft.com/services/#compute" target="_blank">Azure Compute Instance </a></span>
-        <span><a href="https://azure.microsoft.com/services/#compute" target="_blank">Azure Compute Cluster </a></span>
-        <span><a href="https://azure.microsoft.com/services/container-instances/" target="_blank">Azure Container Instance</a></span>
-        <span><a href="https://azure.microsoft.com/services/kubernetes-service/" target="_blank">Azure Kubernetes Services</a></span>
-    </div>
-</div>
+</div> -->

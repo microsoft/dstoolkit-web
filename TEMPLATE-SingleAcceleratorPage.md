@@ -34,6 +34,13 @@ permalink: /TEMPLATE-SingleAcceleratorPage/
     
     const linkContributingGuide = "https://github.com/microsoft/dstoolkit-mlops-base/blob/main/CONTRIBUTING.md";
 
+    const listTechnologies = ["technology1",
+        "technology2",
+        "technology3",
+        "technology4",
+        "technology5",
+        "technology6"];
+
     const htmlArchitectureSection = `TODO: Update the Architecture section (html)`;
     const htmlBranchingStrategySection = `TODO: Update the Branching Strategy section (html)`;
     const htmlAcceleratorComponents = `TODO: Update the Accelerator Components section (html)`;
