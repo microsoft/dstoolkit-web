@@ -1,27 +1,5 @@
-
-
-//for use in Contributors page
-//Create method to get contributors from list of repos
-//const cars = ["Saab", "Volvo", "BMW"];
-//has for each loop to iterate thorugh list of repos
-//for i in range(len(items)):
-
-
-
-
-
-//create method just to capture the api callling for one git repo
-//that returns the list of contributors
-//for use in Single Accelerator page
-//create a method 
-//this script should retrieve the github link(s) to the specific git repo under the current page's "Access the Accelerator" section
-//and then calls get list of contributors
-//returns list of contribtuors
-// Call function passing in 'facebook' as GitHub username
-//requestUserRepos('facebook');
+//for use in Single Accelerator page (in the script, script-setsingleacceleratorpagecontent.js) to populate the Contributors section with the list of contributors for the passed in git repo
 function GetHtmlListContributorsForSingleAcceleratorPage(repoLink, callback)  {
-
-    
     // Create new XMLHttpRequest object
     const xhr = new XMLHttpRequest();
 
@@ -37,8 +15,9 @@ function GetHtmlListContributorsForSingleAcceleratorPage(repoLink, callback)  {
     
     // When request is received, process using this method
     xhr.onload = function() {
-    
-        var stringhtmltest = ``;
+        //Variable to hold the contents of the contributors list in the html format
+        var parsedToHtml = ``;
+
         // Parse API data into JSON
         const data = JSON.parse(this.response);        
         
@@ -54,7 +33,8 @@ function GetHtmlListContributorsForSingleAcceleratorPage(repoLink, callback)  {
             {
                 var contributorAvatarURL = data[i].avatar_url;
 
-                stringhtmltest +=
+                //HTML template for a single contributor cell in the Contributors section of a single accelerator page
+                parsedToHtml +=
                     `<div class="accelerator-contributor">
                         <div class="accelerator-contributor-image"> 
                             <img src="${contributorAvatarURL}" alt="${githubAlias} photo" height="100" width="100">
@@ -68,10 +48,18 @@ function GetHtmlListContributorsForSingleAcceleratorPage(repoLink, callback)  {
                 console.log('=========================');
             }
         }
-        console.log(stringhtmltest);
-        callback(stringhtmltest);
+        callback(parsedToHtml);
     }
 
     // Send the request to the server
     xhr.send();
 }
+
+
+
+//for use in Contributors page
+//Create method to get contributors from list of repos
+//const cars = ["Saab", "Volvo", "BMW"];
+//has for each loop to iterate thorugh list of repos
+//for i in range(len(items)):
+

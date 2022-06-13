@@ -18,10 +18,25 @@ permalink: /TEMPLATE-SingleAcceleratorPage/
 
 <script>
     //Variables for this specific single accelerator page, to centralize re-used variables
+    //These are variables that must be declared and overridden in the specific single accelerator page
+
     const textPageTitle = "TODO: Page Title";
-    const htmlPageDescription = "<b>TODO:</b> Update the page description (html)";
+    const htmlPageDescription = `<b>TODO:</b> Update the page description (html)`;
     const srcHeaderImage = "/images/TEMPLATE-SingleAcceleratorPage/demo-title-photo.jpg";
     const linkAccessAcceleratorRepo = "https://github.com/microsoft/dstoolkit-mlops-base";
+    const listPrereqs = ["prerequisite1", "prerequisite2", "prerequisite3", "prerequisite4", "prerequisite5", "prerequisite6"];
+    const listIndustries = ["industry1", "industry2", "industry3", "industry4", "industry5", "industry6"];
+    const listUseCases = ["usecases1", "usecases2", "usecases3", "usecases4", "usecases5", "usecases6"];
+    const htmlAcceleratorDescription = `<b>TODO:</b> Update the accelerator description (html)`;
+
+    const nameRelatedAccelerator = "TODO: Name of Related Accelerator";
+    const linkRelatedAccelerator = "/classification-accelerator/";
+    
+    const linkContributingGuide = "https://github.com/microsoft/dstoolkit-mlops-base/blob/main/CONTRIBUTING.md";
+
+    const htmlArchitectureSection = `TODO: Update the Architecture section (html)`;
+    const htmlBranchingStrategySection = `TODO: Update the Branching Strategy section (html)`;
+    const htmlAcceleratorComponents = `TODO: Update the Accelerator Components section (html)`;
 
     //boolean variables to show / hide sections of the page
 </script>
