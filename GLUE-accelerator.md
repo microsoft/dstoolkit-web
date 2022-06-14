@@ -1,141 +1,51 @@
 ---
-layout: page
+layout: pageAccelerator
 title: GLUE - Azure Cognitive Services Accelerator
 permalink: /GLUE-accelerator/
 ---
 
-<div>
-    <div class="title-photo">
-          <img src="/images/GLUE-accelerator/CLO20b_Sylvie_office_night_001.jpg" alt="logo" height="300" style="width:100%;">
-    </div>
-    <div class="title">GLUE - Azure Cognitive Services Accelerator</div>
-    <div class="paragraph">GLUE is a lightweight, Python-based collection of scripts to support you at succeeding with speech and text</div>
-    <div class="category">Prerequisites</div>
-    <div class="prerequisites">
-        <div class="prerequisites-card">
-            <span class="prerequisites-text"><a href="https://www.python.org/downloads/" target="_blank">Python</a> (required, Version >=3.8 is recommended). </span>
-        </div>
-        <div class="prerequisites-card">
-            <span class="prerequisites-text"><a href="https://code.visualstudio.com/" target="_blank">VSCode</a> (recommended), but you can also run the scripts using PowerShell, Bash etc.</span>
-        </div>
-        <div class="prerequisites-card">
-            <span class="prerequisites-text">Stable connection for installing your environment and scoring the files.</span></div>
-    </div>
-    <div class="prerequisites">
-        <div class="prerequisites-card">
-            <span class="prerequisites-text"><a href="https://github.com/BtbN/FFmpeg-Builds/releases" target="_blank">ffmpeg</a> for audio file conversion (only for TTS use cases):</span>
-        </div>
-        <div class="prerequisites-card">
-            <span class="prerequisites-text">
-            If you are using Windows, download it from <a href="https://ffmpeg.org/download.html#build-windows" target="_blank">here</a> and see the description <a href="https://github.com/microsoft/glue/blob/main/GET_YOUR_KEYS.md" target="_blank">here</a>.
-            </span>
-        </div>
-        <div class="prerequisites-card">
-            <span class="prerequisites-text">
-            In case you are using Linux, you can install it via command line using a package manager, such as apt-get install ffmpeg.
-            </span>
-        </div>
-    </div>
-    <div class="toolkit-cards">
-        <div class="toolkit-row">
-            <div class="toolkit-card left">
-                <img src="/images/CLO18_programmingCode_001.jpg" alt="logo" height="170" style="width:100%;">
-                <span class="toolkit-card-title">Access the Accelerator</span>
-                <span class="toolkit-card-content">
-                    GLUE - Azure Cognitive Services Accelerator <a href="https://github.com/microsoft/glue" target="_blank">https://github.com/microsoft/glue</a>
-                </span>
-            </div>
-            <div class="toolkit-card right">
-                <img src="/images/MSC19_paddingtonOffice_019.jpg" alt="logo" height="170" style="width:100%;">
-                <span class="toolkit-card-title">Industries</span>
-                <span class="toolkit-card-content">Horizontal solution that addresses cross-industry needs</span>
-            </div>
-        </div>
-    </div>
-    <div class="solution-accelerator-use-case">
-        <div style="width: 50%;">
-            <span style="font-weight:600; margin-right:50px;">Use Case</span>
-            <ul style="margin-top: 30px;">
-                <li>Automatized generation of synthetic speech-model training data.</li>
-                <li>Batch-transcription of audio files and evaluation given an existing reference transcript.</li>
-                <li>Scoring of STT-transcriptions on an existing LUIS-model.</li>
+<script>
+    //Variables for this specific single accelerator page, to centralize re-used variables
+    const textPageTitle = "GLUE - Azure Cognitive Services Accelerator";
+    const htmlPageDescription = `GLUE is a lightweight, Python-based collection of scripts to support you at succeeding with speech and text`;
+    const srcHeaderImage = "/images/GLUE-accelerator/CLO20b_Sylvie_office_night_001.jpg";
+    const linkAccessAcceleratorRepo = "https://github.com/microsoft/glue";
+    const listPrereqs = [`<a href="https://www.python.org/downloads/" target="_blank">Python</a> (required, Version >=3.8 is recommended).`,
+        `<a href="https://code.visualstudio.com/" target="_blank">VSCode</a> (recommended), but you can also run the scripts using PowerShell, Bash etc.`,
+        "Stable connection for installing your environment and scoring the files.",
+        `<a href="https://github.com/BtbN/FFmpeg-Builds/releases" target="_blank">ffmpeg</a> for audio file conversion (only for TTS use cases):`,
+        `If you are using Windows, download it from <a href="https://ffmpeg.org/download.html#build-windows" target="_blank">here</a> and see the description <a href="https://github.com/microsoft/glue/blob/main/GET_YOUR_KEYS.md" target="_blank">here</a>.`,
+        "In case you are using Linux, you can install it via command line using a package manager, such as apt-get install ffmpeg."];
+    const listIndustries = ["Horizontal solution that addresses cross-industry needs"];
+    const listUseCases = ["Automatized generation of synthetic speech-model training data.",
+        "Batch-transcription of audio files and evaluation given an existing reference transcript.",
+        "Scoring of STT-transcriptions on an existing LUIS-model."];
+    const htmlAcceleratorDescription = 
+        `<p style="margin-top: 30px; text-decoration: none;">
+            GLUE is a lightweight, Python-based collection of scripts to support you at succeeding with speech and text use-cases based on <a href="https://azure.microsoft.com/en-us/services/cognitive-services/" target="_blank">Microsoft Azure Cognitive Services</a>. It not only allows you to batch-process data, but also glues together the services of your choice in one place and ensures an end-to-end view on the training and testing process.
+            <h1>Modules</h1>
+            GLUE consists of multiple modules, which either can be executed separately or ran as a central pipeline:
+            <ul>
+                <li>Batch-transcribe audio files to text transcripts using <a href="https://azure.microsoft.com/en-us/services/cognitive-services/speech-to-text/" target="_blank">Microsoft Speech to Text Service (STT)</a>.</li>
+                <li>Batch-synthesize text data using <a href="https://azure.microsoft.com/en-us/services/cognitive-services/text-to-speech/" target="_blank">Microsoft Text to Speech Service (TTS)</a>. </li>
+                <li>Batch-evaluate reference transcriptions and recognitions. </li>
+                <li>Batch-score text strings on an existing, pre-trained <a href="https://luis.ai/" target="_blank">Microsoft LUIS</a>-model. </li>
             </ul>
-        </div>
-    </div>
-    <div class="category">Accelerator description</div>
-    <div style="display:flex; margin-top: 50px; box-shadow: 0px 1px 13px rgba(0, 0, 0, 0.25);">
-        <img src="/images/CLO20_ConferenceRoom_003.jpg" alt="logo" height="450" width="350">
-        <div class="accelerator-description">
-           <p style="margin-top: 30px; text-decoration: none;">
-        GLUE is a lightweight, Python-based collection of scripts to support you at succeeding with speech and text use-cases based on <a href="https://azure.microsoft.com/en-us/services/cognitive-services/" target="_blank">Microsoft Azure Cognitive Services</a>. It not only allows you to batch-process data, but also glues together the services of your choice in one place and ensures an end-to-end view on the training and testing process.
-        <h1>Modules</h1>
-        GLUE consists of multiple modules, which either can be executed separately or ran as a central pipeline:
-        <ul>
-            <li>Batch-transcribe audio files to text transcripts using <a href="https://azure.microsoft.com/en-us/services/cognitive-services/speech-to-text/" target="_blank">Microsoft Speech to Text Service (STT)</a>.</li>
-            <li>Batch-synthesize text data using <a href="https://azure.microsoft.com/en-us/services/cognitive-services/text-to-speech/" target="_blank">Microsoft Text to Speech Service (TTS)</a>. </li>
-            <li>Batch-evaluate reference transcriptions and recognitions. </li>
-            <li>Batch-score text strings on an existing, pre-trained <a href="https://luis.ai/" target="_blank">Microsoft LUIS</a>-model. </li>
-        </ul>
-    </p>
-        </div>
-    </div>
-    <div class="category">Accelerator guidance</div>
-    <div class="accelerator-guidance-videos">
-<div style="height: 100%; text-align: center">
-			<div class="csslider infinity" id="slider1">
-			<input type="radio" name="slides" checked="checked" id="slides_1"/>
-			<input type="radio" name="slides" id="slides_2"/>
-				<ul>
-                    <li>
-                        <iframe width="560" height="315" src="https://youtube.com/embed/LIWxa4532v8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-					</li>
-				</ul>
-					<div class="arrows">
-						<label for="slides_1"></label>
-						<label class="goto-first" for="slides_1"></label>
-						<label class="goto-last" for="slides_10"></label>
-					</div>
-					<div class="navigation"> 
-						<div>
-							<label for="slides_1"></label>
-						</div>
-					</div>
-			</div>
-		</div>
-    </div>
-     <div style="width:100%; display: flex; justify-content:space-between; margin-top:50px; border-bottom: 1px solid #D2D2D2; padding-bottom: 50px;">
-        <div style="display:flex; align-items:center; width:49%; height: 120px; box-shadow: 0px 1px 13px rgba(0, 0, 0, 0.25);">
-            <img src="../images/related-accelerators.png" alt="logo" height="70" width="70" style="margin-left:20px;">
-                <div style="display:flex; flex-direction:column; justify-content: space-between; margin-left: 20px;">
-                    <span style="font-weight:600">Related Accelerators</span>
-                    <a href="/conversational-AI/" target="_blank" style="text-decoration:none">
-                        <div class="text-button accelerator-button">Conversational AI Advanced Pre-Processing Service</div>
-                    </a>
-                </div>
-        </div>
-        <div style="display:flex; align-items:center; width:49%; height: 120px; box-shadow: 0px 1px 13px rgba(0, 0, 0, 0.25);">
-            <img src="../images/contributing-guide.png" alt="logo" height="70" width="70" style="margin-left:20px;">
-                <div style="display:flex; flex-direction:column; justify-content: space-between; margin-left: 20px;">
-                    <span style="font-weight:600">Contributing Guide</span>
-                    <a href="https://github.com/microsoft/dstoolkit-mlops-base/blob/main/CONTRIBUTING.md" target="_blank" style="text-decoration:none">
-                        <div class="text-button accelerator-button">Contribution guideline</div>
-                    </a>
-                </div>
-        </div>
-    </div>
-    <div class="subtitle borders" style="margin-top:0px">
-    <!--Architecture-->
-    <button type="button" class="btn" data-toggle="collapse" data-target="#collapsibleSectionArch">
-        <div class="accelerator-buttons">
-            <div style="width: 100%; text-align: center;">
-                <span class="see-more-text">Accelerator components</span>
-            </div>
-            <i class="material-icons" style="margin-bottom:0px; font-size: 42px; border-left: 3px solid white; padding-left: 10px;">add</i>
-        </div>
-    </button>
-    <div id="collapsibleSectionArch" class="collapse" style="font-size:20px; font-weight: 400;
-    text-align: start; margin-top: 50px;">
-        <p>
+        </p>`;
+
+    const listLinksRelatedAccelerators = ["/conversational-AI/"];
+    
+    const linkContributingGuide = "https://github.com/microsoft/dstoolkit-mlops-base/blob/main/CONTRIBUTING.md";
+
+    const listTechnologies = ["technology1",
+        "technology2",
+        "technology3",
+        "technology4",
+        "technology5",
+        "technology6"];
+
+    const htmlArchitectureSection = 
+        `<p>
             This section describes the single components of GLUE, which can either be ran autonomously or, ideally, using the central orchestrator.
             <br/><br/>
             glue.py 
@@ -183,42 +93,46 @@ permalink: /GLUE-accelerator/
                 <li>In case there is a need for custom components, we recommend to add them to this module. </li>
                 <li>Creates folder for every run using the naming convention YYYYMMDD-[unique ID]. </li>
             </ul>
-        </p>
+        </p>`;
+    const htmlBranchingStrategySection = `n/a (should be hidden)`;
+    const htmlAcceleratorComponents = `n/a (should be hidden)`;
+
+    //boolean variables to show / hide sections of the page
+    const toHide_AcceleratorGuidanceSection = true;
+    const toHide_RelatedAccelerators = false;
+    const toHide_ContributingGuide = false;
+    const toHide_ArchitectureSection = false;
+    const toHide_BranchingStrategySection = true;
+    const toHide_AcceleratorComponents = true;
+</script>
+
+<script src="/scripts/script-setsingleacceleratorpagecontents.js" type="text/javascript"></script>
+
+<!--TODO: to replace below html with javascript above and inherit from pageAccelerator layout-->
+<!-- //pending https://github.com/microsoft/dstoolkit-web/issues/24 - before spending more time - to be confirmed if we will be displaying those videos at all - if not displaying, then perhaps we'll remove this section
+<div>
+    <div class="category">Accelerator guidance</div>
+    <div class="accelerator-guidance-videos">
+<div style="height: 100%; text-align: center">
+			<div class="csslider infinity" id="slider1">
+			<input type="radio" name="slides" checked="checked" id="slides_1"/>
+			<input type="radio" name="slides" id="slides_2"/>
+				<ul>
+                    <li>
+                        <iframe width="560" height="315" src="https://youtube.com/embed/LIWxa4532v8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</li>
+				</ul>
+					<div class="arrows">
+						<label for="slides_1"></label>
+						<label class="goto-first" for="slides_1"></label>
+						<label class="goto-last" for="slides_10"></label>
+					</div>
+					<div class="navigation"> 
+						<div>
+							<label for="slides_1"></label>
+						</div>
+					</div>
+			</div>
+		</div>
     </div>
-    </div>
-<div class="category">Contributors</div>
-    <div class="accelerator-contributors">
-        <div class="accelerator-contributor">
-            <div class="accelerator-contributor-image"> 
-                <img src="TODO" alt="contributor photo" height="100" width="100">
-            </div>
-            <div style="margin-left:10px;">
-                <p class="accelerator-contributor-text">flpy</p>
-            </div>
-        </div>
-        <div class="accelerator-contributor">
-            <div class="accelerator-contributor-image">
-                <img src="TODO" alt="contributor photo" height="100" width="100">
-            </div>
-            <div style="margin-left:10px;">
-                <p class="accelerator-contributor-text">mame</p>
-            </div>
-        </div>
-        <div class="accelerator-contributor">
-            <div class="accelerator-contributor-image">
-                <img src="TODO" alt="contributor photo" height="100" width="100">
-            </div>
-            <div style="margin-left:10px;">
-                <p class="accelerator-contributor-text">trng</p>
-            </div>
-        </div>
-        <div class="accelerator-contributor">
-            <div class="accelerator-contributor-image"> 
-                <img src="TODO" alt="contributor photo" height="100" width="100">
-            </div>
-            <div style="margin-left:10px;">
-                <p class="accelerator-contributor-text">lina</p>
-            </div>
-        </div>
-    </div>
-</div>
+    </div> -->

@@ -30,8 +30,7 @@ permalink: /ml-ops/
             </ul>
             <img src="/images/ml-ops/ML-Ops-process-description.png" alt="ML Ops process description image">`;
 
-    const nameRelatedAccelerator = "Binary Classification Accelerator";
-    const linkRelatedAccelerator = "/classification-accelerator/";
+    const listLinksRelatedAccelerators = ["/classification-accelerator/"];
 
     const linkContributingGuide = "https://github.com/microsoft/dstoolkit-mlops-base/blob/main/CONTRIBUTING.md";
 
@@ -49,7 +48,7 @@ permalink: /ml-ops/
 
     //boolean variables to show / hide sections of the page
     const toHide_AcceleratorGuidanceSection = true;
-    const toHide_RelatedAccelerator = false;
+    const toHide_RelatedAccelerators = false;
     const toHide_ContributingGuide = false;
     const toHide_ArchitectureSection = false;
     const toHide_BranchingStrategySection = false;

@@ -64,9 +64,31 @@ else {
 }
 
 //<!--Link to Related Accelerator(s)-->
-if (toHide_RelatedAccelerator == false) {
-    document.getElementById("id-link-related-accelerator").href = linkRelatedAccelerator;
-    document.getElementById("id-text-related-accelerator").textContent = nameRelatedAccelerator;
+if (toHide_RelatedAccelerators == false) {
+    var htmlRelatedAccelerators = `<span style="font-weight:600">Related Accelerator(s)</span>`;
+    for (let i = 0; i < listLinksRelatedAccelerators.length; i++) {
+        var link = listLinksRelatedAccelerators[i];
+        var displayName = "";
+        if (link == "/classification-accelerator/") {
+            displayName = "Binary Classification Accelerator";
+        } else if (link == "/conversational-AI/") {
+            displayName = "Conversational AI Advanced Pre-Processing Service";
+        } else if (link == "/forecasting/") {
+            displayName = "Forecasting Accelerator";
+        } else if (link == "/ml-ops/") {
+            displayName = "ML Ops solution accelerator";
+        } else if (link == "/ml-ops-for-databricks/") {
+            displayName = "ML Ops for Databricks";
+        } else {
+            displayName = link;
+        }
+
+        htmlRelatedAccelerators += 
+            `<a href="` + link + `" target="_blank" style="text-decoration:none">
+                <div class="text-button accelerator-button">` + displayName + `</div>
+            </a>`;
+    }
+    document.getElementById("id-related-accelerators-Section").innerHTML = htmlRelatedAccelerators;
 } else {
     document.getElementById("id-related-accelerator-Section").style.display = "none";
 }

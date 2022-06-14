@@ -29,8 +29,7 @@ permalink: /ml-ops-for-databricks/
             </ul>
             <img src="/images/ml-ops-for-databricks/ML-Ops-for-Databricks-components.jfif" alt="ML Ops for Databricks components image">`;
 
-    const nameRelatedAccelerator = "Forecasting Accelerator";
-    const linkRelatedAccelerator = "/forecasting/";
+    const listLinksRelatedAccelerators = ["/forecasting/"];
     
     const linkContributingGuide = "https://github.com/microsoft/dstoolkit-mlops-base/blob/main/CONTRIBUTING.md";
 
@@ -46,7 +45,7 @@ permalink: /ml-ops-for-databricks/
 
     //boolean variables to show / hide sections of the page
     const toHide_AcceleratorGuidanceSection = true;
-    const toHide_RelatedAccelerator = false;
+    const toHide_RelatedAccelerators = false;
     const toHide_ContributingGuide = false;
     const toHide_ArchitectureSection = true;
     const toHide_BranchingStrategySection = true;

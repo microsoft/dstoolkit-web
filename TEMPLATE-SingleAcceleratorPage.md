@@ -8,18 +8,10 @@ permalink: /TEMPLATE-SingleAcceleratorPage/
 <!--To use this template, simple make a copy of this file, rename it, and then update content above (title and permalink) and below (see TODO placeholders) -->
 <!--See existing Single Accelerator Pages .md files for reference-->
 
-<!-- <script src="/scripts/script-navbar.js" type="text/javascript"></script> TODO contributors script -->
-
-<!-- How to  add scripts to update and set the content for each section, or hide a section that doesn't apply to a particular page! -->
-
-
-<!--Example scripts below,:-->
-
-
 <script>
-    //Variables for this specific single accelerator page, to centralize re-used variables
-    //These are variables that must be declared and overridden in the specific single accelerator page
+    //TODO: These are variables that must be declared and overridden in the specific single accelerator page
 
+    //Variables for this specific single accelerator page, to centralize re-used variables
     const textPageTitle = "TODO: Page Title";
     const htmlPageDescription = `<b>TODO:</b> Update the page description (html)`;
     const srcHeaderImage = "/images/TEMPLATE-SingleAcceleratorPage/demo-title-photo.jpg";
@@ -29,8 +21,7 @@ permalink: /TEMPLATE-SingleAcceleratorPage/
     const listUseCases = ["usecases1", "usecases2", "usecases3", "usecases4", "usecases5", "usecases6"];
     const htmlAcceleratorDescription = `<b>TODO:</b> Update the accelerator description (html)`;
 
-    const nameRelatedAccelerator = "TODO: Name of Related Accelerator";
-    const linkRelatedAccelerator = "/classification-accelerator/";
+    const listLinksRelatedAccelerators = ["link1", "link2"];
     
     const linkContributingGuide = "https://github.com/microsoft/dstoolkit-mlops-base/blob/main/CONTRIBUTING.md";
 
@@ -47,7 +38,7 @@ permalink: /TEMPLATE-SingleAcceleratorPage/
 
     //boolean variables to show / hide sections of the page
     const toHide_AcceleratorGuidanceSection = false;
-    const toHide_RelatedAccelerator = false;
+    const toHide_RelatedAccelerators = false;
     const toHide_ContributingGuide = false;
     const toHide_ArchitectureSection = false;
     const toHide_BranchingStrategySection = false;

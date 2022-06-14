@@ -73,8 +73,7 @@ permalink: /conversational-AI/
             </table>
         </p>`;
 
-    const nameRelatedAccelerator = "n/a (should be hidden)";
-    const linkRelatedAccelerator = "n/a (should be hidden";
+    const listLinksRelatedAccelerators = ["n/a (should be hidden"];
     
     const linkContributingGuide = "n/a (should be hidden";
 
@@ -92,7 +91,7 @@ permalink: /conversational-AI/
 
     //boolean variables to show / hide sections of the page
     const toHide_AcceleratorGuidanceSection = true;
-    const toHide_RelatedAccelerator = true;
+    const toHide_RelatedAccelerators = true;
     const toHide_ContributingGuide = true;
     const toHide_ArchitectureSection = false;
     const toHide_BranchingStrategySection = true;
