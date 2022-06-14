@@ -12,18 +12,18 @@ permalink: /TEMPLATE-SingleAcceleratorPage/
     //TODO: These are variables that must be declared and overridden in the specific single accelerator page
 
     //Variables for this specific single accelerator page, to centralize re-used variables
-    const textPageTitle = "TODO: Page Title";
-    const htmlPageDescription = `<b>TODO:</b> Update the page description (html)`;
+    const textPageTitle = "TODO";
+    const htmlPageDescription = `TODO`;
     const srcHeaderImage = "/images/TEMPLATE-SingleAcceleratorPage/demo-title-photo.jpg";
-    const linkAccessAcceleratorRepo = "https://github.com/microsoft/dstoolkit-mlops-base";
+    const linkAccessAcceleratorRepo = "TODO";
     const listPrereqs = ["prerequisite1", "prerequisite2", "prerequisite3", "prerequisite4", "prerequisite5", "prerequisite6"];
     const listIndustries = ["industry1", "industry2", "industry3", "industry4", "industry5", "industry6"];
     const listUseCases = ["usecases1", "usecases2", "usecases3", "usecases4", "usecases5", "usecases6"];
-    const htmlAcceleratorDescription = `<b>TODO:</b> Update the accelerator description (html)`;
+    const htmlAcceleratorDescription = `TODO`;
 
     const listLinksRelatedAccelerators = ["link1", "link2"];
     
-    const linkContributingGuide = "https://github.com/microsoft/dstoolkit-mlops-base/blob/main/CONTRIBUTING.md";
+    const linkContributingGuide = "TODO";
 
     const listTechnologies = ["technology1",
         "technology2",
@@ -32,9 +32,12 @@ permalink: /TEMPLATE-SingleAcceleratorPage/
         "technology5",
         "technology6"];
 
-    const htmlArchitectureSection = `TODO: Update the Architecture section (html)`;
-    const htmlBranchingStrategySection = `TODO: Update the Branching Strategy section (html)`;
-    const htmlAcceleratorComponents = `TODO: Update the Accelerator Components section (html)`;
+    const htmlArchitectureSection = `TODO`;
+    const htmlBranchingStrategySection = `TODO`;
+    const htmlAcceleratorComponents = `TODO`;
+    const htmlKeyAcceleratorFiles = `TODO`;
+    const htmlLiveDemoSection = `TODO`;
+    const htmlRepoStructureSection = `TODO`;
 
     //boolean variables to show / hide sections of the page
     const toHide_AcceleratorGuidanceSection = false;
@@ -43,6 +46,9 @@ permalink: /TEMPLATE-SingleAcceleratorPage/
     const toHide_ArchitectureSection = false;
     const toHide_BranchingStrategySection = false;
     const toHide_AcceleratorComponents = false;
+    const toHide_KeyAcceleratorFiles = false;
+    const toHide_LiveDemoSection = false;
+    const toHide_RepoStructureSection = false;
 </script>
 
 <script src="/scripts/script-setsingleacceleratorpagecontents.js" type="text/javascript"></script>

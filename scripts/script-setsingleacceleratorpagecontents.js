@@ -79,6 +79,8 @@ if (toHide_RelatedAccelerators == false) {
             displayName = "ML Ops solution accelerator";
         } else if (link == "/ml-ops-for-databricks/") {
             displayName = "ML Ops for Databricks";
+        } else if (link == "https://github.com/microsoft/dstoolkit-km-solution-accelerator") {
+            displayName = "Knowledge Mining";
         } else {
             displayName = link;
         }
@@ -109,6 +111,8 @@ for (let i = 0; i < listTechnologies.length; i++) {
         link = "https://azure.microsoft.com/services/#compute";
     } else if (technology == "Azure Container Instance") {
         link = "https://azure.microsoft.com/services/container-instances/";
+    } else if (technology == "Azure Data Lake") {
+        link = "https://azure.microsoft.com/services/data-lake-analytics";
     } else if (technology == "Azure Databricks") {
         link = "https://azure.microsoft.com/services/databricks/";
     } else if (technology == "Azure DevOps") {
@@ -123,6 +127,18 @@ for (let i = 0; i < listTechnologies.length; i++) {
         link = "https://azure.microsoft.com/services/monitor/";
     } else if (technology == "Azure Storage Account") {
         link = "https://azure.microsoft.com/services/storage/";
+    } else if (technology == "Azure Synapse") {
+        link = "https://azure.microsoft.com/services/synapse-analytics";
+    } else if (technology == "Docker") {
+        link = "https://www.docker.com/";
+    } else if (technology == "Common Data Model (CDM)") {
+        link = "https://github.com/microsoft/CDM";
+    } else if (technology == "TensorFlow") {
+        link = "https://www.tensorflow.org/";
+    } else if (technology == "") {
+
+    } else if (technology == "") {
+
     } else if (technology == "") {
 
     } else if (technology == "") {
@@ -166,6 +182,30 @@ if (toHide_AcceleratorComponents == false) {
 } else {
     document.getElementById("id-collapsibleSectionAccelComp").style.display = "none";
     document.getElementById("id-button-collapsibleSectionAccelComp").style.display = "none";
+}
+
+//<!--Key Accelerator Files-->
+if (toHide_KeyAcceleratorFiles == false) {
+    document.getElementById("id-collapsibleSectionKeyAcc").innerHTML = htmlKeyAcceleratorFiles;
+} else {
+    document.getElementById("id-collapsibleSectionKeyAcc").style.display = "none";
+    document.getElementById("id-button-collapsibleSectionKeyAcc").style.display = "none";
+}
+
+//<!--Live Demo-->
+if (toHide_LiveDemoSection == false) {
+    document.getElementById("id-collapsibleSectionLiveDemo").innerHTML = htmlLiveDemoSection;
+} else {
+    document.getElementById("id-collapsibleSectionLiveDemo").style.display = "none";
+    document.getElementById("id-button-collapsibleSectionLiveDemo").style.display = "none";
+}
+
+//<!--Repository Structure-->
+if (toHide_RepoStructureSection == false) {
+    document.getElementById("id-collapsibleSectionRepoStructure").innerHTML = htmlRepoStructureSection;
+} else {
+    document.getElementById("id-collapsibleSectionRepoStructure").style.display = "none";
+    document.getElementById("id-button-collapsibleSectionRepoStructure").style.display = "none";
 }
 
 //<!--GitHub Aliases and Photos of Contributors-->

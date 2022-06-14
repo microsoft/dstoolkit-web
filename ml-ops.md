@@ -45,7 +45,10 @@ permalink: /ml-ops/
     const htmlArchitectureSection = `<img src="/images/ml-ops/Architecture.png" alt="Architecture image">`;
     const htmlBranchingStrategySection = `<img src="/images/ml-ops/Branching-Strategy.png" alt="Branching Strategy image">`;
     const htmlAcceleratorComponents = `<img src="/images/ml-ops/Code-blueprint.png" alt="Code blueprint image">`;
-
+    const htmlKeyAcceleratorFiles = `n/a (should be hidden)`;
+    const htmlLiveDemoSection = `n/a (should be hidden)`;
+    const htmlRepoStructureSection = `n/a (should be hidden)`;
+    
     //boolean variables to show / hide sections of the page
     const toHide_AcceleratorGuidanceSection = true;
     const toHide_RelatedAccelerators = false;
@@ -53,6 +56,9 @@ permalink: /ml-ops/
     const toHide_ArchitectureSection = false;
     const toHide_BranchingStrategySection = false;
     const toHide_AcceleratorComponents = false;
+    const toHide_KeyAcceleratorFiles = true;
+    const toHide_LiveDemoSection = true;
+    const toHide_RepoStructureSection = true;
 </script>
 
 <script src="/scripts/script-setsingleacceleratorpagecontents.js" type="text/javascript"></script>

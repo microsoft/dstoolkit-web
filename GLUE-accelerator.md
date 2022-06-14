@@ -96,6 +96,9 @@ permalink: /GLUE-accelerator/
         </p>`;
     const htmlBranchingStrategySection = `n/a (should be hidden)`;
     const htmlAcceleratorComponents = `n/a (should be hidden)`;
+    const htmlKeyAcceleratorFiles = `n/a (should be hidden)`;
+    const htmlLiveDemoSection = `n/a (should be hidden)`;
+    const htmlRepoStructureSection = `n/a (should be hidden)`;
 
     //boolean variables to show / hide sections of the page
     const toHide_AcceleratorGuidanceSection = true;
@@ -104,6 +107,9 @@ permalink: /GLUE-accelerator/
     const toHide_ArchitectureSection = false;
     const toHide_BranchingStrategySection = true;
     const toHide_AcceleratorComponents = true;
+    const toHide_KeyAcceleratorFiles = true;
+    const toHide_LiveDemoSection = true;
+    const toHide_RepoStructureSection = true;
 </script>
 
 <script src="/scripts/script-setsingleacceleratorpagecontents.js" type="text/javascript"></script>

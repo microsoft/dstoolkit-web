@@ -42,6 +42,9 @@ permalink: /ml-ops-for-databricks/
     const htmlArchitectureSection = `n/a (should be hidden)`;
     const htmlBranchingStrategySection = `n/a (should be hidden)`;
     const htmlAcceleratorComponents = `n/a (should be hidden)`;
+    const htmlKeyAcceleratorFiles = `n/a (should be hidden)`;
+    const htmlLiveDemoSection = `n/a (should be hidden)`;
+    const htmlRepoStructureSection = `n/a (should be hidden)`;
 
     //boolean variables to show / hide sections of the page
     const toHide_AcceleratorGuidanceSection = true;
@@ -50,6 +53,9 @@ permalink: /ml-ops-for-databricks/
     const toHide_ArchitectureSection = true;
     const toHide_BranchingStrategySection = true;
     const toHide_AcceleratorComponents = true;
+    const toHide_KeyAcceleratorFiles = true;
+    const toHide_LiveDemoSection = true;
+    const toHide_RepoStructureSection = true;
 </script>
 
 <script src="/scripts/script-setsingleacceleratorpagecontents.js" type="text/javascript"></script>

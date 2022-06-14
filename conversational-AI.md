@@ -88,7 +88,10 @@ permalink: /conversational-AI/
     const htmlArchitectureSection = `<img src="/images/conversational-AI/High-level-Architecture.png" alt="High-level Architecture">`;
     const htmlBranchingStrategySection = `n/a (should be hidden`;
     const htmlAcceleratorComponents = `<img src="/images/conversational-AI/Technical-components-of-the-accelerator.png" alt="High-level Architecture">`;
-
+    const htmlKeyAcceleratorFiles = `n/a (should be hidden)`;
+    const htmlLiveDemoSection = `n/a (should be hidden)`;
+    const htmlRepoStructureSection = `n/a (should be hidden)`;
+    
     //boolean variables to show / hide sections of the page
     const toHide_AcceleratorGuidanceSection = true;
     const toHide_RelatedAccelerators = true;
@@ -96,6 +99,9 @@ permalink: /conversational-AI/
     const toHide_ArchitectureSection = false;
     const toHide_BranchingStrategySection = true;
     const toHide_AcceleratorComponents = false;
+    const toHide_KeyAcceleratorFiles = true;
+    const toHide_LiveDemoSection = true;
+    const toHide_RepoStructureSection = true;
 </script>
 
 <script src="/scripts/script-setsingleacceleratorpagecontents.js" type="text/javascript"></script>
