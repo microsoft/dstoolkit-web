@@ -54,9 +54,14 @@ document.getElementById("id-accelerator-description").innerHTML = htmlAccelerato
 //TODO: if the boolean for showing this section is false, then don't display the elements for this section
 // var element = document.getElementById("myDiv");
 // element.style.display = "none";
-//else, set the contents
-//TODO: set the contents after being passed a list (array) of video URLs
-//pending https://github.com/microsoft/dstoolkit-web/issues/24 - before spending more time - to be confirmed if we will be displaying those videos at all - if not displaying, then perhaps we'll remove this section
+if (toHide_AcceleratorGuidanceSection == true) {
+    document.getElementById("id-accelerator-guidance-Section").style.display = "none";
+}
+else {
+    //else, set the contents
+    //TODO: set the contents after being passed a list (array) of video URLs
+    //pending https://github.com/microsoft/dstoolkit-web/issues/24 - before spending more time - to be confirmed if we will be displaying those videos at all - if not displaying, then perhaps we'll remove this section
+}
 
 //<!--Link to Related Accelerator(s)-->
 document.getElementById("id-link-related-accelerator").href = linkRelatedAccelerator;
@@ -70,24 +75,24 @@ var htmltextTechnologies = ``;
 for (let i = 0; i < listTechnologies.length; i++) {
     var technology = listTechnologies[i];
     var link = "None";
-    if (technology == "Azure Machine Learning") {
-        link = "https://azure.microsoft.com/services/machine-learning";
+    if (technology == "Azure Compute Instance" || technology == "Azure Compute Cluster") {
+        link = "https://azure.microsoft.com/services/#compute";
+    } else if (technology == "Azure Container Instance") {
+        link = "https://azure.microsoft.com/services/container-instances/";
+    } else if (technology == "Azure Databricks") {
+        link = "https://azure.microsoft.com/services/databricks/";
     } else if (technology == "Azure DevOps") {
         link = "https://azure.microsoft.com/services/devops/";
     } else if (technology == "Azure Key Vault") {
         link = "https://azure.microsoft.com/services/key-vault/";
-    } else if (technology == "Azure Compute Instance" || technology == "Azure Compute Cluster") {
-        link = "https://azure.microsoft.com/services/#compute";
-    } else if (technology == "Azure Container Instance") {
-        link = "https://azure.microsoft.com/services/container-instances/";
     } else if (technology == "Azure Kubernetes Services") {
         link = "https://azure.microsoft.com/services/kubernetes-service";
-    } else if (technology == "") {
-
-    } else if (technology == "") {
-
-    } else if (technology == "") {
-
+    } else if (technology == "Azure Machine Learning") {
+        link = "https://azure.microsoft.com/services/machine-learning";
+    } else if (technology == "Application Insights" || technology == "Log analytics workspace for the App Insight") {
+        link = "https://azure.microsoft.com/services/monitor/";
+    } else if (technology == "Azure Storage Account") {
+        link = "https://azure.microsoft.com/services/storage/";
     } else if (technology == "") {
 
     } else if (technology == "") {
@@ -110,13 +115,28 @@ for (let i = 0; i < listTechnologies.length; i++) {
 document.getElementById("id-technologies").innerHTML = htmltextTechnologies;
 
 //<!--Architecture-->
-document.getElementById("id-collapsibleSectionArch").innerHTML = htmlArchitectureSection;
+if (toHide_ArchitectureSection == false) {
+    document.getElementById("id-collapsibleSectionArch").innerHTML = htmlArchitectureSection;
+} else {
+    document.getElementById("id-collapsibleSectionArch").style.display = "none";
+    document.getElementById("id-button-collapsibleSectionArch").style.display = "none";
+}
 
 //<!--Branching Strategy-->
-document.getElementById("id-collapsibleSectionBrStrat").innerHTML = htmlBranchingStrategySection;
+if (toHide_BranchingStrategySection == false) {
+    document.getElementById("id-collapsibleSectionBrStrat").innerHTML = htmlBranchingStrategySection;
+} else {
+    document.getElementById("id-collapsibleSectionBrStrat").style.display = "none";
+    document.getElementById("id-button-collapsibleSectionBrStrat").style.display = "none";
+}
 
 //<!--Accelerator Components-->
-document.getElementById("id-collapsibleSectionAccelComp").innerHTML = htmlAcceleratorComponents;
+if (toHide_AcceleratorComponents == false) {
+    document.getElementById("id-collapsibleSectionAccelComp").innerHTML = htmlAcceleratorComponents;
+} else {
+    document.getElementById("id-collapsibleSectionAccelComp").style.display = "none";
+    document.getElementById("id-button-collapsibleSectionAccelComp").style.display = "none";
+}
 
 //<!--GitHub Aliases and Photos of Contributors-->
 GetHtmlListContributorsForSingleAcceleratorPage(linkAccessAcceleratorRepo, function(parsed) {
