@@ -48,7 +48,7 @@ permalink: /ml-ops/
     const htmlAcceleratorComponents = `<img src="/images/ml-ops/Code-blueprint.png" alt="Code blueprint image">`;
 
     //boolean variables to show / hide sections of the page
-    const toHide_AcceleratorGuidanceSection = false;
+    const toHide_AcceleratorGuidanceSection = true;
     const toHide_ArchitectureSection = false;
     const toHide_BranchingStrategySection = false;
     const toHide_AcceleratorComponents = false;

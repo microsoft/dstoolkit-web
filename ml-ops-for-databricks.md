@@ -47,7 +47,7 @@ permalink: /ml-ops-for-databricks/
     const htmlAcceleratorComponents = `n/a (should be hidden)`;
 
     //boolean variables to show / hide sections of the page
-    const toHide_AcceleratorGuidanceSection = false;
+    const toHide_AcceleratorGuidanceSection = true;
     const toHide_ArchitectureSection = true;
     const toHide_BranchingStrategySection = true;
     const toHide_AcceleratorComponents = true;
