@@ -64,11 +64,19 @@ else {
 }
 
 //<!--Link to Related Accelerator(s)-->
-document.getElementById("id-link-related-accelerator").href = linkRelatedAccelerator;
-document.getElementById("id-text-related-accelerator").textContent = nameRelatedAccelerator;
+if (toHide_RelatedAccelerator == false) {
+    document.getElementById("id-link-related-accelerator").href = linkRelatedAccelerator;
+    document.getElementById("id-text-related-accelerator").textContent = nameRelatedAccelerator;
+} else {
+    document.getElementById("id-related-accelerator-Section").style.display = "none";
+}
 
 //<!--Link to Contributing Guide-->
-document.getElementById("id-link-contributing-guide").href = linkContributingGuide;
+if (toHide_ContributingGuide == false) {
+    document.getElementById("id-link-contributing-guide").href = linkContributingGuide;
+} else {
+    document.getElementById("id-contributing-guide-Section").style.display = "none";
+}
 
 //<!--Technologies-->
 var htmltextTechnologies = ``;

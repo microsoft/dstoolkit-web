@@ -6,8 +6,6 @@ permalink: /ml-ops-for-databricks/
 
 <script>
     //Variables for this specific single accelerator page, to centralize re-used variables
-    //These are variables that must be declared and overridden in the specific single accelerator page
-
     const textPageTitle = "ML Ops for Databricks";
     const htmlPageDescription = `ML Ops support for Databricks`;
     const srcHeaderImage = "/images/ml-ops-for-databricks/CLO20b_Aline_cafe_outside_002.jpg";
@@ -48,6 +46,8 @@ permalink: /ml-ops-for-databricks/
 
     //boolean variables to show / hide sections of the page
     const toHide_AcceleratorGuidanceSection = true;
+    const toHide_RelatedAccelerator = false;
+    const toHide_ContributingGuide = false;
     const toHide_ArchitectureSection = true;
     const toHide_BranchingStrategySection = true;
     const toHide_AcceleratorComponents = true;

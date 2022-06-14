@@ -47,6 +47,8 @@ permalink: /TEMPLATE-SingleAcceleratorPage/
 
     //boolean variables to show / hide sections of the page
     const toHide_AcceleratorGuidanceSection = false;
+    const toHide_RelatedAccelerator = false;
+    const toHide_ContributingGuide = false;
     const toHide_ArchitectureSection = false;
     const toHide_BranchingStrategySection = false;
     const toHide_AcceleratorComponents = false;
