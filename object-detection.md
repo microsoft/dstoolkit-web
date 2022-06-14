@@ -40,9 +40,11 @@ permalink: /object-detection/
             </ul>
         </p>`;
 
-    const listLinksRelatedAccelerators = ["n/a (should be hidden)"];
+    const listAcceleratorGuidanceVideoURLs = ["n/a"];
+
+    const listLinksRelatedAccelerators = ["n/a"];
     
-    const linkContributingGuide = "n/a (should be hidden)";
+    const linkContributingGuide = "n/a";
 
     const listTechnologies = ["Azure Machine Learning",
         "Azure DevOps",
@@ -56,9 +58,9 @@ permalink: /object-detection/
     const htmlArchitectureSection = `<img src="/images/object-detection/Architecture.png" alt="architecture">`;
     const htmlBranchingStrategySection = `<img src="/images/object-detection/Branching-Strategy.png" alt="Branching Strategy">`;
     const htmlAcceleratorComponents = `<img src="/images/object-detection/Code-blueprint.png" alt="Code blueprint">`;
-    const htmlKeyAcceleratorFiles = `n/a (should be hidden)`;
-    const htmlLiveDemoSection = `n/a (should be hidden)`;
-    const htmlRepoStructureSection = `n/a (should be hidden)`;
+    const htmlKeyAcceleratorFiles = `n/a`;
+    const htmlLiveDemoSection = `n/a`;
+    const htmlRepoStructureSection = `n/a`;
 
     //boolean variables to show / hide sections of the page
     const toHide_AcceleratorGuidanceSection = true;

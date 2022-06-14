@@ -1,11 +1,11 @@
 ---
 layout: pageAccelerator
-title: TEMPLATE Single Accelerator Page
-permalink: /TEMPLATE-SingleAcceleratorPage/
+title: DEMO Single Accelerator Page
+permalink: /DEMO-SingleAcceleratorPage/
 ---
 
-<!--This .md file is meant to serve as a template for a Single Accelerator Page-->
-<!--To use this template, simple make a copy of this file, rename it, and then update content above (title and permalink) and below (see TODO placeholders) -->
+<!--This .md file is meant to serve as a demo for a Single Accelerator Page-->
+<!--To create a new Single Accelerator page, simple make a copy of this file, rename it, and then update content above (title and permalink) and below (see TODO placeholders) -->
 <!--See existing Single Accelerator Pages .md files for reference-->
 
 <script>
@@ -20,6 +20,8 @@ permalink: /TEMPLATE-SingleAcceleratorPage/
     const listIndustries = ["industry1", "industry2", "industry3", "industry4", "industry5", "industry6"];
     const listUseCases = ["usecases1", "usecases2", "usecases3", "usecases4", "usecases5", "usecases6"];
     const htmlAcceleratorDescription = `TODO`;
+
+    const listAcceleratorGuidanceVideoURLs = ["embedURL1", "embedURL2", "embedURL3"];
 
     const listLinksRelatedAccelerators = ["link1", "link2"];
     

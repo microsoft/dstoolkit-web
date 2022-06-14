@@ -72,10 +72,12 @@ permalink: /conversational-AI/
                 </tr>
             </table>
         </p>`;
-
-    const listLinksRelatedAccelerators = ["n/a (should be hidden"];
     
-    const linkContributingGuide = "n/a (should be hidden";
+    const listAcceleratorGuidanceVideoURLs = ["n/a"];
+
+    const listLinksRelatedAccelerators = ["n/a"];
+    
+    const linkContributingGuide = "n/a";
 
     const listTechnologies = ["Azure Machine Learning",
         "Azure DevOps",
@@ -86,11 +88,11 @@ permalink: /conversational-AI/
         "Azure Kubernetes Services"];
 
     const htmlArchitectureSection = `<img src="/images/conversational-AI/High-level-Architecture.png" alt="High-level Architecture">`;
-    const htmlBranchingStrategySection = `n/a (should be hidden`;
+    const htmlBranchingStrategySection = `n/a`;
     const htmlAcceleratorComponents = `<img src="/images/conversational-AI/Technical-components-of-the-accelerator.png" alt="High-level Architecture">`;
-    const htmlKeyAcceleratorFiles = `n/a (should be hidden)`;
-    const htmlLiveDemoSection = `n/a (should be hidden)`;
-    const htmlRepoStructureSection = `n/a (should be hidden)`;
+    const htmlKeyAcceleratorFiles = `n/a`;
+    const htmlLiveDemoSection = `n/a`;
+    const htmlRepoStructureSection = `n/a`;
     
     //boolean variables to show / hide sections of the page
     const toHide_AcceleratorGuidanceSection = true;

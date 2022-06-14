@@ -31,6 +31,8 @@ permalink: /anomaly-detection/
             </ul>
             Common Anomaly Detection techniques are difficult to implement on very large sets of Data. The Anomaly Detection Accelerator, leverages the iJungle technique from Dr. Ricardo Castro, which solves this challenge, enabling anomaly detection on large sets of data. 
         </p>`;
+    
+    const listAcceleratorGuidanceVideoURLs = ["n/a"];
 
     const listLinksRelatedAccelerators = ["/ml-ops/", "/ml-ops-for-databricks/"];
 
@@ -38,12 +40,12 @@ permalink: /anomaly-detection/
 
     const listTechnologies = ["Azure Machine Learning"];
 
-    const htmlArchitectureSection = `n/a (should be hidden)`;
-    const htmlBranchingStrategySection = `n/a (should be hidden)`;
+    const htmlArchitectureSection = `n/a`;
+    const htmlBranchingStrategySection = `n/a`;
     const htmlAcceleratorComponents = `<img src="/images/anomaly-detection/Accelerator-components.png" alt="Accelerator components image">`;
-    const htmlKeyAcceleratorFiles = `n/a (should be hidden)`;
-    const htmlLiveDemoSection = `n/a (should be hidden)`;
-    const htmlRepoStructureSection = `n/a (should be hidden)`;
+    const htmlKeyAcceleratorFiles = `n/a`;
+    const htmlLiveDemoSection = `n/a`;
+    const htmlRepoStructureSection = `n/a`;
 
     //boolean variables to show / hide sections of the page
     const toHide_AcceleratorGuidanceSection = true;

@@ -51,16 +51,48 @@ document.getElementById("id-usecases").innerHTML = htmltextUseCases;
 document.getElementById("id-accelerator-description").innerHTML = htmlAcceleratorDescription;
 
 //<!--Accelerator guidance (Videos)--> (can be hidden)
-//TODO: if the boolean for showing this section is false, then don't display the elements for this section
-// var element = document.getElementById("myDiv");
-// element.style.display = "none";
+//Note: the URLs in the array, listAcceleratorGuidanceVideoURLs, should be video embed links such as https://www.youtube.com/embed/
 if (toHide_AcceleratorGuidanceSection == true) {
     document.getElementById("id-accelerator-guidance-Section").style.display = "none";
 }
 else {
-    //else, set the contents
-    //TODO: set the contents after being passed a list (array) of video URLs
-    //pending https://github.com/microsoft/dstoolkit-web/issues/24 - before spending more time - to be confirmed if we will be displaying those videos at all - if not displaying, then perhaps we'll remove this section
+    var numVideos = listAcceleratorGuidanceVideoURLs.length;
+    var htmlVideos = `<div style="height: 100%; text-align: center">`;
+    htmlVideos += `<div class="csslider infinity" id="slider1">`;
+    htmlVideos += `<input type="radio" name="slides" checked="checked" id="slides_1"/>`;
+
+    for (let i = 2; i <= numVideos; i++) {
+        htmlVideos += `<input type="radio" name="slides" id="slides_` + i + `"/>`;
+    }
+
+    htmlVideos += `<ul>`;
+    for (let i = 0; i < numVideos; i++) {
+        htmlVideos += `<li>`;
+        htmlVideos += `<iframe width="560" height="315" src="` + listAcceleratorGuidanceVideoURLs[i] + `" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`;
+        htmlVideos += `</li>`;
+    }
+    htmlVideos += `</ul>`;
+
+    var labelSlides = ``;
+    for (let i = 1; i <= numVideos; i++) {
+        labelSlides += `<label for="slides_` + i + `"></label>`;
+    }
+    htmlVideos += `<div class="arrows">`;
+    htmlVideos += labelSlides;
+    htmlVideos += `<label class="goto-first" for="slides_1"></label>`;
+    htmlVideos += `<label class="goto-last" for="slides_10"></label>`;
+    htmlVideos += `</div>`;
+    htmlVideos += `<div class="navigation">`;
+    htmlVideos += `<div>`;
+    htmlVideos += labelSlides;
+    htmlVideos += `</div>`;
+    htmlVideos += `</div>`;
+
+    //todo: ending divs
+    htmlVideos += `</div>`;
+    htmlVideos += `</div>`;
+
+    document.getElementById("id-accelerator-guidance-videos").innerHTML = htmlVideos;
 }
 
 //<!--Link to Related Accelerator(s)-->

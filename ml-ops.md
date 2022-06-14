@@ -30,6 +30,8 @@ permalink: /ml-ops/
             </ul>
             <img src="/images/ml-ops/ML-Ops-process-description.png" alt="ML Ops process description image">`;
 
+    const listAcceleratorGuidanceVideoURLs = ["https://www.youtube.com/embed/tdFetGQuBls", "https://www.youtube.com/embed/itfpdwh6x0E"];
+
     const listLinksRelatedAccelerators = ["/classification-accelerator/"];
 
     const linkContributingGuide = "https://github.com/microsoft/dstoolkit-mlops-base/blob/main/CONTRIBUTING.md";
@@ -45,12 +47,12 @@ permalink: /ml-ops/
     const htmlArchitectureSection = `<img src="/images/ml-ops/Architecture.png" alt="Architecture image">`;
     const htmlBranchingStrategySection = `<img src="/images/ml-ops/Branching-Strategy.png" alt="Branching Strategy image">`;
     const htmlAcceleratorComponents = `<img src="/images/ml-ops/Code-blueprint.png" alt="Code blueprint image">`;
-    const htmlKeyAcceleratorFiles = `n/a (should be hidden)`;
-    const htmlLiveDemoSection = `n/a (should be hidden)`;
-    const htmlRepoStructureSection = `n/a (should be hidden)`;
+    const htmlKeyAcceleratorFiles = `n/a`;
+    const htmlLiveDemoSection = `n/a`;
+    const htmlRepoStructureSection = `n/a`;
     
     //boolean variables to show / hide sections of the page
-    const toHide_AcceleratorGuidanceSection = true;
+    const toHide_AcceleratorGuidanceSection = false;
     const toHide_RelatedAccelerators = false;
     const toHide_ContributingGuide = false;
     const toHide_ArchitectureSection = false;
@@ -62,37 +64,3 @@ permalink: /ml-ops/
 </script>
 
 <script src="/scripts/script-setsingleacceleratorpagecontents.js" type="text/javascript"></script>
-
-<!--TODO: to replace below html with javascript above and inherit from pageAccelerator layout-->
-<!-- //pending https://github.com/microsoft/dstoolkit-web/issues/24 - before spending more time - to be confirmed if we will be displaying those videos at all - if not displaying, then perhaps we'll remove this section
-<div>
-    <div class="category">Accelerator guidance</div>
-    <div class="accelerator-guidance-videos">
-    <div style="height: 100%; text-align: center">
-			<div class="csslider infinity" id="slider1">
-			<input type="radio" name="slides" checked="checked" id="slides_1"/>
-			<input type="radio" name="slides" id="slides_2"/>
-				<ul>
-                    <li>
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/tdFetGQuBls" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-					</li>
-                    <li>
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/itfpdwh6x0E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    </li>
-				</ul>
-					<div class="arrows">
-						<label for="slides_1"></label>
-						<label for="slides_2"></label>
-						<label class="goto-first" for="slides_1"></label>
-						<label class="goto-last" for="slides_10"></label>
-					</div>
-					<div class="navigation"> 
-						<div>
-							<label for="slides_1"></label>
-							<label for="slides_2"></label>
-						</div>
-					</div>
-			</div>
-		</div>
-    </div>
-</div> -->
