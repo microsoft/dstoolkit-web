@@ -51,7 +51,7 @@ permalink: /classification-accelerator/
 
     const listLinksRelatedAccelerators = ["/ml-ops/"];
     
-    const linkContributingGuide = "https://github.com/microsoft/dstoolkit-mlops-base/blob/main/CONTRIBUTING.md";
+    const linkContributingGuide = "n/a";
 
     const listTechnologies = ["Azure Machine Learning",
         "Azure DevOps",
@@ -76,7 +76,7 @@ permalink: /classification-accelerator/
     //boolean variables to show / hide sections of the page
     const toHide_AcceleratorGuidanceSection = false;
     const toHide_RelatedAccelerators = false;
-    const toHide_ContributingGuide = false;
+    const toHide_ContributingGuide = true;
     const toHide_ArchitectureSection = false;
     const toHide_BranchingStrategySection = false;
     const toHide_AcceleratorComponents = false;

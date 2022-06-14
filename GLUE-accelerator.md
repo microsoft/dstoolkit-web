@@ -37,7 +37,7 @@ permalink: /GLUE-accelerator/
 
     const listLinksRelatedAccelerators = ["/conversational-AI/"];
     
-    const linkContributingGuide = "https://github.com/microsoft/dstoolkit-mlops-base/blob/main/CONTRIBUTING.md";
+    const linkContributingGuide = "n/a";
 
     const listTechnologies = ["technology1",
         "technology2",
@@ -105,7 +105,7 @@ permalink: /GLUE-accelerator/
     //boolean variables to show / hide sections of the page
     const toHide_AcceleratorGuidanceSection = false;
     const toHide_RelatedAccelerators = false;
-    const toHide_ContributingGuide = false;
+    const toHide_ContributingGuide = true;
     const toHide_ArchitectureSection = false;
     const toHide_BranchingStrategySection = true;
     const toHide_AcceleratorComponents = true;

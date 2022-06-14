@@ -36,7 +36,7 @@ permalink: /anomaly-detection/
 
     const listLinksRelatedAccelerators = ["/ml-ops/", "/ml-ops-for-databricks/"];
 
-    const linkContributingGuide = "https://github.com/microsoft/dstoolkit-mlops-base/blob/main/CONTRIBUTING.md";
+    const linkContributingGuide = "n/a";
 
     const listTechnologies = ["Azure Machine Learning"];
 
@@ -50,7 +50,7 @@ permalink: /anomaly-detection/
     //boolean variables to show / hide sections of the page
     const toHide_AcceleratorGuidanceSection = true;
     const toHide_RelatedAccelerators = false;
-    const toHide_ContributingGuide = false;
+    const toHide_ContributingGuide = true;
     const toHide_ArchitectureSection = true;
     const toHide_BranchingStrategySection = true;
     const toHide_AcceleratorComponents = false;
