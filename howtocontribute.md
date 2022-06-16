@@ -7,10 +7,9 @@ permalink: /howtocontribute/
 <div class="howtocontribute">
     <div class="title-photo" style="position:relative;">
           <img src="/images/howtocontribute/MSC21_Getty_remoteWorkplace_1198541191.jpg" alt="logo" height="300" style="width:100%;">
-          <div class="title" style="position:absolute; color:white; top: 55%;
-    left: 22%; font-size:42px;"> How can I contribute my work? </div>
+          <div class="title howtocontribute"> How can I contribute my work? </div>
     </div>
-<div class="howtocontribute-body" style="display: flex; margin-top: 50px;"> 
+<div class="howtocontribute-body">
     <div class="sidenav">
         <button class="dropdown-btn">Existing workflow 
             <i class="material-icons">keyboard_arrow_down</i>
@@ -51,8 +50,8 @@ permalink: /howtocontribute/
     </div>
     <div class="sidenav-content">
         <div class="accelerator-guidance-videos">
-            <div style="font-size: 30px; font-weight: 600; margin-left: 20px;">List of best practices</div>
-            <div style="height: 100%; text-align: center">
+            <div class="accelerator-guidance-videos-title">List of best practices</div>
+            <div style="height: 100%;">
 			    <div class="howtocontribute csslider infinity" id="slider1">
 			    <input type="radio" name="slides" checked="checked" id="slides_1"/>
 			    <input type="radio" name="slides" id="slides_2"/>

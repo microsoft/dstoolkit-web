@@ -59,7 +59,7 @@ a:link {
     transform: rotate(90deg);
   }
 
-  @media all and (max-width: 820px) {
+  @media all and (max-width: 920px) {
     .search {
       display: none;
     }

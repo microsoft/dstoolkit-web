@@ -14,6 +14,22 @@
     text-align: center;
 }
 
+.title.howtocontribute {
+    position:absolute; 
+    color:white; 
+    top: 55%;
+    left: 22%; 
+    font-size:42px;
+}
+
+.title.contributors {
+    position:absolute;
+    color:white; 
+    top: 50%;
+    left: 30%; 
+    font-size:42px;
+}
+
 .title-description {
     text-align: center;
 }
@@ -26,6 +42,15 @@
 }
 
 .paragraph {
+    margin-top: 30px;
+    line-height: 30px;
+    font-size: 22px;
+    text-align: center;
+}
+
+.home-paragraph {
+    margin-left: 70px;
+    margin-right: 70px;
     margin-top: 30px;
     line-height: 30px;
     font-size: 22px;
@@ -76,8 +101,12 @@
     font-weight: 600;
 }
 
+.home-card-title.contribute {
+    padding-left: 100px;
+}
+
 .home-card-text {
-    margin-left: 160px;
+    margin-left: 145px;
     margin-right: 60px;
 }
 
@@ -101,6 +130,11 @@
     display: flex;
     flex-direction: column;
     background-color: #F2F2F2;
+}
+
+.home-card-contribute-text {
+    padding-left: 100px; 
+    padding-right: 115px;
 }
 
 .home-get-touch-title {
@@ -792,7 +826,179 @@ p {
   }
 
   .howtocontribute-option.active { 
-      margin-top: 10px;
-      border-left: 6px solid #0067B8;
+    margin-top: 10px;
+    border-left: 6px solid #0067B8;
   }
+
+  .howtocontribute-body {
+    display: flex;
+    margin-top: 50px;
+  }
+
+  .accelerator-guidance-videos-title {
+    font-size: 30px; 
+    font-weight: 600; 
+    margin-left: 20px;
+  }
+
+  @media all and (max-width: 920px) {
+    .title-photo img{
+        height: 150px;
+    }
+
+    .title {
+        font-size: 35px;
+    }
+
+    .home-paragraph {
+        margin-left: 10px;
+        margin-right: 10px;
+        font-size: 18px;
+    }
+
+    .home-card {
+        flex-direction: column;
+    }
+
+    .home-card-image {
+        width: 100%;
+    }
+
+    .home-card-image img{
+        height: 200px;
+    }
+
+    .home-card-content-toolkit {
+        width: 100%;
+    }
+
+    .home-card-title {
+        margin-top: 10px;
+    }
+
+    .home-card-text {
+        margin-left: 30px;
+        margin-right: 15px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+
+    .home-button {
+        margin-left: 10px;
+        margin-bottom: 20px;
+    }
+
+    .home-card.reverse{
+        flex-direction: column-reverse;
+    }
+
+    .home-card-content-contribute {
+        width: 100%;
+        align-items: center;
+    }
+
+    .home-card-title.contribute {
+        padding-left: 0px;
+    }
+
+    .home-card-contribute-text {
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-left: 30px;
+        margin-right: 15px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+
+    .home-get-touch {
+        width: 100%; 
+        margin-left: 0px;
+    }
+    
+    .home-get-touch-content {
+        flex-direction: column;
+    }
+
+    .home-get-touch-content-left {
+        width: 100%;
+        border-right: none;
+    }
+
+    .home-get-touch-content-right {
+        width: 100%;
+    }
+
+    .howtocontribute-body {
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+    }
+
+    .sidenav {
+        margin-top: 30px;
+        margin-right: 0px;
+    }
+
+    .sidenav-content {
+        width: 85%;
+        margin-left: 10px;
+    }
+
+    .accelerator-guidance-videos-title {
+        font-size: 26px;
+        font-weight: 600;
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+
+    .howtocontribute.csslider > ul {
+        width: 100%;
+        height: 300px;
+    }
+
+    .title.howtocontribute {
+        position: relative;
+        color: black;
+        font-size: 35px;
+        top: 0%;
+        left: 0%;
+    }
+
+    .title.contributors {
+        position: relative;
+        color:black; 
+        top: 0%;
+        left: 0%; 
+        font-size:35px;
+    }
+
+    .contributor-card {
+        width: 160px;
+    }
+
+    .toolkit-card img {
+        height: 100px;
+    }
+
+    .toolkit-card-title {
+        font-size: 20px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .toolkit-card-content {
+        font-size: 14px;
+    }
+}
+
+@media all and (max-width: 420px) {
+    .delivery-accelerators {
+        flex-wrap: wrap;
+    }
+
+    .delivery-accelerators-card {
+        width: 45%;
+        margin-bottom: 20px;
+    }
+}
 

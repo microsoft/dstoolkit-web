@@ -8,7 +8,7 @@ title: Home
           <img src="../images/Edu16_STEM_11.png" alt="logo" height="300" style="width:100%;">
     </div>
     <div class="title">What is the Data Science Toolkit?</div>    
-    <div class="paragraph" style="margin-left:70px; margin-right:70px;">The Data Science Toolkit provides everyone from professional background to Data Science enthusiasts with packaged, vetted and tested delivery accelerators, delivery guidance, and product backlogs for common machine learning scenarios.</div>
+    <div class="home-paragraph">The Data Science Toolkit provides everyone from professional background to Data Science enthusiasts with packaged, vetted and tested delivery accelerators, delivery guidance, and product backlogs for common machine learning scenarios.</div>
     <div class="home-card">
         <div class="home-card-image">
           <img src="../images/MSC18_quantum_010.png" alt="logo" height="300" style="width:100%;">
@@ -21,10 +21,10 @@ title: Home
             </a>
         </div>
     </div>
-    <div class="home-card">
+    <div class="home-card reverse">
         <div class="home-card-content-contribute">
-            <span class="home-card-title" style="padding-left: 100px;">Contribute</span>
-            <span style="padding-left:100px; padding-right: 115px;">Have you ever wanted to contributed back to IP and show the great work that has been done for your customer?</span>
+            <span class="home-card-title contribute">Contribute</span>
+            <span class="home-card-contribute-text">Have you ever wanted to contributed back to IP and show the great work that has been done for your customer?</span>
             <a href="/howtocontribute/" target="_blank" style="text-decoration:none">
                 <div class="text-button home-button">Contribute to the toolkit</div>
             </a>
@@ -38,7 +38,7 @@ title: Home
         <div class="home-get-touch-content">
             <div class="home-get-touch-content-left">
                 <span style="margin-top:20px;">Name</span>
-                <input style="margin-top:20px; height:30px" type="text" name="name">
+                <input style="margin-top:22px; height:30px" type="text" name="name">
                 <span style="margin-top:20px;">User type</span>
                     <div style="display:flex; margin-top:30px;">                
                         <input type="radio" id="customer" name="type" value="1" style="width: 20px;height: 20px;" checked>
@@ -58,7 +58,7 @@ title: Home
                     </div>
             </div>
             <div class="home-get-touch-content-right">
-                <span style="margin-top:20px;">Email</span>
+                <span style="margin-top:21px;">Email</span>
                 <input style="margin-top:20px; height:30px" type="text" name="name">
                 <span style="margin-top:20px;">Message</span>
                 <textarea style="resize:none; height: 150px;"></textarea>
