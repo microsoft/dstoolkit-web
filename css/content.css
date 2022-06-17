@@ -227,6 +227,8 @@
 }
 
 .toolkit-card-content {
+    display: flex;
+    flex-direction: column;
     margin-top: 10px;
     font-weight: 600;
     font-size: 16px;
@@ -267,7 +269,6 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    font-size: 20px;
     background-color: #0067B8;
     width: 500px;
     height: 60px;
@@ -365,10 +366,37 @@
     padding-bottom: 30px;
 }
 
+.accelerator-use-case {
+    width: 50%;
+}
+
 .accelerator-description {
     padding-left: 20px;
     padding-right: 20px;
     background-color: #F2F2F2;
+}
+
+.accelerator-description-content {
+    display:flex; 
+    margin-top: 50px; 
+    box-shadow: 0px 1px 13px rgba(0, 0, 0, 0.25);
+}
+
+.related-accelerators-contributing {
+    width:100%; 
+    display: flex; 
+    justify-content:space-between; 
+    margin-top:50px; 
+    border-bottom: 1px solid #D2D2D2; 
+    padding-bottom: 50px;
+}
+
+.related-accelerators-links {
+    display:flex; 
+    align-items:center; 
+    width:49%; 
+    height: 120px; 
+    box-shadow: 0px 1px 13px rgba(0, 0, 0, 0.25);
 }
 
 .accelerator-acordeon {
@@ -416,7 +444,9 @@
 .accelerator-contributor {
     display: flex;
     margin-top: 20px;
-    margin-right: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 28%;
     box-shadow: 0px 1px 13px rgba(0, 0, 0, 0.25);
 }
 
@@ -739,21 +769,21 @@ p {
 .contributors-list {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
     margin-top: 140px;
+    justify-content: center;
 }
 
 .contributor-card {
     display: flex;
     flex-direction: column;
     margin-bottom: 30px;
-    padding-left: 70px;
-    padding-right: 70px;
     padding-bottom: 30px;
     align-items: center;
-    width: 180px;
+    width: 220px;
     height: 310px;
-    box-shadow: 0px 1px 13px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 1px 13px rgb(0 0 0 / 25%);
+    margin-right: 15px;
+    margin-left: 15px;
 }
 
 .contributor-name {
@@ -865,7 +895,7 @@ p {
     }
 
     .home-card-image img{
-        height: 200px;
+        height: 220px;
     }
 
     .home-card-content-toolkit {
@@ -973,7 +1003,14 @@ p {
     }
 
     .contributor-card {
-        width: 160px;
+        width: 100px;
+        height: 150px;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    .contributor-name {
+        font-size: 14px;
     }
 
     .toolkit-card img {
@@ -989,6 +1026,61 @@ p {
     .toolkit-card-content {
         font-size: 14px;
     }
+
+    .accelerator-use-case {
+        width: 100%;
+    }
+
+    .accelerator-description-content {
+        flex-direction: column;
+    }
+
+    .accelerator-description-content img {
+        width: 100%;
+    }
+
+    .accelerator-guidance-videos .csslider > ul {
+        width: 100%;
+        height: 300px;
+    }
+
+    .related-accelerators-contributing {
+        flex-direction: column;
+    }
+
+    .related-accelerators-links {
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        margin-bottom: 20px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .related-accelerators-links span {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .accelerator-contributors {
+        justify-content: center;
+    }
+
+    .toolkit-row.accelerator {
+        flex-direction: column;
+    }
+    
+    .toolkit-card.accelerator {
+        width: 100%;
+    }
+
+    .toolkit-card.accelerator img {
+        height: 160px;
+    }
+
+    .toolkit-card.accelerator.left {
+        margin-right: 0px;
+    }
 }
 
 @media all and (max-width: 420px) {
@@ -1000,5 +1092,25 @@ p {
         width: 45%;
         margin-bottom: 20px;
     }
+
+    .technologies {
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+    }
+
+    .accelerator-buttons {
+        width: 300px;
+        font-size: 20px;
+    }
+
+    .accelerator-contributor {
+        width: 300px;
+    }
+
+    .toolkit-card.accelerator img {
+        height: 100px;
+    }
+
 }
 

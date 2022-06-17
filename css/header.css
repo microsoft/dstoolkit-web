@@ -23,6 +23,10 @@
   font-size: 20px;
 }
 
+.page-link {
+  border: none;
+}
+
 .page-link.active {
   padding-bottom: 10px;
   border-bottom: 4px solid #0067B8;
@@ -59,7 +63,8 @@ a:link {
     transform: rotate(90deg);
   }
 
-  @media all and (max-width: 920px) {
+
+  @media all and (max-width: 1250px) {
     .search {
       display: none;
     }
