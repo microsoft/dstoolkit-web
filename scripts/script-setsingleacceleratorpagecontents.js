@@ -241,6 +241,6 @@ if (toHide_RepoStructureSection == false) {
 }
 
 //<!--GitHub Aliases and Photos of Contributors-->
-GetHtmlListContributorsForSingleAcceleratorPage(linkAccessAcceleratorRepo, function(parsed) {
+GetHtmlListContributorsForSingleRepo(linkAccessAcceleratorRepo, function(parsed) {
     document.getElementById("id-accelerator-contributors").innerHTML = parsed;
 });

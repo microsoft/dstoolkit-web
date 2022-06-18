@@ -5,8 +5,8 @@ permalink: /toolkit/
 ---
 
 <div>
-    <div class="title-photo">
-          <img src="/images/toolkit/MSC19_paddingtonOffice_015.jpg" alt="logo" height="300" style="width:100%;">
+    <div class="container-fluid">
+          <img src="/images/toolkit/MSC19_paddingtonOffice_015.jpg" alt="logo">
     </div>
   <div class="title">Data Science Toolkit</div>
   <div class="home-paragraph">

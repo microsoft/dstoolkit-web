@@ -5,9 +5,9 @@ permalink: /howtocontribute/
 ---
 
 <div class="howtocontribute">
-    <div class="title-photo" style="position:relative;">
-          <img src="/images/howtocontribute/MSC21_Getty_remoteWorkplace_1198541191.jpg" alt="logo" height="300" style="width:100%;">
-          <div class="title howtocontribute"> How can I contribute my work? </div>
+    <div class="container-fluid">
+          <img src="/images/howtocontribute/MSC21_Getty_remoteWorkplace_1198541191.jpg" alt="logo">
+          <div class="title howtocontribute">How can I contribute my work?</div>
     </div>
 <div class="howtocontribute-body">
     <div class="sidenav">

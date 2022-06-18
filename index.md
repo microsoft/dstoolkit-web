@@ -4,10 +4,10 @@ title: Home
 ---
 
 <div class="home">
-    <div class="title-photo">
-          <img src="../images/Edu16_STEM_11.png" alt="logo" height="300" style="width:100%;">
-    </div>
-    <div class="title">What is the Data Science Toolkit?</div>    
+    <div class="container-fluid">
+        <img src="../images/Edu16_STEM_11.png" alt="logo">
+        <div class="title">What is the Data Science Toolkit?</div>   
+    </div> 
     <div class="home-paragraph">The Data Science Toolkit provides everyone from professional background to Data Science enthusiasts with packaged, vetted and tested delivery accelerators, delivery guidance, and product backlogs for common machine learning scenarios.</div>
     <div class="home-card">
         <div class="home-card-image">

@@ -9,8 +9,8 @@ permalink: /contributors/
 
 <!--HTML for the Contributors page-->
 <div>
-    <div class="title-photo" style="position:relative;">
-          <img src="/images/contributors/CLO20b_Preeti_team_meeting_002.jpg" alt="team meeting" height="300" style="width:100%;">
+    <div class="container-fluid">
+          <img src="/images/contributors/CLO20b_Preeti_team_meeting_002.jpg" alt="team meeting">
           <div class="title contributors">Solution Delivery Accelerator Contributors</div>
     </div>
     <div class="custom-select" style="margin-top: 50px; float:right">
