@@ -1060,35 +1060,3 @@ p {
         margin-right: 0px;
     }
 }
-
-@media all and (max-width: 420px) {
-    .delivery-accelerators {
-        flex-wrap: wrap;
-    }
-
-    .delivery-accelerators-card {
-        width: 45%;
-        margin-bottom: 20px;
-    }
-
-    .technologies {
-        flex-direction: column;
-        flex-wrap: nowrap;
-        align-items: center;
-    }
-
-    .accelerator-buttons {
-        width: 300px;
-        font-size: 20px;
-    }
-
-    .accelerator-contributor {
-        width: 300px;
-    }
-
-    .toolkit-card.accelerator img {
-        height: 100px;
-    }
-
-}
-
