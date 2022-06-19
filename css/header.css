@@ -1,19 +1,8 @@
 .header {
-    display: flex;
-    justify-content: center;
-    height: 70px;
     color: #24292E;
+    background-color: white;
     font-size: 22px;
     line-height: 60px;
-}
-
-.logo {
-  margin-right: 30px;
-}
-
-.links {
-  height: 100%;
-  display: flex;
 }
 
 .link-block {
@@ -21,15 +10,6 @@
   margin-right: 30px;
   font-family: Segoe UI;
   font-size: 20px;
-}
-
-.page-link {
-  border: none;
-}
-
-.page-link.active {
-  padding-bottom: 10px;
-  border-bottom: 4px solid #0067B8;
 }
 
 a:link {
@@ -61,4 +41,14 @@ a:link {
     -ms-transform: rotate(90deg);
     -o-transform: rotate(90deg);
     transform: rotate(90deg);
+  }
+
+  /* Overriding Bootstrap 5 elements*/
+  .nav-item {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  
+  .active {
+    border-bottom: 4px solid #0067B8;
   }
