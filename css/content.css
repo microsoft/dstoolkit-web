@@ -2,7 +2,6 @@
   font-family: Segoe UI;
 }
 
-
 .wrapper {
     max-width: calc(1120px - (30px * 2)) !important;
 }
@@ -49,9 +48,7 @@
 }
 
 .home-paragraph {
-    margin-left: 70px;
-    margin-right: 70px;
-    margin-top: 30px;
+    margin: 30px;    
     line-height: 30px;
     font-size: 22px;
     text-align: center;
@@ -72,55 +69,8 @@
 }
 
 .home-card {
-    display: flex;
-    margin-top: 30px;
+    margin: 30px;
     box-shadow: 0px 1px 13px rgba(0, 0, 0, 0.25);
-}
-
-.home-card-image {
-    width: 50%;
-}
-
-.home-card-content-toolkit {
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.home-card-content-contribute {
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.home-card-title {
-    font-size: 32px;
-    font-weight: 600;
-}
-
-.home-card-title.contribute {
-    padding-left: 100px;
-}
-
-.home-card-text {
-    margin-left: 145px;
-    margin-right: 60px;
-}
-
-.home-button {
-    background-color: #0067B8;
-    color: white;
-    border-radius: 2px;
-    padding: 10px;
-    margin: 0 auto;
-    margin-top: 10px;
-    width: 290px;
-    margin-left: 100px;
-    cursor: pointer;
-    font-weight: 600;
 }
 
 .home-get-touch {
@@ -130,11 +80,6 @@
     display: flex;
     flex-direction: column;
     background-color: #F2F2F2;
-}
-
-.home-card-contribute-text {
-    padding-left: 100px; 
-    padding-right: 115px;
 }
 
 .home-get-touch-title {
@@ -739,10 +684,6 @@ iframe {
     -moz-background-size:cover; 
     -o-background-size:cover; 
     background-size:cover; 
-}
-
-p {
-    margin-left:3em;
 }
 
 .video-container {

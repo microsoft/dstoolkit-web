@@ -41,7 +41,7 @@ a:link {
   a:visited {
     color: #243a5e;
     background-color: transparent;
-    text-decoration: none;
+    text-decoration: underline;
   }
   
   a:hover, a:active {
