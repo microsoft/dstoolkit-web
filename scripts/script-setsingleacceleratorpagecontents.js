@@ -12,14 +12,13 @@ document.getElementById("id-title").innerText = textPageTitle;
 document.getElementById("id-page-description").innerHTML = htmlPageDescription;
 
 //<!--Prerequisites-->
-//iterate through the list of prerequisites (listPrereqs) and create a prerequisites card in html for each
-var htmltextPrerequisites = ``;
+var htmltextPrerequisites = `<ul>`;
 for (let i = 0; i < listPrereqs.length; i++) {
-    htmltextPrerequisites += 
-        `<div class="prerequisites-card">
-            <span class="prerequisites-text">` + listPrereqs[i] + `</span>
-        </div>`;
+    htmltextPrerequisites += `<li>`;
+    htmltextPrerequisites += listPrereqs[i];
+    htmltextPrerequisites += `</li>`;
 }
+htmltextPrerequisites += `</ul>`;
 document.getElementById("id-prerequisites").innerHTML = htmltextPrerequisites;
 
 //<!--Access the Accelerator-->
