@@ -1,45 +1,16 @@
-footer {
-    display: flex;
-    justify-content: center;
-}
-
-.site-footer {
-    width: 55%;
-    border-top: none;
+.footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
     background-color: #F2F2F2;
-    display: flex;
+    display:flex;
+    padding: 20px;
     align-self: center;
+    text-align: center;
     justify-content: center;
 }
 
 .site-footer-text {
     padding-left: 20px;
     padding-right: 20px;
-}
-
-.card-container {
-    display: flex;
-    justify-content: center;
-    margin-top: 75px;
-}
-
-.card {
-    display: flex;
-    flex-direction: column;
-    background-color: #484D53;
-    color: white;
-    padding: 15px;
-    text-align: center;
-    line-height: 32px;
-    font-size: 20px;
-    width: 350px;
-    cursor: pointer;
-}
-
-.card:not(:first-child) {
-    margin-left: 50px;
-}
-
-i {
-    margin-bottom: 15px;
 }
