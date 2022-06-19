@@ -146,50 +146,26 @@
     border-bottom: 1px solid #D2D2D2;
 }
 
-.toolkit-cards {
-    margin-top: 30px;
-    display: flex;
-    flex-direction: column;
-}
-
-.toolkit-row {
-    display: flex;
-}
-
 .toolkit-card {
-    display: flex;
-    flex-direction: column;
     align-items: center;
-    width: 50%;
     text-align: center;
-    box-shadow: 0px 1px 13px rgba(0, 0, 0, 0.25);
 }
 
 .toolkit-card-title {
     margin-top: 20px;
     font-weight: 600;
     font-size: 22px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 .toolkit-card-content {
-    display: flex;
-    flex-direction: column;
-    margin-top: 10px;
     font-weight: 600;
     font-size: 16px;
     color: #0078d4;
-    margin-bottom: 35px;
-    margin-left: 10px;
-    margin-right: 10px;
-}
-
-.toolkit-card.left {
-    margin-right: 20px;
-    margin-bottom: 20px;
-}
-
-.toolkit-card.right {
-    margin-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
 }
 
 .see-more {
@@ -767,11 +743,7 @@ iframe {
     font-size: 20px;
     padding: 0px 10px;
   }
-  
-  .active {
-    color: #24292E;
-  }
-  
+
   .dropdown-container {
     display: none;
     background-color: #F2F2F2;
