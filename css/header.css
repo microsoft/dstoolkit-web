@@ -5,50 +5,30 @@
     line-height: 60px;
 }
 
-.link-block {
-  margin-left: 30px;
-  margin-right: 30px;
-  font-family: Segoe UI;
-  font-size: 20px;
+a:link {
+  color: #0078d4;
+  background-color: transparent;
+  text-decoration: underline;
+}
+  
+a:visited {
+  color: #243a5e;
+  background-color: transparent;
+  text-decoration: underline;
+}
+  
+a:hover, a:active {
+  color: #50e6ff;
+  background-color: transparent;
+  text-decoration: underline;
 }
 
-a:link {
-    color: #0078d4;
-    background-color: transparent;
-    text-decoration: underline;
-  }
+/* Overriding Bootstrap 5 elements*/
+.nav-item {
+  padding-left: 5px;
+  padding-right: 5px;
+}
   
-  a:visited {
-    color: #243a5e;
-    background-color: transparent;
-    text-decoration: underline;
-  }
-  
-  a:hover, a:active {
-    color: #50e6ff;
-    background-color: transparent;
-    text-decoration: underline;
-  }
-
-  .menu {
-    display: none;
-  }
-
-  .search {
-    cursor: pointer;
-    -webkit-transform:rotate(90deg);
-    -moz-transform: rotate(90deg);
-    -ms-transform: rotate(90deg);
-    -o-transform: rotate(90deg);
-    transform: rotate(90deg);
-  }
-
-  /* Overriding Bootstrap 5 elements*/
-  .nav-item {
-    padding-left: 5px;
-    padding-right: 5px;
-  }
-  
-  .active {
-    border-bottom: 4px solid #0067B8;
-  }
+.active {
+  border-bottom: 4px solid #0067B8;
+}
