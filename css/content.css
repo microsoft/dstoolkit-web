@@ -84,6 +84,14 @@
     border-bottom: 3px solid white;
 }
 
+
+.text-button {
+    margin-top: 30px;
+    line-height: 30px;
+    font-size: 18px;
+    text-align: center;
+}
+
 .get-touch-button {
     background-color: #0067B8;
     color: white;
@@ -430,6 +438,19 @@ iframe {
     justify-content: center;
 }
 
+.contributor-card {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+    align-items: center;
+    width: 220px;
+    height: 310px;
+    box-shadow: 0px 1px 13px rgb(0 0 0 / 25%);
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
 .contributor-name {
     margin-top: 15px;
     font-size: 26px;
@@ -504,3 +525,35 @@ iframe {
     display: flex;
     margin-top: 50px;
   }
+ 
+
+  @media all and (max-width: 920px) {
+    .contributor-card {
+        width: 100px;
+        height: 150px;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    .contributor-name {
+        font-size: 14px;
+    }
+
+    .home-get-touch {
+        width: 100%; 
+        margin-left: 0px;
+    }
+    
+    .home-get-touch-content {
+        flex-direction: column;
+    }
+
+    .home-get-touch-content-left {
+        width: 100%;
+        border-right: none;
+    }
+
+    .home-get-touch-content-right {
+        width: 100%;
+    }
+}

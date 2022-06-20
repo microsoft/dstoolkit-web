@@ -49,35 +49,36 @@ permalink: /howtocontribute/
         </div>
     </div>
     <div class="sidenav-content">
-        <div class="accelerator-guidance-videos">
-            <div class="accelerator-guidance-videos-title">List of best practices</div>
-            <div style="height: 100%;">
-			    <div class="howtocontribute csslider infinity" id="slider1">
-			    <input type="radio" name="slides" checked="checked" id="slides_1"/>
-			    <input type="radio" name="slides" id="slides_2"/>
-				    <ul>
-                        <li>
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/tdFetGQuBls" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-					    </li>
-                        <li>
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/itfpdwh6x0E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                        </li>
-				    </ul>
-					<div class="arrows">
-						<label for="slides_1"></label>
-						<label for="slides_2"></label>
-						<label class="goto-first" for="slides_1"></label>
-						<label class="goto-last" for="slides_10"></label>
-					</div>
-					<div class="navigation"> 
-						<div>
-							<label for="slides_1"></label>
-							<label for="slides_2"></label>
-						</div>
-					</div>
-			    </div>
-		    </div>
-        </div>
+        <!--How to contribute videos-->
+        <p class="h1">List of best practices</p>
+        <!-- Carousel -->
+        <div id="id-carousel-videos" class="carousel slide" data-bs-ride="carousel">
+            <!-- Indicators/dots -->
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#id-carousel-videos" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#id-carousel-videos" data-bs-slide-to="1"></button>
+            </div>
+            <!-- The slideshow/carousel -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="ratio ratio-16x9">
+                        <iframe src="https://www.youtube.com/embed/tdFetGQuBls" title="YouTube video" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="ratio ratio-16x9">
+                        <iframe src="https://www.youtube.com/embed/itfpdwh6x0E" title="YouTube video" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+            <!-- Left and right controls/icons -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#id-carousel-videos" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#id-carousel-videos" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+        </div>        
         <div style="display: flex; flex-direction: column; border-top: 1px solid #D2D2D2;margin-top: 50px;">
             <div style="font-weight: 600; margin-top: 30px;">The 50/72 rule</div>
             <span style="margin-top:30px; line-height: 35px;">Write conventional Git commit messages.</span>

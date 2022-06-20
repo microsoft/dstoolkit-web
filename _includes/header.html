@@ -12,8 +12,8 @@
     {%- assign page_paths = site.header_pages | default: default_paths -%}
 
     {%- if page_paths -%}
-    <nav class="navbar fixed-top navbar-expand-xl bg-white navbar-light">
-      <div class="header container-fluid">
+    <nav class="navbar navbar-expand-lg bg-white navbar-light">
+      <div class="header mx-auto d-sm-flex d-block flex-sm-wrap">
         <a class="navbar-brand" href="/" style="text-decoration: none;">
           <img src="../images/DatascienceToolkit.jpg" alt="logo" width="50" height="50">
           <span style="font-weight: 600;">Data Science Toolkit</span>
@@ -21,7 +21,7 @@
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <div class="collapse navbar-collapse text-center" id="collapsibleNavbar">
           <ul class="navbar-nav me-auto">
             <li class="nav-item">
               <a class="nav-link" style="text-decoration: none;" id="home" href="/">Home</a>
@@ -40,8 +40,7 @@
             </li>
           </ul>
           <form class="d-flex">
-            <input class="form-control me-2" type="text" placeholder="Search">
-            <button class="btn btn-primary" type="button">Search</button>
+            <button class="btn material-icons" type="button" style="font-size: 30px;">search</button>
           </form>
         </div>
       </div>
