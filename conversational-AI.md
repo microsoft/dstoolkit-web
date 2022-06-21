@@ -33,44 +33,46 @@ permalink: /conversational-AI/
                 <li>Provides process / UX flow best practices for common scenarios </li>
             </ul>
             <h1><u>Validation, Identification and Authentication – Definitions and Examples:</u></h1>
-            <table>
-                <tr>
-                    <th></th>
-                    <th>Validation</th>
-                    <th>Identification</th>
-                    <th>Authentication</th>
-                </tr>
-                <tr>
-                    <td>Definition</td>
-                    <td>Entity extraction + data preparation for backend processing</td>
-                    <td>Identify a user or asset</td>
-                    <td>Authenticate a user or asset</td>
-                </tr>
-                <tr>
-                    <td>Example</td>
-                    <td>
-                        - License plate format is valid 
-                        <br/>
-                        - Customer number format is valid
-                    </td>
-                    <td>
-                        - License plate is known in backend system
-                        <br/>
-                        - Customer number exists in customer database
-                    </td>
-                    <td>- Combination of validated entities from user input which are verified with authentication database</td>
-                </tr>
-                <tr>
-                    <td>Technological approaches</td>
-                    <td>- Via pre/post processing functions based on entities (speech + text input)</td>
-                    <td>- Via pre/post processing functions based on entities (speech + text input)</td>
-                    <td>
-                        - Via Authentication processing functions based on entities (speech input)
-                        <br/>
-                        - Via Oauth/Identity Provider validated login (e.g. AAD, etc.)
-                    </td>
-                </tr>
-            </table>
+            <div class="table-responsive">
+                <table class="table">
+                    <tr>
+                        <th></th>
+                        <th>Validation</th>
+                        <th>Identification</th>
+                        <th>Authentication</th>
+                    </tr>
+                    <tr>
+                        <td>Definition</td>
+                        <td>Entity extraction + data preparation for backend processing</td>
+                        <td>Identify a user or asset</td>
+                        <td>Authenticate a user or asset</td>
+                    </tr>
+                    <tr>
+                        <td>Example</td>
+                        <td>
+                            - License plate format is valid 
+                            <br/>
+                            - Customer number format is valid
+                        </td>
+                        <td>
+                            - License plate is known in backend system
+                            <br/>
+                            - Customer number exists in customer database
+                        </td>
+                        <td>- Combination of validated entities from user input which are verified with authentication database</td>
+                    </tr>
+                    <tr>
+                        <td>Technological approaches</td>
+                        <td>- Via pre/post processing functions based on entities (speech + text input)</td>
+                        <td>- Via pre/post processing functions based on entities (speech + text input)</td>
+                        <td>
+                            - Via Authentication processing functions based on entities (speech input)
+                            <br/>
+                            - Via Oauth/Identity Provider validated login (e.g. AAD, etc.)
+                        </td>
+                    </tr>
+                </table>
+            </div>            
         </p>`;
     
     const listAcceleratorGuidanceVideoURLs = ["n/a"];
