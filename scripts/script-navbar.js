@@ -1,6 +1,3 @@
-var linkBlock = document.getElementsByClassName("link-block");
-var i;
-
 const url = window.location.href;
 const segments = url.split("/");
 const lastSegment = segments[segments.length - 2];
@@ -8,8 +5,8 @@ const lastSegment = segments[segments.length - 2];
 var pageLink = document.getElementById(lastSegment);
 
 if(pageLink) {
-  pageLink.classList.toggle("active");
+  pageLink.classList.toggle('active');
 } else {
-  homeLink = document.getElementById("home");
-  homeLink.classList.toggle("active");
+  homeLink = document.getElementById('home');
+  homeLink.classList.toggle('active');
 }

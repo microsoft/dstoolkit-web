@@ -40,10 +40,13 @@ footer {
     margin-left: 50px;
 }
 
-p {
-    text-decoration-line: underline;
-}
+@media all and (max-width: 920px) {
+    .site-footer {
+        width: 100%;
+        flex-wrap: wrap;
+    }
 
-i {
-    margin-bottom: 15px;
+    .site-footer-text {
+        padding-left: 0px;
+    }
 }

@@ -4,14 +4,12 @@ title: Toolkit
 permalink: /toolkit/
 ---
 
-<div>
-    <div class="title-photo">
-          <img src="/images/toolkit/MSC19_paddingtonOffice_015.jpg" alt="logo" height="300" style="width:100%;">
-    </div>
+<div class="container-fluid">
+  <img src="/images/toolkit/MSC19_paddingtonOffice_015.jpg" alt="logo">
   <div class="title">Data Science Toolkit</div>
-  <div class="paragraph" style="margin-left:70px; margin-right:70px;">
+  <div class="home-paragraph">
   You can use the delivery accelerators, delivery guides and product backlogs listed below in your delivery engagements. You can also contribute new material or update existing material or simply browse through the content. Please don't forget to reach out with any comments or contributions.</div>
-  <div class="subtitle toolkit-borders"> Delivery Accelerators Repositories 
+  <div class="subtitle toolkit-borders">Delivery Accelerators Repositories 
     <div class="dropdowns-container">
     <div class="custom-select">
       <select class="toolkit-select">
@@ -31,70 +29,87 @@ permalink: /toolkit/
     </div>
   </div>
   </div>
-
-  <div class="toolkit-cards">
-    <div class="toolkit-row">
+  <div class="container">    
+    <div class="row g-2" style="margin-top: 30px;">
       <!--ML Ops-->
-      <div class="toolkit-card left">
-        <img src="/images/ml-ops/MDC19_cooling_002.jpg" alt="white pipes" height="170" style="width:100%;">
-        <span class="toolkit-card-title">ML Ops</span>
-        <a class="toolkit-card-content" href="/ml-ops/">Configurable CI/CD pipelines, AML pipelines, and compute resources for ML Ops</a>
+      <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 toolkit-card">
+        <div class="shadow">
+          <img src="/images/ml-ops/MDC19_cooling_002.jpg" alt="white pipes">
+          <p class="toolkit-card-title">ML Ops</p>
+          <p class="toolkit-card-content"><a href="/ml-ops/">Configurable CI/CD pipelines, AML pipelines, and compute resources for ML Ops</a></p>
+        </div>
       </div>
       <!--ML Ops for Databricks-->
-      <div class="toolkit-card right">
-        <img src="/images/ml-ops-for-databricks/CLO20b_Aline_cafe_outside_002.jpg" alt="brick walls" height="170" style="width:100%;">
-        <span class="toolkit-card-title">ML Ops for Databricks</span>
-        <a class="toolkit-card-content" href="/ml-ops-for-databricks/">ML Ops for Databricks</a>
+      <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 toolkit-card">
+        <div class="shadow">
+          <img src="/images/ml-ops-for-databricks/CLO20b_Aline_cafe_outside_002.jpg" alt="brick walls">
+          <p class="toolkit-card-title">ML Ops for Databricks</p>
+          <p class="toolkit-card-content"><a href="/ml-ops-for-databricks/">ML Ops for Databricks</a></p>
+        </div>
       </div>
     </div>
-    <div class="toolkit-row">
+    <div class="row g-2" style="margin-top: 30px;">
       <!--Conversational AI-->
-      <div class="toolkit-card left">
-        <img src="/images/conversational-AI/M365CO19_SMB_iPhone_245.jpg" alt="logo" height="170" style="width:100%;">
-        <span class="toolkit-card-title">Conversational AI (CAI) Advanced Processing Service</span>
-        <a class="toolkit-card-content" href="/conversational-AI/">Collection of modules to help with validation, identification and authentication processes</a>
+      <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 toolkit-card">
+        <div class="shadow">
+          <img src="/images/conversational-AI/M365CO19_SMB_iPhone_245.jpg" alt="logo">
+          <p class="toolkit-card-title">Conversational AI (CAI) Advanced Processing Service</p>
+          <p class="toolkit-card-content"><a href="/conversational-AI/">Collection of modules to help with validation, identification and authentication processes</a></p>
+        </div>
       </div>
       <!--GLUE-->
-      <div class="toolkit-card right">
-        <img src="/images/GLUE-accelerator/CLO20b_Sylvie_office_night_001.jpg" alt="logo" height="170" style="width:100%;">
-        <span class="toolkit-card-title">GLUE - Cognitive Services Accelerator</span>
-        <a class="toolkit-card-content" href="/GLUE-accelerator/">GLUE is a lightweight, Python-based collection of scripts to support you at succeeding with speech and text</a>
+      <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 toolkit-card">
+        <div class="shadow">
+          <img src="/images/GLUE-accelerator/CLO20b_Sylvie_office_night_001.jpg" alt="logo">
+          <p class="toolkit-card-title">GLUE - Cognitive Services Accelerator</p>
+          <p class="toolkit-card-content"><a href="/GLUE-accelerator/">GLUE is a lightweight, Python-based collection of scripts to support you at succeeding with speech and text</a></p>
+        </div>
       </div>
     </div>
-     <div class="toolkit-row">
+     <div class="row g-2" style="margin-top: 30px;">
       <!--Anomaly detection-->
-      <div class="toolkit-card left">
-        <img src="/images/anomaly-detection/MDC19_tapeTight_002.jpg" alt="logo" height="170" style="width:100%;">
-        <span class="toolkit-card-title">Anomaly Detection</span>
-        <a class="toolkit-card-content" href="/anomaly-detection/">Detect anomalies on very large structured data sets</a>
+      <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 toolkit-card">
+        <div class="shadow">
+          <img src="/images/anomaly-detection/MDC19_tapeTight_002.jpg" alt="logo">
+          <p class="toolkit-card-title">Anomaly Detection</p>
+          <p class="toolkit-card-content"><a href="/anomaly-detection/">Detect anomalies on very large structured data sets</a></p>
+        </div>
       </div>
       <!--Forecasting-->
-      <div class="toolkit-card right">
-        <img src="/images/forecasting/CLO18_cafeWork_003.jpg" alt="logo" height="170" style="width:100%;">
-        <span class="toolkit-card-title">Forecasting</span>
-        <a class="toolkit-card-content" href="/forecasting/">Pre-configured engine for demand forecasting, map data into the existing model to generate a forecast</a>
+      <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 toolkit-card">
+        <div class="shadow">
+          <img src="/images/forecasting/CLO18_cafeWork_003.jpg" alt="logo">
+          <p class="toolkit-card-title">Forecasting</p>
+          <p class="toolkit-card-content"><a href="/forecasting/">Pre-configured engine for demand forecasting, map data into the existing model to generate a forecast</a></p>
+        </div>
       </div>
     </div>
-    <div class="toolkit-row">
+    <div class="row g-2" style="margin-top: 30px;">
       <!--Classification-->
-      <div class="toolkit-card left">
-        <img src="/images/classification-accelerator/PCA22_OceanPlasticMouse_Feature_06_RGB.jpg" alt="logo" height="170" style="width:100%;">
-        <span class="toolkit-card-title">Classification Accelerator</span>
-        <a class="toolkit-card-content" href="/classification-accelerator/">Binary classification, with parameter based auto algorithm selection</a>
+      <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 toolkit-card">
+        <div class="shadow">
+          <img src="/images/classification-accelerator/PCA22_OceanPlasticMouse_Feature_06_RGB.jpg" alt="logo">
+          <p class="toolkit-card-title">Classification Accelerator</p>
+          <p class="toolkit-card-content"><a href="/classification-accelerator/">Binary classification, with parameter based auto algorithm selection</a></p>
+        </div>
       </div>
       <!--Object Detection-->
-      <div class="toolkit-card right">
-        <img src="/images/object-detection/CLO19_azureKinectDK_008.jpg" alt="logo" height="170" style="width:100%;">
-        <span class="toolkit-card-title">Object Detection</span>
-        <a class="toolkit-card-content" href="/object-detection/">Uses computer vision for object or defect detection and includes edge deployment capabilities</a>
+      <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 toolkit-card">
+        <div class="shadow">
+          <img src="/images/object-detection/CLO19_azureKinectDK_008.jpg" alt="logo">
+          <p class="toolkit-card-title">Object Detection</p>
+          <p class="toolkit-card-content"><a href="/object-detection/">Uses computer vision for object or defect detection and includes edge deployment capabilities</a></p>
+        </div>
       </div>
     </div>
-    <div class="toolkit-row">
+    <div class="row g-2" style="margin-top: 30px;">
       <!--Verseagility-->
-      <div class="toolkit-card left">
-        <img src="/images/verseagility/MSC18_scenicsLiberia_002.jpg" alt="logo" height="170" style="width:100%;">
-        <span class="toolkit-card-title">Knowledge Mining (Verseagility)</span>
-        <a class="toolkit-card-content" href="/verseagility/">Knowledge mining on unstructured data sets with no data labeling</a>
+      <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 toolkit-card">
+        <div class="shadow">
+          <img src="/images/verseagility/MSC18_scenicsLiberia_002.jpg" alt="logo">
+          <p class="toolkit-card-title">Knowledge Mining (Verseagility)</p>
+          <p class="toolkit-card-content"><a href="/verseagility/">Knowledge mining on unstructured data sets with no data labeling</a></p>
+        </div>
       </div>
       <!--Placeholder for delivery accelerator toolkit card on right-->
     </div>
@@ -113,24 +128,23 @@ permalink: /toolkit/
     Delivery Accelerators in Development
   </div>
 
-<div class="delivery-accelerators">
-  <div class="delivery-accelerators-card">
+<div class="row g-2 delivery-accelerators">
+  <div class="col-6 col-sm-6 col-md-6 col-lg-3 col-xl-3 col-xxl-3 delivery-accelerators-card">
       <img src="../images/synapse.png" alt="logo">
-      <span class="toolkit-card-content">ML Ops for Synapse</span>
+      <p class="toolkit-card-content">ML Ops for Synapse</p>
   </div>
-  <div class="delivery-accelerators-card">
+  <div class="col-6 col-sm-6 col-md-6 col-lg-3 col-xl-3 col-xxl-3 delivery-accelerators-card">
       <img src="../images/satellite.png" alt="logo">
-      <span class="toolkit-card-content">Satellite Image Processing Accelerator</span>
+      <p class="toolkit-card-content">Satellite Image Processing Accelerator</p>
   </div>
-  <div class="delivery-accelerators-card">
+  <div class="col-6 col-sm-6 col-md-6 col-lg-3 col-xl-3 col-xxl-3 delivery-accelerators-card">
       <img src="../images/behavior-analytics.png" alt="logo">
-      <span class="toolkit-card-content">Behavior Analytics</span>
+      <p class="toolkit-card-content">Behavior Analytics</p>
   </div>
-  <div class="delivery-accelerators-card">
+  <div class="col-6 col-sm-6 col-md-6 col-lg-3 col-xl-3 col-xxl-3 delivery-accelerators-card">
       <img src="../images/root-cause.png" alt="logo">
-      <span class="toolkit-card-content">Root cause analytics (Hierarchical Multi-label Classficiation)</span>
+      <p class="toolkit-card-content">Root cause analytics (Hierarchical Multi-label Classficiation)</p>
   </div>
 </div>
-
 
 </div>

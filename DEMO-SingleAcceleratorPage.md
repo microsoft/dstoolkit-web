@@ -21,7 +21,7 @@ permalink: /DEMO-SingleAcceleratorPage/
     const listUseCases = ["usecases1", "usecases2", "usecases3", "usecases4", "usecases5", "usecases6"];
     const htmlAcceleratorDescription = `TODO`;
 
-    const listAcceleratorGuidanceVideoURLs = ["embedURL1", "embedURL2", "embedURL3"];
+    const listAcceleratorGuidanceVideoURLs = ["https://www.youtube.com/embed/fEvM-OUbaKs", "https://www.youtube.com/embed/fEvM-OUbaKs", "https://www.youtube.com/embed/fEvM-OUbaKs"];
 
     const listLinksRelatedAccelerators = ["link1", "link2"];
     

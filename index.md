@@ -3,42 +3,47 @@ layout: page
 title: Home
 ---
 
-<div class="home">
-    <div class="title-photo">
-          <img src="../images/Edu16_STEM_11.png" alt="logo" height="300" style="width:100%;">
-    </div>
-    <div class="title">What is the Data Science Toolkit?</div>    
-    <div class="paragraph" style="margin-left:70px; margin-right:70px;">The Data Science Toolkit provides everyone from professional background to Data Science enthusiasts with packaged, vetted and tested delivery accelerators, delivery guidance, and product backlogs for common machine learning scenarios.</div>
-    <div class="home-card">
-        <div class="home-card-image">
-          <img src="../images/MSC18_quantum_010.png" alt="logo" height="300" style="width:100%;">
+<div class="container-fluid">
+    <img src="../images/Edu16_STEM_11.png" alt="logo">
+    <div class="title">What is the Data Science Toolkit?</div>   
+    <div class="home-paragraph">The Data Science Toolkit provides everyone from professional background to Data Science enthusiasts with packaged, vetted and tested delivery accelerators, delivery guidance, and product backlogs for common machine learning scenarios.</div>  
+    <!--Use the toolkit section-->
+    <div class="row home-card">
+        <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6" style="align-content: left; justify-content: center;">
+            <img src="../images/MSC18_quantum_010.png" alt="logo">
         </div>
-        <div class="home-card-content-toolkit">
-            <span class="home-card-title">Use the toolkit</span>
-            <span class="home-card-text">Have you ever wished for a "push button" way to set up an Azure environment for ML, to get quickly past the boring stuff, and get to the exciting work of building/training a model?</span>
-            <a href="/toolkit/" target="_blank" style="text-decoration:none">
-                <div class="text-button home-button">Use the toolkit</div>
-            </a>
-        </div>
-    </div>
-    <div class="home-card">
-        <div class="home-card-content-contribute">
-            <span class="home-card-title" style="padding-left: 100px;">Contribute</span>
-            <span style="padding-left:100px; padding-right: 115px;">Have you ever wanted to contributed back to IP and show the great work that has been done for your customer?</span>
-            <a href="/howtocontribute/" target="_blank" style="text-decoration:none">
-                <div class="text-button home-button">Contribute to the toolkit</div>
-            </a>
-        </div>
-        <div class="home-card-image">
-          <img src="../images/EDU22_Hybrid_K12_Student_058.png" alt="logo" height="300" style="width:100%;">
+        <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6" style="padding: 25px; align-content: center; justify-content: center;">
+            <p class="h1 text-center">Use the toolkit</p>
+            <p class="text-center">
+                Have you ever wished for a "push button" way to set up an Azure environment for ML, to get quickly past the boring stuff, and get to the exciting work of building/training a model?
+            </p>
+            <div class="d-grid">
+                <a href="/toolkit/" class="btn btn-primary btn-lg btn-block" target="_blank" style="text-decoration:none;">Use the toolkit</a>
+            </div>
         </div>
     </div>
+    <!--Contribute section-->
+    <div class="row home-card">        
+        <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6" style="padding: 25px; align-content: center; justify-content: center;">
+            <p class="h1 text-center">Contribute</p>
+            <p class="text-center">
+                Have you ever wanted to contributed back to IP and show the great work that has been done for your customer?
+            </p>
+            <div class="d-grid">
+                <a href="/howtocontribute/" class="btn btn-primary btn-lg btn-block" target="_blank" style="text-decoration:none;">Contribute to the toolkit</a>
+            </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6" style="align-content: right; justify-content: center;">
+            <img src="../images/EDU22_Hybrid_K12_Student_058.png" alt="logo">
+        </div>
+    </div>
+    <!--Get in touch-->
     <div class="home-get-touch">
         <span class="home-get-touch-title">Get in touch</span>
         <div class="home-get-touch-content">
             <div class="home-get-touch-content-left">
                 <span style="margin-top:20px;">Name</span>
-                <input style="margin-top:20px; height:30px" type="text" name="name">
+                <input style="margin-top:22px; height:30px" type="text" name="name">
                 <span style="margin-top:20px;">User type</span>
                     <div style="display:flex; margin-top:30px;">                
                         <input type="radio" id="customer" name="type" value="1" style="width: 20px;height: 20px;" checked>
@@ -58,7 +63,7 @@ title: Home
                     </div>
             </div>
             <div class="home-get-touch-content-right">
-                <span style="margin-top:20px;">Email</span>
+                <span style="margin-top:21px;">Email</span>
                 <input style="margin-top:20px; height:30px" type="text" name="name">
                 <span style="margin-top:20px;">Message</span>
                 <textarea style="resize:none; height: 150px;"></textarea>

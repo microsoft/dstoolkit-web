@@ -12,14 +12,13 @@ document.getElementById("id-title").innerText = textPageTitle;
 document.getElementById("id-page-description").innerHTML = htmlPageDescription;
 
 //<!--Prerequisites-->
-//iterate through the list of prerequisites (listPrereqs) and create a prerequisites card in html for each
-var htmltextPrerequisites = ``;
+var htmltextPrerequisites = `<ul>`;
 for (let i = 0; i < listPrereqs.length; i++) {
-    htmltextPrerequisites += 
-        `<div class="prerequisites-card">
-            <span class="prerequisites-text">` + listPrereqs[i] + `</span>
-        </div>`;
+    htmltextPrerequisites += `<li>`;
+    htmltextPrerequisites += listPrereqs[i];
+    htmltextPrerequisites += `</li>`;
 }
+htmltextPrerequisites += `</ul>`;
 document.getElementById("id-prerequisites").innerHTML = htmltextPrerequisites;
 
 //<!--Access the Accelerator-->
@@ -57,39 +56,43 @@ if (toHide_AcceleratorGuidanceSection == true) {
 }
 else {
     var numVideos = listAcceleratorGuidanceVideoURLs.length;
-    var htmlVideos = `<div style="height: 100%; text-align: center">`;
-    htmlVideos += `<div class="csslider infinity" id="slider1">`;
-    htmlVideos += `<input type="radio" name="slides" checked="checked" id="slides_1"/>`;
-
-    for (let i = 2; i <= numVideos; i++) {
-        htmlVideos += `<input type="radio" name="slides" id="slides_` + i + `"/>`;
+    
+    //<!-- Begin Carousel -->
+    var htmlVideos = `<div id="id-carousel-accelerator-videos" class="carousel slide" data-bs-ride="carousel">`;
+    
+    //<!-- Indicators/dots -->
+    htmlVideos += `<div class="carousel-indicators">`;
+    htmlVideos += `<button type="button" data-bs-target="#id-carousel-accelerator-videos" data-bs-slide-to="0" class="active"></button>`;
+    for (let i = 1; i < numVideos; i++) {
+        htmlVideos += `<button type="button" data-bs-target="#id-carousel-accelerator-videos" data-bs-slide-to="` + i + `"></button>`;
     }
+    htmlVideos += `</div>`;
 
-    htmlVideos += `<ul>`;
+    //<!-- The slideshow/carousel -->
+    htmlVideos += `<div class="carousel-inner">`;
     for (let i = 0; i < numVideos; i++) {
-        htmlVideos += `<li>`;
-        htmlVideos += `<iframe width="560" height="315" src="` + listAcceleratorGuidanceVideoURLs[i] + `" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`;
-        htmlVideos += `</li>`;
-    }
-    htmlVideos += `</ul>`;
+        if (i == 0) { htmlVideos += `<div class="carousel-item active">`; }
+        else { htmlVideos += `<div class="carousel-item">`; }
 
-    var labelSlides = ``;
-    for (let i = 1; i <= numVideos; i++) {
-        labelSlides += `<label for="slides_` + i + `"></label>`;
+        htmlVideos +=
+            `<div class="ratio ratio-16x9">
+                <iframe src="` + listAcceleratorGuidanceVideoURLs[i] + `" title="YouTube video" allowfullscreen></iframe>
+            </div>`;
+
+        htmlVideos += `</div>`;
     }
-    htmlVideos += `<div class="arrows">`;
-    htmlVideos += labelSlides;
-    htmlVideos += `<label class="goto-first" for="slides_1"></label>`;
-    htmlVideos += `<label class="goto-last" for="slides_10"></label>`;
-    htmlVideos += `</div>`;
-    htmlVideos += `<div class="navigation">`;
-    htmlVideos += `<div>`;
-    htmlVideos += labelSlides;
-    htmlVideos += `</div>`;
     htmlVideos += `</div>`;
 
-    //todo: ending divs
-    htmlVideos += `</div>`;
+    //<!-- Left and right controls/icons -->
+    htmlVideos +=
+        `<button class="carousel-control-prev" type="button" data-bs-target="#id-carousel-accelerator-videos" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#id-carousel-accelerator-videos" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>`;
+
+    //<!-- End Carousel -->
     htmlVideos += `</div>`;
 
     document.getElementById("id-accelerator-guidance-videos").innerHTML = htmlVideos;
@@ -97,7 +100,7 @@ else {
 
 //<!--Link to Related Accelerator(s)-->
 if (toHide_RelatedAccelerators == false) {
-    var htmlRelatedAccelerators = `<span style="font-weight:600">Related Accelerator(s)</span>`;
+    var htmlRelatedAccelerators = `<p style="font-weight:600">Related Accelerator(s)</p>`;
     for (let i = 0; i < listLinksRelatedAccelerators.length; i++) {
         var link = listLinksRelatedAccelerators[i];
         var displayName = "";
@@ -117,10 +120,10 @@ if (toHide_RelatedAccelerators == false) {
             displayName = link;
         }
 
-        htmlRelatedAccelerators += 
-            `<a href="` + link + `" target="_blank" style="text-decoration:none">
-                <div class="text-button accelerator-button">` + displayName + `</div>
-            </a>`;
+        htmlRelatedAccelerators +=
+            `<div class="d-grid">
+                <a href="` + link + `" class="btn btn-primary" target="_blank" style="text-decoration:none;">` + displayName + `</a>
+            </div>`;
     }
     document.getElementById("id-related-accelerators-Section").innerHTML = htmlRelatedAccelerators;
 } else {
@@ -241,6 +244,6 @@ if (toHide_RepoStructureSection == false) {
 }
 
 //<!--GitHub Aliases and Photos of Contributors-->
-GetHtmlListContributorsForSingleAcceleratorPage(linkAccessAcceleratorRepo, function(parsed) {
+GetHtmlListContributorsForSingleRepo(linkAccessAcceleratorRepo, function(parsed) {
     document.getElementById("id-accelerator-contributors").innerHTML = parsed;
 });
