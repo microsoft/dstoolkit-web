@@ -8,11 +8,9 @@ permalink: /contributors/
 <script src="/scripts/script-getcontributors.js" type="text/javascript"></script> -->
 
 <!--HTML for the Contributors page-->
-<div>
-    <div class="container-fluid">
-          <img src="/images/contributors/CLO20b_Preeti_team_meeting_002.jpg" alt="team meeting">
-          <div class="title contributors">Solution Delivery Accelerator Contributors</div>
-    </div>
+<div class="container-fluid">
+    <img src="/images/contributors/CLO20b_Preeti_team_meeting_002.jpg" alt="team meeting">
+    <div class="title">Solution Delivery Accelerator Contributors</div>
     <div class="custom-select" style="margin-top: 50px; float:right">
       <select class="toolkit-select">
         <option value="" selected disabled hidden>Filter by accelerator</option>

@@ -21,14 +21,6 @@
     font-size:42px;
 }
 
-.title.contributors {
-    position:absolute;
-    color:white; 
-    top: 50%;
-    left: 30%; 
-    font-size:42px;
-}
-
 .title-description {
     text-align: center;
 }
