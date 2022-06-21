@@ -141,7 +141,7 @@
 
 .toolkit-card {
     align-items: center;
-    text-align: center;
+    text-align: center;    
 }
 
 .toolkit-card-title {
@@ -156,9 +156,6 @@
     font-weight: 600;
     font-size: 16px;
     color: #0078d4;
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-bottom: 30px;
 }
 
 .see-more {
@@ -181,13 +178,12 @@
     display: flex;
     cursor: pointer;
     flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+    /* justify-content: center; */
+    /* align-items: center; */
     background-color: #0067B8;
-    width: 500px;
-    height: 60px;
     color: white;
     font-size: 26px;
+    padding: 5px;
 }
 
 .delivery-accelerators {
