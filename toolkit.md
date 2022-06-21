@@ -128,24 +128,23 @@ permalink: /toolkit/
     Delivery Accelerators in Development
   </div>
 
-<div class="delivery-accelerators">
-  <div class="delivery-accelerators-card">
+<div class="row g-2 delivery-accelerators">
+  <div class="col-6 col-sm-6 col-md-6 col-lg-3 col-xl-3 col-xxl-3 delivery-accelerators-card">
       <img src="../images/synapse.png" alt="logo">
-      <span class="toolkit-card-content">ML Ops for Synapse</span>
+      <p class="toolkit-card-content">ML Ops for Synapse</p>
   </div>
-  <div class="delivery-accelerators-card">
+  <div class="col-6 col-sm-6 col-md-6 col-lg-3 col-xl-3 col-xxl-3 delivery-accelerators-card">
       <img src="../images/satellite.png" alt="logo">
-      <span class="toolkit-card-content">Satellite Image Processing Accelerator</span>
+      <p class="toolkit-card-content">Satellite Image Processing Accelerator</p>
   </div>
-  <div class="delivery-accelerators-card">
+  <div class="col-6 col-sm-6 col-md-6 col-lg-3 col-xl-3 col-xxl-3 delivery-accelerators-card">
       <img src="../images/behavior-analytics.png" alt="logo">
-      <span class="toolkit-card-content">Behavior Analytics</span>
+      <p class="toolkit-card-content">Behavior Analytics</p>
   </div>
-  <div class="delivery-accelerators-card">
+  <div class="col-6 col-sm-6 col-md-6 col-lg-3 col-xl-3 col-xxl-3 delivery-accelerators-card">
       <img src="../images/root-cause.png" alt="logo">
-      <span class="toolkit-card-content">Root cause analytics (Hierarchical Multi-label Classficiation)</span>
+      <p class="toolkit-card-content">Root cause analytics (Hierarchical Multi-label Classficiation)</p>
   </div>
 </div>
-
 
 </div>
