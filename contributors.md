@@ -4,8 +4,8 @@ title: Contributors
 permalink: /contributors/
 ---
 
-<!-- TODO: Loading the methods to get contributors
-<script src="/scripts/script-getcontributors.js" type="text/javascript"></script> -->
+<!-- TODO: Loading the methods to get contributors  -->
+<script src="/scripts/script-getcontributors.js" type="text/javascript"></script>
 
 <!--HTML for the Contributors page-->
 <div class="container-fluid">
@@ -66,7 +66,7 @@ permalink: /contributors/
 </div>
 
 <!--TODO: Script to update contributors dynamically-->
-<!-- <script>
+<script>
     const listRepos = ["https://github.com/microsoft/dstoolkit-anomaly-detection-ijungle",
         "https://github.com/microsoft/dstoolkit-classification-solution-accelerator",
         "https://github.com/microsoft/cai-advanced-processing-service",
@@ -78,11 +78,12 @@ permalink: /contributors/
     
     var htmlContributors = ``;
     for (let i = 0; i < listRepos.length; i++) {
-        GetHtmlListContributorsForContributorsPage(repo, function(parsed) {
-                htmlContributors += parsed;
+        GetHtmlListContributorsForSingleRepo(listRepos[i], function(parsed) {
+                document.getElementById("id-contributors-list").innerHTML += parsed;
         });
     }
     
-    document.getElementById("id-contributors-list").innerHTML = "temmp";
+    console.log(htmlContributors);
+    document.getElementById("id-contributors-list").innerHTML = htmlContributors;
 
-</script> -->
+</script>
