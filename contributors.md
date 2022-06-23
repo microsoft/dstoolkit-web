@@ -12,29 +12,20 @@ permalink: /contributors/
     <img src="/images/contributors/CLO20b_Preeti_team_meeting_002.jpg" alt="team meeting">
     <div class="title">Solution Delivery Accelerator Contributors</div>
     <div class="custom-select" style="margin-top: 50px; float:right">
-      <select id="id-filter-accelerators" class="toolkit-select" onchange="if (this.selectedIndex) doSomething();">
+      <select id="id-filter-accelerators" class="toolkit-select" onchange="if (this.selectedIndex) filterContributors();">
         <option value="-1" selected hidden disabled>Filter by accelerator</option>
         <option value="all">All</option>
-        <option value="cars">cars</option>
         <option value="dstoolkit-anomaly-detection-ijungle">dstoolkit-anomaly-detection-ijungle</option>
+        <option value="dstoolkit-classification-solution-accelerator">dstoolkit-classification-solution-accelerator</option>
+        <option value="cai-advanced-processing-service">cai-advanced-processing-service</option>
+        <option value="glue">glue</option>
+        <option value="dstoolkit-mlops-base">dstoolkit-mlops-base</option>
+        <option value="dstoolkit-ml-ops-for-databricks">dstoolkit-ml-ops-for-databricks</option>
+        <option value="dstoolkit-objectdetection-tensorflow-azureml">dstoolkit-objectdetection-tensorflow-azureml</option>
+        <option value="verseagility">verseagility</option>
       </select>
     </div>
     <div id="id-contributors-list" class="contributors-list">
-        TODO:OverrideWithJS
-        <!-- TEMPORARY- The filterable elements. Note that some have multiple class names (this can be used if they belong to multiple categories) -->
-        <div class="filterDiv cars">BMW</div>
-        <div class="filterDiv colors fruits">Orange</div>
-        <div class="filterDiv cars">Volvo</div>
-        <div class="filterDiv colors">Red</div>
-        <div class="filterDiv cars animals">Mustang</div>
-        <div class="filterDiv colors">Blue</div>
-        <div class="filterDiv animals">Cat</div>
-        <div class="filterDiv animals">Dog</div>
-        <div class="filterDiv fruits">Melon</div>
-        <div class="filterDiv fruits animals">Kiwi</div>
-        <div class="filterDiv fruits">Banana</div>
-        <div class="filterDiv fruits">Lemon</div>
-        <div class="filterDiv animals dstoolkit-anomaly-detection-ijungle">dstoolkit-anomaly-detection-ijungle</div>
     </div>
     <div class="subtitle borders" style="margin-top:0px">
         <div class="see-more">
@@ -61,69 +52,37 @@ permalink: /contributors/
     var logContributorsAdded = [];
     var arrayContributors = [];
 
+    showAllContributors();
 
-//reference: https://gomakethings.com/waiting-for-multiple-all-api-responses-to-complete-with-the-vanilla-js-promise.all-method/#calling-multiple-apis-at-once
-Promise.all([
-	fetch('https://api.github.com/repos/microsoft/glue/contributors'),
-	fetch('https://api.github.com/repos/microsoft/verseagility/contributors')
-]).then(function (responses) {
-	// Get a JSON object from each of the responses
-	return Promise.all(responses.map(function (response) {
-        var data = response.json(); //get json of the response
-        for (let i in data) {
-            var githubAlias = data[i].login;
-        
-            //add to list of contributors, excluding bot accounts
-            if (githubAlias != "dependabot[bot]" && githubAlias != 'microsoft-github-operations[bot]' && githubAlias != 'microsoftopensource')
-            {
-                var contributorAvatarURL = data[i].avatar_url;
-
-                // // Add a separator between each repo
-                // console.log('=========================');
-            }
-        }
-
-
-		return response.json(); //add item to the new array
-	})); //returns new array
-}).then(function (data) {
-	// Log the data to the console
-	// You would do something with both sets of data here
-	console.log(data);
-    var array = data;
-    console.log(array);
-}).catch(function (error) {
-	// if there's an error, log it
-	console.log(error);
-});
-
-
-
+    function showAllContributors() {
+        var htmlContributors = ``;
+        for (let i = 0; i < listRepos.length; i++) {
+            GetHtmlListContributorsForAllRepos(`microsoft/${listRepos[i]}`, function(parsed) {
+                document.getElementById("id-contributors-list").innerHTML += parsed;
+            });
+        }   
+    
+        document.getElementById("id-contributors-list").innerHTML += `</div>`;
+    } 
 
     // TODO --  script to filter div elements
-    function doSomething() {
+    function filterContributors() {
         //check what the current selection is
         var filter = document.getElementById("id-filter-accelerators");
         var currentSelection  = filter.options[filter.selectedIndex].value;
-        alert("You selected " + currentSelection);
-        filterSelection(currentSelection);
-        //filter div elements for contributors based on the filter selection
-    }
-    
-    function filterSelection(c) {
-        var x, i;
-        x = document.getElementsByClassName("filterDiv");
-        if (c == "all") c = "";
-        // Add the "show" class (display:block) to the filtered elements, and remove the "show" class from the elements that are not selected
-        for (i = 0; i < x.length; i++) {
-            // w3RemoveClass(x[i], "show");
-            x[i].style.display = "none";
-            if (x[i].className.indexOf(c) > -1) {
-                // w3AddClass(x[i], "show");
-                x[i].style.display = "block";
-            } 
+        githubAliasArray = [];
+        document.getElementById("id-contributors-list").innerHTML = "";
+        if(currentSelection === 'all') {
+            showAllContributors();
+        }
+        else {
+            GetHtmlListContributorsForSingleRepo(`https://github.com/microsoft/${currentSelection}`, function(parsed) {
+                document.getElementById("id-contributors-list").innerHTML += parsed;
+            });
         }
     }
+
+
 
 
 </script>

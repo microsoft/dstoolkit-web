@@ -21,9 +21,6 @@ function GetHtmlListContributorsForSingleRepo(repoLink, callback)  {
         // Parse API data into JSON
         const data = JSON.parse(this.response);        
         
-        // Log the response
-        console.log(data);
-        
         parsedToHtml += `<div class="row">`;
 
         // Loop over each object in data array
@@ -75,19 +72,57 @@ function GetHtmlListContributorsForSingleRepo(repoLink, callback)  {
     xhr.send();
 }
 
+var githubAliasArray = [];
 
-//TODO
-//for use in Contributors page
-//Create method to get contributors from list of repos
-//const cars = ["Saab", "Volvo", "BMW"];
-//has for each loop to iterate thorugh list of repos
-//for i in range(len(items)):
-//first, need to get all repos that match dstoolkit tag - if this approach, name would be name of the git repo
-//or, store a static list of the specific git repos -- array of objects would be nice
-//then, need to parse the response and iterate through it to get the repos
-//Contributor Github alias
-//Contributor avatarurl
-//Contributor list of accelerators part of
-//name of accelerator
-//url to accelerator git repo
-//use of IndexedDB to have a client-side db that stores data about each repo and each contributor
+function GetHtmlListContributorsForAllRepos(repo, callback)  {
+    // Create new XMLHttpRequest object
+    const xhr = new XMLHttpRequest();
+
+    // GitHub endpoint, dynamically passing in specified username
+    const url = `https://api.github.com/repos/${repo}/contributors`;
+
+    // Open a new connection, using a GET request via URL endpoint
+    // Providing 3 arguments (GET/POST, The URL, Async True/False)
+    xhr.open('GET', url, true);
+    
+    // When request is received, process using this method
+    xhr.onload = function() {
+        //Variable to hold the contents of the contributors list in the html format
+        var parsedToHtml = ``;
+
+        // Parse API data into JSON
+        const data = JSON.parse(this.response);        
+        
+        // Log the response
+        //parsedToHtml += `<div class="row">`;
+
+        // Loop over each object in data array
+        for (let i in data) {
+            var githubAlias = data[i].login;
+
+            if(!githubAliasArray.includes(githubAlias))
+            {
+                githubAliasArray.push(githubAlias);
+                if (githubAlias != "dependabot[bot]" && githubAlias != 'microsoft-github-operations[bot]' && githubAlias != 'microsoftopensource')
+                {
+                    var contributorAvatarURL = data[i].avatar_url;
+    
+                    parsedToHtml += 
+                        `<div class="col-6 col-sm-6 col-md-4 col-lg-4 col-xl-4 col-xxl-3">
+                            <img src="${contributorAvatarURL}" alt="Photo of contributor ${githubAlias}">
+                            <div class="contributor-name">${githubAlias}</div>
+                        </div>`;
+    
+                }
+            }
+        
+        }
+
+
+        //send data to callback method
+        callback(parsedToHtml);
+    }
+
+    // Send the request to the server
+    xhr.send();
+}

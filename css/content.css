@@ -426,6 +426,10 @@ iframe {
     justify-content: center;
 }
 
+.contributors-list div {
+    margin: 20px;
+}
+
 .contributor-card {
     display: flex;
     flex-direction: column;
