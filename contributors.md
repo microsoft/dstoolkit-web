@@ -4,58 +4,28 @@ title: Contributors
 permalink: /contributors/
 ---
 
-<!-- TODO: Loading the methods to get contributors
-<script src="/scripts/script-getcontributors.js" type="text/javascript"></script> -->
+<!-- TODO: Loading the methods to get contributors  -->
+<script src="/scripts/script-getcontributors.js" type="text/javascript"></script>
 
 <!--HTML for the Contributors page-->
 <div class="container-fluid">
     <img src="/images/contributors/CLO20b_Preeti_team_meeting_002.jpg" alt="team meeting">
     <div class="title">Solution Delivery Accelerator Contributors</div>
     <div class="custom-select" style="margin-top: 50px; float:right">
-      <select class="toolkit-select">
-        <option value="" selected disabled hidden>Filter by accelerator</option>
-        <option value="1">Option 1</option>
-        <option value="2">Option 2</option>
-        <option value="3">Option 3</option>
+      <select id="id-filter-accelerators" class="toolkit-select" onchange="if (this.selectedIndex) filterContributors();">
+        <option value="-1" selected hidden disabled>Filter by accelerator</option>
+        <option value="all">All</option>
+        <option value="dstoolkit-anomaly-detection-ijungle">dstoolkit-anomaly-detection-ijungle</option>
+        <option value="dstoolkit-classification-solution-accelerator">dstoolkit-classification-solution-accelerator</option>
+        <option value="cai-advanced-processing-service">cai-advanced-processing-service</option>
+        <option value="glue">glue</option>
+        <option value="dstoolkit-mlops-base">dstoolkit-mlops-base</option>
+        <option value="dstoolkit-ml-ops-for-databricks">dstoolkit-ml-ops-for-databricks</option>
+        <option value="dstoolkit-objectdetection-tensorflow-azureml">dstoolkit-objectdetection-tensorflow-azureml</option>
+        <option value="verseagility">verseagility</option>
       </select>
     </div>
     <div id="id-contributors-list" class="contributors-list">
-        <div class="contributor-card">
-            <img src="https://avatars.githubusercontent.com/u/18333502?v=4" alt="Photo of contributor" height="300" style="width:100%;">
-            <div class="contributor-name">mariamedp</div>
-        </div>
-        <div class="contributor-card">
-            <img src="https://avatars.githubusercontent.com/u/33233311?v=4" alt="Photo of contributor" height="300" style="width:100%;">
-            <div class="contributor-name">FlorianPydde</div>
-        </div>
-        <div class="contributor-card">
-            <img src="TODO" alt="Photo of contributor" height="300" style="width:100%;">
-            <div class="contributor-name">GitHub Alias</div>
-        </div>
-        <div class="contributor-card">
-            <img src="TODO" alt="Photo of contributor" height="300" style="width:100%;">
-            <div class="contributor-name">GitHub Alias</div>
-        </div>
-        <div class="contributor-card">
-            <img src="TODO" alt="Photo of contributor" height="300" style="width:100%;">
-            <div class="contributor-name">GitHub Alias</div>
-        </div>
-        <div class="contributor-card">
-            <img src="TODO" alt="Photo of contributor" height="300" style="width:100%;">
-            <div class="contributor-name">GitHub Alias</div>
-        </div>
-        <div class="contributor-card">
-            <img src="TODO" alt="Photo of contributor" height="300" style="width:100%;">
-            <div class="contributor-name">GitHub Alias</div>
-        </div>
-        <div class="contributor-card">
-            <img src="TODO" alt="Photo of contributor" height="300" style="width:100%;">
-            <div class="contributor-name">GitHub Alias</div>
-        </div>
-        <div class="contributor-card">
-            <img src="TODO" alt="Photo of contributor" height="300" style="width:100%;">
-            <div class="contributor-name">GitHub Alias</div>
-        </div>
     </div>
     <div class="subtitle borders" style="margin-top:0px">
         <div class="see-more">
@@ -66,23 +36,72 @@ permalink: /contributors/
 </div>
 
 <!--TODO: Script to update contributors dynamically-->
-<!-- <script>
-    const listRepos = ["https://github.com/microsoft/dstoolkit-anomaly-detection-ijungle",
-        "https://github.com/microsoft/dstoolkit-classification-solution-accelerator",
-        "https://github.com/microsoft/cai-advanced-processing-service",
-        "https://github.com/microsoft/glue",
-        "https://github.com/microsoft/dstoolkit-mlops-base",
-        "https://github.com/microsoft/dstoolkit-ml-ops-for-databricks",
-        "https://github.com/microsoft/dstoolkit-objectdetection-tensorflow-azureml",
-        "https://github.com/microsoft/verseagility"];
-    
-    var htmlContributors = ``;
-    for (let i = 0; i < listRepos.length; i++) {
-        GetHtmlListContributorsForContributorsPage(repo, function(parsed) {
-                htmlContributors += parsed;
-        });
-    }
-    
-    document.getElementById("id-contributors-list").innerHTML = "temmp";
+<script>
+    //static list of repos
+    const listRepos = ["dstoolkit-anomaly-detection-ijungle",
+        "dstoolkit-classification-solution-accelerator",
+        "cai-advanced-processing-service",
+        "glue",
+        "dstoolkit-mlops-base",
+        "dstoolkit-ml-ops-for-databricks",
+        "dstoolkit-objectdetection-tensorflow-azureml",
+        "verseagility"];
 
-</script> -->
+    var logContributorsAdded = [];
+    var arrayContributors = [];
+
+    showAllContributors();
+
+    function showAllContributors() {
+        var htmlContributors = ``;
+        for (let i = 0; i < listRepos.length; i++) {
+            GetHtmlListContributorsForAllRepos(listRepos[i], function(parsed) {
+                document.getElementById("id-contributors-list").innerHTML += parsed;
+            });
+        }   
+    
+    } 
+
+    function filterContributors() {
+        //check what the current selection is
+        var filter = document.getElementById("id-filter-accelerators");
+        var currentSelection  = filter.options[filter.selectedIndex].value;
+        githubAliasArray = [];
+        document.getElementById("id-contributors-list").innerHTML = "";
+        if(currentSelection === 'all') {
+            filterAllContributors();
+        }
+        else {
+            filterContributorsByCategory(currentSelection);
+        }
+    }
+
+    function filterAllContributors() {
+        var parsedToHtml = ``;
+        githubFilteredContributorsArray.forEach(e => {
+            parsedToHtml += 
+                `<div class="col-6 col-sm-6 col-md-4 col-lg-4 col-xl-4 col-xxl-3">
+                    <img src="${e.contributorAvatarURL}" alt="Photo of contributor ${e.githubAlias}">
+                    <div class="contributor-name">${e.githubAlias}</div>
+                </div>`;
+        });
+        document.getElementById("id-contributors-list").innerHTML += parsedToHtml;
+    }
+
+    function filterContributorsByCategory(repo) {
+        var parsedToHtml = ``;
+        githubContributorsArray.forEach(e => {
+            if(e.repo === repo) {
+                parsedToHtml += 
+                    `<div class="col-6 col-sm-6 col-md-4 col-lg-4 col-xl-4 col-xxl-3">
+                        <img src="${e.contributorAvatarURL}" alt="Photo of contributor ${e.githubAlias}">
+                        <div class="contributor-name">${e.githubAlias}</div>
+                    </div>`;
+            }
+        });
+        document.getElementById("id-contributors-list").innerHTML += parsedToHtml;
+
+    }
+
+
+</script>
