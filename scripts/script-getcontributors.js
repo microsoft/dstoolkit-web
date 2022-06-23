@@ -73,13 +73,15 @@ function GetHtmlListContributorsForSingleRepo(repoLink, callback)  {
 }
 
 var githubAliasArray = [];
+var githubContributorsArray = [];
+var githubFilteredContributorsArray = [];
 
 function GetHtmlListContributorsForAllRepos(repo, callback)  {
     // Create new XMLHttpRequest object
     const xhr = new XMLHttpRequest();
 
     // GitHub endpoint, dynamically passing in specified username
-    const url = `https://api.github.com/repos/${repo}/contributors`;
+    const url = `https://api.github.com/repos/microsoft/${repo}/contributors`;
 
     // Open a new connection, using a GET request via URL endpoint
     // Providing 3 arguments (GET/POST, The URL, Async True/False)
@@ -91,33 +93,32 @@ function GetHtmlListContributorsForAllRepos(repo, callback)  {
         var parsedToHtml = ``;
 
         // Parse API data into JSON
-        const data = JSON.parse(this.response);        
+        const data = JSON.parse(this.response);      
         
-        // Log the response
-        //parsedToHtml += `<div class="row">`;
-
         // Loop over each object in data array
         for (let i in data) {
             var githubAlias = data[i].login;
 
-            if(!githubAliasArray.includes(githubAlias))
-            {
-                githubAliasArray.push(githubAlias);
                 if (githubAlias != "dependabot[bot]" && githubAlias != 'microsoft-github-operations[bot]' && githubAlias != 'microsoftopensource')
                 {
                     var contributorAvatarURL = data[i].avatar_url;
-    
-                    parsedToHtml += 
+
+                    githubContributorsArray.push({githubAlias, contributorAvatarURL, repo});
+            
+                    if(!githubAliasArray.includes(githubAlias))
+                    {
+                        githubFilteredContributorsArray.push({githubAlias, contributorAvatarURL, repo});
+                        githubAliasArray.push(githubAlias);
+
+                        parsedToHtml += 
                         `<div class="col-6 col-sm-6 col-md-4 col-lg-4 col-xl-4 col-xxl-3">
                             <img src="${contributorAvatarURL}" alt="Photo of contributor ${githubAlias}">
                             <div class="contributor-name">${githubAlias}</div>
                         </div>`;
-    
-                }
+                    }
             }
         
         }
-
 
         //send data to callback method
         callback(parsedToHtml);

@@ -47,8 +47,6 @@ permalink: /contributors/
         "dstoolkit-objectdetection-tensorflow-azureml",
         "verseagility"];
 
-
-
     var logContributorsAdded = [];
     var arrayContributors = [];
 
@@ -57,15 +55,13 @@ permalink: /contributors/
     function showAllContributors() {
         var htmlContributors = ``;
         for (let i = 0; i < listRepos.length; i++) {
-            GetHtmlListContributorsForAllRepos(`microsoft/${listRepos[i]}`, function(parsed) {
+            GetHtmlListContributorsForAllRepos(listRepos[i], function(parsed) {
                 document.getElementById("id-contributors-list").innerHTML += parsed;
             });
         }   
     
-        document.getElementById("id-contributors-list").innerHTML += `</div>`;
     } 
 
-    // TODO --  script to filter div elements
     function filterContributors() {
         //check what the current selection is
         var filter = document.getElementById("id-filter-accelerators");
@@ -73,16 +69,39 @@ permalink: /contributors/
         githubAliasArray = [];
         document.getElementById("id-contributors-list").innerHTML = "";
         if(currentSelection === 'all') {
-            showAllContributors();
+            filterAllContributors();
         }
         else {
-            GetHtmlListContributorsForSingleRepo(`https://github.com/microsoft/${currentSelection}`, function(parsed) {
-                document.getElementById("id-contributors-list").innerHTML += parsed;
-            });
+            filterContributorsByCategory(currentSelection);
         }
     }
 
+    function filterAllContributors() {
+        var parsedToHtml = ``;
+        githubFilteredContributorsArray.forEach(e => {
+            parsedToHtml += 
+                `<div class="col-6 col-sm-6 col-md-4 col-lg-4 col-xl-4 col-xxl-3">
+                    <img src="${e.contributorAvatarURL}" alt="Photo of contributor ${e.githubAlias}">
+                    <div class="contributor-name">${e.githubAlias}</div>
+                </div>`;
+        });
+        document.getElementById("id-contributors-list").innerHTML += parsedToHtml;
+    }
 
+    function filterContributorsByCategory(repo) {
+        var parsedToHtml = ``;
+        githubContributorsArray.forEach(e => {
+            if(e.repo === repo) {
+                parsedToHtml += 
+                    `<div class="col-6 col-sm-6 col-md-4 col-lg-4 col-xl-4 col-xxl-3">
+                        <img src="${e.contributorAvatarURL}" alt="Photo of contributor ${e.githubAlias}">
+                        <div class="contributor-name">${e.githubAlias}</div>
+                    </div>`;
+            }
+        });
+        document.getElementById("id-contributors-list").innerHTML += parsedToHtml;
+
+    }
 
 
 </script>
