@@ -137,6 +137,14 @@ permalink: /toolkit/
           <p class="toolkit-card-content"><a href="/verseagility/">Knowledge mining on unstructured data sets with no data labeling</a></p>
         </div>
       </div>
+      <!--Vitastic-->
+      <div id="dstoolkit-vitastic" class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 toolkit-card show-toolkit-card">
+        <div class="shadow">
+          <img src="/images/toolkit/MSC19_paddingtonOffice_015.jpg" alt="logo"> <!--TODO update with link to image for vitastic-->
+          <p class="toolkit-card-title">Vitastic</p>
+          <p class="toolkit-card-content"><a href="/vitastic/">Quickly build web-interfaces for object detection, segmentation and classification models.</a></p>
+        </div>
+      </div>
       <!--Placeholder for delivery accelerator toolkit card on right-->
     </div>
   </div>
