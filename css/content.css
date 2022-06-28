@@ -139,9 +139,19 @@
     border-bottom: 1px solid #D2D2D2;
 }
 
+.accelerator-toolkit-card {
+    align-items: center;
+    text-align: center;
+}
+
 .toolkit-card {
     align-items: center;
-    text-align: center;    
+    text-align: center;
+    display: none;
+}
+
+.show-toolkit-card {
+    display: block;
 }
 
 .toolkit-card-title {
