@@ -183,7 +183,7 @@ permalink: /howtocontribute/
             </button>
             </div>
             <div class="container-fluid" style="margin-top:50px">
-                <img src="../images/how-to-contribute.png" alt="logo">
+                <img src="../images/howtocontribute/how-to-contribute.png" alt="logo">
             </div>   
         </div>
         <div style="border-top: 1px solid #D2D2D2;margin-top: 50px;">
