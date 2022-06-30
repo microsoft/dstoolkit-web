@@ -484,9 +484,9 @@ iframe {
     overflow-x: hidden;
   }
   
-  .sidenav span, .dropdown-btn {
+  .sidenav a, .dropdown-btn {
     padding: 15px;
-    text-decoration: none;
+    text-decoration: none !important;
     font-size: 18px;
     font-weight: 600;
     color: #24292E;
@@ -520,12 +520,22 @@ iframe {
 
   .howtocontribute-option.active { 
     margin-top: 10px;
-    border-left: 6px solid #0067B8;
   }
 
   .howtocontribute-body {
     display: flex;
     margin-top: 50px;
+  }
+
+  .howtocontribute-subtitle {
+    font-weight: 600; 
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 18px;
+  }
+
+  .sidenav-content {
+      width: 75%;
   }
  
 
@@ -557,5 +567,25 @@ iframe {
 
     .home-get-touch-content-right {
         width: 100%;
+    }
+    
+}
+
+@media all and (max-width: 550px) {
+    .howtocontribute-body {
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+    }
+
+    .sidenav {
+        margin-top: 30px;
+        margin-right: 0px;
+        margin-bottom: 50px;
+    }
+
+    .sidenav-content {
+        width: 85%;
+        margin-left: 10px;
     }
 }
