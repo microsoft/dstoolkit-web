@@ -24,6 +24,7 @@ permalink: /contributors/
         <option value="dstoolkit-objectdetection-tensorflow-azureml">dstoolkit-objectdetection-tensorflow-azureml</option>
         <option value="verseagility">verseagility</option>
         <option value="dstoolkit-vitastic">dstoolkit-vitastic</option>
+        <option value="dstoolkit-km-solution-accelerator">dstoolkit-km-solution-accelerator</option>
       </select>
     </div>
     <div id="id-contributors-list" class="contributors-list">
@@ -47,7 +48,8 @@ permalink: /contributors/
         "dstoolkit-ml-ops-for-databricks",
         "dstoolkit-objectdetection-tensorflow-azureml",
         "verseagility",
-        "dstoolkit-vitastic"];
+        "dstoolkit-vitastic",
+        "dstoolkit-km-solution-accelerator"];
 
     var logContributorsAdded = [];
     var arrayContributors = [];
