@@ -1,7 +1,7 @@
 ---
 layout: pageAccelerator
-title: DEMO Single Accelerator Page
-permalink: /DEMO-SingleAcceleratorPage/
+title: Knowledge Mining
+permalink: /knowledgemining/
 ---
 
 <!--This .md file is meant to serve as a demo for a Single Accelerator Page-->
