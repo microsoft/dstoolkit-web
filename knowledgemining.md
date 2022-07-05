@@ -69,7 +69,7 @@ In that respect, the solution provides
     const toHide_AcceleratorComponents = true;
     const toHide_KeyAcceleratorFiles = true;
     const toHide_LiveDemoSection = false;
-    const toHide_RepoStructureSection = true;
+    const toHide_RepoStructureSection = false;
 </script>
 
 <script src="/scripts/script-setsingleacceleratorpagecontents.js" type="text/javascript"></script>

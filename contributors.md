@@ -48,8 +48,8 @@ permalink: /contributors/
         "dstoolkit-ml-ops-for-databricks",
         "dstoolkit-objectdetection-tensorflow-azureml",
         "verseagility",
-        "dstoolkit-vitastic",
-        "dstoolkit-km-solution-accelerator"];
+        "dstoolkit-km-solution-accelerator",
+        "dstoolkit-vitastic"];
 
     var logContributorsAdded = [];
     var arrayContributors = [];
