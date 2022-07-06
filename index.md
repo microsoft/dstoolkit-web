@@ -10,7 +10,7 @@ title: Home
     <!--Use the toolkit section-->
     <div class="row home-card">
         <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6" style="align-content: left; justify-content: center;">
-            <img src="../images/MSC18_quantum_010.png" alt="logo">
+            <img src="images/MSC18_quantum_010.png" alt="logo">
         </div>
         <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6" style="padding: 25px; align-content: center; justify-content: center;">
             <p class="h1 text-center">Use the toolkit</p>
