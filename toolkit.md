@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Toolkit
-permalink: /toolkit/
+permalink: /dstoolkit-web/toolkit/
 ---
 
 <div class="container-fluid">
