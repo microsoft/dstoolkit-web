@@ -14,7 +14,7 @@ permalink: /knowledgemining/
     //Variables for this specific single accelerator page, to centralize re-used variables
     const textPageTitle = "Data Science Toolkit - Knowledge Mining Solution Accelerator";
     const htmlPageDescription = `Knowledge mining (KM) is an emerging discipline in artificial intelligence (AI) that uses a combination of intelligent services to quickly learn from vast amounts of information. It allows organizations to deeply understand and easily explore information, uncover hidden insights, and find relationships and patterns at scale.`;
-    const srcHeaderImage = "/images/knowledge-mining/Banner.png";
+    const srcHeaderImage = "{{site.baseurl}}/images/knowledge-mining/Banner.png";
     const linkAccessAcceleratorRepo = "https://github.com/microsoft/dstoolkit-km-solution-accelerator";
     const listPrereqs = ["Access to an Azure subscription / Resource Group", "Azure Functions Core tools v4.x", "AZ CLI", "PowerShell Core 7", ".NET Core 6.0"];
     const listIndustries = ["Automotive, Mobility & Transportation", "Energy", "Financial Services", "Healthcare & Lifescience", "Manufacturing & Supply chain", "Media & Communications", "Sustainability", "Public Sector"];
@@ -53,12 +53,12 @@ In that respect, the solution provides
         "Python",
         "Apache Tika"];
  
-    const htmlArchitectureSection = `<img src="/images/knowledge-mining/Architecture.png" alt="Solution Accelerator Architecture">`;
+    const htmlArchitectureSection = `<img src="{{site.baseurl}}/images/knowledge-mining/Architecture.png" alt="Solution Accelerator Architecture">`;
     const htmlBranchingStrategySection = `N/A`;
     const htmlAcceleratorComponents = `N/A`;
     const htmlKeyAcceleratorFiles = `N/A`;
     const htmlLiveDemoSection = `https://kmsolacui.azurewebsites.net/`;
-    const htmlRepoStructureSection = `<img src="/images/knowledge-mining/Repository.png" alt="Repository Structure">`;
+    const htmlRepoStructureSection = `<img src="{{site.baseurl}}/images/knowledge-mining/Repository.png" alt="Repository Structure">`;
  
     //boolean variables to show / hide sections of the page
     const toHide_AcceleratorGuidanceSection = true;
@@ -72,4 +72,4 @@ In that respect, the solution provides
     const toHide_RepoStructureSection = false;
 </script>
 
-<script src="/scripts/script-setsingleacceleratorpagecontents.js" type="text/javascript"></script>
+<script src="{{site.baseurl}}/scripts/script-setsingleacceleratorpagecontents.js" type="text/javascript"></script>

@@ -8,7 +8,7 @@ permalink: /ml-ops-for-databricks/
     //Variables for this specific single accelerator page, to centralize re-used variables
     const textPageTitle = "ML Ops for Databricks";
     const htmlPageDescription = `ML Ops support for Databricks`;
-    const srcHeaderImage = "/images/ml-ops-for-databricks/CLO20b_Aline_cafe_outside_002.jpg";
+    const srcHeaderImage = "{{site.baseurl}}/images/ml-ops-for-databricks/CLO20b_Aline_cafe_outside_002.jpg";
     const linkAccessAcceleratorRepo = "https://github.com/microsoft/dstoolkit-ml-ops-for-databricks";
     const listPrereqs = ["Access to an Azure subscription",
         "Docker Desktop Installed",
@@ -60,4 +60,4 @@ permalink: /ml-ops-for-databricks/
     const toHide_RepoStructureSection = true;
 </script>
 
-<script src="/scripts/script-setsingleacceleratorpagecontents.js" type="text/javascript"></script>
+<script src="{{site.baseurl}}/scripts/script-setsingleacceleratorpagecontents.js" type="text/javascript"></script>

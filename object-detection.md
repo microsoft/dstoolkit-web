@@ -10,7 +10,7 @@ permalink: /object-detection/
     //Variables for this specific single accelerator page, to centralize re-used variables
     const textPageTitle = "Detection Solution Accelerator";
     const htmlPageDescription = `Uses computer vision for object or defect detection and includes edge deployment capabilities`;
-    const srcHeaderImage = "/images/object-detection/CLO19_azureKinectDK_008.jpg";
+    const srcHeaderImage = "{{site.baseurl}}/images/object-detection/CLO19_azureKinectDK_008.jpg";
     const linkAccessAcceleratorRepo = "https://github.com/microsoft/dstoolkit-objectdetection-tensorflow-azureml";
     const listPrereqs = ["Access to an Azure Subscription",
         "Access to an Azure DevOps Subscription",
@@ -55,9 +55,9 @@ permalink: /object-detection/
         "Azure Kubernetes Services",
         "TensorFlow"];
 
-    const htmlArchitectureSection = `<img src="/images/object-detection/Architecture.png" alt="architecture">`;
-    const htmlBranchingStrategySection = `<img src="/images/object-detection/Branching-Strategy.png" alt="Branching Strategy">`;
-    const htmlAcceleratorComponents = `<img src="/images/object-detection/Code-blueprint.png" alt="Code blueprint">`;
+    const htmlArchitectureSection = `<img src="{{site.baseurl}}/images/object-detection/Architecture.png" alt="architecture">`;
+    const htmlBranchingStrategySection = `<img src="{{site.baseurl}}/images/object-detection/Branching-Strategy.png" alt="Branching Strategy">`;
+    const htmlAcceleratorComponents = `<img src="{{site.baseurl}}/images/object-detection/Code-blueprint.png" alt="Code blueprint">`;
     const htmlKeyAcceleratorFiles = `n/a`;
     const htmlLiveDemoSection = `n/a`;
     const htmlRepoStructureSection = `n/a`;
@@ -74,4 +74,4 @@ permalink: /object-detection/
     const toHide_RepoStructureSection = true;
 </script>
 
-<script src="/scripts/script-setsingleacceleratorpagecontents.js" type="text/javascript"></script>
+<script src="{{site.baseurl}}/scripts/script-setsingleacceleratorpagecontents.js" type="text/javascript"></script>

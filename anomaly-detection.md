@@ -8,7 +8,7 @@ permalink: /anomaly-detection/
     //Variables for this specific single accelerator page, to centralize re-used variables
     const textPageTitle = "Anomaly Detection Solution Accelerator";
     const htmlPageDescription = `Detect anomalies on very large structured data sets`;
-    const srcHeaderImage = "/images/anomaly-detection/MDC19_tapeTight_002.jpg";
+    const srcHeaderImage = "{{site.baseurl}}/images/anomaly-detection/MDC19_tapeTight_002.jpg";
     const linkAccessAcceleratorRepo = "https://github.com/microsoft/dstoolkit-anomaly-detection-ijungle";
     const listPrereqs = ["Azure Machine Learning (Ubuntu Linux compute)"];
     const listIndustries = ["IT Security",
@@ -42,7 +42,7 @@ permalink: /anomaly-detection/
 
     const htmlArchitectureSection = `n/a`;
     const htmlBranchingStrategySection = `n/a`;
-    const htmlAcceleratorComponents = `<img src="/images/anomaly-detection/Accelerator-components.png" alt="Accelerator components image">`;
+    const htmlAcceleratorComponents = `<img src="{{site.baseurl}}/images/anomaly-detection/Accelerator-components.png" alt="Accelerator components image">`;
     const htmlKeyAcceleratorFiles = `n/a`;
     const htmlLiveDemoSection = `n/a`;
     const htmlRepoStructureSection = `n/a`;
@@ -59,4 +59,4 @@ permalink: /anomaly-detection/
     const toHide_RepoStructureSection = true;
 </script>
 
-<script src="/scripts/script-setsingleacceleratorpagecontents.js" type="text/javascript"></script>
+<script src="{{site.baseurl}}/scripts/script-setsingleacceleratorpagecontents.js" type="text/javascript"></script>

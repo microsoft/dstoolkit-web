@@ -8,7 +8,7 @@ permalink: /forecasting/
     //Variables for this specific single accelerator page, to centralize re-used variables
     const textPageTitle = "Forecasting Solution Accelerator";
     const htmlPageDescription = `Pre-configured engine for demand forecasting, map data into the existing model to generate a forecast`;
-    const srcHeaderImage = "/images/forecasting/CLO18_cafeWork_003.jpg";
+    const srcHeaderImage = "{{site.baseurl}}/images/forecasting/CLO18_cafeWork_003.jpg";
     const linkAccessAcceleratorRepo = "TBD";
     const listPrereqs = ["Azure Databricks",
         "Power BI"];
@@ -39,9 +39,9 @@ permalink: /forecasting/
         "Azure Data Lake",
         "Common Data Model (CDM)"];
 
-    const htmlArchitectureSection = `<img src="/images/forecasting/Demand-forecasting-accelerator-logical-diagram.png" alt="Demand forecasting accelerator logical diagram">`;
+    const htmlArchitectureSection = `<img src="{{site.baseurl}}/images/forecasting/Demand-forecasting-accelerator-logical-diagram.png" alt="Demand forecasting accelerator logical diagram">`;
     const htmlBranchingStrategySection = `n/a`;
-    const htmlAcceleratorComponents = `<img src="/images/forecasting/Repository-Folder-structure.jfif" alt="Repository Folder structure">`;
+    const htmlAcceleratorComponents = `<img src="{{site.baseurl}}/images/forecasting/Repository-Folder-structure.jfif" alt="Repository Folder structure">`;
     const htmlKeyAcceleratorFiles = `n/a`;
     const htmlLiveDemoSection = `n/a`;
     const htmlRepoStructureSection = `n/a`;
@@ -58,4 +58,4 @@ permalink: /forecasting/
     const toHide_RepoStructureSection = true;
 </script>
 
-<script src="/scripts/script-setsingleacceleratorpagecontents.js" type="text/javascript"></script>
+<script src="{{site.baseurl}}/scripts/script-setsingleacceleratorpagecontents.js" type="text/javascript"></script>

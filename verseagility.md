@@ -10,7 +10,7 @@ permalink: /verseagility/
     //Variables for this specific single accelerator page, to centralize re-used variables
     const textPageTitle = "Verseagility Solution Accelerator";
     const htmlPageDescription = `Knowledge mining on unstructured data sets with no data labeling<br/><img src="/images/verseagility/verseagility.png" alt="verseagility">`;
-    const srcHeaderImage = "/images/verseagility/MSC18_scenicsLiberia_002.jpg";
+    const srcHeaderImage = "{{site.baseurl}}/images/verseagility/MSC18_scenicsLiberia_002.jpg";
     const linkAccessAcceleratorRepo = "https://github.com/microsoft/verseagility";
     const listPrereqs = ["Access to an Azure Subscription",
         "Access to an Azure DevOps Subscription",
@@ -43,7 +43,7 @@ permalink: /verseagility/
     const htmlKeyAcceleratorFiles = `n/a`;
     const htmlLiveDemoSection = `<a href="https://verseagility.azurewebsites.net/" target="_blank">https://verseagility.azurewebsites.net/</a>
         <img src="/images/verseagility/live-demo.png" alt="live demo">`;
-    const htmlRepoStructureSection = `<img src="/images/verseagility/Repository-Structure.png" alt="repository structure">`;
+    const htmlRepoStructureSection = `<img src="{{site.baseurl}}/images/verseagility/Repository-Structure.png" alt="repository structure">`;
 
     //boolean variables to show / hide sections of the page
     const toHide_AcceleratorGuidanceSection = false;
@@ -57,4 +57,4 @@ permalink: /verseagility/
     const toHide_RepoStructureSection = false;
 </script>
 
-<script src="/scripts/script-setsingleacceleratorpagecontents.js" type="text/javascript"></script>
+<script src="{{site.baseurl}}/scripts/script-setsingleacceleratorpagecontents.js" type="text/javascript"></script>
