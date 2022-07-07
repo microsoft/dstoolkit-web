@@ -5,7 +5,7 @@ permalink: /contributors/
 ---
 
 <!-- TODO: Loading the methods to get contributors  -->
-<script src="/scripts/script-getcontributors.js" type="text/javascript"></script>
+<script src="{{site.baseurl}}/scripts/script-getcontributors.js" type="text/javascript"></script>
 
 <!--HTML for the Contributors page-->
 <div class="container-fluid">
