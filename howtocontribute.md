@@ -6,7 +6,7 @@ permalink: /howtocontribute/
 
 <div class="howtocontribute">
     <div class="container-fluid">
-          <img src="/images/howtocontribute/MSC21_Getty_remoteWorkplace_1198541191.jpg" alt="logo">
+          <img src="{{site.baseurl}}/images/howtocontribute/MSC21_Getty_remoteWorkplace_1198541191.jpg" alt="logo">
           <!-- <div class="title howtocontribute">How can I contribute my work?</div> -->
     </div>
 <div class="howtocontribute-body">
