@@ -9,7 +9,7 @@ permalink: /contributors/
 
 <!--HTML for the Contributors page-->
 <div class="container-fluid">
-    <img src="/images/contributors/CLO20b_Preeti_team_meeting_002.jpg" alt="team meeting">
+    <img src="{{site.baseurl}}/images/contributors/CLO20b_Preeti_team_meeting_002.jpg" alt="team meeting">
     <div class="title">Solution Delivery Accelerator Contributors</div>
     <div class="custom-select" style="margin-top: 50px; float:right">
       <select id="id-filter-accelerators" class="toolkit-select" onchange="if (this.selectedIndex) filterContributors();">
