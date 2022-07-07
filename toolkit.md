@@ -146,7 +146,7 @@ permalink: /toolkit/
         </div>
       </div>
       <!--Knowledge Mining-->
-      <div id="dstoolkit-vitastic" class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 toolkit-card show-toolkit-card">
+      <div id="dstoolkit-km-solution-accelerator" class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 toolkit-card show-toolkit-card">
         <div class="shadow">
           <img src="/images/toolkit/MSC19_paddingtonOffice_015.jpg" alt="logo"> <!--TODO update with link to image for vitastic-->
           <p class="toolkit-card-title">Knowledge Mining</p>
