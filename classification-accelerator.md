@@ -10,7 +10,7 @@ permalink: /classification-accelerator/
     //Variables for this specific single accelerator page, to centralize re-used variables
     const textPageTitle = "Binary Classification Accelerator";
     const htmlPageDescription = `Binary classification, with parameter based auto algorithm selection`;
-    const srcHeaderImage = "/images/classification-accelerator/PCA22_OceanPlasticMouse_Feature_06_RGB.jpg";
+    const srcHeaderImage = "{{site.baseurl}}/images/classification-accelerator/PCA22_OceanPlasticMouse_Feature_06_RGB.jpg";
     const linkAccessAcceleratorRepo = "https://github.com/microsoft/dstoolkit-classification-solution-accelerator";
     const listPrereqs = ["Access to an Azure Subscription",
         "Access to an Azure DevOps Subscription",
@@ -61,9 +61,9 @@ permalink: /classification-accelerator/
         "Azure Container Instance",
         "Azure Kubernetes Services"];
 
-    const htmlArchitectureSection = `<img src="/images/classification-accelerator/Solution-Accelerator-Architecture.png" alt="Solution Accelerator Architecture">`;
-    const htmlBranchingStrategySection = `<img src="/images/classification-accelerator/Branching-Strategy.png" alt="Branching Strategy">`;
-    const htmlAcceleratorComponents = `<img src="/images/classification-accelerator/Code-Blueprint.png" alt="Code Blueprint">`;
+    const htmlArchitectureSection = `<img src="{{site.baseurl}}/images/classification-accelerator/Solution-Accelerator-Architecture.png" alt="Solution Accelerator Architecture">`;
+    const htmlBranchingStrategySection = `<img src="{{site.baseurl}}/images/classification-accelerator/Branching-Strategy.png" alt="Branching Strategy">`;
+    const htmlAcceleratorComponents = `<img src="{{site.baseurl}}/images/classification-accelerator/Code-Blueprint.png" alt="Code Blueprint">`;
     const htmlKeyAcceleratorFiles = 
         `<ul>
             <li><a href="https://github.com/microsoft/dstoolkit-classification-solution-accelerator/blob/main/configuration/configuration-aml.variables.yml" target="_blank">Configuration-aml.variables.yml</a></li>
@@ -85,4 +85,4 @@ permalink: /classification-accelerator/
     const toHide_RepoStructureSection = true;
 </script>
 
-<script src="/scripts/script-setsingleacceleratorpagecontents.js" type="text/javascript"></script>
+<script src="{{site.baseurl}}/scripts/script-setsingleacceleratorpagecontents.js" type="text/javascript"></script>

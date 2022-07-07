@@ -14,7 +14,7 @@ permalink: /vitastic/
     //Variables for this specific single accelerator page, to centralize re-used variables
     const textPageTitle = "Vitastic";
     const htmlPageDescription = `Quickly build web-interfaces for object detection, segmentation and classification models.`;
-    const srcHeaderImage = "/images/DEMO-SingleAcceleratorPage/demo-title-photo.jpg"; //TODO: create and add new header image
+    const srcHeaderImage = "{{site.baseurl}}/images/DEMO-SingleAcceleratorPage/demo-title-photo.jpg"; //TODO: create and add new header image
     const linkAccessAcceleratorRepo = "https://github.com/microsoft/dstoolkit-vitastic";
     const listPrereqs = ["prerequisite1", "prerequisite2", "prerequisite3", "prerequisite4", "prerequisite5", "prerequisite6"];
     const listIndustries = ["industry1", "industry2", "industry3", "industry4", "industry5", "industry6"];
@@ -53,4 +53,4 @@ permalink: /vitastic/
     const toHide_RepoStructureSection = true;
 </script>
 
-<script src="/scripts/script-setsingleacceleratorpagecontents.js" type="text/javascript"></script>
+<script src="{{site.baseurl}}/scripts/script-setsingleacceleratorpagecontents.js" type="text/javascript"></script>

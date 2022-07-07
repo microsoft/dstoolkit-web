@@ -8,7 +8,7 @@ permalink: /GLUE-accelerator/
     //Variables for this specific single accelerator page, to centralize re-used variables
     const textPageTitle = "GLUE - Azure Cognitive Services Accelerator";
     const htmlPageDescription = `GLUE is a lightweight, Python-based collection of scripts to support you at succeeding with speech and text`;
-    const srcHeaderImage = "/images/GLUE-accelerator/CLO20b_Sylvie_office_night_001.jpg";
+    const srcHeaderImage = "{{site.baseurl}}/images/GLUE-accelerator/CLO20b_Sylvie_office_night_001.jpg";
     const linkAccessAcceleratorRepo = "https://github.com/microsoft/glue";
     const listPrereqs = [`<a href="https://www.python.org/downloads/" target="_blank">Python</a> (required, Version >=3.8 is recommended).`,
         `<a href="https://code.visualstudio.com/" target="_blank">VSCode</a> (recommended), but you can also run the scripts using PowerShell, Bash etc.`,
@@ -114,4 +114,4 @@ permalink: /GLUE-accelerator/
     const toHide_RepoStructureSection = true;
 </script>
 
-<script src="/scripts/script-setsingleacceleratorpagecontents.js" type="text/javascript"></script>
+<script src="{{site.baseurl}}/scripts/script-setsingleacceleratorpagecontents.js" type="text/javascript"></script>

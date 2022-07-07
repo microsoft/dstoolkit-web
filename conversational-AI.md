@@ -8,7 +8,7 @@ permalink: /conversational-AI/
     //Variables for this specific single accelerator page, to centralize re-used variables
     const textPageTitle = "Conversational AI Advanced Pre-processing Service";
     const htmlPageDescription = `Collection of modules to help with validation, identification and authentication processes`;
-    const srcHeaderImage = "/images/conversational-AI/M365CO19_SMB_iPhone_245.jpg";
+    const srcHeaderImage = "{{site.baseurl}}/images/conversational-AI/M365CO19_SMB_iPhone_245.jpg";
     const linkAccessAcceleratorRepo = "https://github.com/microsoft/cai-advanced-processing-service";
     const listPrereqs = ["Access to an Azure subscription",
         "Access to an Azure DevOps subscription",
@@ -89,9 +89,9 @@ permalink: /conversational-AI/
         "Azure Container Instance",
         "Azure Kubernetes Services"];
 
-    const htmlArchitectureSection = `<img src="/images/conversational-AI/High-level-Architecture.png" alt="High-level Architecture">`;
+    const htmlArchitectureSection = `<img src="{{site.baseurl}}/images/conversational-AI/High-level-Architecture.png" alt="High-level Architecture">`;
     const htmlBranchingStrategySection = `n/a`;
-    const htmlAcceleratorComponents = `<img src="/images/conversational-AI/Technical-components-of-the-accelerator.png" alt="High-level Architecture">`;
+    const htmlAcceleratorComponents = `<img src="{{site.baseurl}}/images/conversational-AI/Technical-components-of-the-accelerator.png" alt="High-level Architecture">`;
     const htmlKeyAcceleratorFiles = `n/a`;
     const htmlLiveDemoSection = `n/a`;
     const htmlRepoStructureSection = `n/a`;
@@ -108,4 +108,4 @@ permalink: /conversational-AI/
     const toHide_RepoStructureSection = true;
 </script>
 
-<script src="/scripts/script-setsingleacceleratorpagecontents.js" type="text/javascript"></script>
+<script src="{{site.baseurl}}/scripts/script-setsingleacceleratorpagecontents.js" type="text/javascript"></script>

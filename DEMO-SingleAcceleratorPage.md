@@ -53,4 +53,4 @@ permalink: /DEMO-SingleAcceleratorPage/
     const toHide_RepoStructureSection = false;
 </script>
 
-<script src="/scripts/script-setsingleacceleratorpagecontents.js" type="text/javascript"></script>
+<script src="{{site.baseurl}}/scripts/script-setsingleacceleratorpagecontents.js" type="text/javascript"></script>
