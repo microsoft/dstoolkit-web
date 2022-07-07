@@ -4,7 +4,7 @@ title: Home
 ---
 
 <div class="container-fluid">
-    <img src="../images/Edu16_STEM_11.png" alt="logo">
+    <img src="images/Edu16_STEM_11.png" alt="logo">
     <div class="title">What is the Data Science Toolkit?</div>   
     <div class="home-paragraph">The Data Science Toolkit provides everyone from professional background to Data Science enthusiasts with packaged, vetted and tested delivery accelerators, delivery guidance, and product backlogs for common machine learning scenarios.</div>  
     <!--Use the toolkit section-->
@@ -18,7 +18,7 @@ title: Home
                 Have you ever wished for a "push button" way to set up an Azure environment for ML, to get quickly past the boring stuff, and get to the exciting work of building/training a model?
             </p>
             <div class="d-grid">
-                <a href="/toolkit/" class="btn btn-primary btn-lg btn-block" target="_blank" style="text-decoration:none;">Use the toolkit</a>
+                <a href="{{site.baseurl}}/toolkit/" class="btn btn-primary btn-lg btn-block" style="text-decoration:none;">Use the toolkit</a>
             </div>
         </div>
     </div>
@@ -30,11 +30,11 @@ title: Home
                 Have you ever wanted to contributed back to IP and show the great work that has been done for your customer?
             </p>
             <div class="d-grid">
-                <a href="/howtocontribute/" class="btn btn-primary btn-lg btn-block" target="_blank" style="text-decoration:none;">Contribute to the toolkit</a>
+                <a href="{{site.baseurl}}/howtocontribute/" class="btn btn-primary btn-lg btn-block" style="text-decoration:none;">Contribute to the toolkit</a>
             </div>
         </div>
         <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6" style="align-content: right; justify-content: center;">
-            <img src="../images/EDU22_Hybrid_K12_Student_058.png" alt="logo">
+            <img src="images/EDU22_Hybrid_K12_Student_058.png" alt="logo">
         </div>
     </div>
     <!--Get in touch-->
