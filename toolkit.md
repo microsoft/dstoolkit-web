@@ -70,7 +70,7 @@ permalink: /toolkit/
         <div class="shadow">
           <img src="{{site.baseurl}}/images/ml-ops/MDC19_cooling_002.jpg" alt="white pipes">
           <p class="toolkit-card-title">ML Ops</p>
-          <p class="toolkit-card-content"><a href="/ml-ops/">Configurable CI/CD pipelines, AML pipelines, and compute resources for ML Ops</a></p>
+          <p class="toolkit-card-content"><a href="{{site.baseurl}}/ml-ops/">Configurable CI/CD pipelines, AML pipelines, and compute resources for ML Ops</a></p>
         </div>
       </div>
       <!--ML Ops for Databricks-->
@@ -78,7 +78,7 @@ permalink: /toolkit/
         <div class="shadow">
           <img src="{{site.baseurl}}/images/ml-ops-for-databricks/CLO20b_Aline_cafe_outside_002.jpg" alt="brick walls">
           <p class="toolkit-card-title">ML Ops for Databricks</p>
-          <p class="toolkit-card-content"><a href="/ml-ops-for-databricks/">ML Ops for Databricks</a></p>
+          <p class="toolkit-card-content"><a href="{{site.baseurl}}/ml-ops-for-databricks/">ML Ops for Databricks</a></p>
         </div>
       </div>
       <!--Conversational AI-->
@@ -86,7 +86,7 @@ permalink: /toolkit/
         <div class="shadow">
           <img src="{{site.baseurl}}/images/conversational-AI/M365CO19_SMB_iPhone_245.jpg" alt="logo">
           <p class="toolkit-card-title">Conversational AI (CAI) Advanced Processing Service</p>
-          <p class="toolkit-card-content"><a href="/conversational-AI/">Collection of modules to help with validation, identification and authentication processes</a></p>
+          <p class="toolkit-card-content"><a href="{{site.baseurl}}/conversational-AI/">Collection of modules to help with validation, identification and authentication processes</a></p>
         </div>
       </div>
       <!--GLUE-->
@@ -94,7 +94,7 @@ permalink: /toolkit/
         <div class="shadow">
           <img src="{{site.baseurl}}/images/GLUE-accelerator/CLO20b_Sylvie_office_night_001.jpg" alt="logo">
           <p class="toolkit-card-title">GLUE - Cognitive Services Accelerator</p>
-          <p class="toolkit-card-content"><a href="/GLUE-accelerator/">GLUE is a lightweight, Python-based collection of scripts to support you at succeeding with speech and text</a></p>
+          <p class="toolkit-card-content"><a href="{{site.baseurl}}/GLUE-accelerator/">GLUE is a lightweight, Python-based collection of scripts to support you at succeeding with speech and text</a></p>
         </div>
       </div>
       <!--Anomaly detection-->
@@ -102,7 +102,7 @@ permalink: /toolkit/
         <div class="shadow">
           <img src="{{site.baseurl}}/images/anomaly-detection/MDC19_tapeTight_002.jpg" alt="logo">
           <p class="toolkit-card-title">Anomaly Detection</p>
-          <p class="toolkit-card-content"><a href="/anomaly-detection/">Detect anomalies on very large structured data sets</a></p>
+          <p class="toolkit-card-content"><a href="{{site.baseurl}}/anomaly-detection/">Detect anomalies on very large structured data sets</a></p>
         </div>
       </div>
       <!--Forecasting-->
@@ -110,7 +110,7 @@ permalink: /toolkit/
         <div class="shadow">
           <img src="{{site.baseurl}}/images/forecasting/CLO18_cafeWork_003.jpg" alt="logo">
           <p class="toolkit-card-title">Forecasting</p>
-          <p class="toolkit-card-content"><a href="/forecasting/">Pre-configured engine for demand forecasting, map data into the existing model to generate a forecast</a></p>
+          <p class="toolkit-card-content"><a href="{{site.baseurl}}/forecasting/">Pre-configured engine for demand forecasting, map data into the existing model to generate a forecast</a></p>
         </div>
       </div>
       <!--Classification-->
@@ -118,7 +118,7 @@ permalink: /toolkit/
         <div class="shadow">
           <img src="{{site.baseurl}}/images/classification-accelerator/PCA22_OceanPlasticMouse_Feature_06_RGB.jpg" alt="logo">
           <p class="toolkit-card-title">Classification Accelerator</p>
-          <p class="toolkit-card-content"><a href="/classification-accelerator/">Binary classification, with parameter based auto algorithm selection</a></p>
+          <p class="toolkit-card-content"><a href="{{site.baseurl}}/classification-accelerator/">Binary classification, with parameter based auto algorithm selection</a></p>
         </div>
       </div>
       <!--Object Detection-->
@@ -126,7 +126,7 @@ permalink: /toolkit/
         <div class="shadow">
           <img src="{{site.baseurl}}/images/object-detection/CLO19_azureKinectDK_008.jpg" alt="logo">
           <p class="toolkit-card-title">Object Detection</p>
-          <p class="toolkit-card-content"><a href="/object-detection/">Uses computer vision for object or defect detection and includes edge deployment capabilities</a></p>
+          <p class="toolkit-card-content"><a href="{{site.baseurl}}/object-detection/">Uses computer vision for object or defect detection and includes edge deployment capabilities</a></p>
         </div>
       </div>
       <!--Verseagility-->
@@ -134,7 +134,7 @@ permalink: /toolkit/
         <div class="shadow">
           <img src="{{site.baseurl}}/images/verseagility/MSC18_scenicsLiberia_002.jpg" alt="logo">
           <p class="toolkit-card-title">Knowledge Mining (Verseagility)</p>
-          <p class="toolkit-card-content"><a href="/verseagility/">Knowledge mining on unstructured data sets with no data labeling</a></p>
+          <p class="toolkit-card-content"><a href="{{site.baseurl}}/verseagility/">Knowledge mining on unstructured data sets with no data labeling</a></p>
         </div>
       </div>
       <!--Vitastic-->
@@ -142,7 +142,7 @@ permalink: /toolkit/
         <div class="shadow">
           <img src="{{site.baseurl}}/images/toolkit/MSC19_paddingtonOffice_015.jpg" alt="logo"> <!--TODO update with link to image for vitastic-->
           <p class="toolkit-card-title">Vitastic</p>
-          <p class="toolkit-card-content"><a href="/vitastic/">Quickly build web-interfaces for object detection, segmentation and classification models.</a></p>
+          <p class="toolkit-card-content"><a href="{{site.baseurl}}/vitastic/">Quickly build web-interfaces for object detection, segmentation and classification models.</a></p>
         </div>
       </div>
       <!--Knowledge Mining-->
@@ -150,7 +150,7 @@ permalink: /toolkit/
         <div class="shadow">
           <img src="{{site.baseurl}}/images/toolkit/MSC19_paddingtonOffice_015.jpg" alt="logo"> <!--TODO update with link to image for vitastic-->
           <p class="toolkit-card-title">Knowledge Mining</p>
-          <p class="toolkit-card-content"><a href="/knowledgemining/">This KM solution accelerator aims to provide you with a workable end-to-end Knowledge Mining solution.</a></p>
+          <p class="toolkit-card-content"><a href="{{site.baseurl}}/knowledgemining/">This KM solution accelerator aims to provide you with a workable end-to-end Knowledge Mining solution.</a></p>
         </div>
       </div>
       <!--Placeholder for delivery accelerator toolkit card on right-->
