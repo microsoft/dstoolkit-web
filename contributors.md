@@ -25,6 +25,7 @@ permalink: /contributors/
         <option value="verseagility">verseagility</option>
         <option value="dstoolkit-vitastic">dstoolkit-vitastic</option>
         <option value="dstoolkit-km-solution-accelerator">dstoolkit-km-solution-accelerator</option>
+        <option value="dstoolkit-hierarchical-multilabel-classification">dstoolkit-hierarchical-multilabel-classification</option>
       </select>
     </div>
     <div id="id-contributors-list" class="contributors-list">
@@ -49,7 +50,8 @@ permalink: /contributors/
         "dstoolkit-objectdetection-tensorflow-azureml",
         "verseagility",
         "dstoolkit-km-solution-accelerator",
-        "dstoolkit-vitastic"];
+        "dstoolkit-vitastic",
+        "dstoolkit-hierarchical-multilabel-classification"];
 
     var logContributorsAdded = [];
     var arrayContributors = [];
