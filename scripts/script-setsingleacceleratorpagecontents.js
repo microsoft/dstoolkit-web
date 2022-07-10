@@ -118,13 +118,15 @@ if (toHide_RelatedAccelerators == false) {
             displayName = "Object Detection";
         } else if (link == "https://github.com/microsoft/dstoolkit-km-solution-accelerator") {
             displayName = "Knowledge Mining";
+        } else if (link == "/dstoolkit-web/test/") {
+            displayName = "Test";
         } else {
             displayName = link;
         }
-
+        var bigLink = "/dstoolkit-web" + link;
         htmlRelatedAccelerators +=
             `<div class="d-grid">
-                <a href="` + link + `" class="btn btn-primary" target="_blank" style="text-decoration:none;">` + displayName + `</a>
+                <a href="`+ bigLink + `" class="btn btn-primary" style="text-decoration:none;">` + displayName + `</a>
             </div>`;
     }
     document.getElementById("id-related-accelerators-Section").innerHTML = htmlRelatedAccelerators;
