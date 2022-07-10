@@ -53,7 +53,7 @@ The Hierarchical Multi-label classification accelerator can be applied to a vari
 
     // const listAcceleratorGuidanceVideoURLs = ["https://www.youtube.com/embed/fEvM-OUbaKs", "https://www.youtube.com/embed/fEvM-OUbaKs", "https://www.youtube.com/embed/fEvM-OUbaKs"];
 
-    const listLinksRelatedAccelerators = ["/dstoolkit-web/ml-ops/"];
+    const listLinksRelatedAccelerators = ["/ml-ops/"];
     
     const linkContributingGuide = "TODO";
 

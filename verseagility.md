@@ -27,7 +27,7 @@ permalink: /verseagility/
 
     const listAcceleratorGuidanceVideoURLs = ["https://www.youtube.com/embed/vwSYCy-NLqU", "https://www.youtube.com/embed/itfpdwh6x0E"];
 
-    const listLinksRelatedAccelerators = ["https://github.com/microsoft/dstoolkit-km-solution-accelerator"];
+    const listLinksRelatedAccelerators = ["/knowledgemining/"];
     
     const linkContributingGuide = "n/a";
 

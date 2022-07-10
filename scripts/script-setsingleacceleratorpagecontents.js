@@ -116,7 +116,7 @@ if (toHide_RelatedAccelerators == false) {
             displayName = "ML Ops for Databricks";
         } else if (link == "/object-detection/") {
             displayName = "Object Detection";
-        } else if (link == "https://github.com/microsoft/dstoolkit-km-solution-accelerator") {
+        } else if (link == "/knowledgemining/") {
             displayName = "Knowledge Mining";
         } else if (link == "/dstoolkit-web/test/") {
             displayName = "Test";
