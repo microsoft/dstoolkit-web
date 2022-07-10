@@ -120,6 +120,10 @@ if (toHide_RelatedAccelerators == false) {
             displayName = "Knowledge Mining";
         } else if (link == "/dstoolkit-web/test/") {
             displayName = "Test";
+        } else if (link == "/verseagility/") {
+            displayName = "Verseagility";
+        } else if (link == "/anomaly-detection/") {
+            displayName = "Anomaly Detection";
         } else {
             displayName = link;
         }
