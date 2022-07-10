@@ -28,7 +28,7 @@ permalink: /ml-ops/
                 <li> Deploy model(s) - to cloud & edge, for use in real-time / streaming / batch processing</li>
                 <li> Monitor model behavior & business value, know when to replace / deprecate a stale model</li>
             </ul>
-            <img src="/images/ml-ops/ML-Ops-process-description.png" alt="ML Ops process description image">`;
+            <img src="{{site.baseurl}}/images/ml-ops/ML-Ops-process-description.png" alt="ML Ops process description image">`;
 
     const listAcceleratorGuidanceVideoURLs = ["https://www.youtube.com/embed/tdFetGQuBls", "https://www.youtube.com/embed/itfpdwh6x0E"];
 
