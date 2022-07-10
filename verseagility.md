@@ -9,7 +9,7 @@ permalink: /verseagility/
 
     //Variables for this specific single accelerator page, to centralize re-used variables
     const textPageTitle = "Verseagility Solution Accelerator";
-    const htmlPageDescription = `Knowledge mining on unstructured data sets with no data labeling<br/><img src="/images/verseagility/verseagility.png" alt="verseagility">`;
+    const htmlPageDescription = `Knowledge mining on unstructured data sets with no data labeling<br/><img src="{{site.baseurl}}/images/verseagility/verseagility.png" alt="verseagility">`;
     const srcHeaderImage = "{{site.baseurl}}/images/verseagility/MSC18_scenicsLiberia_002.jpg";
     const linkAccessAcceleratorRepo = "https://github.com/microsoft/verseagility";
     const listPrereqs = ["Access to an Azure Subscription",
@@ -22,7 +22,7 @@ permalink: /verseagility/
     const htmlAcceleratorDescription =
         `<p style="margin-top: 30px; text-decoration: none;">
             Verseagility is a Python-based toolkit to ramp up your custom natural language processing (NLP) task, allowing you to bring your own data, use your preferred frameworks and bring models into production. It is a central component of the Microsoft Data Science Toolkit.
-            <img src="/images/verseagility/with-vs-without-toolkit.png" alt="with vs without toolkit">
+            <img src="{{site.baseurl}}/images/verseagility/with-vs-without-toolkit.png" alt="with vs without toolkit">
         </p>`;
 
     const listAcceleratorGuidanceVideoURLs = ["https://www.youtube.com/embed/vwSYCy-NLqU", "https://www.youtube.com/embed/itfpdwh6x0E"];
@@ -42,7 +42,7 @@ permalink: /verseagility/
     const htmlAcceleratorComponents = `n/a`;
     const htmlKeyAcceleratorFiles = `n/a`;
     const htmlLiveDemoSection = `<a href="https://verseagility.azurewebsites.net/" target="_blank">https://verseagility.azurewebsites.net/</a>
-        <img src="/images/verseagility/live-demo.png" alt="live demo">`;
+        <img src="{{site.baseurl}}/images/verseagility/live-demo.png" alt="live demo">`;
     const htmlRepoStructureSection = `<img src="{{site.baseurl}}/images/verseagility/Repository-Structure.png" alt="repository structure">`;
 
     //boolean variables to show / hide sections of the page
