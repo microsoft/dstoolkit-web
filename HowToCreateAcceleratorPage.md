@@ -51,7 +51,7 @@ You can check that the page is created. It is still untracked by git as you have
 
 ![New Page](images/howtocreateacceleratorpage/newpage.png)
 
-Now add and commit the file to git.
+Now add and commit the file to git using the commands:
 
 ```
 git add .
@@ -60,7 +60,8 @@ git commit -m "Add new accelerator page for Coolest Accelerator"
 
 ![Add and Commit](images/howtocreateacceleratorpage/addcommit.png)
 
-
+> If you have not read the pages on the [Toolkit-site](https://microsoft.github.io/dstoolkit-web/howtocontribute/) on recommendations on how to contribute, now is the time. 
+> Especially the section that explains the *SST Git Flow* as well as the *List Of Practices*
 
 
 
