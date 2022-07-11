@@ -22,6 +22,10 @@ Create a new branch. This can either be done from the web site as shown below. M
 
 **It is recommended to work locally.**
 
+Start by cloning the repo to your local disk. This is done using the command `git clone https://github.com/microsoft/dstoolkit-web`.
+
+![Clone repo](images/howtocreateacceleratorpage/gitclone.png)
+
 To create a new branch from the commandline open e.g. git bash. Make sure the main branch is checkout out (the *gh-pages* branch) and that you have pulled the latest code. Enter the commands
 
 ```
@@ -64,7 +68,13 @@ git commit -m "Add new accelerator page for Coolest Accelerator"
 
 > Especially the section that explains the *SST Git Flow* as well as the *List Of Practices*
 
+The new file and subsequent changes should be pushed to the repo on GitHub.
 
+This is done using the command `git push`.
+
+![Push](images/howtocreateacceleratorpage/gitpush.png)
+
+If you had not created
 
 ## Update Toolkit Page
 
