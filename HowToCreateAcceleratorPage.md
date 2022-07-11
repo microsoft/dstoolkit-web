@@ -91,7 +91,7 @@ At the top of the page you will find three options:
 - title
 - permalink
 
-The *layout* you should keep as is (pageAccelerator).
+The *layout* you should keep as is (*pageAccelerator*).
 
 The *title* should be set to the name of our accelerator, e.g. *Coolest Accelerator*.
 
@@ -113,7 +113,16 @@ If the page loads you should see a lot of 'TODO' fields and other template text.
 
 > Some variables/placeholders are in double quotes and some are in single quotes; these are prefixed by 'html'. 
 
-Depending on where the variable or placeholder is used the value will be in single or double quotes. It is very important to maintain these as the page will otherwise not display correctly.
+Depending on where the variable or placeholder is used the value will be in single or double quotes. It is very important to maintain these as the page will otherwise not display correctly. Look at one of the existing pages to see examples of how the text is used and formatted. In the html-variables it is possible to use html to format and include images.
+
+The main variables are:
+
+- textPageTitle
+- htmlPageDescription
+- srcHeaderImage
+- linkAccessAcceleratorRepo
+- listLinksRelatedAccelerators
+
 
 
 
