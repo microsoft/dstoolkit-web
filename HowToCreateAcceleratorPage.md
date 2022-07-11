@@ -103,8 +103,11 @@ permalink: /coolest_accelerator/
 
 At this point in time you can view the page locally. If you follow the instructions below. Note, that as the page is not yet linked to the Toolkit-page, you will have to enter the permalink in the address bar. In our case it would be `http://localhost:4000/dstoolkit-web/coolest_accelerator`
 
+If the page loads you should see a lot of 'TODO' fields and other template text. Adding and amending the accelerator page you have just created will change this.
 
+> Note, that some variables/placeholders are in double quotes and some are in single quotes; these are prefixed by 'html'. 
 
+Depending on where the variable or placeholder is used the value will be in single or double quotes. It is very important to maintain these as the page will otherwise not display correctly.
 
 
 
