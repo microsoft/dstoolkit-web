@@ -9,7 +9,7 @@
 
 ## Create Page
 
-
+![Menu](images/howtocreateacceleratorpage/menubar.png)
 
 
 
