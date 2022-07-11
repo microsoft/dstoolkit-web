@@ -61,6 +61,7 @@ git commit -m "Add new accelerator page for Coolest Accelerator"
 ![Add and Commit](images/howtocreateacceleratorpage/addcommit.png)
 
 > If you have not read the pages on the [Toolkit-site](https://microsoft.github.io/dstoolkit-web/howtocontribute/) on recommendations on how to contribute, now is the time. 
+
 > Especially the section that explains the *SST Git Flow* as well as the *List Of Practices*
 
 
