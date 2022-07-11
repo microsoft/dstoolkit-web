@@ -53,6 +53,15 @@ You can check that the page is created. It is still untracked by git as you have
 
 Now add and commit the file to git.
 
+```
+git add .
+git commit -m "Add new accelerator page for Coolest Accelerator"
+```
+
+![Add and Commit](images/howtocreateacceleratorpage/addcommit.png)
+
+
+
 
 
 ## Update Toolkit Page
