@@ -89,7 +89,7 @@ The *layout* you should keep as is (pageAccelerator).
 
 The *title* should be set to the name of our accelerator, e.g. *Coolest Accelerator*.
 
-The *permalink* should be set to the name of the accelerator page you are currently working on, e.g. *coolest_accelerator*
+The *permalink* should be set to the name of the accelerator page you are currently working on inside /.../ , e.g. */coolest_accelerator/*
 
 So it would look something like this:
 
@@ -99,8 +99,14 @@ layout: pageAccelerator
 title: Coolest Accelerator
 permalink: /coolest_accelerator/
 ---
-
 ```
+
+At this point in time you can view the page locally. If you follow the instructions below. Note, that as the page is not yet linked to the Toolkit-page, you will have to enter the permalink in the address bar. In our case it would be `http://localhost:4000/dstoolkit-web/coolest_accelerator`
+
+
+
+
+
 
 
 ## Update Toolkit Page
