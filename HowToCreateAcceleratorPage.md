@@ -19,6 +19,8 @@ To go the *Code* tab
 Create a new branch. This can either be done from the web site as shown below. Make sure you create the new branch from the main branch called *gh-pages*.
 ![Create Branch](images/howtocreateacceleratorpage/createbranch.png)
 
+To create a new branch from the commandline open e.g. git bash. Make sure the main branch is checkout out (the *gh-pages* branch) and enter the command
+> git checkout -b "ks/feature/coolest_acc"
 
 ![Create Branch](images/howtocreateacceleratorpage/createbranch_cmd.png)
 
