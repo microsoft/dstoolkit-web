@@ -20,6 +20,9 @@ Create a new branch. This can either be done from the web site as shown below. M
 ![Create Branch](images/howtocreateacceleratorpage/createbranch.png)
 
 
+![Create Branch](images/howtocreateacceleratorpage/createbranch_cmd.png)
+
+
 
 ## Update Toolkit Page
 
