@@ -20,7 +20,7 @@ Create a new branch. This can either be done from the web site as shown below. M
 
 ![Create Branch](images/howtocreateacceleratorpage/createbranch.png)
 
-**It is recommended to work locally.**
+>It is recommended to work locally.
 
 Start by cloning the repo to your local disk. This is done using the command `git clone https://github.com/microsoft/dstoolkit-web`.
 
@@ -29,11 +29,14 @@ Start by cloning the repo to your local disk. This is done using the command `gi
 To create a new branch from the commandline open e.g. git bash. Make sure the main branch is checkout out (the *gh-pages* branch) and that you have pulled the latest code. Enter the commands
 
 ```
+git checkout gh-pages
 git pull
 git checkout -b "ks/feature/coolest_acc"
 ```
 
 as shown below
+
+![Checkout Main](images/howtocreateacceleratorpage/checkoutmain.png)
 
 ![Pull latest](images/howtocreateacceleratorpage/gitpull.png)
 
