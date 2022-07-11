@@ -44,7 +44,7 @@ as shown below
 
 If you have created the branch on your own machine it should now be checked out. If you are not switch to the branch using the command `git checkout coolest_acc` or `git switch coolest_acc`.
 
-![Create Branch](images/howtocreateacceleratorpage/switchtobranch.png)
+![Switch to Branch](images/howtocreateacceleratorpage/switchtobranch.png)
 
 Create a new page by making a copy of the template file *DEMO-SingleAcceleratorPage.md*. Rename the file to the (short) name of your accelerator, e.g. *coolest_accelerator.md*
 
@@ -77,7 +77,7 @@ This is done using the command `git push`.
 
 ![Push](images/howtocreateacceleratorpage/gitpush.png)
 
-If you had not created
+
 
 ## Update Toolkit Page
 
