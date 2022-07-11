@@ -14,7 +14,7 @@ permalink: /DEMO-SingleAcceleratorPage/
     //Variables for this specific single accelerator page, to centralize re-used variables
     const textPageTitle = "TODO";
     const htmlPageDescription = `TODO`;
-    const srcHeaderImage = "/images/DEMO-SingleAcceleratorPage/demo-title-photo.jpg";
+    const srcHeaderImage = "{{site.baseurl}}/images/DEMO-SingleAcceleratorPage/demo-title-photo.jpg";
     const linkAccessAcceleratorRepo = "TODO";
     const listPrereqs = ["prerequisite1", "prerequisite2", "prerequisite3", "prerequisite4", "prerequisite5", "prerequisite6"];
     const listIndustries = ["industry1", "industry2", "industry3", "industry4", "industry5", "industry6"];
