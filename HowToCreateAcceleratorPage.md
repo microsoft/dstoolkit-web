@@ -121,9 +121,16 @@ The main variables are:
 - htmlPageDescription
 - srcHeaderImage
 - linkAccessAcceleratorRepo
+- htmlAcceleratorDescription
 - listLinksRelatedAccelerators
 
+*textPageTitle* is the main title of the page. Most likely this will be the name of the accelerator, so here "Coolest Accelerator"
 
+*htmlPageDescription* is a short description, not to be confused with the *htmlAcceleratorDescription*. An example from the Vitastic accelerator: "Quickly build web-interfaces for object detection, segmention, and classification models".
+
+*srcHeaderImage* is the path to the image used on top of the page. Place images in a dedicated subfolder of *images*. The path will have to be pre-fixed with `{{site.baseurl}}` so the full value would be something like `{{site.baseurl}}/images/coolestaccelerator/topbanner.png`.
+
+> Images has to be scaled correctly. Check dimentions on images for an existing accelerator
 
 
 
