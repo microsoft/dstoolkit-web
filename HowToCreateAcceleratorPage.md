@@ -77,6 +77,30 @@ This is done using the command `git push`.
 
 ![Push](images/howtocreateacceleratorpage/gitpush.png)
 
+Load the new accelerator page into an editor. Notepad++ or VS Code or Notepad if that is your prefered choice.
+
+At the top of the page you will find three options:
+
+- layout
+- title
+- permalink
+
+The *layout* you should keep as is (pageAccelerator).
+
+The *title* should be set to the name of our accelerator, e.g. *Coolest Accelerator*.
+
+The *permalink* should be set to the name of the accelerator page you are currently working on, e.g. *coolest_accelerator*
+
+So it would look something like this:
+
+```
+---
+layout: pageAccelerator
+title: Coolest Accelerator
+permalink: /coolest_accelerator/
+---
+
+```
 
 
 ## Update Toolkit Page
