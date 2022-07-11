@@ -42,7 +42,7 @@ as shown below
 
 ![Create Branch](images/howtocreateacceleratorpage/createbranch_cmd.png)
 
-If you have created the branch on your own machine it should not be checked out.
+If you have created the branch on your own machine it should now be checked out. If you are not switch to the branch using the command `git checkout coolest_acc` or `git switch coolest_acc`.
 
 ![Create Branch](images/howtocreateacceleratorpage/switchtobranch.png)
 
