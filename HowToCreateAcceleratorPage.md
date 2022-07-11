@@ -24,9 +24,10 @@ Create a new branch. This can either be done from the web site as shown below. M
 
 To create a new branch from the commandline open e.g. git bash. Make sure the main branch is checkout out (the *gh-pages* branch) and that you have pulled the latest code. Enter the commands
 
-> git pull
-
-> git checkout -b "ks/feature/coolest_acc"
+'''
+git pull
+git checkout -b "ks/feature/coolest_acc"
+'''
 
 as shown below
 
@@ -38,15 +39,20 @@ If you have created the branch on your own machine it should not be checked out.
 
 ![Create Branch](images/howtocreateacceleratorpage/switchtobranch.png)
 
-Create a new page by making a copy of the template file *DEMO-SingleAcceleratorPage.md*. Rename the file to the the (short) name of your accelerator, e.g. *coolest_accelerator.md*
+Create a new page by making a copy of the template file *DEMO-SingleAcceleratorPage.md*. Rename the file to the (short) name of your accelerator, e.g. *coolest_accelerator.md*
 
 Using the command
 
->git status
+'''
+git status
+'''
 
-You can check that the page is created. It is still untracked by git as you have not added it to git (nor committed the change).
+You can check that the page is created. It is still untracked by git as you have not yet added it to git (nor committed the change).
 
 ![New Page](images/howtocreateacceleratorpage/newpage.png)
+
+Now add and commit the file to git.
+
 
 
 ## Update Toolkit Page
