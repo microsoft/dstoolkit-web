@@ -77,6 +77,12 @@ This is done using the command `git push`.
 
 ![Push](images/howtocreateacceleratorpage/gitpush.png)
 
+Please note, that you may be asked to set the upstream location. You will be told and if so just past the command shown and execute it. The command will look like this:
+
+```
+git push --set-upstream origin ks/feature/coolest_acc
+```
+
 Load the new accelerator page into an editor. Notepad++ or VS Code or Notepad if that is your prefered choice.
 
 At the top of the page you will find three options:
@@ -105,7 +111,7 @@ At this point in time you can view the page locally. If you follow the instructi
 
 If the page loads you should see a lot of 'TODO' fields and other template text. Adding and amending the accelerator page you have just created will change this.
 
-> Note, that some variables/placeholders are in double quotes and some are in single quotes; these are prefixed by 'html'. 
+> Some variables/placeholders are in double quotes and some are in single quotes; these are prefixed by 'html'. 
 
 Depending on where the variable or placeholder is used the value will be in single or double quotes. It is very important to maintain these as the page will otherwise not display correctly.
 
