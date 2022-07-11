@@ -21,8 +21,11 @@ Create a new branch. This can either be done from the web site as shown below. M
 ![Create Branch](images/howtocreateacceleratorpage/createbranch.png)
 
 To create a new branch from the commandline open e.g. git bash. Make sure the main branch is checkout out (the *gh-pages* branch) and that you have pulled the latest code. Enter the commands
+
 > git pull
+
 > git checkout -b "ks/feature/coolest_acc"
+
 as shown below
 
 ![Pull latest](images/howtocreateacceleratorpage/gitpull.png)
