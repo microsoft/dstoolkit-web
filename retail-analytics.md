@@ -21,25 +21,28 @@ permalink: /retail-analytics/
     <br>
     These analytics use-cases can easily be applied to verticals other than retail and marketing. For example, the Churn analytics use-case can be utilized for numerous organizations belonging to any industry vertical. The idea is to present a generic hands-on use-case along with some sample open-sourced datasets so that a developer can understand the different steps that are involved in the machine learning exploration and development of such a use case.`;
 
-    const listAcceleratorGuidanceVideoURLs = ["https://www.youtube.com/embed/fEvM-OUbaKs", "https://www.youtube.com/embed/fEvM-OUbaKs", "https://www.youtube.com/embed/fEvM-OUbaKs"];
+    const listAcceleratorGuidanceVideoURLs = [];
 
-    const listLinksRelatedAccelerators = ["https://github.com/microsoft/dstoolkit-ml-ops"];
+    const listLinksRelatedAccelerators = ["/ml-ops/"];
     
     const linkContributingGuide = "https://github.com/microsoft/dstoolkit-mlops-base/blob/main/CONTRIBUTING.md";
 
-    const listTechnologies = ["Azure Maschine Learning",
+    const listTechnologies = ["Azure Machine Learning",
         "Azure DevOps",
-        "Key Vault",
+        "Azure Key Vault",
         "Azure Compute Instance",
         "Azure Container Instance",
-        "Azure Kubernetes"];
+        "Azure Kubernetes Services"];
 
     const htmlArchitectureSection = `<img src="{{site.baseurl}}/images/retail-analytics/retail_analytics_architecture.png">`;
-    const htmlBranchingStrategySection = `<img src="{{site.baseurl}}/images/retail-analytics/branching_strategy.png">`;
-    const htmlAcceleratorComponents = `TODO`;
-    const htmlKeyAcceleratorFiles = `TODO`;
-    const htmlLiveDemoSection = `TODO`;
-    const htmlRepoStructureSection = `TODO`;
+    const htmlBranchingStrategySection = `<img src="{{site.baseurl}}/images/retail-analytics/retail_analytics_branching_strategy.png">`;
+    const htmlAcceleratorComponents = `<br> <ul style="margin-bottom: 20px;">
+        Python Notebooks <br> 
+         Sample Data
+        </ul>`;
+    const htmlKeyAcceleratorFiles = `n/a`;
+    const htmlLiveDemoSection = `n/a`;
+    const htmlRepoStructureSection = `n/a`;
 
     //boolean variables to show / hide sections of the page
     const toHide_AcceleratorGuidanceSection = false;
@@ -48,9 +51,9 @@ permalink: /retail-analytics/
     const toHide_ArchitectureSection = false;
     const toHide_BranchingStrategySection = false;
     const toHide_AcceleratorComponents = false;
-    const toHide_KeyAcceleratorFiles = false;
-    const toHide_LiveDemoSection = false;
-    const toHide_RepoStructureSection = false;
+    const toHide_KeyAcceleratorFiles = true;
+    const toHide_LiveDemoSection = true;
+    const toHide_RepoStructureSection = true;
 </script>
 
 <script src="{{site.baseurl}}/scripts/script-setsingleacceleratorpagecontents.js" type="text/javascript"></script>
