@@ -26,6 +26,7 @@ permalink: /contributors/
         <option value="dstoolkit-vitastic">dstoolkit-vitastic</option>
         <option value="dstoolkit-km-solution-accelerator">dstoolkit-km-solution-accelerator</option>
         <option value="dstoolkit-hierarchical-multilabel-classification">dstoolkit-hierarchical-multilabel-classification</option>
+        <option value="dftoolkit-retail-analytics">dstoolkit-retail-analytics</option>
       </select>
     </div>
     <div id="id-contributors-list" class="contributors-list">
@@ -51,7 +52,8 @@ permalink: /contributors/
         "verseagility",
         "dstoolkit-km-solution-accelerator",
         "dstoolkit-vitastic",
-        "dstoolkit-hierarchical-multilabel-classification"];
+        "dstoolkit-hierarchical-multilabel-classification", 
+        "dstoolkit-retail-analytics"];
 
     var logContributorsAdded = [];
     var arrayContributors = [];
