@@ -187,5 +187,23 @@ A few points:
 - The *class* in `<div id="coolest-accelerator"` should be left as is. It determines how the card is displayed.
 - Notice the `{{site.baseurl}}` in front of the image source (`<img src="..."`) and the link (`<a href="..."`)
 
+The next and final thing to update, is to add the new accelerator to the list of containers.
+
+Locate the `<script>` section toward the end of the *toolkit.md* file.
+
+Add a new item to the list
+
+```
+    {
+      id: "coolest-accelerator",
+      domain: "UI",
+      technology: ["Fuent UI", "Flask", "Python"]
+    },
+```
+
+- The *id* is the name of the repo.
+- The *domain* should be in the aforementioned list of domains at the top of the file. Select only one.
+- The *technology* is a list of used technologies. The selected technologies must be in the list of technologies at the top of the file.
+
 ## Setup local test environment
 
