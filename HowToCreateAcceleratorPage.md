@@ -148,9 +148,44 @@ If you look at your page, and the display names for the related accelerators are
 - Scroll down and find the section `//<!--Link to Related Accelerator(s)-->`
 - Add a new `else-if` statement block if linking to a related accelerator that does not already exist.
 
-The final thing to update is the Boolean section `//boolean variables to show / hide sections of the page` at the end of the page. Determine if you need a section or not. If you set the value to **false** the section will be shown. Note, that both *false* and *true* should be written in lowercase. 
+The last thing to update is the Boolean section `//boolean variables to show / hide sections of the page` at the end of the page. Determine if you need a section or not. If you set the value to **false** the section will be shown. Note, that both *false* and *true* should be written in lowercase. 
+
+Finally remember to run the commands to add, commit, and push your changes.
+
+```
+git add .
+git commit -m "Page for Coolest Accelerator"
+git push
+```
+
+To have the changes merged into main (the branch `gh-pages`) you need to create a *Pull Request* (PR) and assign it to a reviewer. 
 
 ## Update Toolkit Page
+
+To add a link from the *Toolkit page*  to an accelerator you need to update the file *toolkit.md*
+
+In the *toolkit.md* file, there are two list containers, one with filter values for technologies and one with filter values for domains. You will most likely not have to update these, but should you utitize a technology that has not previously been used or you have created an accelerator for a new domain, please update these two lists.
+
+First create a new "card" for the accelerator. Around line 70 locate the class `container`.
+
+Add a new card/block for the next accelerator so it looks like the below:
+
+```
+<!--Coolest Accelerator-->
+<div id="coolest-accelerator" class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 toolkit-card show-toolkit-card">
+<div class="shadow">
+  <img src="{{site.baseurl}}/images/toolkit/MSC19_paddingtonOffice_015.jpg" alt="logo"> <!--TODO update with link to image for vitastic-->
+  <p class="toolkit-card-title">Coolest Accelerator</p>
+  <p class="toolkit-card-content"><a href="{{site.baseurl}}/coolest_accelerator/">This is the coolest accelerator ever created and will solve all of your problems.</a></p>
+</div>
+</div>
+```
+
+A few points:
+
+- The *id* in `<div id="coolest-accelerator"` should be the name of the repo. For example `dstoolkit-forecasting` for the Forecasting accelerator and `dstoolkit-objectdetection-tensorflow-azureml` for the Object Detection accelerator.
+- The *class* in `<div id="coolest-accelerator"` should be left as is. It determines how the card is displayed.
+- Notice the `{{site.baseurl}}` in front of the image source (`<img src="..."`) and the link (`<a href="..."`)
 
 ## Setup local test environment
 
