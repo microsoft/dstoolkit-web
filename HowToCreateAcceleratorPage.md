@@ -160,6 +160,20 @@ git push
 
 To have the changes merged into main (the branch `gh-pages`) you need to create a *Pull Request* (PR) and assign it to a reviewer. 
 
+## Update Contributors page
+
+The combined view of all contributors has it own page *contributors.md*.
+
+Two things needs to be updated:
+
+- Load the file (contributors.md) into your editor of choice. 
+- Locate the section `<!--HTML for the Contributors page-->`
+- Add a new value option. Note, that is should be the name of the repo, not the GitHub page.
+- Locate the section `<!--TODO: Script to update contributors dynamically-->`
+- Add the new repo to the list. Note, that is should be the name of the repo, not the GitHub page. 
+
+For the above to work, we assume that everything is under the Microsoft Org in GitHub.
+
 ## Update Toolkit Page
 
 To add a link from the *Toolkit page*  to an accelerator you need to update the file *toolkit.md*
@@ -204,6 +218,7 @@ Add a new item to the list
 - The *id* is the name of the repo.
 - The *domain* should be in the aforementioned list of domains at the top of the file. Select only one.
 - The *technology* is a list of used technologies. The selected technologies must be in the list of technologies at the top of the file.
+
 
 ## Setup local test environment
 
