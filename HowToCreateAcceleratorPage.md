@@ -222,3 +222,27 @@ Add a new item to the list
 
 ## Setup local test environment
 
+It is possible - and highly recommended - to set up a local environment to test your pages before pushing to GitHub and requesting a Pull Request.
+
+The guide [Testing your GitHub Pages site locally with Jekyll](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/testing-your-github-pages-site-locally-with-jekyll) is easy to follow and will install Jekyll and other requirements.
+
+Once installed open *git bash* and navigate to where you have cloned the repo on your local computer.
+
+Run the command `bundle install`.
+
+To start the server run the command `bundle exec jekyll serve`.
+
+A small shell file is created and part of the repo. File is called `startserver.sh`.
+
+It contains two lines:
+
+```
+#!/usr/bin/env bash
+bundle exec jekyll serve
+```
+
+To use it execute the command `./startserver.sh` instead of the above command. You should still be in a *git bash* prompt and in the root of your repo.
+
+Once the server is up and running open a browser and navigate to `http://localhost:4000/dstoolkit-web`
+
+To stop or exit the server press `Ctrl-C`.
