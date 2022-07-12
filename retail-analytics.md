@@ -23,9 +23,9 @@ permalink: /retail-analytics/
 
     const listAcceleratorGuidanceVideoURLs = ["n/a"];
 
-    const listLinksRelatedAccelerators = ["n/a"];
+    const listLinksRelatedAccelerators = ["/ml-ops/"];
     
-    const linkContributingGuide = "https://github.com/microsoft/dstoolkit-mlops-base/blob/main/CONTRIBUTING.md";
+    const linkContributingGuide = "n/a";
 
     const listTechnologies = ["Azure Machine Learning",
         "Azure DevOps",
@@ -45,9 +45,9 @@ permalink: /retail-analytics/
     const htmlRepoStructureSection = `n/a`;
 
     //boolean variables to show / hide sections of the page
-    const toHide_AcceleratorGuidanceSection = false;
-    const toHide_RelatedAccelerators = true;
-    const toHide_ContributingGuide = false;
+    const toHide_AcceleratorGuidanceSection = true;
+    const toHide_RelatedAccelerators = false;
+    const toHide_ContributingGuide = true;
     const toHide_ArchitectureSection = false;
     const toHide_BranchingStrategySection = false;
     const toHide_AcceleratorComponents = false;
