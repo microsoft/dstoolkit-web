@@ -132,6 +132,22 @@ The main variables are:
 
 > Images has to be scaled correctly. Check dimentions on images for an existing accelerator
 
+*linkAccessAcceleratorRepo* is the link to the GitHub repo. It is also used to display the contributors. So for this repo (the dstoolkit-web) it would be `https://github.com/microsoft/dstoolkit-web`
+
+*listLinksRelatedAccelerators* is a list of related accelerators. The links should be to the GitHub pages (of existing accelerators), and not the repositories. If we look at the variable for the *Knowledge Mining* page the value is:
+
+```
+const listLinksRelatedAccelerators = ["/anomaly-detection/", "/verseagility/","/object-detection/"];
+```
+
+Please notice the syntax. The script file `script-setsingleacceleratorpagecontents.js` uses this list to create display names, hence you may need to update this file too.
+
+If you look at your page, and the display names for the related accelerators are the actual links and now a 'nice' display name, you will have to update the js-file.
+
+- Open the page `scripts/script-setsingleacceleratorpagecontents.js`
+- Scroll down and find the section `//<!--Link to Related Accelerator(s)-->`
+- Add a new `else-if` statement block if linking to a related accelerator that does not already exist.
+
 
 
 ## Update Toolkit Page
