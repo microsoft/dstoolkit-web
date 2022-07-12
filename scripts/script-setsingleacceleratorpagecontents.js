@@ -56,10 +56,10 @@ if (toHide_AcceleratorGuidanceSection == true) {
 }
 else {
     var numVideos = listAcceleratorGuidanceVideoURLs.length;
-    
+
     //<!-- Begin Carousel -->
     var htmlVideos = `<div id="id-carousel-accelerator-videos" class="carousel slide" data-bs-ride="carousel">`;
-    
+
     //<!-- Indicators/dots -->
     htmlVideos += `<div class="carousel-indicators">`;
     htmlVideos += `<button type="button" data-bs-target="#id-carousel-accelerator-videos" data-bs-slide-to="0" class="active"></button>`;
@@ -116,15 +116,21 @@ if (toHide_RelatedAccelerators == false) {
             displayName = "ML Ops for Databricks";
         } else if (link == "/object-detection/") {
             displayName = "Object Detection";
-        } else if (link == "https://github.com/microsoft/dstoolkit-km-solution-accelerator") {
+        } else if (link == "/knowledgemining/") {
             displayName = "Knowledge Mining";
+        } else if (link == "/dstoolkit-web/test/") {
+            displayName = "Test";
+        } else if (link == "/verseagility/") {
+            displayName = "Verseagility";
+        } else if (link == "/anomaly-detection/") {
+            displayName = "Anomaly Detection";
         } else {
             displayName = link;
         }
-
+        var bigLink = "/dstoolkit-web" + link;
         htmlRelatedAccelerators +=
             `<div class="d-grid">
-                <a href="` + link + `" class="btn btn-primary" target="_blank" style="text-decoration:none;">` + displayName + `</a>
+                <a href="`+ bigLink + `" class="btn btn-primary" style="text-decoration:none;">` + displayName + `</a>
             </div>`;
     }
     document.getElementById("id-related-accelerators-Section").innerHTML = htmlRelatedAccelerators;
@@ -154,7 +160,7 @@ for (let i = 0; i < listTechnologies.length; i++) {
         link = "https://azure.microsoft.com/services/databricks/";
     } else if (technology == "Azure DevOps") {
         link = "https://azure.microsoft.com/services/devops/";
-    } else if (technology == "Azure Key Vault") {
+    } else if (technology == "Azure Key Vault" || technology == "Key Vault") {
         link = "https://azure.microsoft.com/services/key-vault/";
     } else if (technology == "Azure Kubernetes Services") {
         link = "https://azure.microsoft.com/services/kubernetes-service";
@@ -164,7 +170,7 @@ for (let i = 0; i < listTechnologies.length; i++) {
         link = "https://azure.microsoft.com/services/monitor/";
     } else if (technology == "Azure Storage Account") {
         link = "https://azure.microsoft.com/services/storage/";
-    } else if (technology == "Azure Synapse") {
+    } else if (technology == "Azure Synapse" || technology == "Synapse") {
         link = "https://azure.microsoft.com/services/synapse-analytics";
     } else if (technology == "Docker") {
         link = "https://www.docker.com/";
@@ -172,8 +178,6 @@ for (let i = 0; i < listTechnologies.length; i++) {
         link = "https://github.com/microsoft/CDM";
     } else if (technology == "TensorFlow") {
         link = "https://www.tensorflow.org/";
-    } else if (technology == "") {
-
     } else if (technology == "") {
 
     } else if (technology == "") {
@@ -246,6 +250,6 @@ if (toHide_RepoStructureSection == false) {
 }
 
 //<!--GitHub Aliases and Photos of Contributors-->
-GetHtmlListContributorsForSingleRepo(linkAccessAcceleratorRepo, function(parsed) {
+GetHtmlListContributorsForSingleRepo(linkAccessAcceleratorRepo, function (parsed) {
     document.getElementById("id-accelerator-contributors").innerHTML = parsed;
 });

@@ -27,7 +27,7 @@ permalink: /ml-ops-for-databricks/
                 <li>Implementation of the Databricks utilities in VS Code such as dbutils, notebook execution, secret handling.</li>
                 <li>Example Model file which uses the framework end to end.</li>
             </ul>
-            <img src="/images/ml-ops-for-databricks/ML-Ops-for-Databricks-components.jfif" alt="ML Ops for Databricks components image">`;
+            <img src="{{site.baseurl}}/images/ml-ops-for-databricks/ML-Ops-for-Databricks-components.jfif" alt="ML Ops for Databricks components image">`;
 
     const listAcceleratorGuidanceVideoURLs = ["https://www.youtube.com/embed/fsP7xMYOCOo"];
 
