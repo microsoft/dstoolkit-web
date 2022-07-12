@@ -148,7 +148,7 @@ If you look at your page, and the display names for the related accelerators are
 - Scroll down and find the section `//<!--Link to Related Accelerator(s)-->`
 - Add a new `else-if` statement block if linking to a related accelerator that does not already exist.
 
-
+The final thing to update is the Boolean section `//boolean variables to show / hide sections of the page` at the end of the page. Determine if you need a section or not. If you set the value to **false** the section will be shown. Note, that both *false* and *true* should be written in lowercase. 
 
 ## Update Toolkit Page
 
