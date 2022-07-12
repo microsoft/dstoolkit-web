@@ -161,6 +161,14 @@ permalink: /toolkit/
           <p class="toolkit-card-content"><a href="{{site.baseurl}}/hierarchical_multilabel_classification/">This solution classifies a given input in multiple levels, with a hierarchy amongst them.</a></p>
         </div>
       </div>
+      <!--Retail Analytics-->
+      <div id="dstoolkit-retail-analytics" class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 toolkit-card show-toolkit-card">
+        <div class="shadow">
+          <img src="{{site.baseurl}}/images/retail-analytics/retail_analytics.png" alt="shopping karts">
+          <p class="toolkit-card-title">Retail Analytics</p>
+          <p class="toolkit-card-content"><a href="{{site.baseurl}}/retail-analytics/">Customer Segmentation, Churn and Lifetime Value Prediction</a></p>
+        </div>
+      </div>
       <!--Placeholder for delivery accelerator toolkit card on right-->
     </div>
   </div>
@@ -280,6 +288,11 @@ permalink: /toolkit/
       id: "cai-test-training-tool",
       domain: "Conversational AI",
       technology: ["Azure QnA Maker", "Audio Generation Function", "Speech Batch Testing App"]
+    }, 
+    {
+      id: "dstoolkit-retail-analytics",
+      domain: "Machine Learning",
+      technology: ["Azure Machine Learning", "Azure DevOps", "Azure Key Vault", "Azure Compute Instance", "Azure Container Instance", "Azure Kubernetes Services"]
     }
   ]
 
