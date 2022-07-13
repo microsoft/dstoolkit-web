@@ -16,36 +16,36 @@ permalink: /toolkit/
       onchange="if (this.selectedIndex) filterTechnologies()">
         <option value="-1" selected disabled hidden>Filter by technology</option>
         <option value="all">All</option>
-        <option value="Azure Machine Learning">Azure Machine Learning</option>
-        <option value="Azure DevOps">Azure DevOps</option>
-        <option value="Key Vault">Key Vault</option>
-        <option value="Azure Compute Instance">Azure Compute Instance</option>
-        <option value="Azure Compute Cluster">Azure Compute Cluster</option>
-        <option value="Azure Container Instance">Azure Container Instance</option>
-        <option value="Azure Kubernetes Services">Azure Kubernetes Services</option>
-        <option value="Azure Databricks">Azure Databricks</option>
         <option value="Application Insights">Application Insights</option>
+        <option value="AudioCodes Voice AI Connect Cloud">AudioCodes Voice AI Connect Cloud</option>
+        <option value="Audio Generation Function">Audio Generation Function</option>
+        <option value="Azure Cognitive Services">Azure Cognitive Services</option>
+        <option value="Azure Compute Cluster">Azure Compute Cluster</option>
+        <option value="Azure Compute Instance">Azure Compute Instance</option>
+        <option value="Azure Container Instance">Azure Container Instance</option>
+        <option value="Azure Databricks">Azure Databricks</option>
+        <option value="Azure DevOps">Azure DevOps</option>
+        <option value="Azure Functions">Azure Functions</option>
         <option value="Azure Key Vault">Azure Key Vault</option>
+        <option value="Azure Kubernetes Services">Azure Kubernetes Services</option>
+        <option value="Azure Machine Learning">Azure Machine Learning</option>
+        <option value="Azure QnA Maker">Azure QnA Maker</option>
         <option value="Azure Storage Account">Azure Storage Account</option>
-        <option value="Jupyter Notebooks">Jupyter Notebooks</option>
-        <option value="Python">Python</option>
-        <option value="PowerBI">PowerBI</option>
-        <option value="Fuent UI">Fuent UI</option>
         <option value="Flask">Flask</option>
+        <option value="Fuent UI">Fuent UI</option>
+        <option value="Jupyter Notebooks">Jupyter Notebooks</option>
+        <option value="Key Vault">Key Vault</option>
+        <option value="Microsoft LUIS">Microsoft LUIS</option>
+        <option value="Microsoft Speech to Text Service">Microsoft Speech to Text Service</option>
+        <option value="Power Automate">Power Automate</option>
+        <option value="PowerBI">PowerBI</option>
+        <option value="Power Virtual Agents">Power Virtual Agents</option>
+        <option value="Python">Python</option>
+        <option value="spaCy">spaCy</option>
+        <option value="Speech Batch Testing App">Speech Batch Testing App</option>
+        <option value="Streamlit">Streamlit</option>
         <option value="TensorFlow">TensorFlow</option>
         <option value="Typescript">Typescript</option>
-        <option value="Streamlit">Streamlit</option>
-        <option value="Azure Cognitive Services">Azure Cognitive Services</option>
-        <option value="Microsoft Speech to Text Service">Microsoft Speech to Text Service</option>
-        <option value="Microsoft LUIS">Microsoft LUIS</option>
-        <option value="Power Virtual Agents">Power Virtual Agents</option>
-        <option value="Azure Functions">Azure Functions</option>
-        <option value="Power Automate">Power Automate</option>
-        <option value="AudioCodes Voice AI Connect Cloud">AudioCodes Voice AI Connect Cloud</option>
-        <option value="spaCy">spaCy</option>
-        <option value="Azure QnA Maker">Azure QnA Maker</option>
-        <option value="Audio Generation Function">Audio Generation Function</option>
-        <option value="Speech Batch Testing App">Speech Batch Testing App</option>
       </select>
     </div>
     <div class="custom-select">
@@ -262,8 +262,8 @@ permalink: /toolkit/
     {
       id: "dstoolkit-retail-analytics",
       domain: "Machine Learning",
-      technology: ["Jupyter Notebooks"]
-    },
+      technology: ["Azure Machine Learning", "Azure DevOps", "Azure Key Vault", "Azure Compute Instance", "Azure Compute Cluster", "Azure Container Instance", "Azure Kubernetes Services", "TensorFlow"]
+    },   
     {
       id: "verseagility",
       domain: "Knowledge Mining",

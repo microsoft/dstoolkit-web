@@ -63,7 +63,7 @@ In that respect, the solution provides
     //boolean variables to show / hide sections of the page
     const toHide_AcceleratorGuidanceSection = true;
     const toHide_RelatedAccelerators = false;
-    const toHide_ContributingGuide = false;
+    const toHide_ContributingGuide = true;
     const toHide_ArchitectureSection = false;
     const toHide_BranchingStrategySection = true;
     const toHide_AcceleratorComponents = true;
