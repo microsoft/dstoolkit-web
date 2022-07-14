@@ -127,7 +127,8 @@ if (toHide_RelatedAccelerators == false) {
         } else {
             displayName = link;
         }
-        var bigLink = "/dstoolkit-web" + link;
+        // var bigLink = "/dstoolkit-web" + link;
+        var bigLink = link;
         htmlRelatedAccelerators +=
             `<div class="d-grid">
                 <a href="`+ bigLink + `" class="btn btn-primary" style="text-decoration:none;">` + displayName + `</a>
