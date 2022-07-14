@@ -152,8 +152,8 @@ permalink: /toolkit/
           <p class="toolkit-card-title">Knowledge Mining</p>
           <p class="toolkit-card-content"><a href="{{site.baseurl}}/knowledgemining/">This KM solution accelerator aims to provide you with a workable end-to-end Knowledge Mining solution.</a></p>
         </div>
-      <!--hierarchical_multilabel_classification-->
       </div>
+      <!--hierarchical_multilabel_classification-->
       <div id="dstoolkit-hierarchical-multilabel-classification" class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 toolkit-card show-toolkit-card">
         <div class="shadow">
           <img src="{{site.baseurl}}/images/hierarchical_multilabel_classification/hierarchical_multilabel_classification.jpg" alt="logo"> <!--TODO update with link to image for vitastic-->
