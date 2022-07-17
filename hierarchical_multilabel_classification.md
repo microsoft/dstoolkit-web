@@ -64,7 +64,8 @@ The Hierarchical Multi-label classification accelerator can be applied to a vari
     const htmlArchitectureSection = `TODO`;
     const htmlBranchingStrategySection = `TODO`;
     const htmlAcceleratorComponents = `Datasets: <br> Amazon Reviews<br> Bushveld<Br> DBPedia<br>`;
-    const htmlKeyAcceleratorFiles = `TODO`;
+    const htmlKeyAcceleratorFiles = `<a href="{{site.baseurl}}/images/hierarchical_multilabel_classification/HMLC_accelerator_overview.pdf" target="_blank">HMLC Accelerator Overview</a>
+    <br><a href="{{site.baseurl}}/images/hierarchical_multilabel_classification/KOC_case_study.pdf" target="_blank">KOC Case Study</a>`;
     const htmlLiveDemoSection = `TODO`;
     const htmlRepoStructureSection = `TODO`;
 
