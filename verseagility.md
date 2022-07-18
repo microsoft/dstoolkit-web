@@ -33,7 +33,7 @@ permalink: /verseagility/
 
     const listTechnologies = ["Azure Machine Learning",
         "Azure DevOps",
-        "Azure Key Vault",
+        "Key Vault",
         "Docker",
         "Azure Kubernetes Services"];
 

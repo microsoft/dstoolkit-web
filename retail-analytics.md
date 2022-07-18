@@ -29,7 +29,7 @@ permalink: /retail-analytics/
 
     const listTechnologies = ["Azure Machine Learning",
         "Azure DevOps",
-        "Azure Key Vault",
+        "Key Vault",
         "Azure Compute Instance",
         "Azure Container Instance",
         "Azure Kubernetes Services"];

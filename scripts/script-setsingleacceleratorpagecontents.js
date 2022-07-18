@@ -161,7 +161,7 @@ for (let i = 0; i < listTechnologies.length; i++) {
         link = "https://azure.microsoft.com/services/databricks/";
     } else if (technology == "Azure DevOps") {
         link = "https://azure.microsoft.com/services/devops/";
-    } else if (technology == "Azure Key Vault" || technology == "Key Vault") {
+    } else if (technology == "Key Vault") {
         link = "https://azure.microsoft.com/services/key-vault/";
     } else if (technology == "Azure Kubernetes Services") {
         link = "https://azure.microsoft.com/services/kubernetes-service";
