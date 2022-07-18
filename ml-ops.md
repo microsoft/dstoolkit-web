@@ -38,7 +38,7 @@ permalink: /ml-ops/
 
     const listTechnologies = ["Azure Machine Learning",
         "Azure DevOps",
-        "Azure Key Vault",
+        "Key Vault",
         "Azure Compute Instance",
         "Azure Compute Cluster",
         "Azure Container Instance",

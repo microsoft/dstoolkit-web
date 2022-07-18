@@ -38,7 +38,7 @@ permalink: /ml-ops-for-databricks/
     const listTechnologies = ["Azure Databricks",
         "Application Insights",
         "Log analytics workspace for the App Insight",
-        "Azure Key Vault",
+        "Key Vault",
         "Azure Storage Account"];
 
     const htmlArchitectureSection = `n/a`;

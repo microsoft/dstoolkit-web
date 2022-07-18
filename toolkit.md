@@ -26,7 +26,6 @@ permalink: /toolkit/
         <option value="Azure Databricks">Azure Databricks</option>
         <option value="Azure DevOps">Azure DevOps</option>
         <option value="Azure Functions">Azure Functions</option>
-        <option value="Azure Key Vault">Azure Key Vault</option>
         <option value="Azure Kubernetes Services">Azure Kubernetes Services</option>
         <option value="Azure Machine Learning">Azure Machine Learning</option>
         <option value="Azure QnA Maker">Azure QnA Maker</option>
@@ -213,12 +212,12 @@ permalink: /toolkit/
     {
       id: "dstoolkit-mlops-base",
       domain: "ML Ops",
-      technology: ["Azure Machine Learning", "Azure DevOps", "Key Vault","Azure Compute Instance", "Azure Compute Cluster", "Azure Container Instance", "Azure Kubernetes Services"]
+      technology: ["Azure Machine Learning", "Azure DevOps", "Key Vault", "Azure Compute Instance", "Azure Compute Cluster", "Azure Container Instance", "Azure Kubernetes Services"]
     },
     {
       id: "dstoolkit-ml-ops-for-databricks",
       domain: "ML Ops",
-      technology: ["Azure Databricks", "Application Insights", "Azure Key Vault", "Azure Storage Account"]
+      technology: ["Azure Databricks", "Application Insights", "Key Vault", "Azure Storage Account"]
     },
     {
       id: "dstoolkit-fuzzymatching",
@@ -263,17 +262,17 @@ permalink: /toolkit/
     {
       id: "dstoolkit-retail-analytics",
       domain: "Machine Learning",
-      technology: ["Azure Machine Learning", "Azure DevOps", "Azure Key Vault", "Azure Compute Instance", "Azure Compute Cluster", "Azure Container Instance", "Azure Kubernetes Services", "TensorFlow"]
+      technology: ["Azure Machine Learning", "Azure DevOps", "Key Vault", "Azure Compute Instance", "Azure Compute Cluster", "Azure Container Instance", "Azure Kubernetes Services", "TensorFlow"]
     },   
     {
       id: "verseagility",
       domain: "Knowledge Mining",
-      technology: ["Jupyter Notebooks", "Python", "Typescript", "Streamlit", "Azure Cognitive Services"]
+      technology: ["Jupyter Notebooks", "Python", "Typescript", "Streamlit", "Azure Cognitive Services", "Key Vault"]
     },
     {
       id: "glue",
       domain: "Conversational AI",
-      technology: ["Azure Cognitive Services", "Microsoft Speech to Text Service", "Microsoft LUIS","Python"]
+      technology: ["Azure Cognitive Services", "Microsoft Speech to Text Service", "Microsoft LUIS","Python", "Key Vault"]
     },
     {
       id: "dstoolkit-pva-audiocodes-cc",
@@ -293,7 +292,7 @@ permalink: /toolkit/
     {
       id: "dstoolkit-retail-analytics",
       domain: "Machine Learning",
-      technology: ["Azure Machine Learning", "Azure DevOps", "Azure Key Vault", "Azure Compute Instance", "Azure Container Instance", "Azure Kubernetes Services"]
+      technology: ["Azure Machine Learning", "Azure DevOps", "Key Vault", "Azure Compute Instance", "Azure Container Instance", "Azure Kubernetes Services"]
     }
   ]
 
