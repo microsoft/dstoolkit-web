@@ -31,12 +31,14 @@ permalink: /contributors/
     </div>
     <div id="id-contributors-list" class="contributors-list">
     </div>
+    <!-- TODO: Commented out until functionality is required. It then needs to be implemented
     <div class="subtitle borders" style="margin-top:0px">
         <div class="see-more">
             <span>See more</span>
             <i class="material-icons" style="margin-bottom:0px">keyboard_arrow_down</i>
         </div>
     </div>
+    -->
 </div>
 
 <!--TODO: Script to update contributors dynamically-->
