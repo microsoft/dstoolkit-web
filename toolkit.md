@@ -174,12 +174,13 @@ permalink: /toolkit/
   </div>
 
   <div class="subtitle borders" style="margin-top:0px">
-    <!--Placeholder for See More drop-down to expand toolkit rows-->
-    <!--TODO: to implement functionality per above toolkit rows and limit number of toolkit rows shown by default to 3 rows-->
+  <!--Placeholder for See More drop-down to expand toolkit rows-->
+  <!--TODO: to implement functionality per above toolkit rows and limit number of toolkit rows shown by default to 3 rows
     <div class="see-more">
       <span class="see-more-text">See more</span>
       <i class="material-icons" style="margin-bottom:0px; font-size: 42px; border-left: 3px solid white; padding-left: 10px;">keyboard_arrow_down</i>
     </div>
+  -->
   </div>
 
   <div class="subtitle">
