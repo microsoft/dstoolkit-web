@@ -16,10 +16,11 @@ permalink: /vitastic/
     const htmlPageDescription = `Quickly build web-interfaces for object detection, segmentation and classification models.`;
     const srcHeaderImage = "{{site.baseurl}}/images/DEMO-SingleAcceleratorPage/demo-title-photo.jpg"; //TODO: create and add new header image
     const linkAccessAcceleratorRepo = "https://github.com/microsoft/dstoolkit-vitastic";
-    const listPrereqs = ["prerequisite1", "prerequisite2", "prerequisite3", "prerequisite4", "prerequisite5", "prerequisite6"];
-    const listIndustries = ["industry1", "industry2", "industry3", "industry4", "industry5", "industry6"];
-    const listUseCases = ["usecases1", "usecases2", "usecases3", "usecases4", "usecases5", "usecases6"];
-    const htmlAcceleratorDescription = `TODO`;
+    const listPrereqs = ["Access to an Azure subscription", "Access to an Azure DevOps subscription", "Service Principle"];
+    const listIndustries = ["Horizontal solution that address cross-industry needs."];
+    const listUseCases = ["Web interface for object detection, classification, semantic segmentation models."];
+    const htmlAcceleratorDescription = `<p>Vitastic is a Javascript x Python based solution to quickly build web interface that serves object detection workloads. By leveraging Microsoft's themable React component library FluentUI powered by Python Flask backend, Vitastic allows you to build your own UI to demonstrate pre-trained image classification, object detection, or semantic segmentation models.</p>
+    <img src="{{site.baseurl}}/images/vitastic/screencapture.png" alt="Vitastic UI light theme and dark theme image">`;
 
     const listAcceleratorGuidanceVideoURLs = ["https://www.youtube.com/embed/fEvM-OUbaKs"]; //TODO: add embed link for the video
 
@@ -27,16 +28,13 @@ permalink: /vitastic/
     
     const linkContributingGuide = "TODO";
 
-    const listTechnologies = ["technology1",
-        "technology2",
-        "technology3",
-        "technology4",
-        "technology5",
-        "technology6"];
+    const listTechnologies = ["FuentUI",
+        "Flask",
+        "Python"];
 
-    const htmlArchitectureSection = `TODO`;
+    const htmlArchitectureSection = `<img src="{{site.baseurl}}/images/vitastic/architecture.png" alt="Architecture image">`;
     const htmlBranchingStrategySection = `TODO`;
-    const htmlAcceleratorComponents = `TODO`;
+    const htmlAcceleratorComponents = `<img src="{{site.baseurl}}/images/vitastic/accelerator_components.png" alt="Architecture image">`;
     const htmlKeyAcceleratorFiles = `TODO`;
     const htmlLiveDemoSection = `TODO`;
     const htmlRepoStructureSection = `TODO`;

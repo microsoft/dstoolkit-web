@@ -42,7 +42,7 @@ permalink: /object-detection/
 
     const listAcceleratorGuidanceVideoURLs = ["n/a"];
 
-    const listLinksRelatedAccelerators = ["n/a"];
+    const listLinksRelatedAccelerators = ["/vitastic/"];
     
     const linkContributingGuide = "n/a";
 
@@ -64,7 +64,7 @@ permalink: /object-detection/
 
     //boolean variables to show / hide sections of the page
     const toHide_AcceleratorGuidanceSection = true;
-    const toHide_RelatedAccelerators = true;
+    const toHide_RelatedAccelerators = false;
     const toHide_ContributingGuide = true;
     const toHide_ArchitectureSection = false;
     const toHide_BranchingStrategySection = false;
