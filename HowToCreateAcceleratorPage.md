@@ -7,7 +7,7 @@
 - Add a new accelerator page to the toolkit web site. Insure it shows on on the Toolkit page and make sure the contributors are displayed, both on the actual accelerator page and on the contributor's page.
 - Show how to set up a local environment, so the page/site can be tested locally. It is important to ensure all looks good and is working before pushing your new branch to GitHub and creating a new Pull Request (to be reviewed and merged into the main branch).
 
-This guide is not a git tuturial. It assumes a working knowledge of git. On the actual [site](https://microsoft.github.io/dstoolkit-web) there are a couple of instruction videos that will explain topics such as how to install git (and an editor) as well as how to clone a repo etc. There will be a few hints/guidelines along the way to ensure the reader can follow along.
+This guide is not a git tuturial. It assumes a working knowledge of git. On the actual [site](https://www.ds-toolkit.com) there are a couple of instruction videos that will explain topics such as how to install git (and an editor) as well as how to clone a repo etc. There will be a few hints/guidelines along the way to ensure the reader can follow along.
 
 ## Create Page
 Log into *GitHub* and go to the site repo found here: [microsoft/dstoolkit-web](https://github.com/microsoft/dstoolkit-web).
@@ -67,7 +67,7 @@ git commit -m "Add new accelerator page for Coolest Accelerator"
 
 ![Add and Commit](images/howtocreateacceleratorpage/addcommit.png)
 
-> If you have not read the pages on the [Toolkit-site](https://microsoft.github.io/dstoolkit-web/howtocontribute/) on recommendations on how to contribute, now is the time. 
+> If you have not read the pages on the [Toolkit-site](https://www.ds-toolkit.com/howtocontribute/) on recommendations on how to contribute, now is the time. 
 
 > Especially the section that explains the *SST Git Flow* as well as the *List Of Practices*
 
@@ -107,7 +107,7 @@ permalink: /coolest_accelerator/
 ---
 ```
 
-At this point in time you can view the page locally. If you follow the instructions below. Note, that as the page is not yet linked to the Toolkit-page, you will have to enter the permalink in the address bar. In our case it would be `http://localhost:4000/dstoolkit-web/coolest_accelerator`
+At this point in time you can view the page locally. If you follow the instructions below. Note, that as the page is not yet linked to the Toolkit-page, you will have to enter the permalink in the address bar. In our case it would be `http://localhost:4000/coolest_accelerator`
 
 If the page loads you should see a lot of 'TODO' fields and other template text. Adding and amending the accelerator page you have just created will change this.
 
@@ -243,6 +243,6 @@ bundle exec jekyll serve
 
 To use it execute the command `./startserver.sh` instead of the above command. You should still be in a *git bash* prompt and in the root of your repo.
 
-Once the server is up and running open a browser and navigate to `http://localhost:4000/dstoolkit-web`
+Once the server is up and running open a browser and navigate to `http://localhost:4000`
 
 To stop or exit the server press `Ctrl-C`.
