@@ -67,7 +67,7 @@ git commit -m "Add new accelerator page for Coolest Accelerator"
 
 ![Add and Commit](images/howtocreateacceleratorpage/addcommit.png)
 
-> If you have not read the pages on the [Toolkit-site](https://microsoft.github.io/dstoolkit-web/howtocontribute/) on recommendations on how to contribute, now is the time. 
+> If you have not read the pages on the [Toolkit-site](https://www.ds-toolkit.com/howtocontribute/) on recommendations on how to contribute, now is the time. 
 
 > Especially the section that explains the *SST Git Flow* as well as the *List Of Practices*
 
@@ -107,7 +107,7 @@ permalink: /coolest_accelerator/
 ---
 ```
 
-At this point in time you can view the page locally. If you follow the instructions below. Note, that as the page is not yet linked to the Toolkit-page, you will have to enter the permalink in the address bar. In our case it would be `http://localhost:4000/dstoolkit-web/coolest_accelerator`
+At this point in time you can view the page locally. If you follow the instructions below. Note, that as the page is not yet linked to the Toolkit-page, you will have to enter the permalink in the address bar. In our case it would be `http://localhost:4000/coolest_accelerator`
 
 If the page loads you should see a lot of 'TODO' fields and other template text. Adding and amending the accelerator page you have just created will change this.
 
@@ -243,6 +243,6 @@ bundle exec jekyll serve
 
 To use it execute the command `./startserver.sh` instead of the above command. You should still be in a *git bash* prompt and in the root of your repo.
 
-Once the server is up and running open a browser and navigate to `http://localhost:4000/dstoolkit-web`
+Once the server is up and running open a browser and navigate to `http://localhost:4000`
 
 To stop or exit the server press `Ctrl-C`.
