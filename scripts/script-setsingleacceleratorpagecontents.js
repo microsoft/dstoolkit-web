@@ -123,8 +123,11 @@ if (toHide_RelatedAccelerators == false) {
         } else if (link == "/verseagility/") {
             displayName = "Verseagility";
         } else if (link == "/anomaly-detection/") {
-            displayName = "Anomaly Detection";
-        } else {
+            displayName = "Anomaly Detection accelerator";   
+        } else if (link == "/vitastic/") {
+            displayName = "Vitastic";
+            
+        }else {
             displayName = link;
         }
         // var bigLink = "/dstoolkit-web" + link;
