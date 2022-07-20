@@ -135,7 +135,7 @@ permalink: /howtocontribute/
             <span style="margin-top:30px; line-height: 35px;">If you have great IP that can be packaged as a delivery accelerator, reach out to discuss your IP and see if it qualifies for funding. If your IP qualifies, you will get the following:</span>
             <ol style="line-height: 35px;">
                 <li>Access to a funded internal Azure Subscription to help test and review your code.</li>
-                <li>An internal project assignment, so you can log the time you spend curating your code. (funded with NBUE)</li>
+                <li>An internal project assignment, so you can log the time you spend curating your code (funded with NBUE).</li>
                 <li>Help to create your own GitHub Opensource repository (Private or Public) to store your code and build your own portfolio of evidence, to show the world what you have done.</li>
                 <li>Marketing of your accelerator to sellers, delivery teams and Industry teams.</li>
                 <li>Help, from others who have already published and reviewed code for solution accelerators that have been adopted in the Data Science Toolkit.</li>
