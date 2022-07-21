@@ -55,7 +55,7 @@ permalink: /howtocontribute/
         <br><br>
         Once you have a GitHub account, instructions to link your GitHub and Microsoft account can be found <a href=" https://repos.opensource.microsoft.com/"> here</a>. Linking will give you access to the Microsoft Organization on GitHub. (This is where all the IP is located.)
         </span>
-        <div id="how-to-contribute" class="howtocontribute-subtitle">How to contribute</div>
+        <div id="how-to-contribute" class="howtocontribute-subtitle">How to contribute (step by step)</div>
         <ol>
             <li>Satisfy the prerequisites above</li>
             <li>Access the DS Toolkit repo with the accelerator of interest </li>
