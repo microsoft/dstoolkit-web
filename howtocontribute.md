@@ -196,8 +196,8 @@ permalink: /howtocontribute/
         <div style="border-top: 1px solid #D2D2D2;margin-top: 50px;">
             <p id="faq" class="h3" style="margin-top:50px">FAQ</p>
         </div>
-        <ul style="margin-top: 15px;">
-            <li> Do I have to ve a member of Microsoft or the DS Toolkit to contribute?</li>
+        <ul style="margin-top: 15px;"></ul>
+            <!-- <li> Do I have to be a member of Microsoft or the DS Toolkit to contribute?</li>
         </ul>
         <div> No, everyone who’d like to participate in the development of the solution accelerators can contribute </div>
         <ul style="margin-top: 15px;">
@@ -207,9 +207,28 @@ permalink: /howtocontribute/
         <ul style="margin-top: 15px;">
             <li> I have a possible accelerator that I have created and I’d like to apply in order to create a new accelerator for the DS toolkit. Can I still keep my personal repository in my GitHub? </li>
         </ul>
-        <div> [ANSWER] </div>
+        <div> [ANSWER] </div> -->
+        <div class="faq-body">
+        <a class="dropdown-btn">Do I have to be a member of Microsoft or the DS Toolkit to contribute?
+            <!-- <i class="material-icons" center="right">keyboard_arrow_down</i> -->
+        </a>
+        <div class="dropdown-container" style="background-color:white">
+            <div class="faq-option" style="margin-top: 15px; margin-bottom: 15px;" >No, everyone who’d like to participate in the development of the solution accelerators can contribute</div>
+        </div>
+        </div>
+        <a class="dropdown-btn">How much technical do I have to be in order to contribute?
+            <!-- <i class="material-icons" >keyboard_arrow_down</i> -->
+        </a>
+        <div class="dropdown-container" style="background-color:white">
+            <div class="faq-option" style="margin-top: 15px; margin-bottom: 15px;" >You don’t have to be extremely technical, you can contribute as much as you are willing to. However, you do have to have at least some basic knowledge of programming and data science</div>
+        </div>
+           <a class="dropdown-btn">I have a possible accelerator that I have created and I’d like to apply in order to create a new accelerator for the DS toolkit. Can I still keep my personal repository in my GitHub?
+            <!-- <i class="material-icons">keyboard_arrow_down</i> -->
+        </a>
+        <div class="dropdown-container" style="background-color:white">
+            <div class="faq-option" style="margin-top: 15px; margin-bottom: 15px;" >answer</div>
+        </div>
     </div>
-</div>
 </div>
 
 
